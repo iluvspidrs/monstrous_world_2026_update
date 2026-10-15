@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/ghostly_log",
+    "up": "monstrous_world:block/ghostly_log",
+    "north": "monstrous_world:block/ghostly_log",
+    "east": "monstrous_world:block/ghostly_log",
+    "south": "monstrous_world:block/ghostly_log",
+    "west": "monstrous_world:block/ghostly_log",
+    "particle": "monstrous_world:block/ghostly_log"
+  },
+  "render_type": "solid"
+}

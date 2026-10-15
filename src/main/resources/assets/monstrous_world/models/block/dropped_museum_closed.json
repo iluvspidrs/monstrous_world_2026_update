@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/droppedpaper",
+  "textures": {
+    "all": "monstrous_world:block/a_hunters_warning_item",
+    "particle": "monstrous_world:block/a_hunters_warning_item",
+    "0": "monstrous_world:block/a_hunters_warning_item"
+  },
+  "render_type": "cutout"
+}

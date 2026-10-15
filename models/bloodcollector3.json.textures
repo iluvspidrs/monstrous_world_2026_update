@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "evil_tree_planks",
+        "1": "darkened_glass_clear",
+        "2": "regular_blood",
+        "missing": ""
+      }
+    },
+    "upgraded": {
+      "name": "upgraded",
+      "map": {
+        "0": "block_of_rose_quartz",
+        "1": "darkened_glass_clear",
+        "2": "regular_blood",
+        "missing": ""
+      }
+    }
+  }
+}

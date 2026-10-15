@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:has_structure/mineshaft",
+  "features": "monstrous_world:hunter_notice_flyer",
+  "step": "surface_structures"
+}

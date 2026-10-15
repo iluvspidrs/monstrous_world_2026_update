@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "monstrous_world:blocks/ancient_shrine_to_artemis",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "monstrous_world:ancient_shrine_to_artemis"
+        }
+      ]
+    }
+  ]
+}

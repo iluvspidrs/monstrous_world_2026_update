@@ -1,0 +1,86 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 272,
+    "height": 170,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_back_button",
+          "image": "back_button.png",
+          "hoveredImage": "back_button_hover.png",
+          "onClick": "OpenTomeOfWitcheryPage14",
+          "x": 78,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "witcherytextpage15.png",
+          "use1Xscale": false,
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty8",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "OpenPumpkinBroom",
+          "width": 69,
+          "height": 20,
+          "x": 121,
+          "y": 77,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty9",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "OpenGhostlyBroom",
+          "width": 69,
+          "height": 20,
+          "x": 112,
+          "y": 155,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty10",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "OpenEvilBroom",
+          "width": 50,
+          "height": 20,
+          "x": 252,
+          "y": 66,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

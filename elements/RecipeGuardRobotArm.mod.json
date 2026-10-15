@@ -1,0 +1,34 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:TinRod",
+      "CUSTOM:SyringeOfVanishing",
+      "Items.REDSTONE",
+      "CUSTOM:DarkenedIronIngot"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:DarkenedIronIngot",
+      "CUSTOM:TinRod",
+      "CUSTOM:DarkenedIronIngot",
+      "CUSTOM:SyringeOfVanishing",
+      "Items.REDSTONE",
+      "CUSTOM:SyringeOfVanishing",
+      "CUSTOM:DarkenedIronIngot",
+      "CUSTOM:TinRod",
+      "CUSTOM:DarkenedIronIngot"
+    ],
+    "recipeReturnStack": "CUSTOM:GuardRobotArm",
+    "name": "recipe_guard_robot_arm",
+    "namespace": "mod"
+  }
+}

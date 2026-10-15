@@ -1,0 +1,32 @@
+{
+  "_fv": 85,
+  "_type": "blockstates",
+  "definition": {
+    "block": "GoblinOven",
+    "blockstateList": [
+      {
+        "texture": "goblin_oven_side",
+        "textureTop": "goblin_oven_side",
+        "textureLeft": "goblin_oven_side",
+        "textureFront": "goblin_oven_lit",
+        "textureRight": "goblin_oven_side",
+        "textureBack": "goblin_oven_side",
+        "particleTexture": "darkened_stone_bricks",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 10,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      }
+    ]
+  }
+}

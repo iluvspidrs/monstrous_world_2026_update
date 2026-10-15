@@ -1,0 +1,40 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "shining_netherite_axe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Shining Netherite Axe",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": [
+        "30% chance of one-hit kill on non-boss mobs"
+      ]
+    },
+    "creativeTabs": [
+      "CUSTOM:MonstrousWorldTools"
+    ],
+    "efficiency": 9.0,
+    "attackSpeed": 2.0,
+    "enchantability": 15,
+    "damageVsEntity": 9.0,
+    "usageCount": 3500,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      "CUSTOM:ShiningNetheriteIngot"
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

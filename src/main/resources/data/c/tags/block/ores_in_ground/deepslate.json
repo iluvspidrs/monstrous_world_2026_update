@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:tungsten_ore",
+    "monstrous_world:sardonyx_deepslate_ore",
+    "monstrous_world:silver_ore",
+    "monstrous_world:black_onyx_deepslate_ore"
+  ]
+}

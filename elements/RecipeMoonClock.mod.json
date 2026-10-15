@@ -1,0 +1,34 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:Moonstone",
+      "Items.COMPASS",
+      "CUSTOM:SpiritDust",
+      "TAG:c:gems/moonstone"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "TAG:c:gems/moonstone",
+      "",
+      "CUSTOM:SpiritDust",
+      "Items.COMPASS",
+      "CUSTOM:SpiritDust",
+      "",
+      "CUSTOM:SpiritDust",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:MoonClock",
+    "name": "recipe_moon_clock",
+    "namespace": "mod"
+  }
+}

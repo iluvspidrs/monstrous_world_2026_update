@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "blockstate=1": {
+      "model": "monstrous_world:block/swamp_wort_stage_1_0"
+    },
+    "blockstate=2": {
+      "model": "monstrous_world:block/swamp_wort_stage_1_1"
+    },
+    "blockstate=3": {
+      "model": "monstrous_world:block/swamp_wort_stage_1_2"
+    },
+    "blockstate=0": {
+      "model": "monstrous_world:block/swamp_wort_stage_1"
+    }
+  }
+}

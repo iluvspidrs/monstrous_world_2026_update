@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:ultimate_tome_of_exorcism"
+    },
+    "title": {
+      "translate": "advancements.the_purge.title"
+    },
+    "description": {
+      "translate": "advancements.the_purge.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_purge_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:infected"
+}

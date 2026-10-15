@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/moonstone_block",
+    "up": "monstrous_world:block/moonstone_block",
+    "north": "monstrous_world:block/moonstone_block",
+    "east": "monstrous_world:block/moonstone_block",
+    "south": "monstrous_world:block/moonstone_block",
+    "west": "monstrous_world:block/moonstone_block",
+    "particle": "monstrous_world:block/moonstone_block"
+  },
+  "render_type": "solid"
+}

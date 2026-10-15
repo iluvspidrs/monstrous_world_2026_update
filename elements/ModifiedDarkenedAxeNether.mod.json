@@ -1,0 +1,43 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "modified_darkened_axe_nether",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Modified Darkened Axe [Nether Gem]",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": [
+        "Lights victims on fire",
+        "Smelts mined blocks when not sneaking"
+      ]
+    },
+    "creativeTabs": [
+      "TOOLS"
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 22,
+    "damageVsEntity": 9.0,
+    "usageCount": 2031,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      "CUSTOM:DarkenedIronIngot"
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": "ModifiedIronSwordNetherGemLivingEntityIsHitWithTool",
+    "onItemInUseTick": "DarkenedWeaponInHandTick"
+  }
+}

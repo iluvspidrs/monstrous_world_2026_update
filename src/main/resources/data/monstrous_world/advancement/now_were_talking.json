@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:master_ritual_wand"
+    },
+    "title": {
+      "translate": "advancements.now_were_talking.title"
+    },
+    "description": {
+      "translate": "advancements.now_were_talking.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "now_were_talking_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:advanced_casting"
+}

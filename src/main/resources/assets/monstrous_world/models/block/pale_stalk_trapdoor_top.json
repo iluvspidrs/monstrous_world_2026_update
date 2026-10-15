@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "monstrous_world:block/pale_stalk_trapdoor",
+    "particle": "monstrous_world:block/pale_stalk_trapdoor"
+  },
+  "render_type": "cutout"
+}

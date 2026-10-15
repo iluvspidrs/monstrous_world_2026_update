@@ -1,0 +1,9 @@
+{
+  "parent": "block/template_glass_pane_side",
+  "textures": {
+    "particle": "monstrous_world:block/darkened_glass_deathly_planks",
+    "pane": "monstrous_world:block/darkened_glass_deathly_planks",
+    "edge": "monstrous_world:block/darkened_glass_deathly_planks"
+  },
+  "render_type": "translucent"
+}

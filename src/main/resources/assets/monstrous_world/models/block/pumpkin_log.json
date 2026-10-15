@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/pumpkin_log_end",
+    "up": "monstrous_world:block/pumpkin_log_end",
+    "north": "monstrous_world:block/pumpkin_log",
+    "east": "monstrous_world:block/pumpkin_log",
+    "south": "monstrous_world:block/pumpkin_log",
+    "west": "monstrous_world:block/pumpkin_log",
+    "particle": "monstrous_world:block/pumpkin_log_end"
+  },
+  "render_type": "solid"
+}

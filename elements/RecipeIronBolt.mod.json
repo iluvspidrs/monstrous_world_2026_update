@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "Items.IRON_NUGGET"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "Items.IRON_NUGGET",
+      "",
+      "Items.IRON_NUGGET",
+      "",
+      "Items.IRON_NUGGET",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:IronBolt",
+    "name": "recipe_iron_bolt",
+    "namespace": "mod"
+  }
+}

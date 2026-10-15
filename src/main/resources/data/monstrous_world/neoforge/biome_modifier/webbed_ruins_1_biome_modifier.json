@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "monstrous_world:crimson_dread",
+    "monstrous_world:forsaken_lands"
+  ],
+  "features": "monstrous_world:webbed_ruins_1",
+  "step": "surface_structures"
+}

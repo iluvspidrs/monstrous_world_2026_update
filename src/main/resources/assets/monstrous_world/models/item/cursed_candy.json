@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "monstrous_world:item/deadly_candy2"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "monstrous_world:cursed_candy_unlocked": 0
+      },
+      "model": "monstrous_world:item/cursed_candy_0"
+    },
+    {
+      "predicate": {
+        "monstrous_world:cursed_candy_unlocked": 1
+      },
+      "model": "monstrous_world:item/cursed_candy_1"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "monstrous_world_blocks",
+  "category": "building",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:tin_slab"
+    },
+    "b": {
+      "item": "monstrous_world:evil_tree_wood"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:robot_table_section",
+    "count": 1
+  }
+}

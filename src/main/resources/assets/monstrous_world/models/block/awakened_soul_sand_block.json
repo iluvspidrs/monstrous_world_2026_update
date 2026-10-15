@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/opaque_awakened_soul_sand",
+    "up": "monstrous_world:block/opaque_awakened_soul_sand",
+    "north": "monstrous_world:block/opaque_awakened_soul_sand",
+    "east": "monstrous_world:block/opaque_awakened_soul_sand",
+    "south": "monstrous_world:block/opaque_awakened_soul_sand",
+    "west": "monstrous_world:block/opaque_awakened_soul_sand",
+    "particle": "monstrous_world:block/opaque_awakened_soul_sand"
+  },
+  "render_type": "solid"
+}

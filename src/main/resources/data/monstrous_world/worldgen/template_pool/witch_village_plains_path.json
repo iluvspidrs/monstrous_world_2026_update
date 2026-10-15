@@ -1,0 +1,28 @@
+{
+  "name": "monstrous_world:witch_village_plains_path",
+  "fallback": "monstrous_world:witch_village_plains_end",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "monstrous_world:witch_village_plains_path_long",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "monstrous_world:witch_village_plains_path_short",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

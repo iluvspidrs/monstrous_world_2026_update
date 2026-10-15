@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "corinthian_bronze_block",
+        "1": "robot_texture",
+        "2": "tungsten_block",
+        "missing": ""
+      }
+    }
+  }
+}

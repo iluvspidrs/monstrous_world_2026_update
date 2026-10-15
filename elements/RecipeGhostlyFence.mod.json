@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:GhostlyPlanks"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "CUSTOM:GhostlyPlanks",
+      "Items.STICK",
+      "CUSTOM:GhostlyPlanks",
+      "CUSTOM:GhostlyPlanks",
+      "Items.STICK",
+      "CUSTOM:GhostlyPlanks"
+    ],
+    "recipeReturnStack": "CUSTOM:GhostlyFence",
+    "name": "recipe_ghostly_fence",
+    "namespace": "mod"
+  }
+}

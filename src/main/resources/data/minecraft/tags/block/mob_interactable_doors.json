@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:deathly_wood_door",
+    "monstrous_world:pumpkin_door",
+    "monstrous_world:murkwood_door",
+    "monstrous_world:evil_tree_door",
+    "monstrous_world:pale_stalk_door",
+    "monstrous_world:darkened_planks_door",
+    "monstrous_world:sanguine_wood_door"
+  ]
+}

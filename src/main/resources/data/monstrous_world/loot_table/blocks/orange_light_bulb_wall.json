@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "monstrous_world:blocks/orange_light_bulb_wall",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "monstrous_world:orange_light_bulb_item"
+        }
+      ]
+    }
+  ]
+}

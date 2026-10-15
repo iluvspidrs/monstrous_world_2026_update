@@ -1,0 +1,178 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "a_torn_journal"
+      }
+    },
+    "journal": {
+      "name": "journal",
+      "map": {
+        "0": "a_torn_journal"
+      }
+    },
+    "email": {
+      "name": "email",
+      "map": {
+        "0": "email_archive_item"
+      }
+    },
+    "farmerslog": {
+      "name": "farmerslog",
+      "map": {
+        "0": "farmers_log_item"
+      }
+    },
+    "anoteonspirits": {
+      "name": "anoteonspirits",
+      "map": {
+        "0": "note_on_spirits"
+      }
+    },
+    "cureserumnote": {
+      "name": "cureserumnote",
+      "map": {
+        "0": "ascientificnote"
+      }
+    },
+    "noteonaccidents": {
+      "name": "noteonaccidents",
+      "map": {
+        "0": "note_lab_accidents"
+      }
+    },
+    "stabilizingserum": {
+      "name": "stabilizingserum",
+      "map": {
+        "0": "note_stabilizing_serum"
+      }
+    },
+    "society_directive": {
+      "name": "society_directive",
+      "map": {
+        "0": "society_directive"
+      }
+    },
+    "entrance_portal": {
+      "name": "entrance_portal",
+      "map": {
+        "0": "entrance_portal"
+      }
+    },
+    "exit_portal": {
+      "name": "exit_portal",
+      "map": {
+        "0": "exit_portal"
+      }
+    },
+    "notebook": {
+      "name": "notebook",
+      "map": {
+        "0": "witchery_notebook"
+      }
+    },
+    "recovered_journal": {
+      "name": "recovered_journal",
+      "map": {
+        "0": "recovered_journal_1_item"
+      }
+    },
+    "note_from_agatha": {
+      "name": "note_from_agatha",
+      "map": {
+        "0": "letter_from_agatha_item"
+      }
+    },
+    "note_from_countess": {
+      "name": "note_from_countess",
+      "map": {
+        "0": "letter_from_countess_item"
+      }
+    },
+    "explorerslog1": {
+      "name": "explorerslog1",
+      "map": {
+        "0": "explorer_log_1_item"
+      }
+    },
+    "explorerslog2": {
+      "name": "explorerslog2",
+      "map": {
+        "0": "explorer_log_2_item"
+      }
+    },
+    "society_plans": {
+      "name": "society_plans",
+      "map": {
+        "0": "dropped_society_plans"
+      }
+    },
+    "mystery_container": {
+      "name": "mystery_container",
+      "map": {
+        "0": "a_hunters_warning_item"
+      }
+    },
+    "troll_note": {
+      "name": "troll_note",
+      "map": {
+        "0": "the_warriors_arena"
+      }
+    },
+    "black_scroll": {
+      "name": "black_scroll",
+      "map": {
+        "0": "unholy_scroll"
+      }
+    },
+    "pure_fear": {
+      "name": "pure_fear",
+      "map": {
+        "0": "placed_pure_fear"
+      }
+    },
+    "pamphlet": {
+      "name": "pamphlet",
+      "map": {
+        "0": "society_pamphet"
+      }
+    },
+    "tome_of_light": {
+      "name": "tome_of_light",
+      "map": {
+        "0": "tome_of_light_item"
+      }
+    },
+    "interrogation": {
+      "name": "interrogation",
+      "map": {
+        "0": "society_directive"
+      }
+    },
+    "murkanus_marth": {
+      "name": "murkanus_marth",
+      "map": {
+        "0": "murkanus_marth_note"
+      }
+    },
+    "soup_recipe": {
+      "name": "soup_recipe",
+      "map": {
+        "0": "swamp_soup_recipe"
+      }
+    },
+    "orange_paper": {
+      "name": "orange_paper",
+      "map": {
+        "0": "trick_or_treat_item"
+      }
+    },
+    "arch_note": {
+      "name": "arch_note",
+      "map": {
+        "0": "archaeological_note"
+      }
+    }
+  }
+}

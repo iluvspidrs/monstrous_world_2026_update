@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:digested_food"
+    },
+    "title": {
+      "translate": "advancements.ew_gross.title"
+    },
+    "description": {
+      "translate": "advancements.ew_gross.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ew_gross_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:mutation"
+}

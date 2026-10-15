@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "monstrous_world:lab",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 66,
+    "separation": 65,
+    "salt": 2073939469
+  }
+}

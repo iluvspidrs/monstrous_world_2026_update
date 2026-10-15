@@ -1,0 +1,43 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "fire_tipped_stake",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Fire Tipped Stake",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": [
+        "Hunter Only",
+        "Level 5+"
+      ]
+    },
+    "creativeTabs": [
+      "TOOLS"
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 1.0,
+    "usageCount": 200,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      "Blocks.LOG#1",
+      "TAG:c:nuggets/silver"
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": "FireTippedStakeLivingEntityIsHitWithTool"
+  }
+}

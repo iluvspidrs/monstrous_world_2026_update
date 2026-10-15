@@ -1,0 +1,152 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 274,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "the_art_of_rituals_border.png",
+          "use1Xscale": false,
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guidebookpages.png",
+          "use1Xscale": false,
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_blue_back_button",
+          "image": "blue_back_button.png",
+          "hoveredImage": "blue_back_button_hover.png",
+          "onClick": "TheArtOfRitualsBlueTOCButton",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_forward_button",
+          "image": "forward_button.png",
+          "hoveredImage": "forward_button_hover.png",
+          "onClick": "TheArtOfRitualsPageForward",
+          "x": 339,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualpage2.png",
+          "use1Xscale": false,
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_back_button",
+          "image": "back_button.png",
+          "hoveredImage": "back_button_hover.png",
+          "onClick": "TheArtOfRitualsPageBackward",
+          "x": 78,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "OpenBasicChalk",
+          "width": 26,
+          "height": 20,
+          "x": 174,
+          "y": 87,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "OpenBasicChalk",
+          "width": 26,
+          "height": 20,
+          "x": 100,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_more_info_invisible",
+          "image": "more_info_invisible.png",
+          "hoveredImage": "more_info_hover.png",
+          "onClick": "OpenDarkenedWoodAsh",
+          "x": 305,
+          "y": 107,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_more_info_invisible1",
+          "image": "more_info_invisible.png",
+          "hoveredImage": "more_info_hover.png",
+          "onClick": "OpenSpiritEssence",
+          "x": 275,
+          "y": 107,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_more_info_invisible2",
+          "image": "more_info_invisible.png",
+          "hoveredImage": "more_info_hover.png",
+          "onClick": "OpenQuartzDust",
+          "x": 245,
+          "y": 106,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

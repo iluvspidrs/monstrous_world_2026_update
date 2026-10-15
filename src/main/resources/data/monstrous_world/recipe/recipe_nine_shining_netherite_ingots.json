@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:blockof_shining_netherite"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:shining_netherite_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "monstrous_world:custom/simplecauldronpowder",
+  "textures": {
+    "all": "monstrous_world:block/darkened_iron_block",
+    "particle": "monstrous_world:block/darkened_iron_block",
+    "0": "monstrous_world:block/darkened_iron_block",
+    "1": "minecraft:block/green_concrete_powder"
+  },
+  "render_type": "translucent"
+}

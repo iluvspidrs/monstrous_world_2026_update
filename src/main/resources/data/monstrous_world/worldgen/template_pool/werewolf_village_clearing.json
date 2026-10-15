@@ -1,0 +1,17 @@
+{
+  "name": "monstrous_world:werewolf_village_clearing",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "monstrous_world:werewolf_village_clearing",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

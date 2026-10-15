@@ -1,0 +1,124 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "darkened_log_side",
+        "1": "darkened_crystal",
+        "2": "plain_liquid"
+      },
+      "name": "default"
+    },
+    "green": {
+      "map": {
+        "0": "darkened_log_side",
+        "1": "darkened_crystal",
+        "2": "green_brew"
+      },
+      "name": "green"
+    },
+    "yellow": {
+      "map": {
+        "0": "darkened_log_side",
+        "1": "darkened_crystal",
+        "2": "yellow_brew"
+      },
+      "name": "yellow"
+    },
+    "orange": {
+      "map": {
+        "0": "darkened_log_side",
+        "1": "darkened_crystal",
+        "2": "orange_brew"
+      },
+      "name": "orange"
+    },
+    "red": {
+      "map": {
+        "0": "darkened_log_side",
+        "1": "darkened_crystal",
+        "2": "red_brew"
+      },
+      "name": "red"
+    },
+    "purple": {
+      "map": {
+        "0": "darkened_log_side",
+        "1": "darkened_crystal",
+        "2": "purple_brew"
+      },
+      "name": "purple"
+    },
+    "blue": {
+      "map": {
+        "0": "darkened_log_side",
+        "1": "darkened_crystal",
+        "2": "blue_brew"
+      },
+      "name": "blue"
+    },
+    "black": {
+      "map": {
+        "0": "darkened_log_side",
+        "1": "darkened_crystal",
+        "2": "black_brew"
+      },
+      "name": "black"
+    },
+    "gray": {
+      "map": {
+        "0": "darkened_log_side",
+        "1": "darkened_crystal",
+        "2": "gray_brew"
+      },
+      "name": "gray"
+    },
+    "ruined": {
+      "map": {
+        "0": "darkened_log_side",
+        "1": "darkened_crystal",
+        "2": "ruined_brew"
+      },
+      "name": "ruined"
+    },
+    "white": {
+      "map": {
+        "0": "darkened_log_side",
+        "1": "darkened_crystal",
+        "2": "toxic_gas"
+      },
+      "name": "white"
+    },
+    "basin_water": {
+      "map": {
+        "0": "minecraft:exposed_copper",
+        "1": "minecraft:cracked_deepslate_tiles",
+        "2": "plain_liquid"
+      },
+      "name": "basin_water"
+    },
+    "basin_tannin": {
+      "map": {
+        "0": "minecraft:exposed_copper",
+        "1": "minecraft:cracked_deepslate_tiles",
+        "2": "ruined_brew"
+      },
+      "name": "basin_tannin"
+    },
+    "basin_distilled": {
+      "map": {
+        "0": "minecraft:exposed_copper",
+        "1": "minecraft:cracked_deepslate_tiles",
+        "2": "toxic_gas"
+      },
+      "name": "basin_distilled"
+    },
+    "basin_waxed": {
+      "map": {
+        "0": "minecraft:exposed_copper",
+        "1": "minecraft:cracked_deepslate_tiles",
+        "2": "yellow_brew"
+      },
+      "name": "basin_waxed"
+    }
+  }
+}

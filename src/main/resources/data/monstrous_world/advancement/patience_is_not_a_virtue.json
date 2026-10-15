@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:pure_dark_essence"
+    },
+    "title": {
+      "translate": "advancements.patience_is_not_a_virtue.title"
+    },
+    "description": {
+      "translate": "advancements.patience_is_not_a_virtue.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "patience_is_not_a_virtue_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:stay_for_a_spell"
+}

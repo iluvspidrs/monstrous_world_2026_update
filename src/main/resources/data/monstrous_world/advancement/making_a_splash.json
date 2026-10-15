@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "monstrous_world:textures/screens/muddy_mangrove_roots_side.png",
+    "icon": {
+      "id": "monstrous_world:swamp_crystal_helmet"
+    },
+    "title": {
+      "translate": "advancements.making_a_splash.title"
+    },
+    "description": {
+      "translate": "advancements.making_a_splash.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "making_a_splash_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

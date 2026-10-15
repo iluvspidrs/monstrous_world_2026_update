@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:spirit_infused_purple_light_bulb"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:emissive_purple_skull_lamp",
+    "count": 1
+  }
+}

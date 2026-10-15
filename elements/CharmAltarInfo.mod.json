@@ -1,0 +1,16 @@
+{
+  "_fv": 89,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      "CUSTOM:CharmAltar"
+    ],
+    "information": [
+      "The Charm Altar is limited to use by Level 2+ Witches and Warlocks.",
+      "",
+      "Instructions on use are found in the Tome of Witchery.",
+      "",
+      "JEI recipes are disabled for this workstation to prevent cheating."
+    ]
+  }
+}

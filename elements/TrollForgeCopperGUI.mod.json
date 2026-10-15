@@ -1,0 +1,324 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 200,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 151,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 187,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 223,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 259,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 4,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": "CopperForgeIngotsRemoved",
+          "x": 277,
+          "y": 87,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lava_empty.png",
+          "use1Xscale": false,
+          "displayCondition": "EmptyFuelCondition",
+          "x": 167,
+          "y": 92,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blaze_lava_200mb.png",
+          "use1Xscale": false,
+          "displayCondition": "BlazeLavaFuelCondition200",
+          "x": 167,
+          "y": 92,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blaze_lava_400mb.png",
+          "use1Xscale": false,
+          "displayCondition": "BlazeLavaFuelCondition400",
+          "x": 167,
+          "y": 92,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blaze_lava_600mb.png",
+          "use1Xscale": false,
+          "displayCondition": "BlazeLavaFuelCondition600",
+          "x": 167,
+          "y": 92,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blaze_lava_800mb.png",
+          "use1Xscale": false,
+          "displayCondition": "BlazeLavaFuelCondition800",
+          "x": 167,
+          "y": 92,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blaze_lava_full.png",
+          "use1Xscale": false,
+          "displayCondition": "BlazeLavaFuelConditionFull",
+          "x": 167,
+          "y": 92,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lava_full.png",
+          "use1Xscale": false,
+          "displayCondition": "LavaFuelConditionFull",
+          "x": 167,
+          "y": 92,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lava_800mb.png",
+          "use1Xscale": false,
+          "displayCondition": "LavaFuelCondition800",
+          "x": 167,
+          "y": 92,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lava_600mb.png",
+          "use1Xscale": false,
+          "displayCondition": "LavaFuelCondition600",
+          "x": 167,
+          "y": 92,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lava_400mb.png",
+          "use1Xscale": false,
+          "displayCondition": "LavaFuelCondition400",
+          "x": 167,
+          "y": 92,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lava_200mb.png",
+          "use1Xscale": false,
+          "displayCondition": "LavaFuelCondition200",
+          "x": 167,
+          "y": 92,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 5,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 133,
+          "y": 87,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_forward_button",
+          "image": "forward_button.png",
+          "hoveredImage": "forward_button_hover.png",
+          "onClick": "CopperForgeSmelting",
+          "x": 205,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "border_slot.png",
+          "use1Xscale": false,
+          "x": 131,
+          "y": 85,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "border_slot.png",
+          "use1Xscale": false,
+          "x": 149,
+          "y": 53,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "border_slot.png",
+          "use1Xscale": false,
+          "x": 185,
+          "y": 53,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "border_slot.png",
+          "use1Xscale": false,
+          "x": 221,
+          "y": 53,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "border_slot.png",
+          "use1Xscale": false,
+          "x": 257,
+          "y": 53,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "border_slot.png",
+          "use1Xscale": false,
+          "x": 275,
+          "y": 85,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

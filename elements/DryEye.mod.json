@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Dry Eye",
+    "icon": "dry_eye",
+    "color": {
+      "value": -10791364,
+      "falpha": 0.0
+    },
+    "onAddedSound": "",
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [],
+    "onStarted": "DryEyeOnEffectActiveTick",
+    "onExpired": "DryEyeEffectExpires"
+  }
+}

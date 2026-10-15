@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Vampirism",
+    "icon": "bloodlevel12",
+    "color": {
+      "value": -10092544,
+      "falpha": 0.0
+    },
+    "onAddedSound": "",
+    "isInstant": false,
+    "mobEffectCategory": "NEUTRAL",
+    "renderStatusInInventory": false,
+    "renderStatusInHUD": false,
+    "isCuredbyHoney": false,
+    "modifiers": [],
+    "onActiveTick": "VampirismEntityOnEffectActiveTick",
+    "onExpired": "VampirismEffectExpires"
+  }
+}

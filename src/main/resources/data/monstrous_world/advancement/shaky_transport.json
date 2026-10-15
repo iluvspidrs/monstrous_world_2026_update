@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:pumpkin_broom"
+    },
+    "title": {
+      "translate": "advancements.shaky_transport.title"
+    },
+    "description": {
+      "translate": "advancements.shaky_transport.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "shaky_transport_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:not_so_useless"
+}

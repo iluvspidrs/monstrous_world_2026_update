@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "monstrous_world:werewolf_village",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 51,
+    "separation": 50,
+    "salt": 114428673
+  }
+}

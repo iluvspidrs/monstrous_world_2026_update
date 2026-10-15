@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "monstrous_world:textures/screens/tin_block.png",
+    "icon": {
+      "id": "monstrous_world:lab_coat_helmet"
+    },
+    "title": {
+      "translate": "advancements.road_to_madness.title"
+    },
+    "description": {
+      "translate": "advancements.road_to_madness.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "road_to_madness_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

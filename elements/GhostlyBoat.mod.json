@@ -1,0 +1,15 @@
+{
+  "_fv": 89,
+  "_type": "specialentity",
+  "definition": {
+    "entityType": "Boat",
+    "name": "Ghostly Boat",
+    "rarity": "COMMON",
+    "creativeTabs": [
+      "TOOLS",
+      "CUSTOM:MonstrousWorldItems"
+    ],
+    "entityTexture": "ghostly_boat",
+    "itemTexture": "ghostly_boat"
+  }
+}

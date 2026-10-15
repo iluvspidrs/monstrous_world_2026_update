@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/trollmace",
+  "textures": {
+    "1": "monstrous_world:block/darkened_log_side",
+    "2": "monstrous_world:block/cast_iron_block",
+    "missing": "monstrous_world:block/",
+    "particle": "monstrous_world:item/troll_mace2"
+  }
+}

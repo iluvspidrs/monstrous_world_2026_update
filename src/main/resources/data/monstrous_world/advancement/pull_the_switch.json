@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:robot_spider_head"
+    },
+    "title": {
+      "translate": "advancements.pull_the_switch.title"
+    },
+    "description": {
+      "translate": "advancements.pull_the_switch.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pull_the_switch_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:deep_dive"
+}

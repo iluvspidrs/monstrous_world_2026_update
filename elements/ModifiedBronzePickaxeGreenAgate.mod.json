@@ -1,0 +1,42 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "modified_bronze_pickaxe_green_agate",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Modified Bronze Pickaxe [Green Agate]",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": [
+        "Chance of doubled Precious Stone drops",
+        "Mines Obsidian instantly"
+      ]
+    },
+    "creativeTabs": [
+      "TOOLS"
+    ],
+    "efficiency": 9.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 8.0,
+    "usageCount": 700,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      "CUSTOM:BronzeIngot",
+      "TAG:c:ingots/bronze"
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "DIAMOND",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

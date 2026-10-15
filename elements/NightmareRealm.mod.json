@@ -1,0 +1,62 @@
+{
+  "_fv": 89,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      "CUSTOM:Nightmare"
+    ],
+    "biomesInDimensionCaves": [],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": "CUSTOM:DarkGrass",
+    "fluidBlock": "Blocks.WATER",
+    "seaLevel": 63,
+    "generateOreVeins": false,
+    "generateAquifers": false,
+    "horizontalNoiseSize": 1,
+    "verticalNoiseSize": 2,
+    "defaultEffects": "overworld",
+    "useCustomEffects": true,
+    "hasClouds": true,
+    "cloudHeight": 192,
+    "skyType": "END",
+    "airColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "sunHeightAffectsFog": false,
+    "canRespawnHere": false,
+    "hasFog": true,
+    "ambientLight": 0.0,
+    "doesWaterVaporize": false,
+    "hasFixedTime": true,
+    "fixedTimeValue": 18000,
+    "coordinateScale": 1.0,
+    "infiniburnTag": "minecraft:infiniburn_overworld",
+    "enableCustomSkyboxTextures": false,
+    "enableCustomSunMoonTextures": false,
+    "bedWorks": false,
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": true,
+    "piglinSafe": false,
+    "hasRaids": false,
+    "minMonsterSpawnLightLimit": 0,
+    "maxMonsterSpawnLightLimit": 7,
+    "monsterSpawnBlockLightLimit": 0,
+    "portalFrame": "",
+    "portalParticles": "PORTAL",
+    "portalLuminance": 0,
+    "portalSound": "block.portal.ambient",
+    "enableIgniter": true,
+    "igniterName": "Nightmare Realm Portal Igniter",
+    "igniterRarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "TOOLS"
+    ],
+    "texture": "",
+    "portalTexture": "",
+    "enablePortal": false
+  }
+}

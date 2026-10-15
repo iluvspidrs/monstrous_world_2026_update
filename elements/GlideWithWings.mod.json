@@ -1,0 +1,11 @@
+{
+  "_fv": 89,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "W",
+    "keyBindingName": "Glide With Wings",
+    "keyBindingCategoryKey": "movement",
+    "onKeyPressed": "Glide",
+    "onKeyReleased": "GlideStop"
+  }
+}

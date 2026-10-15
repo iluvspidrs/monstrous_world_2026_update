@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:charm_of_darkness"
+    },
+    "title": {
+      "translate": "advancements.nightmare_catcher.title"
+    },
+    "description": {
+      "translate": "advancements.nightmare_catcher.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "nightmare_catcher_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:how_charming"
+}

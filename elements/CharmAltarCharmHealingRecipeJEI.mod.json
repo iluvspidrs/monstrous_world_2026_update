@@ -1,0 +1,23 @@
+{
+  "_fv": 89,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "charm_altar_recipe_type",
+    "ingredients": [
+      "TAG:c:nuggets/gold",
+      "CUSTOM:AnointmentOil",
+      "CUSTOM:IncantationBook",
+      "TAG:c:gems/rose_quartz"
+    ],
+    "integers": [],
+    "strings": [],
+    "recipetype": "CharmAltarRecipeType",
+    "results": [
+      "CUSTOM:CharmOfHealing"
+    ],
+    "resultCounts": [
+      1
+    ],
+    "count": 0
+  }
+}

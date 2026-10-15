@@ -1,0 +1,10 @@
+{
+  "parent": "monstrous_world:custom/flaskempty",
+  "textures": {
+    "all": "monstrous_world:block/glass_translucent",
+    "particle": "monstrous_world:block/glass_translucent",
+    "0": "monstrous_world:block/glass_translucent",
+    "missing": "monstrous_world:block/"
+  },
+  "render_type": "translucent"
+}

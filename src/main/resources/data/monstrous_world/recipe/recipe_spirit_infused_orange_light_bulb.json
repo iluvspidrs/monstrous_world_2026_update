@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:spirit_dust"
+    },
+    {
+      "item": "monstrous_world:orange_light_bulb_item"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:spirit_infused_orange_light_bulb",
+    "count": 1
+  }
+}

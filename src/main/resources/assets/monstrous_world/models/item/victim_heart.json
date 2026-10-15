@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "monstrous_world:item/victim_heart"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "monstrous_world:victim_heart_unlocked": 0
+      },
+      "model": "monstrous_world:item/victim_heart_0"
+    },
+    {
+      "predicate": {
+        "monstrous_world:victim_heart_unlocked": 1
+      },
+      "model": "monstrous_world:item/victim_heart_1"
+    }
+  ]
+}

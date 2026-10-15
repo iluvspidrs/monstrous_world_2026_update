@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:shining_netherite_sword",
+    "monstrous_world:shining_netherite_axe",
+    "monstrous_world:bronze_sword",
+    "monstrous_world:shining_netherite_pickaxe",
+    "monstrous_world:bronze_pickaxe",
+    "monstrous_world:corinthian_bronze_axe",
+    "monstrous_world:shining_netherite_shovel",
+    "monstrous_world:corinthian_bronze_sword",
+    "monstrous_world:corinthian_bronze_pickaxe",
+    "monstrous_world:corinthian_bronze_shovel",
+    "monstrous_world:bronze_axe",
+    "monstrous_world:bronze_shovel"
+  ]
+}

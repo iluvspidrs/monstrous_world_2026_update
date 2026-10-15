@@ -1,0 +1,34 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:BlockOfRawInfernalIron",
+      "CUSTOM:InfernalIronIngot",
+      "CUSTOM:NetherGem",
+      "CUSTOM:DriedSkin"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:NetherGem",
+      "CUSTOM:DriedSkin",
+      "CUSTOM:NetherGem",
+      "CUSTOM:InfernalIronIngot",
+      "CUSTOM:BlockOfRawInfernalIron",
+      "CUSTOM:InfernalIronIngot",
+      "CUSTOM:InfernalIronIngot",
+      "CUSTOM:InfernalIronIngot",
+      "CUSTOM:InfernalIronIngot"
+    ],
+    "recipeReturnStack": "CUSTOM:MorbidWorkTable",
+    "name": "recipe_morbid_crafting_table",
+    "namespace": "mod"
+  }
+}

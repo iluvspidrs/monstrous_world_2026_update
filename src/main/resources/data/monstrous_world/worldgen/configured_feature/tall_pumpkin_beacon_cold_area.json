@@ -1,0 +1,7 @@
+{
+  "type": "monstrous_world:structure_feature",
+  "config": {
+    "structure": "monstrous_world:pumpkin_beacon_tall",
+    "ignored_blocks": "minecraft:air"
+  }
+}

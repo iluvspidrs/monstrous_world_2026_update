@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:blood_bulb_mature"
+    },
+    "title": {
+      "translate": "advancements.morbid_garden.title"
+    },
+    "description": {
+      "translate": "advancements.morbid_garden.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "morbid_garden_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:a_crimson_guide"
+}

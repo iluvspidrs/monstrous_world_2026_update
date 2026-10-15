@@ -1,0 +1,13 @@
+{
+  "parent": "monstrous_world:custom/bloodfocusliquid",
+  "textures": {
+    "all": "monstrous_world:block/red_onyx_block",
+    "particle": "monstrous_world:block/red_onyx_block",
+    "0": "monstrous_world:block/red_onyx_block",
+    "1": "monstrous_world:block/moonstone_block",
+    "2": "monstrous_world:block/black_onyx_block",
+    "3": "monstrous_world:block/werewolf_blood",
+    "missing": "monstrous_world:block/"
+  },
+  "render_type": "cutout_mipped"
+}

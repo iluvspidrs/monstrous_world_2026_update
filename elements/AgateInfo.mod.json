@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      "CUSTOM:GreenAgate",
+      "CUSTOM:BlueAgate",
+      "CUSTOM:PaleAgate",
+      "CUSTOM:RedAgate",
+      "CUSTOM:PurifiedGreenAgate",
+      "CUSTOM:PurifiedBlueAgate",
+      "CUSTOM:PurifiedPaleAgate",
+      "CUSTOM:PurifiedRedAgate",
+      "CUSTOM:OddGreenGravel",
+      "CUSTOM:BlockOfGreenAgate",
+      "CUSTOM:OddBlueGravel",
+      "CUSTOM:BlockOfBlueAgate",
+      "CUSTOM:OddPaleGravel",
+      "CUSTOM:BlockOfPaleAgate",
+      "CUSTOM:OddRedGravel",
+      "CUSTOM:BlockOfRedAgate"
+    ],
+    "information": [
+      "Agates are Precious Stones valued by multiple monster factions. Different colors have different properties.",
+      "",
+      "Agates are found on the surface, appearing as oddly-colored gravel deposits. They must be mined with an Iron Shovel or higher tier to yield an Agate. Different regions will have different colored Agates, with some areas having more than one type."
+    ]
+  }
+}

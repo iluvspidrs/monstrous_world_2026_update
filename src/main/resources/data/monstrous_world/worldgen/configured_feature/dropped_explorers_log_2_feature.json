@@ -1,0 +1,8 @@
+{
+  "type": "monstrous_world:structure_feature",
+  "config": {
+    "structure": "monstrous_world:dropped_explorer_log_2",
+    "random_rotation": true,
+    "ignored_blocks": "minecraft:air"
+  }
+}

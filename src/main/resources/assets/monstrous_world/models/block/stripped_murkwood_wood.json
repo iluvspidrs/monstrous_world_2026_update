@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/murkwood_log_stripped",
+    "up": "monstrous_world:block/murkwood_log_stripped",
+    "north": "monstrous_world:block/murkwood_log_stripped",
+    "east": "monstrous_world:block/murkwood_log_stripped",
+    "south": "monstrous_world:block/murkwood_log_stripped",
+    "west": "monstrous_world:block/murkwood_log_stripped",
+    "particle": "monstrous_world:block/murkwood_log_stripped"
+  },
+  "render_type": "solid"
+}

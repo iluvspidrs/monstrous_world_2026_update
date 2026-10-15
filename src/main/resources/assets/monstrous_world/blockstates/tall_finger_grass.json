@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "monstrous_world:block/tall_finger_grass"
+    },
+    "half=lower": {
+      "model": "monstrous_world:block/tall_finger_grass_bottom"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "1": "swamp_crystal_block"
+      }
+    },
+    "clear": {
+      "name": "clear",
+      "map": {
+        "1": "block_of_quartz"
+      }
+    },
+    "rose": {
+      "name": "rose",
+      "map": {
+        "1": "block_of_rose_quartz"
+      }
+    },
+    "darkened": {
+      "name": "darkened",
+      "map": {
+        "1": "darkened_crystal"
+      }
+    },
+    "moonstone": {
+      "name": "moonstone",
+      "map": {
+        "1": "moonstone_block"
+      }
+    }
+  }
+}

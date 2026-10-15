@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "minecraft:block/rooted_dirt",
+    "top": "minecraft:block/grass_block_top",
+    "side": "minecraft:block/dirt",
+    "overlay": "minecraft:block/grass_block_side_overlay",
+    "particle": "minecraft:block/rooted_dirt"
+  },
+  "render_type": "cutout"
+}

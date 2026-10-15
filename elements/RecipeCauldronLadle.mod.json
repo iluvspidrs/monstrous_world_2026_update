@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "monstrous_world_tools",
+    "unlockingItems": [
+      "Items.STICK",
+      "CUSTOM:EvilTreePressurePlate"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "CUSTOM:EvilTreePressurePlate",
+      "",
+      "Items.STICK",
+      "",
+      "Items.STICK",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:Ladle",
+    "name": "recipe_cauldron_ladle",
+    "namespace": "mod"
+  }
+}

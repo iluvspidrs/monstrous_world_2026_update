@@ -1,0 +1,12 @@
+{
+  "_fv": 89,
+  "_type": "feature",
+  "definition": {
+    "skipPlacement": false,
+    "generationStep": "SURFACE_STRUCTURES",
+    "restrictionBiomes": [
+      "CUSTOM:TheDeepBiome"
+    ],
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"feature\"><block type=\"feature_block_column\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"1\"></mutation><field name=\"direction\">UP</field><field name=\"prioritize_tip\">TRUE</field><value name=\"allowed_placement\"><block type=\"block_predicate_is_air\"></block></value><value name=\"layer0\"><block type=\"block_column_layer\"><value name=\"height\"><block type=\"int_provider_constant\"><field name=\"value\">4</field></block></value><value name=\"block\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">CUSTOM:DarkenedCrystal</field></block></value></block></value></block></value><next><block type=\"placement_rarity\"><field name=\"rarity\">1</field><next><block type=\"placement_in_square\"><next><block type=\"placement_heightmap\"><field name=\"heightmap\">OCEAN_FLOOR</field><next><block type=\"placement_count\"><value name=\"count\"><block type=\"int_provider_constant\"><field name=\"value\">4</field></block></value><next><block type=\"placement_biome_filter\"></block></next></block></next></block></next></block></next></block></next></block></xml>"
+  }
+}

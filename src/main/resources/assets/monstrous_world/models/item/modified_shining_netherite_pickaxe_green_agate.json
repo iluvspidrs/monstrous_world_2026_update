@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "monstrous_world:item/modified_shining_netherite_pickaxe_green_agate"
+  }
+}

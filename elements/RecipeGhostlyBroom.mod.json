@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "monstrous_world_tools",
+    "unlockingItems": [
+      "Items.WHEAT",
+      "CUSTOM:GhostlyLog"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "CUSTOM:GhostlyLog",
+      "",
+      "CUSTOM:GhostlyLog",
+      "",
+      "Items.WHEAT",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:GhostlyBroom",
+    "name": "recipe_ghostly_broom",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "parent": "monstrous_world:custom/trollforge1ingot",
+  "textures": {
+    "all": "monstrous_world:block/cast_iron_block",
+    "particle": "monstrous_world:block/cast_iron_block",
+    "2": "monstrous_world:block/cast_iron_block",
+    "3": "monstrous_world:block/block_of_raw_tungsten",
+    "4": "monstrous_world:block/electrum_block",
+    "5": "minecraft:block/lava_still",
+    "6": "monstrous_world:block/blaze_lava",
+    "missing": "monstrous_world:block/"
+  },
+  "render_type": "solid"
+}

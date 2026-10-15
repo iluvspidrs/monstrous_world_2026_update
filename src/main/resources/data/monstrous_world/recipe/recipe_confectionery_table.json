@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:honeycomb"
+    },
+    "b": {
+      "item": "minecraft:bowl"
+    },
+    "c": {
+      "item": "monstrous_world:murkwood_planks"
+    },
+    "d": {
+      "item": "monstrous_world:a_hint_of_insanity"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:confectionery_table",
+    "count": 1
+  }
+}

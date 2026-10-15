@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:tigers_eye_ore",
+    "monstrous_world:rose_quartz_ore",
+    "monstrous_world:sardonyx_stone_ore",
+    "monstrous_world:clear_quartz_ore",
+    "monstrous_world:black_onyx_stone_ore",
+    "monstrous_world:moonstone_ore",
+    "monstrous_world:swamp_crystal_ore",
+    "monstrous_world:cassiterite_ore"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "monstrous_world_blocks",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "bdb"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:evil_tree_slab"
+    },
+    "b": {
+      "item": "minecraft:glass_pane"
+    },
+    "c": {
+      "item": "monstrous_world:brain"
+    },
+    "d": {
+      "item": "minecraft:slime_block"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:brain_in_jar",
+    "count": 1
+  }
+}

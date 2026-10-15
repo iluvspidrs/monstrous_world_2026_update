@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/droppedpaper",
+  "textures": {
+    "all": "monstrous_world:block/swamp_soup_recipe",
+    "particle": "monstrous_world:block/swamp_soup_recipe",
+    "0": "monstrous_world:block/swamp_soup_recipe"
+  },
+  "render_type": "cutout"
+}

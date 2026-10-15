@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/carpet",
+  "textures": {
+    "all": "monstrous_world:block/pond_scum",
+    "particle": "monstrous_world:block/pond_scum",
+    "0": "monstrous_world:block/pond_scum"
+  },
+  "render_type": "cutout"
+}

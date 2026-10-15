@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "monstrous_world:goblin_village_autumn_delight",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 29,
+    "separation": 24,
+    "salt": 894814146
+  }
+}

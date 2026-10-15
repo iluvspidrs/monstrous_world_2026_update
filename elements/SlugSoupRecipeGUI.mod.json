@@ -1,0 +1,80 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 260,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "slugsouptext.png",
+          "use1Xscale": false,
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "OpenMudPot",
+          "width": 36,
+          "height": 20,
+          "x": 231,
+          "y": 104,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "OpenPaleStalkWoodGUI",
+          "width": 73,
+          "height": 20,
+          "x": 233,
+          "y": 144,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "swamp_wort.png",
+          "use1Xscale": false,
+          "x": 166,
+          "y": 126,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "slug.png",
+          "use1Xscale": false,
+          "x": 86,
+          "y": 147,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

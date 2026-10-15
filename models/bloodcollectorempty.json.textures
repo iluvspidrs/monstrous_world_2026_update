@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "evil_tree_planks",
+        "1": "darkened_glass_clear",
+        "missing": ""
+      }
+    }
+  }
+}

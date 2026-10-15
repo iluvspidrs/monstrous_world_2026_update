@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:dark_orange_bricks"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:dark_orange_bricks_stairs",
+    "count": 5
+  }
+}

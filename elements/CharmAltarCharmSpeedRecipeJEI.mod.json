@@ -1,0 +1,23 @@
+{
+  "_fv": 89,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "charm_altar_recipe_type",
+    "ingredients": [
+      "TAG:c:nuggets/gold",
+      "TAG:c:gems/clear_quartz",
+      "CUSTOM:AnointmentOil",
+      "CUSTOM:IncantationBook"
+    ],
+    "integers": [],
+    "strings": [],
+    "recipetype": "CharmAltarRecipeType",
+    "results": [
+      "CUSTOM:CharmOfSpeed"
+    ],
+    "resultCounts": [
+      1
+    ],
+    "count": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:SilverBolt",
+      "CUSTOM:ObstructionPowder"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "",
+      "CUSTOM:SilverBolt",
+      "",
+      "CUSTOM:SilverBolt",
+      "CUSTOM:ObstructionPowder",
+      "CUSTOM:SilverBolt",
+      "",
+      "CUSTOM:SilverBolt",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:SilverBoltBlinding",
+    "name": "recipe_silver_bolt_blinding",
+    "namespace": "mod"
+  }
+}

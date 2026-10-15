@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:evil_tree_sapling",
+    "monstrous_world:pumpkin_sapling",
+    "monstrous_world:deathly_sapling",
+    "monstrous_world:murkwood_sapling",
+    "monstrous_world:yellow_autumn_sapling",
+    "monstrous_world:ghostly_sapling",
+    "monstrous_world:sanguine_sapling",
+    "monstrous_world:red_autumn_sapling",
+    "monstrous_world:orange_autumn_sapling"
+  ]
+}

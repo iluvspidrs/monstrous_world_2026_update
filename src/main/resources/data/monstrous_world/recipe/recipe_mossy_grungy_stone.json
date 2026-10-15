@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:vine"
+    },
+    {
+      "item": "monstrous_world:grungy_stone"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:mossy_grungy_stone",
+    "count": 1
+  }
+}

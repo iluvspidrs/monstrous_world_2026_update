@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/tigers_eye_ore",
+    "up": "monstrous_world:block/tigers_eye_ore",
+    "north": "monstrous_world:block/tigers_eye_ore",
+    "east": "monstrous_world:block/tigers_eye_ore",
+    "south": "monstrous_world:block/tigers_eye_ore",
+    "west": "monstrous_world:block/tigers_eye_ore",
+    "particle": "monstrous_world:block/tigers_eye_ore"
+  },
+  "render_type": "solid"
+}

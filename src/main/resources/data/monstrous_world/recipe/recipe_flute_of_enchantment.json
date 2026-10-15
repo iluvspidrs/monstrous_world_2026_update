@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    " b ",
+    "a  "
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:darkened_planks"
+    },
+    "b": {
+      "item": "monstrous_world:essence_of_deception"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:flute_of_enchantment",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:spirit_infused_blue_light_bulb"
+    },
+    {
+      "item": "monstrous_world:poisoned_skull"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:emissive_blue_skull_lamp_poisoned",
+    "count": 1
+  }
+}

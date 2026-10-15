@@ -1,0 +1,52 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "glass_translucent",
+        "1": "strangeserumfluid",
+        "missing": ""
+      },
+      "name": "default"
+    },
+    "stabilizing": {
+      "map": {
+        "0": "glass_translucent",
+        "1": "stabilizerfluid",
+        "missing": ""
+      },
+      "name": "stabilizing"
+    },
+    "cure": {
+      "map": {
+        "0": "glass_translucent",
+        "1": "cureserumfluid",
+        "missing": ""
+      },
+      "name": "cure"
+    },
+    "strageuncooked": {
+      "map": {
+        "0": "glass_translucent",
+        "1": "strangeserumfluiduncooked",
+        "missing": ""
+      },
+      "name": "strageuncooked"
+    },
+    "cureuncooked": {
+      "map": {
+        "0": "glass_translucent",
+        "1": "cureserumfluiduncooked",
+        "missing": ""
+      },
+      "name": "cureuncooked"
+    },
+    "stabilizinguncooked": {
+      "map": {
+        "0": "glass_translucent",
+        "1": "stabilizerfluiduncooked",
+        "missing": ""
+      },
+      "name": "stabilizinguncooked"
+    }
+  }
+}

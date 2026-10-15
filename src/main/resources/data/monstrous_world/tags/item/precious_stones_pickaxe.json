@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#c:gems/clear_quartz",
+      "required": false
+    },
+    "monstrous_world:nether_gem",
+    {
+      "id": "#c:gems/blue_agate",
+      "required": false
+    },
+    {
+      "id": "#c:gems/green_agate",
+      "required": false
+    },
+    {
+      "id": "#c:gems/rose_quartz",
+      "required": false
+    }
+  ]
+}

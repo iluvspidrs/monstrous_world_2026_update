@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:teleport_item"
+    },
+    "title": {
+      "translate": "advancements.elemental_magic.title"
+    },
+    "description": {
+      "translate": "advancements.elemental_magic.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "elemental_magic_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:beginning_magic"
+}

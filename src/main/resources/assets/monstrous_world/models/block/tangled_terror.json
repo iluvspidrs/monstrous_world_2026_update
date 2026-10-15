@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/tangledterror",
+  "textures": {
+    "all": "monstrous_world:block/dark_dirt",
+    "particle": "monstrous_world:block/dark_dirt",
+    "0": "monstrous_world:block/dark_dirt"
+  },
+  "render_type": "solid"
+}

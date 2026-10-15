@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "monstrous_world:item/pale_stalk_barricading_boards"
+  },
+  "render_type": "translucent"
+}

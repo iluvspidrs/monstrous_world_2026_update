@@ -1,0 +1,15 @@
+{
+  "_fv": 89,
+  "_type": "specialentity",
+  "definition": {
+    "entityType": "Boat",
+    "name": "Pumpkin Boat",
+    "rarity": "COMMON",
+    "creativeTabs": [
+      "TOOLS",
+      "CUSTOM:MonstrousWorldItems"
+    ],
+    "entityTexture": "pumpkin_boat",
+    "itemTexture": "pumpkin_boat"
+  }
+}

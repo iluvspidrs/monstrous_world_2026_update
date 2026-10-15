@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "monstrous_world:block/tin_rod",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "monstrous_world:block/tin_rod",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "monstrous_world:block/tin_rod",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "monstrous_world:block/tin_rod",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "monstrous_world:block/tin_rod"
+    },
+    "facing=west": {
+      "model": "monstrous_world:block/tin_rod",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

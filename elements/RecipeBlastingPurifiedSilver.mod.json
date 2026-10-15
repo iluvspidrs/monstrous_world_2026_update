@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:PurifiedSilverDust"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 5.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": "CUSTOM:PurifiedSilverDust",
+    "blastingReturnStack": "CUSTOM:PurifiedSilver",
+    "name": "recipe_blasting_purified_silver",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:modified_diamond_sword_red_agate"
+    },
+    "title": {
+      "translate": "advancements.a_simple_modification.title"
+    },
+    "description": {
+      "translate": "advancements.a_simple_modification.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_simple_modification_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:an_enchanting_essence"
+}

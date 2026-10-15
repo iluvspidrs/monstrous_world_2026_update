@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:DarkenedStoneBricks"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": "CUSTOM:DarkenedStoneBricks",
+    "stoneCuttingReturnStack": "CUSTOM:DarkenedStoneBricksSlab",
+    "name": "stonecutter_darkened_stone_brick_slab",
+    "namespace": "mod"
+  }
+}

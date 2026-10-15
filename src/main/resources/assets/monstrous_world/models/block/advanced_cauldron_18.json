@@ -1,0 +1,11 @@
+{
+  "parent": "monstrous_world:custom/advancedcauldronpowder",
+  "textures": {
+    "all": "monstrous_world:block/darkened_log_side",
+    "particle": "monstrous_world:block/darkened_crystal",
+    "0": "monstrous_world:block/darkened_log_side",
+    "1": "monstrous_world:block/darkened_crystal",
+    "2": "minecraft:block/gray_concrete_powder"
+  },
+  "render_type": "translucent"
+}

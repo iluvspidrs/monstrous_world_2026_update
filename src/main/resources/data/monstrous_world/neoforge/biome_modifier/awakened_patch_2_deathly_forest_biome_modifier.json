@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "monstrous_world:deathly_forest",
+    "monstrous_world:foggy_expanse"
+  ],
+  "features": "monstrous_world:awakened_patch_2_deathly_forest",
+  "step": "surface_structures"
+}

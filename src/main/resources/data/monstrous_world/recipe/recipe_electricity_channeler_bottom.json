@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:chiseled_copper"
+    },
+    "b": {
+      "item": "minecraft:redstone_block"
+    },
+    "c": {
+      "item": "monstrous_world:darkened_iron_ingot"
+    },
+    "d": {
+      "item": "minecraft:lightning_rod"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:electricity_channeler_bottom",
+    "count": 1
+  }
+}

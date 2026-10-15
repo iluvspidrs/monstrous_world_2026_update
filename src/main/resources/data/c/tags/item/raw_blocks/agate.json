@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:block_of_pale_agate",
+    "monstrous_world:block_of_green_agate",
+    "monstrous_world:block_of_red_agate",
+    "monstrous_world:block_of_blue_agate"
+  ]
+}

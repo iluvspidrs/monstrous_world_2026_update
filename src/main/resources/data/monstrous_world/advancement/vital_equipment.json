@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:hunter_chestplate"
+    },
+    "title": {
+      "translate": "advancements.vital_equipment.title"
+    },
+    "description": {
+      "translate": "advancements.vital_equipment.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "vital_equipment_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:every_hunters_field_guide"
+}

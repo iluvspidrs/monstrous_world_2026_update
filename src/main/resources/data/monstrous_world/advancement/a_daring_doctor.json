@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:moon_dust"
+    },
+    "title": {
+      "translate": "advancements.a_daring_doctor.title"
+    },
+    "description": {
+      "translate": "advancements.a_daring_doctor.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_daring_doctor_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:starting_ritual"
+}

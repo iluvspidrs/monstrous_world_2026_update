@@ -1,0 +1,42 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "troll_hammer",
+    "customModelName": "warhammer:default",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Troll War Hammer",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": [
+        "Troll Only"
+      ]
+    },
+    "creativeTabs": [
+      "TOOLS"
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 22,
+    "damageVsEntity": 12.0,
+    "usageCount": 5000,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      "CUSTOM:ShimmeringDarkIngot"
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true,
+    "onEntityHitWith": "TrollWarHammerLivingEntityIsHitWithTool",
+    "onBlockDestroyedWithTool": "TrollWarHammerBlockDestroyedWithTool"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:upgraded_blood_collector"
+    },
+    "title": {
+      "translate": "advancements.overpowered.title"
+    },
+    "description": {
+      "translate": "advancements.overpowered.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "overpowered_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:collections"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "monstrous_world:odd_red_gravel_feature_crimson_dread",
+  "config": {
+    "structure": "monstrous_world:odd_red_gravel",
+    "ignored_blocks": "minecraft:air",
+    "offset": [
+      0,
+      -1,
+      0
+    ]
+  }
+}

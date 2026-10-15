@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:werewolf_necklace_of_lunar_strength"
+    },
+    "title": {
+      "translate": "advancements.a_good_alpha_adv.title"
+    },
+    "description": {
+      "translate": "advancements.a_good_alpha_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_good_alpha_adv_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:a_full_alpha"
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:modified_diamond_pickaxe_green_agate"
+    },
+    "title": {
+      "translate": "advancements.modding_is_fun.title"
+    },
+    "description": {
+      "translate": "advancements.modding_is_fun.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "modding_is_fun_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:spoiler_alert"
+}

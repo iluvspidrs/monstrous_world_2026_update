@@ -1,0 +1,10 @@
+{
+  "parent": "monstrous_world:custom/lightbulbwall2",
+  "textures": {
+    "all": "monstrous_world:block/bulbmaininvertedorange",
+    "particle": "monstrous_world:block/bulbmaininvertedorange",
+    "0": "monstrous_world:block/bulbmaininvertedorange",
+    "1": "monstrous_world:block/baseinverted"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:amulet_of_following",
+    "monstrous_world:amulet_of_reserve",
+    "monstrous_world:amulet_of_sneaking",
+    "monstrous_world:amulet_of_lunar_strength",
+    "monstrous_world:amulet_of_levitation",
+    "monstrous_world:amulet_of_slow_falling",
+    "monstrous_world:amulet_of_aquatic_grace",
+    "monstrous_world:amulet_of_fast_strike",
+    "monstrous_world:clear_amulet"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/droppedpaper",
+  "textures": {
+    "all": "monstrous_world:block/note_on_spirits",
+    "particle": "monstrous_world:block/note_on_spirits",
+    "0": "monstrous_world:block/note_on_spirits"
+  },
+  "render_type": "cutout"
+}

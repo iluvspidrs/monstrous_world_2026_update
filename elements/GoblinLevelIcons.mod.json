@@ -1,0 +1,90 @@
+{
+  "_fv": 89,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGHEST",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "gn1.png",
+          "use1Xscale": false,
+          "displayCondition": "GoblinLevel1Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 6,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gn2.png",
+          "use1Xscale": false,
+          "displayCondition": "GoblinLevel2Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 6,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gn3.png",
+          "use1Xscale": false,
+          "displayCondition": "GoblinLevel3Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 6,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gn4.png",
+          "use1Xscale": false,
+          "displayCondition": "GoblinLevel4Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 6,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gn5.png",
+          "use1Xscale": false,
+          "displayCondition": "GoblinLevel5Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 6,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gn6.png",
+          "use1Xscale": false,
+          "displayCondition": "GoblinLevel6Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 6,
+          "y": 197,
+          "locked": false
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

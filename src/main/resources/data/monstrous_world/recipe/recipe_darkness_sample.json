@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "monstrous_world_items",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:dark_essence_dust"
+    },
+    {
+      "item": "monstrous_world:test_tube"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:darkness_sample",
+    "count": 1
+  }
+}

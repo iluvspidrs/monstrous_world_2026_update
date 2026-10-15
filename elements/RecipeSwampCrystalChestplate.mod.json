@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:SwampCrystalShard",
+      "CUSTOM:HungryTreeBark"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:SwampCrystalShard",
+      "",
+      "CUSTOM:SwampCrystalShard",
+      "CUSTOM:SwampCrystalShard",
+      "CUSTOM:HungryTreeBark",
+      "CUSTOM:SwampCrystalShard",
+      "CUSTOM:SwampCrystalShard",
+      "CUSTOM:SwampCrystalShard",
+      "CUSTOM:SwampCrystalShard"
+    ],
+    "recipeReturnStack": "CUSTOM:SwampCrystal.body",
+    "name": "recipe_swamp_crystal_chestplate",
+    "namespace": "mod"
+  }
+}

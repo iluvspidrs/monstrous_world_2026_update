@@ -1,0 +1,757 @@
+{
+  "_fv": 89,
+  "_type": "block",
+  "definition": {
+    "texture": "tin_block",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "robottablebasic:default",
+    "rotationMode": 1,
+    "enablePitch": false,
+    "emissiveRendering": false,
+    "displayFluidOverlay": false,
+    "states": [
+      {
+        "texture": "tin_tabletop_head",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "robottablebasic:head",
+        "particleTexture": "tin_block",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 5.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 5.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 7.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 9,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 1
+          }
+        ]
+      },
+      {
+        "texture": "tin_tabletop_body_arms",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "robottablebasic:body",
+        "particleTexture": "tin_block",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 5.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 5.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 7.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 9,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 2
+          }
+        ]
+      },
+      {
+        "texture": "tin_tabletop_legs",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "robottablebasic:legs",
+        "particleTexture": "tin_block",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 5.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 5.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 7.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 9,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 3
+          }
+        ]
+      },
+      {
+        "texture": "tin_tabletop_head",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "robottablewithspiderhead:default",
+        "particleTexture": "tin_block",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 5.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 5.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 7.0,
+            "Mz": 16.0,
+            "subtract": false
+          },
+          {
+            "mx": 4.0,
+            "my": 7.0,
+            "mz": 5.0,
+            "Mx": 12.0,
+            "My": 15.0,
+            "Mz": 12.0,
+            "subtract": false
+          },
+          {
+            "mx": 4.0,
+            "my": 7.0,
+            "mz": 4.0,
+            "Mx": 12.0,
+            "My": 15.0,
+            "Mz": 5.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 9,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 4
+          }
+        ]
+      },
+      {
+        "texture": "tin_tabletop_body_arms",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "robottablespiderbody:default",
+        "particleTexture": "tin_block",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 5.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 5.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 7.0,
+            "Mz": 16.0,
+            "subtract": false
+          },
+          {
+            "mx": 5.0,
+            "my": 7.0,
+            "mz": 0.0,
+            "Mx": 11.0,
+            "My": 13.0,
+            "Mz": 4.0,
+            "subtract": false
+          },
+          {
+            "mx": 3.0,
+            "my": 7.0,
+            "mz": 4.0,
+            "Mx": 13.0,
+            "My": 15.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 9,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 5
+          }
+        ]
+      },
+      {
+        "texture": "tin_tabletop_legs",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "robottablespiderlegs:default",
+        "particleTexture": "tin_block",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 5.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 5.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 7.0,
+            "Mz": 16.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 7.0,
+            "mz": 1.0,
+            "Mx": 16.0,
+            "My": 9.0,
+            "Mz": 3.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 9.0,
+            "mz": 2.0,
+            "Mx": 16.0,
+            "My": 11.0,
+            "Mz": 4.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 7.0,
+            "mz": 5.0,
+            "Mx": 16.0,
+            "My": 9.0,
+            "Mz": 7.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 9.0,
+            "mz": 6.0,
+            "Mx": 16.0,
+            "My": 11.0,
+            "Mz": 8.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 7.0,
+            "mz": 9.0,
+            "Mx": 16.0,
+            "My": 9.0,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 9.0,
+            "mz": 10.0,
+            "Mx": 16.0,
+            "My": 11.0,
+            "Mz": 12.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 7.0,
+            "mz": 13.0,
+            "Mx": 16.0,
+            "My": 9.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 9.0,
+            "mz": 14.0,
+            "Mx": 16.0,
+            "My": 11.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 9,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 6
+          }
+        ]
+      },
+      {
+        "texture": "tin_tabletop_head",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "robottablewithguardhead:default",
+        "particleTexture": "tin_block",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 5.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 5.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 7.0,
+            "Mz": 16.0,
+            "subtract": false
+          },
+          {
+            "mx": 4.0,
+            "my": 7.0,
+            "mz": 2.0,
+            "Mx": 12.0,
+            "My": 15.0,
+            "Mz": 5.0,
+            "subtract": false
+          },
+          {
+            "mx": 3.0,
+            "my": 7.0,
+            "mz": 5.0,
+            "Mx": 13.0,
+            "My": 16.0,
+            "Mz": 13.0,
+            "subtract": false
+          },
+          {
+            "mx": 1.0,
+            "my": 11.0,
+            "mz": 9.0,
+            "Mx": 3.0,
+            "My": 13.0,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 13.0,
+            "my": 11.0,
+            "mz": 9.0,
+            "Mx": 15.0,
+            "My": 13.0,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 15.0,
+            "my": 10.0,
+            "mz": 8.0,
+            "Mx": 16.0,
+            "My": 14.0,
+            "Mz": 12.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 10.0,
+            "mz": 8.0,
+            "Mx": 1.0,
+            "My": 14.0,
+            "Mz": 12.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 9,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 7
+          }
+        ]
+      },
+      {
+        "texture": "tin_tabletop_body_arms",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "robottablewithtorso:default",
+        "particleTexture": "tin_block",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 5.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 5.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 7.0,
+            "Mz": 16.0,
+            "subtract": false
+          },
+          {
+            "mx": -1.0,
+            "my": 7.0,
+            "mz": -1.0,
+            "Mx": 2.0,
+            "My": 13.0,
+            "Mz": 16.0,
+            "subtract": false
+          },
+          {
+            "mx": 13.0,
+            "my": 7.0,
+            "mz": -1.0,
+            "Mx": 16.0,
+            "My": 13.0,
+            "Mz": 16.0,
+            "subtract": false
+          },
+          {
+            "mx": 2.0,
+            "my": 7.0,
+            "mz": -1.0,
+            "Mx": 13.0,
+            "My": 15.0,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 2.0,
+            "my": 7.0,
+            "mz": 11.0,
+            "Mx": 13.0,
+            "My": 13.0,
+            "Mz": 17.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 9,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 8
+          }
+        ]
+      },
+      {
+        "texture": "tin_tabletop_legs",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "robottablewithguardlegs:default",
+        "particleTexture": "tin_block",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 5.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 5.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 7.0,
+            "Mz": 16.0,
+            "subtract": false
+          },
+          {
+            "mx": 2.0,
+            "my": 7.0,
+            "mz": 0.0,
+            "Mx": 7.0,
+            "My": 13.0,
+            "Mz": 16.0,
+            "subtract": false
+          },
+          {
+            "mx": 9.0,
+            "my": 7.0,
+            "mz": 0.0,
+            "Mx": 14.0,
+            "My": 13.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 9,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 9
+          }
+        ]
+      }
+    ],
+    "animations": [],
+    "itemTexture": "",
+    "particleTexture": "",
+    "blockSetType": "OAK",
+    "leavesParticleChance": 0.0,
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": true,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 1.0,
+        "my": 0.0,
+        "mz": 1.0,
+        "Mx": 15.0,
+        "My": 5.0,
+        "Mz": 15.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 5.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 7.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "customProperties": [
+      {
+        "min": 0,
+        "max": 9,
+        "name": "CUSTOM:blockstate",
+        "type": "integer",
+        "value": 0
+      }
+    ],
+    "name": "Robot Table Section",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hardness": 1.0,
+    "resistance": 10.0,
+    "hasGravity": false,
+    "isWaterloggable": false,
+    "hasBlockItem": true,
+    "maxStackSize": 64,
+    "rarity": "COMMON",
+    "immuneToFire": false,
+    "creativeTabs": [
+      "CUSTOM:MonstrousWorldBlocks"
+    ],
+    "destroyTool": "pickaxe",
+    "customDrop": "",
+    "dropAmount": 1,
+    "xpAmountMin": 0,
+    "xpAmountMax": 0,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": true,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": false,
+    "hasCustomOpacity": false,
+    "lightOpacity": 0,
+    "tickRate": 0,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "CLAY",
+    "noteBlockInstrument": "harp",
+    "creativePickItem": "",
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "strippingResult": "",
+    "ignitedByLava": false,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
+    "soundOnStep": "METAL",
+    "isCustomSoundType": false,
+    "breakSound": "",
+    "fallSound": "",
+    "hitSound": "",
+    "placeSound": "",
+    "stepSound": "",
+    "luminance": {
+      "fixedValue": 0.0
+    },
+    "unbreakable": false,
+    "vanillaToolTier": "NONE",
+    "isBonemealable": false,
+    "sensitiveToVibration": false,
+    "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 7.0
+    },
+    "hasInventory": false,
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 99,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "onEntityWalksOn": "RobotTableSectionEntityWalksOnTheBlock",
+    "generateFeature": false,
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      "TAG:stone_ore_replaceables"
+    ],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

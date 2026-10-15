@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:amulet_of_strong_will"
+    },
+    "title": {
+      "translate": "advancements.no_thanks.title"
+    },
+    "description": {
+      "translate": "advancements.no_thanks.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "no_thanks_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:you_have_no_power"
+}

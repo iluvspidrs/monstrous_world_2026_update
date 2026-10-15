@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "monstrous_world:textures/screens/pumpkin_planks.png",
+    "icon": {
+      "id": "monstrous_world:green_agate"
+    },
+    "title": {
+      "translate": "advancements.tricksters_and_treasure.title"
+    },
+    "description": {
+      "translate": "advancements.tricksters_and_treasure.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tricksters_and_treasure_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

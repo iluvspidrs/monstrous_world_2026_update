@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "monstrous_world_items",
+    "unlockingItems": [
+      "Blocks.WOOL#14",
+      "CUSTOM:EvilTreeLog"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:EvilTreeLog",
+      "CUSTOM:EvilTreeLog",
+      "CUSTOM:EvilTreeLog",
+      "Blocks.WOOL#14",
+      "Blocks.WOOL#14",
+      "Blocks.WOOL#14",
+      "CUSTOM:EvilTreeLog",
+      "CUSTOM:EvilTreeLog",
+      "CUSTOM:EvilTreeLog"
+    ],
+    "recipeReturnStack": "CUSTOM:Coffin",
+    "name": "recipe_coffin",
+    "namespace": "mod"
+  }
+}

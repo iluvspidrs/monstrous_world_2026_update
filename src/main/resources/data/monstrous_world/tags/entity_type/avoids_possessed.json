@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "wandering_trader",
+    "villager",
+    "monstrous_world:aggressive_guard",
+    "monstrous_world:society_goon"
+  ]
+}

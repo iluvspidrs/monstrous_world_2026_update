@@ -1,0 +1,74 @@
+{
+  "alarm_beeping": {
+    "subtitle": "subtitles.alarm_beeping",
+    "sounds": [
+      {
+        "name": "monstrous_world:alarm",
+        "stream": false
+      }
+    ]
+  },
+  "man_screaming": {
+    "subtitle": "subtitles.man_screaming",
+    "sounds": [
+      {
+        "name": "monstrous_world:man_scream",
+        "stream": false
+      }
+    ]
+  },
+  "clown_horn": {
+    "subtitle": "subtitles.clown_horn",
+    "sounds": [
+      {
+        "name": "monstrous_world:clown_horn",
+        "stream": false
+      }
+    ]
+  },
+  "spark": {
+    "subtitle": "subtitles.spark",
+    "sounds": [
+      {
+        "name": "monstrous_world:spark",
+        "stream": false
+      }
+    ]
+  },
+  "humming_machinery": {
+    "subtitle": "subtitles.humming_machinery",
+    "sounds": [
+      {
+        "name": "monstrous_world:machinery",
+        "stream": false
+      }
+    ]
+  },
+  "chainsaw_rev": {
+    "subtitle": "subtitles.chainsaw_rev",
+    "sounds": [
+      {
+        "name": "monstrous_world:chainsaw",
+        "stream": false
+      }
+    ]
+  },
+  "nervous_heartbeat": {
+    "subtitle": "subtitles.nervous_heartbeat",
+    "sounds": [
+      {
+        "name": "monstrous_world:heartbeat",
+        "stream": false
+      }
+    ]
+  },
+  "terrified_heartbeat": {
+    "subtitle": "subtitles.terrified_heartbeat",
+    "sounds": [
+      {
+        "name": "monstrous_world:fastheartbeat",
+        "stream": false
+      }
+    ]
+  }
+}

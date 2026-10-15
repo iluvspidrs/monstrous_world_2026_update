@@ -1,0 +1,13 @@
+{
+  "parent": "monstrous_world:custom/testtubemixer",
+  "textures": {
+    "all": "monstrous_world:block/darkened_iron_block",
+    "particle": "monstrous_world:block/darkened_iron_block",
+    "0": "minecraft:block/glass",
+    "1": "monstrous_world:block/block_block",
+    "2": "monstrous_world:block/evil_tree_planks",
+    "3": "monstrous_world:block/darkened_iron_block",
+    "missing": "monstrous_world:block/"
+  },
+  "render_type": "translucent"
+}

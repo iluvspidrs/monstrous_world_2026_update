@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:eyes"
+    },
+    "title": {
+      "translate": "advancements.the_hills_have_no_eyes.title"
+    },
+    "description": {
+      "translate": "advancements.the_hills_have_no_eyes.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_hills_have_no_eyes_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:murder_101"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/toxic_gas",
+    "up": "monstrous_world:block/toxic_gas",
+    "north": "monstrous_world:block/toxic_gas",
+    "east": "monstrous_world:block/toxic_gas",
+    "south": "monstrous_world:block/toxic_gas",
+    "west": "monstrous_world:block/toxic_gas",
+    "particle": "monstrous_world:block/toxic_gas"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,234 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 225,
+    "height": 186,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "tradebackground1.png",
+          "use1Xscale": true,
+          "x": 101,
+          "y": 15,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 177,
+          "y": 61,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_31",
+          "text": {
+            "fixedValue": "3"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 168,
+          "y": 70,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 177,
+          "y": 87,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_32",
+          "text": {
+            "fixedValue": "6"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 168,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "payyourassistanttext.png",
+          "use1Xscale": false,
+          "x": 130,
+          "y": 23,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "nethergem.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "nethergem.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_forward_button",
+          "image": "forward_button.png",
+          "hoveredImage": "forward_button_hover.png",
+          "onClick": "SerpentAssignmentButtonPressed",
+          "x": 203,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_forward_button1",
+          "image": "forward_button.png",
+          "hoveredImage": "forward_button_hover.png",
+          "onClick": "SerpentAssignmentButtonPressed2",
+          "x": 203,
+          "y": 91,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sinking_powder.png",
+          "use1Xscale": false,
+          "x": 231,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "midas_powder.png",
+          "use1Xscale": false,
+          "x": 231,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_nether_gem",
+          "text": {
+            "fixedValue": "Nether Gem"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 147,
+          "y": 57,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_nether_gem1",
+          "text": {
+            "fixedValue": "Nether Gem"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 147,
+          "y": 82,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_sinking_powder",
+          "text": {
+            "fixedValue": "Sinking Powder"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 228,
+          "y": 57,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_midas_curse_powder",
+          "text": {
+            "fixedValue": "Midas Curse Powder"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 228,
+          "y": 82,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

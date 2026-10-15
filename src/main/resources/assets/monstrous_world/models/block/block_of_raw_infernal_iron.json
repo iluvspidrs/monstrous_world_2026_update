@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/block_of_raw_infernal_iron",
+    "up": "monstrous_world:block/block_of_raw_infernal_iron",
+    "north": "monstrous_world:block/block_of_raw_infernal_iron",
+    "east": "monstrous_world:block/block_of_raw_infernal_iron",
+    "south": "monstrous_world:block/block_of_raw_infernal_iron",
+    "west": "monstrous_world:block/block_of_raw_infernal_iron",
+    "particle": "monstrous_world:block/block_of_raw_infernal_iron"
+  },
+  "render_type": "solid"
+}

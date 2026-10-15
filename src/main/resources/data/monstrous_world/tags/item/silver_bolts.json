@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:silver_bolt",
+    "monstrous_world:silver_bolt_sinking",
+    "monstrous_world:silver_bolt_paralysis",
+    "monstrous_world:silver_bolt_blinding",
+    "monstrous_world:silver_bolt_vanishing"
+  ]
+}

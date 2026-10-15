@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:evil_tree_stairs",
+    "monstrous_world:pale_stalk_stairs",
+    "monstrous_world:darkened_planks_stairs",
+    "monstrous_world:ghostly_stairs",
+    "monstrous_world:sanguine_wood_stairs",
+    "monstrous_world:pumpkin_stairs",
+    "monstrous_world:deathly_wood_stairs",
+    "monstrous_world:murkwood_stairs"
+  ]
+}

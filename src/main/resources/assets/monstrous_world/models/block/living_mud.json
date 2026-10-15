@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/living_mud",
+    "up": "monstrous_world:block/living_mud",
+    "north": "monstrous_world:block/living_mud",
+    "east": "monstrous_world:block/living_mud",
+    "south": "monstrous_world:block/living_mud",
+    "west": "monstrous_world:block/living_mud",
+    "particle": "monstrous_world:block/living_mud"
+  },
+  "render_type": "solid"
+}

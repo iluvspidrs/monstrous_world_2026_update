@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:HintOfSanity",
+      "CUSTOM:DistilledSilverInjection"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "",
+      "CUSTOM:HintOfSanity",
+      "",
+      "",
+      "CUSTOM:DistilledSilverInjection",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:InjectionOfClarity",
+    "name": "recipe_injection_of_clarity",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:evil_tree_planks"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:evil_tree_button",
+    "count": 1
+  }
+}

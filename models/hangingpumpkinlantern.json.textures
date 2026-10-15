@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "1": "pumpkin_side",
+        "3": "pumpkin_log",
+        "4": "pumpkin_glow_yellow"
+      }
+    }
+  }
+}

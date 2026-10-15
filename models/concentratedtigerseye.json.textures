@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "tigers_eye_block"
+      }
+    },
+    "green": {
+      "name": "green",
+      "map": {
+        "0": "block_of_malachite"
+      }
+    }
+  }
+}

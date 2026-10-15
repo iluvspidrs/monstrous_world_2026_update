@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:concentrated_nether_gem",
+    "minecraft:magma_block",
+    "minecraft:lava_cauldron",
+    "minecraft:campfire",
+    "monstrous_world:block_of_nether_gems",
+    "minecraft:fire",
+    "minecraft:lava"
+  ]
+}

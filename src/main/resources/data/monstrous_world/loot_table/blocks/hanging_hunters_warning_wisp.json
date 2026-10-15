@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "monstrous_world:blocks/hanging_hunters_warning_wisp",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "monstrous_world:a_hunters_warning"
+        }
+      ]
+    }
+  ]
+}

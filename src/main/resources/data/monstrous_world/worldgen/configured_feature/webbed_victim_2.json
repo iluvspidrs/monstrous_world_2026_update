@@ -1,0 +1,7 @@
+{
+  "type": "monstrous_world:structure_feature",
+  "config": {
+    "structure": "monstrous_world:webbed_victim_2",
+    "ignored_blocks": "minecraft:structure_block"
+  }
+}

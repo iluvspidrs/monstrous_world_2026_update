@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "A Crushing Burden",
+    "achievementDescription": "Become a Troll and begin a warrior's path",
+    "achievementIcon": "CUSTOM:TrollBattleAxe",
+    "background": "cast_iron_block.png",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": "No parent: root",
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"93\" y=\"45\"><next><block type=\"custom_trigger\"/></next></block></xml>"
+  }
+}

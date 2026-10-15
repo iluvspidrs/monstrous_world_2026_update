@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:tome_of_bloodlust"
+    },
+    "title": {
+      "translate": "advancements.a_crimson_guide.title"
+    },
+    "description": {
+      "translate": "advancements.a_crimson_guide.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_crimson_guide_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:sanguine_craving"
+}

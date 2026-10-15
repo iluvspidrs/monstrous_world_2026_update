@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:acid_ball"
+    },
+    "title": {
+      "translate": "advancements.monster_hunter_hunter.title"
+    },
+    "description": {
+      "translate": "advancements.monster_hunter_hunter.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "monster_hunter_hunter_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:a_sweet_death"
+}

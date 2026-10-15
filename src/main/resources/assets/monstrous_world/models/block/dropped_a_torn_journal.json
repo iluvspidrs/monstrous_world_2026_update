@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/droppedpaper",
+  "textures": {
+    "all": "monstrous_world:block/a_torn_journal",
+    "particle": "monstrous_world:block/a_torn_journal",
+    "0": "monstrous_world:block/a_torn_journal"
+  },
+  "render_type": "cutout"
+}

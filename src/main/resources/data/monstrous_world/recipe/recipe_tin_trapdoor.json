@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/tin"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:tin_trapdoor",
+    "count": 2
+  }
+}

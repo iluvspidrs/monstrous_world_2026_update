@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "monstrous_world:autumn_delight",
+    "monstrous_world:forsaken_lands",
+    "monstrous_world:pumpkin_hollow"
+  ],
+  "features": "monstrous_world:odd_pale_gravel_feature_autumn_delight",
+  "step": "surface_structures"
+}

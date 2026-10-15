@@ -1,0 +1,28 @@
+{
+  "name": "monstrous_world:swampmonster_village_walkway",
+  "fallback": "monstrous_world:swampmonster_village_end",
+  "elements": [
+    {
+      "weight": 66,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "monstrous_world:swampmonster_village_walkway",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 34,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "monstrous_world:swampmonster_village_walkway_center",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

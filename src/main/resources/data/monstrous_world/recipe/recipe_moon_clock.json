@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "tag": "c:gems/moonstone"
+    },
+    "b": {
+      "item": "monstrous_world:spirit_dust"
+    },
+    "c": {
+      "item": "minecraft:compass"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:moon_clock",
+    "count": 1
+  }
+}

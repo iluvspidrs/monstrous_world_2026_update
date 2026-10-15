@@ -1,0 +1,34 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:OddRoot",
+      "CUSTOM:MysteriousSeed",
+      "CUSTOM:SwampEssence",
+      "CUSTOM:VileSlime"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "CUSTOM:SwampEssence",
+      "",
+      "CUSTOM:OddRoot",
+      "CUSTOM:MysteriousSeed",
+      "CUSTOM:OddRoot",
+      "",
+      "CUSTOM:VileSlime",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:CultivatedMysteriousSeed",
+    "name": "recipe_cultivated_mysterious_seed",
+    "namespace": "mod"
+  }
+}

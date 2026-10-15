@@ -1,0 +1,42 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "silver_dagger",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Silver Dagger",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": [
+        "Emergency close-range Hunter's Guild weapon",
+        "Poisons werewolves, deals Holy damage"
+      ]
+    },
+    "creativeTabs": [
+      "CUSTOM:MonstrousWorldTools"
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 0.5,
+    "enchantability": 22,
+    "damageVsEntity": 6.0,
+    "usageCount": 250,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      "TAG:c:nuggets/silver",
+      "TAG:c:ingots/silver"
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "IRON",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true
+  }
+}

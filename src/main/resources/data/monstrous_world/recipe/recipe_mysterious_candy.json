@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:strange_residue"
+    },
+    "b": {
+      "item": "monstrous_world:cursed_candy"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:mysterious_candy",
+    "count": 1
+  }
+}

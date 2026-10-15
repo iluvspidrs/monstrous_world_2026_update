@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:has_structure/mineshaft",
+  "features": "monstrous_world:black_onyx_stone_ore",
+  "step": "underground_ores"
+}

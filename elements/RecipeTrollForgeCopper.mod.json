@@ -1,0 +1,33 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:DarkenedIronIngot",
+      "CUSTOM:BlockOfDarkenedIron",
+      "Blocks.COPPER_BLOCK"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "CUSTOM:DarkenedIronIngot",
+      "Blocks.COPPER_BLOCK",
+      "CUSTOM:DarkenedIronIngot",
+      "CUSTOM:DarkenedIronIngot",
+      "CUSTOM:BlockOfDarkenedIron",
+      "CUSTOM:BlockOfDarkenedIron",
+      "CUSTOM:BlockOfDarkenedIron"
+    ],
+    "recipeReturnStack": "CUSTOM:TrollForgeCopper",
+    "name": "recipe_troll_forge_copper",
+    "namespace": "mod"
+  }
+}

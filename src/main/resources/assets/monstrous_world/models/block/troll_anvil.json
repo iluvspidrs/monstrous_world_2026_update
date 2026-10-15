@@ -1,0 +1,12 @@
+{
+  "parent": "monstrous_world:custom/trollanvil",
+  "textures": {
+    "all": "monstrous_world:block/cast_iron_block",
+    "particle": "monstrous_world:block/cast_iron_block",
+    "0": "monstrous_world:block/cast_iron_block",
+    "1": "monstrous_world:block/darkened_log_side",
+    "2": "monstrous_world:block/tungsten_block",
+    "3": "monstrous_world:block/bronze_block"
+  },
+  "render_type": "solid"
+}

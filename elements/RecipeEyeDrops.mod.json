@@ -1,0 +1,33 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "monstrous_world_items",
+    "unlockingItems": [
+      "Items.WATER_BUCKET",
+      "CUSTOM:SilverDust",
+      "Items.GLASS_BOTTLE"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "",
+      "Items.WATER_BUCKET",
+      "",
+      "",
+      "TAG:c:dusts/silver",
+      "",
+      "",
+      "Items.GLASS_BOTTLE",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:EyeDrops",
+    "name": "recipe_eye_drops",
+    "namespace": "mod"
+  }
+}

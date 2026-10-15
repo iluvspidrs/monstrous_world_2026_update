@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "monstrous_world:block/dark_yellow_bricks_slab"
+    },
+    "type=top": {
+      "model": "monstrous_world:block/dark_yellow_bricks_slab_top"
+    },
+    "type=double": {
+      "model": "monstrous_world:block/dark_yellow_bricks_slab_full"
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 260,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "tome_of_violence_border.png",
+          "use1Xscale": false,
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guidebookpages.png",
+          "use1Xscale": false,
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_forward_button",
+          "image": "forward_button.png",
+          "hoveredImage": "forward_button_hover.png",
+          "onClick": "TomeOfViolencePageForward",
+          "x": 339,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_back_button",
+          "image": "back_button.png",
+          "hoveredImage": "back_button_hover.png",
+          "onClick": "TomeOfViolencePageBackward",
+          "x": 78,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tome_of_violence_page_6.png",
+          "use1Xscale": false,
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "OpenMorbidWorktable",
+          "width": 86,
+          "height": 20,
+          "x": 117,
+          "y": 36,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_more_info_invisible",
+          "image": "more_info_invisible.png",
+          "hoveredImage": "more_info_hover.png",
+          "onClick": "OpenSkinChestplate",
+          "x": 120,
+          "y": 167,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_more_info_invisible1",
+          "image": "more_info_invisible.png",
+          "hoveredImage": "more_info_hover.png",
+          "onClick": "OpenSkinLeggings",
+          "x": 164,
+          "y": 167,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_more_info_invisible2",
+          "image": "more_info_invisible.png",
+          "hoveredImage": "more_info_hover.png",
+          "onClick": "OpenSkullMask",
+          "x": 250,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_more_info_invisible3",
+          "image": "more_info_invisible.png",
+          "hoveredImage": "more_info_hover.png",
+          "onClick": "OpenBunnyMask",
+          "x": 303,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_more_info_invisible4",
+          "image": "more_info_invisible.png",
+          "hoveredImage": "more_info_hover.png",
+          "onClick": "OpenHockeyMask",
+          "x": 276,
+          "y": 80,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

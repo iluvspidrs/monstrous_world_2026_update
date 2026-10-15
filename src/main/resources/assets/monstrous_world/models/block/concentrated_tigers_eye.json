@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/concentratedtigerseye",
+  "textures": {
+    "all": "monstrous_world:block/tigers_eye_block",
+    "particle": "monstrous_world:block/tigers_eye_block",
+    "0": "monstrous_world:block/tigers_eye_block"
+  },
+  "render_type": "solid"
+}

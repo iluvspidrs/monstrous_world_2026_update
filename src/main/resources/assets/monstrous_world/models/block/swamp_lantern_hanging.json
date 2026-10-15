@@ -1,0 +1,12 @@
+{
+  "parent": "monstrous_world:custom/swamplanternhanging",
+  "textures": {
+    "all": "monstrous_world:block/swamp_crystal_block",
+    "particle": "monstrous_world:block/swamp_crystal_block",
+    "0": "monstrous_world:block/darkened_planks",
+    "1": "monstrous_world:block/swamp_crystal_block",
+    "2": "monstrous_world:block/darkened_iron_block",
+    "missing": "monstrous_world:block/"
+  },
+  "render_type": "cutout"
+}

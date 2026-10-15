@@ -1,0 +1,33 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "monstrous_world_tools",
+    "unlockingItems": [
+      "CUSTOM:SimpleCauldron",
+      "CUSTOM:DarkenedCrystal",
+      "CUSTOM:DarkenedLog"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:DarkenedLog",
+      "",
+      "CUSTOM:DarkenedLog",
+      "CUSTOM:DarkenedCrystal",
+      "CUSTOM:SimpleCauldron",
+      "CUSTOM:DarkenedCrystal",
+      "CUSTOM:DarkenedLog",
+      "CUSTOM:DarkenedCrystal",
+      "CUSTOM:DarkenedLog"
+    ],
+    "recipeReturnStack": "CUSTOM:AdvancedCauldron",
+    "name": "recipe_advanced_cauldron",
+    "namespace": "mod"
+  }
+}

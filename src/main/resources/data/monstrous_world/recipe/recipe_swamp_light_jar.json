@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:swamp_crystal_shard"
+    },
+    "b": {
+      "item": "monstrous_world:evil_tree_planks"
+    },
+    "c": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:swamp_light_jar",
+    "count": 1
+  }
+}

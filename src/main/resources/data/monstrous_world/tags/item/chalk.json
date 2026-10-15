@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:golden_chalk",
+    "monstrous_world:green_chalk",
+    "monstrous_world:basic_chalk",
+    "monstrous_world:blue_chalk",
+    "monstrous_world:red_chalk",
+    "monstrous_world:orange_chalk",
+    "monstrous_world:purple_chalk"
+  ]
+}

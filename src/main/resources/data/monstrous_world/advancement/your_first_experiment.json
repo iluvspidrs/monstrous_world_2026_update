@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:cure_serum_flask"
+    },
+    "title": {
+      "translate": "advancements.your_first_experiment.title"
+    },
+    "description": {
+      "translate": "advancements.your_first_experiment.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "your_first_experiment_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:an_unethical_guide"
+}

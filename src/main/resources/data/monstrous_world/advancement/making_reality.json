@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:enchanted_tome_of_witchery"
+    },
+    "title": {
+      "translate": "advancements.making_reality.title"
+    },
+    "description": {
+      "translate": "advancements.making_reality.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "making_reality_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:pure_darkness"
+}

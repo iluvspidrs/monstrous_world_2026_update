@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "monstrous_world:deathly_forest",
+  "features": "monstrous_world:fancy_ghostly_tree",
+  "step": "surface_structures"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:spirit_dust"
+    },
+    {
+      "item": "monstrous_world:spirit_dust"
+    },
+    {
+      "item": "monstrous_world:vile_lattice"
+    },
+    {
+      "item": "monstrous_world:spirit_dust"
+    },
+    {
+      "item": "monstrous_world:spirit_dust"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:essence_of_deception",
+    "count": 4
+  }
+}

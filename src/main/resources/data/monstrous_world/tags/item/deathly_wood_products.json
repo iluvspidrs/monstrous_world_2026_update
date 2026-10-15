@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:stripped_deathly_log",
+    "monstrous_world:deathly_wood_planks",
+    "monstrous_world:deathly_barricade",
+    "monstrous_world:deathly_log",
+    "monstrous_world:deathly_wood",
+    "monstrous_world:stripped_deathly_wood",
+    "monstrous_world:deathly_wood_fence",
+    "monstrous_world:deathly_wood_stairs",
+    "monstrous_world:deathly_wood_fence_gate",
+    "monstrous_world:deathly_wood_pressure_plate",
+    "monstrous_world:deathly_wood_trapdoor",
+    "monstrous_world:deathly_wood_door",
+    "monstrous_world:deathly_wood_glass_pane",
+    "monstrous_world:deathly_wood_paneled_glass",
+    "monstrous_world:deathly_wood_slab",
+    "monstrous_world:deathly_button"
+  ]
+}

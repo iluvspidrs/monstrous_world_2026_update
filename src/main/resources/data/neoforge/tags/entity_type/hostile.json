@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:infected_goon",
+    "monstrous_world:feral_swampmonster",
+    "monstrous_world:demon_npc",
+    "monstrous_world:feral_vampire",
+    "monstrous_world:maniac",
+    "monstrous_world:feral_werewolf",
+    "monstrous_world:feral_mountain_troll",
+    "vindicator",
+    "monstrous_world:feral_goblin",
+    "illusioner",
+    "evoker",
+    "pillager",
+    "monstrous_world:evil_clown_1",
+    "monstrous_world:evil_clown_3",
+    "monstrous_world:evil_clown_2",
+    "monstrous_world:society_goon",
+    "witch"
+  ]
+}

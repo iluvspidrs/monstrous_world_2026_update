@@ -1,0 +1,210 @@
+{
+  "_fv": 89,
+  "_type": "biome",
+  "definition": {
+    "name": "Scum Swamp",
+    "groundBlock": "Blocks.GRASS",
+    "undergroundBlock": "Blocks.DIRT#0",
+    "underwaterBlock": "Blocks.GRAVEL",
+    "airColor": {
+      "value": -7894649,
+      "falpha": 0.0
+    },
+    "fogColor": {
+      "value": -10978462,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -10458805,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -13222112,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -12631746,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -12631746,
+      "falpha": 0.0
+    },
+    "ambientSound": "ambient.warped_forest.loop",
+    "additionsSound": "",
+    "music": "",
+    "moodSound": "",
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": "ASH",
+    "particlesProbability": 0.5,
+    "rainingPossibility": 0.9,
+    "temperature": 0.8,
+    "spawnBiome": true,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": 0.6,
+      "max": 0.95
+    },
+    "genHumidity": {
+      "min": 0.05,
+      "max": 0.4
+    },
+    "genContinentalness": {
+      "min": -1.0,
+      "max": 0.1
+    },
+    "genErosion": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genWeirdness": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "genDepth": {
+      "min": 0.2,
+      "max": 0.9
+    },
+    "treesPerChunk": 0,
+    "vanillaTreeType": "Default",
+    "treeType": 0,
+    "minHeight": 7,
+    "treeStem": "CUSTOM:DeathlyLog",
+    "treeBranch": "Blocks.AIR",
+    "treeVines": "",
+    "treeFruits": "",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer",
+      "MonsterRooms",
+      "DeadBushes",
+      "SwampVegetation",
+      "TaigaRocks",
+      "AmethystGeodes",
+      "InfestedStone"
+    ],
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": true,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": true,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "spawnEntries": [
+      {
+        "entity": "CUSTOM:FeralSwampmonster",
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 5,
+        "spawnType": "monster"
+      },
+      {
+        "entity": "CUSTOM:GiantSnake",
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 5,
+        "spawnType": "monster"
+      },
+      {
+        "entity": "CUSTOM:GiantFly",
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 5,
+        "spawnType": "monster"
+      },
+      {
+        "entity": "CUSTOM:SwampLight",
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 1,
+        "spawnType": "monster"
+      },
+      {
+        "entity": "CUSTOM:FeralWerewolf",
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 3,
+        "spawnType": "monster"
+      },
+      {
+        "entity": "CUSTOM:Maniac",
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 1,
+        "spawnType": "monster"
+      },
+      {
+        "entity": "EntityCaveSpider",
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 10,
+        "spawnType": "monster"
+      },
+      {
+        "entity": "CUSTOM:HunterPatrolNPC",
+        "minGroup": 4,
+        "maxGroup": 5,
+        "weight": 3,
+        "spawnType": "monster"
+      },
+      {
+        "entity": "CUSTOM:EnhancedDrowned",
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 5,
+        "spawnType": "monster"
+      },
+      {
+        "entity": "CUSTOM:EnhancedZombie",
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 5,
+        "spawnType": "monster"
+      },
+      {
+        "entity": "EntityWitch",
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 3,
+        "spawnType": "monster"
+      },
+      {
+        "entity": "EntityFrog",
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 3,
+        "spawnType": "creature"
+      },
+      {
+        "entity": "EntityPig",
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 3,
+        "spawnType": "creature"
+      },
+      {
+        "entity": "EntityMooshroom",
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 1,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}

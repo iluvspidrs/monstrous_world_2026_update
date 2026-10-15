@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/hangingmessage",
+  "textures": {
+    "all": "monstrous_world:block/hunters_guild_flyer_item",
+    "particle": "monstrous_world:block/hunters_guild_flyer_item",
+    "0": "monstrous_world:block/hunters_guild_flyer_item"
+  },
+  "render_type": "cutout"
+}

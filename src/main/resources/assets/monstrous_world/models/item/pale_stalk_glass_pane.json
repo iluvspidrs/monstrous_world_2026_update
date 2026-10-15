@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "monstrous_world:block/pale_stalk_darkened_glass_pane"
+  },
+  "render_type": "translucent"
+}

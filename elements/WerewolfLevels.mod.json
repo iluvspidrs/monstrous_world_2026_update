@@ -1,0 +1,235 @@
+{
+  "_fv": 89,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGHEST",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "wf1.png",
+          "use1Xscale": false,
+          "displayCondition": "WerewolfLevel1Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 6,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "wf2.png",
+          "use1Xscale": false,
+          "displayCondition": "WerewolfLevel2Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 6,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "wf3.png",
+          "use1Xscale": false,
+          "displayCondition": "WerewolfLevel3Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 6,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "wf4.png",
+          "use1Xscale": false,
+          "displayCondition": "WerewolfLevel4Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 6,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "wf5.png",
+          "use1Xscale": false,
+          "displayCondition": "WerewolfLevel5Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 6,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "wf6.png",
+          "use1Xscale": false,
+          "displayCondition": "WerewolfLevel6Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 6,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_5",
+          "text": {
+            "fixedValue": "/5"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "WerewolfTerritoryMaxCondition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 19,
+          "y": 186,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_1",
+          "text": {
+            "fixedValue": "1"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "TerrMarker1Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 13,
+          "y": 186,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_2",
+          "text": {
+            "fixedValue": "2"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "TerrMarker2Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 13,
+          "y": 186,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_3",
+          "text": {
+            "fixedValue": "3"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "TerrMarker3Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 13,
+          "y": 186,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_4",
+          "text": {
+            "fixedValue": "4"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "TerrMarker4Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 13,
+          "y": 186,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_51",
+          "text": {
+            "fixedValue": "5"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "TerrMarker5Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 13,
+          "y": 186,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bracelet_of_control.png",
+          "use1Xscale": false,
+          "displayCondition": "BraceletControlCondition",
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 406,
+          "y": 221,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_0",
+          "text": {
+            "fixedValue": "0"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "TerrMarker0Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 13,
+          "y": 186,
+          "locked": false
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "monstrous_world:swampmonster_village_chieftain",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "monstrous_world:swampmonster_chieftan",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

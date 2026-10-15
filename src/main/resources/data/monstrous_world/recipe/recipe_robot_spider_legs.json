@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "monstrous_world_items",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:tin_rod"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:robot_spider_legs",
+    "count": 1
+  }
+}

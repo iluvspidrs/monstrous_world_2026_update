@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/block_of_rose_quartz",
+    "up": "monstrous_world:block/block_of_rose_quartz",
+    "north": "monstrous_world:block/block_of_rose_quartz",
+    "east": "monstrous_world:block/block_of_rose_quartz",
+    "south": "monstrous_world:block/block_of_rose_quartz",
+    "west": "monstrous_world:block/block_of_rose_quartz",
+    "particle": "monstrous_world:block/block_of_rose_quartz"
+  },
+  "render_type": "translucent"
+}

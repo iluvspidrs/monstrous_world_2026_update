@@ -1,0 +1,13 @@
+{
+  "_fv": 89,
+  "_type": "humanoidmodel",
+  "definition": {
+    "modelName": "ModelSwampmonsterPlayer",
+    "helmetModelPart": "Head",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Empty",
+    "armsModelPartR": "Empty",
+    "leggingsModelPartL": "Empty",
+    "leggingsModelPartR": "Empty"
+  }
+}

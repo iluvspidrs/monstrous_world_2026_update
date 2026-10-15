@@ -1,0 +1,2823 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 225,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "tradebackgroundonetrade.png",
+          "use1Xscale": true,
+          "x": 101,
+          "y": 15,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 136,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 271,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_31",
+          "text": {
+            "fixedValue": "8"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "VampireBloodTradeText",
+          "x": 262,
+          "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cooked_beef.png",
+          "use1Xscale": false,
+          "displayCondition": "VampireBloodTradeWerewolf",
+          "x": 244,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "darkened_iron_ingot.png",
+          "use1Xscale": false,
+          "displayCondition": "VampireBloodTradeEyeMutant",
+          "x": 244,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bottle_of_flymutant_blood.png",
+          "use1Xscale": false,
+          "displayCondition": "VampireBloodTradeFlyMutant",
+          "x": 163,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "darkened_iron_ingot.png",
+          "use1Xscale": false,
+          "displayCondition": "VampireBloodTradeFlyMutant",
+          "x": 244,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bottle_of_serpent_blood.png",
+          "use1Xscale": false,
+          "displayCondition": "VampireBloodTradeSerpentMutant",
+          "x": 163,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "darkened_iron_ingot.png",
+          "use1Xscale": false,
+          "displayCondition": "VampireBloodTradeSerpentMutant",
+          "x": 244,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bottle_of_blood.png",
+          "use1Xscale": false,
+          "displayCondition": "VampireBloodTradeHuman",
+          "x": 163,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gold_ingot.png",
+          "use1Xscale": false,
+          "displayCondition": "VampireBloodTradeHuman",
+          "x": 244,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bottle_of_goblin_blood.png",
+          "use1Xscale": false,
+          "displayCondition": "VampireBloodTradeGoblin",
+          "x": 163,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "red_onyx_gem.png",
+          "use1Xscale": false,
+          "displayCondition": "VampireBloodTradeGoblin",
+          "x": 244,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bottle_of_troll_blood.png",
+          "use1Xscale": false,
+          "displayCondition": "VampireBloodTradeTroll",
+          "x": 163,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "darkened_iron_ingot.png",
+          "use1Xscale": false,
+          "displayCondition": "VampireBloodTradeTroll",
+          "x": 244,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bottle_of_swampmonster_blood.png",
+          "use1Xscale": false,
+          "displayCondition": "VampireBloodTradeSwampmonster",
+          "x": 163,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "aquastone.png",
+          "use1Xscale": false,
+          "displayCondition": "VampireBloodTradeSwampmonster",
+          "x": 244,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bottle_of_werewolf_blood.png",
+          "use1Xscale": false,
+          "displayCondition": "VampireBloodTradeWerewolf",
+          "x": 163,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "deathbloom.png",
+          "use1Xscale": true,
+          "displayCondition": "SwampmonsterDeathbloomTradeCondition",
+          "x": 244,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dectector3.png",
+          "use1Xscale": false,
+          "displayCondition": "SwampmonsterDeathbloomTradeCondition",
+          "x": 163,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_10",
+          "text": {
+            "fixedValue": "10"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "SwampmonsterDeathbloomTradeCondition",
+          "x": 181,
+          "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "trade_text_deathbloom.png",
+          "use1Xscale": false,
+          "displayCondition": "SwampmonsterDeathbloomTradeHeading",
+          "x": 115,
+          "y": 33,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "poisoned_skull.png",
+          "use1Xscale": false,
+          "displayCondition": "SwampmonsterSkullTradeCondition",
+          "x": 163,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_101",
+          "text": {
+            "fixedValue": "10"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "SwampmonsterSkullTradeCondition",
+          "x": 181,
+          "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "deathbloominstructions.png",
+          "use1Xscale": false,
+          "displayCondition": "SwampmonsterSkullTradeCondition",
+          "x": 244,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "trade_text_poisoned.png",
+          "use1Xscale": false,
+          "displayCondition": "SwampmonsterSkullTradeHeading",
+          "x": 115,
+          "y": 33,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_cooked_beef",
+          "text": {
+            "fixedValue": "Cooked Beef"
+          },
+          "displayCondition": "VampireBloodTradeWerewolf",
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_darkened_iron_ingot",
+          "text": {
+            "fixedValue": "Darkened Iron Ingot"
+          },
+          "displayCondition": "VampireBloodTradeEyeMutant",
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_bottle_of_eye_mutant_blood",
+          "text": {
+            "fixedValue": "Bottle of Eye Mutant Blood"
+          },
+          "displayCondition": "VampireBloodTradeEyeMutant",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_bottle_of_fly_mutant_blood",
+          "text": {
+            "fixedValue": "Bottle of Fly Mutant Blood"
+          },
+          "displayCondition": "VampireBloodTradeFlyMutant",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_bottle_of_werewolf_blood",
+          "text": {
+            "fixedValue": "Bottle of Werewolf Blood"
+          },
+          "displayCondition": "VampireBloodTradeWerewolf",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_bottle_of_goblin_blood",
+          "text": {
+            "fixedValue": "Bottle of Goblin Blood"
+          },
+          "displayCondition": "VampireBloodTradeGoblin",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_bottle_of_troll_blood",
+          "text": {
+            "fixedValue": "Bottle of Troll Blood"
+          },
+          "displayCondition": "VampireBloodTradeTroll",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_bottle_of_swampmonster_blood",
+          "text": {
+            "fixedValue": "Bottle of Swampmonster Blood"
+          },
+          "displayCondition": "VampireBloodTradeSwampmonster",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_bottle_of_blood",
+          "text": {
+            "fixedValue": "Bottle of Blood"
+          },
+          "displayCondition": "VampireBloodTradeHuman",
+          "width": 24,
+          "height": 24,
+          "x": 159,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_bottle_of_serpent_mutant_blood",
+          "text": {
+            "fixedValue": "Bottle of Serpent Mutant Blood"
+          },
+          "displayCondition": "VampireBloodTradeSerpentMutant",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_darkened_iron_ingot1",
+          "text": {
+            "fixedValue": "Darkened Iron Ingot"
+          },
+          "displayCondition": "VampireBloodTradeFlyMutant",
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 59,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_darkened_iron_ingot2",
+          "text": {
+            "fixedValue": "Darkened Iron Ingot"
+          },
+          "displayCondition": "VampireBloodTradeSerpentMutant",
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_gold_ingot",
+          "text": {
+            "fixedValue": "Gold Ingot"
+          },
+          "displayCondition": "VampireBloodTradeHuman",
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_sardonyx",
+          "text": {
+            "fixedValue": "Sardonyx"
+          },
+          "displayCondition": "VampireBloodTradeGoblin",
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_darkened_iron_ingot3",
+          "text": {
+            "fixedValue": "Darkened Iron Ingot"
+          },
+          "displayCondition": "VampireBloodTradeTroll",
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_swamp_crystal",
+          "text": {
+            "fixedValue": "Swamp Crystal"
+          },
+          "displayCondition": "VampireBloodTradeSwampmonster",
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_deathbloom",
+          "text": {
+            "fixedValue": "Deathbloom"
+          },
+          "displayCondition": "SwampmonsterDeathbloomTradeCondition",
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_monster_detector",
+          "text": {
+            "fixedValue": "Monster Detector"
+          },
+          "displayCondition": "SwampmonsterDeathbloomTradeCondition",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_poisoned_skull",
+          "text": {
+            "fixedValue": "Poisoned Skull"
+          },
+          "displayCondition": "SwampmonsterSkullTradeCondition",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_deathbloom_instructions",
+          "text": {
+            "fixedValue": "Deathbloom Instructions"
+          },
+          "displayCondition": "SwampmonsterSkullTradeCondition",
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rotten_flesh.png",
+          "use1Xscale": false,
+          "displayCondition": "FlyMutantTradeCondition",
+          "x": 163,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_32",
+          "text": {
+            "fixedValue": "32"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "FlyMutantTradeCondition",
+          "x": 181,
+          "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_rotten_flesh",
+          "text": {
+            "fixedValue": "Rotten Flesh"
+          },
+          "displayCondition": "FlyMutantTradeCondition",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "digested_rotten_flesh.png",
+          "use1Xscale": false,
+          "displayCondition": "FlyMutantTradeCondition",
+          "x": 244,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_3",
+          "text": {
+            "fixedValue": "3"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "FlyMutantTradeCondition",
+          "x": 262,
+          "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_digested_rotten_flesh",
+          "text": {
+            "fixedValue": "Digested Rotten Flesh"
+          },
+          "displayCondition": "FlyMutantTradeCondition",
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tin_ingot.png",
+          "use1Xscale": false,
+          "displayCondition": "EyeMutantTradeCondition",
+          "x": 163,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_tin_ingot",
+          "text": {
+            "fixedValue": "Tin Ingot"
+          },
+          "displayCondition": "EyeMutantTradeCondition",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_4",
+          "text": {
+            "fixedValue": "4"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "EyeMutantTradeCondition",
+          "x": 181,
+          "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bottle_of_dreadful_tears.png",
+          "use1Xscale": false,
+          "displayCondition": "EyeMutantTradeCondition",
+          "x": 244,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_bottle_of_dreadful_tears",
+          "text": {
+            "fixedValue": "Bottle of Dreadful Tears"
+          },
+          "displayCondition": "EyeMutantTradeCondition",
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tradetextgoblintohuntercomplete.png",
+          "use1Xscale": false,
+          "displayCondition": "HunterToGoblinCompleteTradeCondition",
+          "x": 124,
+          "y": 33,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_forward_button",
+          "image": "forward_button.png",
+          "hoveredImage": "forward_button_hover.png",
+          "onClick": "OneTradeButtonPressed",
+          "x": 203,
+          "y": 67,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dropped_society_plans.png",
+          "use1Xscale": true,
+          "displayCondition": "HunterToGoblinCompleteTradeCondition",
+          "x": 162,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_society_plans",
+          "text": {
+            "fixedValue": "Society Plans"
+          },
+          "displayCondition": "HunterToGoblinCompleteTradeCondition",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "purified_silver.png",
+          "use1Xscale": false,
+          "displayCondition": "HunterToGoblinCompleteTradeCondition",
+          "x": 244,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_6",
+          "text": {
+            "fixedValue": "6"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "HunterToGoblinCompleteTradeCondition",
+          "x": 262,
+          "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_purified_silver",
+          "text": {
+            "fixedValue": "Purified Silver"
+          },
+          "displayCondition": "HunterToGoblinCompleteTradeCondition",
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "modified_silver_dagger_unknown.png",
+          "use1Xscale": false,
+          "displayCondition": "HunterToGoblinAdvancedTradeCondition",
+          "x": 162,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_any_modified_silver_dagger",
+          "text": {
+            "fixedValue": "Any Modified Silver Dagger"
+          },
+          "displayCondition": "HunterToGoblinAdvancedTradeCondition",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "purified_silver.png",
+          "use1Xscale": false,
+          "displayCondition": "HunterToGoblinAdvancedTradeCondition",
+          "x": 244,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_purified_silver1",
+          "text": {
+            "fixedValue": "Purified Silver"
+          },
+          "displayCondition": "HunterToGoblinAdvancedTradeCondition",
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_33",
+          "text": {
+            "fixedValue": "3"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "HunterToGoblinAdvancedTradeCondition",
+          "x": 262,
+          "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tradetextgoblintohunteradvanced.png",
+          "use1Xscale": false,
+          "displayCondition": "HunterToGoblinAdvancedTradeCondition",
+          "x": 124,
+          "y": 33,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "trolltradetextgoblin.png",
+          "use1Xscale": false,
+          "displayCondition": "TrollTradeTextGoblin",
+          "x": 120,
+          "y": 33,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "electrum_nugget.png",
+          "use1Xscale": false,
+          "displayCondition": "TrollTradeTextGoblin",
+          "x": 244,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_electrum_nugget",
+          "text": {
+            "fixedValue": "Electrum Nugget"
+          },
+          "displayCondition": "TrollTradeTextGoblin",
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gold_ingot.png",
+          "use1Xscale": false,
+          "displayCondition": "TrollTradeTextGoblin",
+          "x": 162,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_gold_ingot1",
+          "text": {
+            "fixedValue": "Gold Ingot"
+          },
+          "displayCondition": "TrollTradeTextGoblin",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_321",
+          "text": {
+            "fixedValue": "32"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "TrollTradeTextGoblin",
+          "x": 181,
+          "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_8",
+          "text": {
+            "fixedValue": "8"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "TrollTradeTextGoblin",
+          "x": 262,
+          "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "trolltradetextblood.png",
+          "use1Xscale": false,
+          "displayCondition": "TrollTradeTextBlood",
+          "x": 120,
+          "y": 33,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tin_ingot.png",
+          "use1Xscale": false,
+          "displayCondition": "TrollTradeTextBlood",
+          "x": 162,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_tin_ingot1",
+          "text": {
+            "fixedValue": "Tin Ingot"
+          },
+          "displayCondition": "TrollTradeTextBlood",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_81",
+          "text": {
+            "fixedValue": "8"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "TrollTradeTextBlood",
+          "x": 181,
+          "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bottle_of_troll_blood.png",
+          "use1Xscale": false,
+          "displayCondition": "TrollTradeTextBlood",
+          "x": 243,
+          "y": 63,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_bottle_of_troll_blood1",
+          "text": {
+            "fixedValue": "Bottle of Troll Blood"
+          },
+          "displayCondition": "TrollTradeTextBlood",
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_41",
+          "text": {
+            "fixedValue": "4"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "TrollTradeTextBlood",
+          "x": 262,
+          "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "trolltradetext.png",
+          "use1Xscale": false,
+          "displayCondition": "TrollTradeText",
+          "x": 120,
+          "y": 33,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "troll_ores_trade.png",
+          "use1Xscale": false,
+          "displayCondition": "TrollTradeText",
+          "x": 136,
+          "y": 84,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_any_one_of_these_ores",
+          "text": {
+            "fixedValue": "Any One of These Ores"
+          },
+          "displayCondition": "Troll1TradeCondition",
+          "width": 24,
+          "height": 24,
+          "x": 150,
+          "y": 81,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_322",
+          "text": {
+            "fixedValue": "32"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "Troll1TradeCondition",
+          "x": 143,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_323",
+          "text": {
+            "fixedValue": "32"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "Troll1TradeCondition",
+          "x": 163,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_42",
+          "text": {
+            "fixedValue": "4"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "Troll1TradeCondition",
+          "x": 184,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "troll_swords_trade.png",
+          "use1Xscale": false,
+          "displayCondition": "Troll1TradeCondition",
+          "x": 237,
+          "y": 85,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_alloy_sword",
+          "text": {
+            "fixedValue": "Alloy Sword"
+          },
+          "displayCondition": "Troll1TradeCondition",
+          "width": 24,
+          "height": 24,
+          "x": 251,
+          "y": 81,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "troll_ores_trade.png",
+          "use1Xscale": false,
+          "displayCondition": "Troll2TradeCondition",
+          "x": 136,
+          "y": 84,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_324",
+          "text": {
+            "fixedValue": "32"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "Troll2TradeCondition",
+          "x": 143,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_325",
+          "text": {
+            "fixedValue": "32"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "Troll2TradeCondition",
+          "x": 163,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_43",
+          "text": {
+            "fixedValue": "4"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "Troll2TradeCondition",
+          "x": 184,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_any_one_of_these_ores1",
+          "text": {
+            "fixedValue": "Any One of These Ores"
+          },
+          "displayCondition": "Troll2TradeCondition",
+          "width": 24,
+          "height": 24,
+          "x": 150,
+          "y": 81,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "troll_pickaxes_trade.png",
+          "use1Xscale": false,
+          "displayCondition": "Troll2TradeCondition",
+          "x": 237,
+          "y": 85,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_alloy_pickaxe",
+          "text": {
+            "fixedValue": "Alloy Pickaxe"
+          },
+          "displayCondition": "Troll2TradeCondition",
+          "width": 24,
+          "height": 24,
+          "x": 251,
+          "y": 81,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "troll_ores_trade.png",
+          "use1Xscale": false,
+          "displayCondition": "Troll3TradeCondition",
+          "x": 136,
+          "y": 84,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_326",
+          "text": {
+            "fixedValue": "32"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "Troll3TradeCondition",
+          "x": 143,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_327",
+          "text": {
+            "fixedValue": "32"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "Troll3TradeCondition",
+          "x": 163,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_44",
+          "text": {
+            "fixedValue": "4"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "Troll3TradeCondition",
+          "x": 184,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "troll_axes_trade.png",
+          "use1Xscale": false,
+          "displayCondition": "Troll3TradeCondition",
+          "x": 236,
+          "y": 85,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_alloy_axe",
+          "text": {
+            "fixedValue": "Alloy Axe"
+          },
+          "displayCondition": "Troll3TradeCondition",
+          "width": 24,
+          "height": 24,
+          "x": 251,
+          "y": 81,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_any_one_of_these_ores2",
+          "text": {
+            "fixedValue": "Any One of These Ores"
+          },
+          "displayCondition": "Troll3TradeCondition",
+          "width": 24,
+          "height": 24,
+          "x": 150,
+          "y": 81,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "troll_ores_trade.png",
+          "use1Xscale": false,
+          "displayCondition": "Troll4TradeCondition",
+          "x": 136,
+          "y": 84,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_16",
+          "text": {
+            "fixedValue": "16"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "Troll4TradeCondition",
+          "x": 143,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "troll_shovels_trade.png",
+          "use1Xscale": false,
+          "displayCondition": "Troll4TradeCondition",
+          "x": 237,
+          "y": 85,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_alloy_shovel",
+          "text": {
+            "fixedValue": "Alloy Shovel"
+          },
+          "displayCondition": "Troll4TradeCondition",
+          "width": 24,
+          "height": 24,
+          "x": 251,
+          "y": 81,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_161",
+          "text": {
+            "fixedValue": "16"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "Troll4TradeCondition",
+          "x": 163,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_2",
+          "text": {
+            "fixedValue": "2"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "Troll4TradeCondition",
+          "x": 185,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_any_one_of_these_ores3",
+          "text": {
+            "fixedValue": "Any One of These Ores"
+          },
+          "displayCondition": "Troll4TradeCondition",
+          "width": 24,
+          "height": 24,
+          "x": 150,
+          "y": 81,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "troll_ores_trade.png",
+          "use1Xscale": false,
+          "displayCondition": "Troll5TradeCondition",
+          "x": 136,
+          "y": 84,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_162",
+          "text": {
+            "fixedValue": "16"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "Troll5TradeCondition",
+          "x": 143,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_163",
+          "text": {
+            "fixedValue": "16"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "Troll5TradeCondition",
+          "x": 163,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_21",
+          "text": {
+            "fixedValue": "2"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "Troll5TradeCondition",
+          "x": 185,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_any_one_of_these_ores4",
+          "text": {
+            "fixedValue": "Any One of These Ores"
+          },
+          "displayCondition": "Troll5TradeCondition",
+          "width": 24,
+          "height": 24,
+          "x": 150,
+          "y": 81,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "troll_hoes_trade.png",
+          "use1Xscale": false,
+          "displayCondition": "Troll5TradeCondition",
+          "x": 235,
+          "y": 86,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_alloy_hoe",
+          "text": {
+            "fixedValue": "Alloy Hoe"
+          },
+          "displayCondition": "Troll5TradeCondition",
+          "width": 24,
+          "height": 24,
+          "x": 251,
+          "y": 81,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "electrum_nugget.png",
+          "use1Xscale": false,
+          "displayCondition": "GoblinTradeTroll",
+          "x": 162,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_electrum_nugget1",
+          "text": {
+            "fixedValue": "Electrum Nugget"
+          },
+          "displayCondition": "GoblinTradeTroll",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_9",
+          "text": {
+            "fixedValue": "9"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "GoblinTradeTroll",
+          "x": 181,
+          "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "armor_core.png",
+          "use1Xscale": false,
+          "displayCondition": "GoblinTradeTroll",
+          "x": 244,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_armor_core",
+          "text": {
+            "fixedValue": "Armor Core"
+          },
+          "displayCondition": "GoblinTradeTroll",
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "goblintradetrolltext.png",
+          "use1Xscale": false,
+          "displayCondition": "GoblinTradeTrollText",
+          "x": 121,
+          "y": 32,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sorcerertradenormal.png",
+          "use1Xscale": false,
+          "displayCondition": "SorcererTradeHeading",
+          "x": 121,
+          "y": 32,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_328",
+          "text": {
+            "fixedValue": "32"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "SorcererTradeHeading",
+          "x": 181,
+          "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tigers_eye_gem_2.png",
+          "use1Xscale": false,
+          "displayCondition": "SorcererTrade1",
+          "x": 162,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_tigers_eye",
+          "text": {
+            "fixedValue": "Tiger's Eye"
+          },
+          "displayCondition": "SorcererTrade1",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tome_of_witchery.png",
+          "use1Xscale": false,
+          "displayCondition": "SorcererTrade1",
+          "x": 244,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_tome_of_witchery",
+          "text": {
+            "fixedValue": "Tome of Witchery"
+          },
+          "displayCondition": "SorcererTrade1",
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "malachite_gem.png",
+          "use1Xscale": false,
+          "displayCondition": "SorcererTrade2",
+          "x": 162,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_malachite",
+          "text": {
+            "fixedValue": "Malachite"
+          },
+          "displayCondition": "SorcererTrade2",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tome_of_the_goblin.png",
+          "use1Xscale": false,
+          "displayCondition": "SorcererTrade2",
+          "x": 244,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_tome_of_the_goblin",
+          "text": {
+            "fixedValue": "Tome of the Goblin"
+          },
+          "displayCondition": "SorcererTrade2",
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tome_of_the_troll.png",
+          "use1Xscale": false,
+          "displayCondition": "SorcererTrade3",
+          "x": 244,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_tome_of_the_troll",
+          "text": {
+            "fixedValue": "Tome of the Troll"
+          },
+          "displayCondition": "SorcererTrade3",
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "black_onyx_gem.png",
+          "use1Xscale": false,
+          "displayCondition": "SorcererTrade3",
+          "x": 162,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_black_onyx",
+          "text": {
+            "fixedValue": "Black Onyx"
+          },
+          "displayCondition": "SorcererTrade3",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "green_agate.png",
+          "use1Xscale": false,
+          "displayCondition": "SorcererTrade4",
+          "x": 162,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_green_agate",
+          "text": {
+            "fixedValue": "Green Agate"
+          },
+          "displayCondition": "SorcererTrade4",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tome_of_sorcery.png",
+          "use1Xscale": false,
+          "displayCondition": "SorcererTrade4",
+          "x": 244,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_tome_of_sorcery",
+          "text": {
+            "fixedValue": "Tome of Sorcery"
+          },
+          "displayCondition": "SorcererTrade4",
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "pale_agate.png",
+          "use1Xscale": false,
+          "displayCondition": "SorcererTrade5",
+          "x": 162,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_pale_agate",
+          "text": {
+            "fixedValue": "Pale Agate"
+          },
+          "displayCondition": "SorcererTrade5",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tome_of_mad_science.png",
+          "use1Xscale": false,
+          "displayCondition": "SorcererTrade5",
+          "x": 244,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_tome_of_mad_science",
+          "text": {
+            "fixedValue": "Tome of Mad Science"
+          },
+          "displayCondition": "SorcererTrade5",
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blue_agate.png",
+          "use1Xscale": false,
+          "displayCondition": "SorcererTrade6",
+          "x": 162,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_blue_agate",
+          "text": {
+            "fixedValue": "Blue Agate"
+          },
+          "displayCondition": "SorcererTrade6",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tome_of_the_swamp.png",
+          "use1Xscale": false,
+          "displayCondition": "SorcererTrade6",
+          "x": 244,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_tome_of_the_swamp",
+          "text": {
+            "fixedValue": "Tome of the Swamp"
+          },
+          "displayCondition": "SorcererTrade6",
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "moonstone.png",
+          "use1Xscale": false,
+          "displayCondition": "SorcererTrade7",
+          "x": 162,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_moonstone",
+          "text": {
+            "fixedValue": "Moonstone"
+          },
+          "displayCondition": "SorcererTrade7",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tome_of_the_moon.png",
+          "use1Xscale": false,
+          "displayCondition": "SorcererTrade7",
+          "x": 244,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_tome_of_the_moon",
+          "text": {
+            "fixedValue": "Tome of the Moon"
+          },
+          "displayCondition": "SorcererTrade7",
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "red_onyx_gem.png",
+          "use1Xscale": false,
+          "displayCondition": "SorcererTrade8",
+          "x": 162,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_sardonyx1",
+          "text": {
+            "fixedValue": "Sardonyx"
+          },
+          "displayCondition": "SorcererTrade8",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tome_of_bloodlust.png",
+          "use1Xscale": false,
+          "displayCondition": "SorcererTrade8",
+          "x": 244,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_tome_of_bloodlust",
+          "text": {
+            "fixedValue": "Tome of Bloodlust"
+          },
+          "displayCondition": "SorcererTrade8",
+          "width": 24,
+          "height": 24,
+          "x": 239,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dark_essence_dust.png",
+          "use1Xscale": false,
+          "displayCondition": "SorcererTrade9",
+          "x": 162,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_dark_essence_dust",
+          "text": {
+            "fixedValue": "Dark Essence Dust"
+          },
+          "displayCondition": "SorcererTrade9",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tome_of_the_corruption_wielder.png",
+          "use1Xscale": false,
+          "displayCondition": "SorcererTrade9",
+          "x": 244,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_tome_of_darkness",
+          "text": {
+            "fixedValue": "Tome of Darkness"
+          },
+          "displayCondition": "SorcererTrade9",
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "trade_text_dark_market.png",
+          "use1Xscale": false,
+          "displayCondition": "DMTradeHeading",
+          "x": 121,
+          "y": 32,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_24",
+          "text": {
+            "fixedValue": "24"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "DMTradeHeading",
+          "x": 181,
+          "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "nethergem.png",
+          "use1Xscale": false,
+          "displayCondition": "DMTrade1",
+          "x": 162,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_nether_gem",
+          "text": {
+            "fixedValue": "Nether Gem"
+          },
+          "displayCondition": "DMTrade1",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tome_of_infernal_power.png",
+          "use1Xscale": false,
+          "displayCondition": "DMTrade1",
+          "x": 244,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_enchanted_tome_of_infernal_power",
+          "text": {
+            "fixedValue": "Enchanted Tome of Infernal Power"
+          },
+          "displayCondition": "DMTrade1",
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "diamond.png",
+          "use1Xscale": false,
+          "displayCondition": "DMTrade2",
+          "x": 162,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_diamond",
+          "text": {
+            "fixedValue": "Diamond"
+          },
+          "displayCondition": "DMTrade2",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tome_of_fun_and_games.png",
+          "use1Xscale": false,
+          "displayCondition": "DMTrade2",
+          "x": 244,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_enchanted_tome_of_fun_and_games",
+          "text": {
+            "fixedValue": "Enchanted Tome of Fun and Games"
+          },
+          "displayCondition": "DMTrade2",
+          "width": 24,
+          "height": 24,
+          "x": 239,
+          "y": 57,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "red_onyx_gem.png",
+          "use1Xscale": false,
+          "displayCondition": "DMTrade3",
+          "x": 162,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_sardonyx2",
+          "text": {
+            "fixedValue": "Sardonyx"
+          },
+          "displayCondition": "DMTrade3",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 57,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tome_of_violence.png",
+          "use1Xscale": false,
+          "displayCondition": "DMTrade3",
+          "x": 244,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_enchanted_tome_of_violence",
+          "text": {
+            "fixedValue": "Enchanted Tome of Violence"
+          },
+          "displayCondition": "DMTrade3",
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_trade_me_a_jar_of_eyes_to_get",
+          "text": {
+            "fixedValue": "\"Trade me a jar of eyes to get"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "DemonTradeManiacLevel1",
+          "x": 131,
+          "y": 31,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_a_special_knife",
+          "text": {
+            "fixedValue": "a special knife!\""
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "DemonTradeManiacLevel1",
+          "x": 166,
+          "y": 42,
+          "locked": false
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "jar_of_eyes.png",
+          "spritesCount": 1,
+          "displayCondition": "DemonTradeManiacLevel1",
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "x": 162,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_jar_of_eyes",
+          "text": {
+            "fixedValue": "Jar of Eyes"
+          },
+          "displayCondition": "DemonTradeManiacLevel1",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 57,
+          "locked": false
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "infernal_butcher_knife_rotated.png",
+          "spritesCount": 1,
+          "displayCondition": "DemonTradeManiacLevel1",
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "x": 244,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_infernalbutcherknife",
+          "text": {
+            "fixedValue": "InfernalButcherKnife"
+          },
+          "displayCondition": "DemonTradeManiacLevel1",
+          "width": 24,
+          "height": 24,
+          "x": 239,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "infernal_iron_ingot.png",
+          "use1Xscale": false,
+          "displayCondition": "ManiacTradeCondition",
+          "x": 162,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_61",
+          "text": {
+            "fixedValue": "6"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "ManiacTradeCondition",
+          "x": 181,
+          "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "victim_heart.png",
+          "use1Xscale": false,
+          "displayCondition": "ManiacTradeCondition",
+          "x": 244,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_infernal_iron_ingot",
+          "text": {
+            "fixedValue": "Infernal Iron Ingot"
+          },
+          "displayCondition": "ManiacTradeCondition",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 57,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_victim_heart",
+          "text": {
+            "fixedValue": "Victim Heart"
+          },
+          "displayCondition": "ManiacTradeCondition",
+          "width": 24,
+          "height": 24,
+          "x": 239,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "infernal_iron_ingot.png",
+          "use1Xscale": false,
+          "displayCondition": "ManiacTrade2Condition",
+          "x": 162,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_34",
+          "text": {
+            "fixedValue": "3"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "ManiacTrade2Condition",
+          "x": 181,
+          "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "jar_of_eyes.png",
+          "use1Xscale": false,
+          "displayCondition": "ManiacTrade2Condition",
+          "x": 244,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_jar_of_eyes1",
+          "text": {
+            "fixedValue": "Jar of Eyes"
+          },
+          "displayCondition": "ManiacTrade2Condition",
+          "width": 24,
+          "height": 24,
+          "x": 239,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_infernal_iron_ingot1",
+          "text": {
+            "fixedValue": "Infernal Iron Ingot"
+          },
+          "displayCondition": "ManiacTrade2Condition",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 57,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "infernal_iron_ingot.png",
+          "use1Xscale": false,
+          "displayCondition": "ManiacTrade3Condition",
+          "x": 162,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_82",
+          "text": {
+            "fixedValue": "8"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "ManiacTrade3Condition",
+          "x": 181,
+          "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_infernal_iron_ingot2",
+          "text": {
+            "fixedValue": "Infernal Iron Ingot"
+          },
+          "displayCondition": "ManiacTrade3Condition",
+          "width": 24,
+          "height": 24,
+          "x": 158,
+          "y": 57,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "pure_fear.png",
+          "use1Xscale": false,
+          "displayCondition": "ManiacTrade3Condition",
+          "x": 244,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_pure_fear",
+          "text": {
+            "fixedValue": "Pure Fear"
+          },
+          "displayCondition": "ManiacTrade3Condition",
+          "width": 24,
+          "height": 24,
+          "x": 239,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_use_a_bloodletter_and_a_bottle",
+          "text": {
+            "fixedValue": "\"Use a Bloodletter and a bottle in"
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "VampireBloodTradeText",
+          "x": 122,
+          "y": 31,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_your_off_hand_to_donate_blood",
+          "text": {
+            "fixedValue": "your off hand to donate blood.\""
+          },
+          "color": {
+            "value": -52,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "VampireBloodTradeText",
+          "x": 131,
+          "y": 42,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 1,
+      "oy": 1,
+      "snapOnGrid": false
+    }
+  }
+}

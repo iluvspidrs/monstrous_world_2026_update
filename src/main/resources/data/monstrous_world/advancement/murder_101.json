@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:tome_of_violence"
+    },
+    "title": {
+      "translate": "advancements.murder_101.title"
+    },
+    "description": {
+      "translate": "advancements.murder_101.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "murder_101_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:time_to_kill"
+}

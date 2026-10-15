@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:infernal_butcher_knife",
+    "monstrous_world:infernal_sword",
+    "monstrous_world:infernal_iron_pickaxe",
+    "monstrous_world:infernal_shovel",
+    "monstrous_world:pitchfork",
+    "monstrous_world:infernal_iron_axe"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/infused_wool",
+    "up": "monstrous_world:block/infused_wool",
+    "north": "monstrous_world:block/infused_wool",
+    "east": "monstrous_world:block/infused_wool",
+    "south": "monstrous_world:block/infused_wool",
+    "west": "monstrous_world:block/infused_wool",
+    "particle": "monstrous_world:block/infused_wool"
+  },
+  "render_type": "solid"
+}

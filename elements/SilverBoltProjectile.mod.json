@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": "CUSTOM:SilverBolt",
+    "showParticles": false,
+    "actionSound": "entity.arrow.shoot",
+    "igniteFire": false,
+    "disableGravity": true,
+    "disableDiscarding": false,
+    "power": 1.0,
+    "damage": 4.0,
+    "knockback": 1,
+    "entityModel": "ModelBolt",
+    "customModelTexture": "block_of_silver.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsBlock": "SilverBoltProjectileProjectileHitsBlock",
+    "onHitsEntity": "SilverBoltProjectileProjectileHitsLivingEntity"
+  }
+}

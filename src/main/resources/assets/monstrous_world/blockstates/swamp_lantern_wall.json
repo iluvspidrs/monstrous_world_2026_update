@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "facing=north,blockstate=1": {
+      "model": "monstrous_world:block/swamp_lantern_wall_0"
+    },
+    "facing=north,blockstate=2": {
+      "model": "monstrous_world:block/swamp_lantern_wall_1"
+    },
+    "facing=north,blockstate=0": {
+      "model": "monstrous_world:block/swamp_lantern_wall"
+    },
+    "facing=east,blockstate=1": {
+      "model": "monstrous_world:block/swamp_lantern_wall_0",
+      "y": 90
+    },
+    "facing=east,blockstate=2": {
+      "model": "monstrous_world:block/swamp_lantern_wall_1",
+      "y": 90
+    },
+    "facing=east,blockstate=0": {
+      "model": "monstrous_world:block/swamp_lantern_wall",
+      "y": 90
+    },
+    "facing=south,blockstate=1": {
+      "model": "monstrous_world:block/swamp_lantern_wall_0",
+      "y": 180
+    },
+    "facing=south,blockstate=2": {
+      "model": "monstrous_world:block/swamp_lantern_wall_1",
+      "y": 180
+    },
+    "facing=south,blockstate=0": {
+      "model": "monstrous_world:block/swamp_lantern_wall",
+      "y": 180
+    },
+    "facing=west,blockstate=1": {
+      "model": "monstrous_world:block/swamp_lantern_wall_0",
+      "y": 270
+    },
+    "facing=west,blockstate=2": {
+      "model": "monstrous_world:block/swamp_lantern_wall_1",
+      "y": 270
+    },
+    "facing=west,blockstate=0": {
+      "model": "monstrous_world:block/swamp_lantern_wall",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:BottleOfWeakBlood",
+      "Items.DYE#16",
+      "CUSTOM:Sardonyx",
+      "CUSTOM:BlackOnyx",
+      "CUSTOM:CharmOfDeception",
+      "CUSTOM:Soulflower",
+      "CUSTOM:InfernalFabric",
+      "Items.PAPER",
+      "CUSTOM:DarkEssenceDust"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:BottleOfWeakBlood",
+      "Items.DYE#16",
+      "CUSTOM:Soulflower",
+      "TAG:c:gems/sardonyx",
+      "CUSTOM:CharmOfDeception",
+      "TAG:c:gems/black_onyx",
+      "CUSTOM:InfernalFabric",
+      "Items.PAPER",
+      "CUSTOM:DarkEssenceDust"
+    ],
+    "recipeReturnStack": "CUSTOM:UnholyScroll",
+    "name": "recipe_unholy_scroll",
+    "namespace": "mod"
+  }
+}

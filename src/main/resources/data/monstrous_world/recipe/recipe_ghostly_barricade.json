@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "monstrous_world:ghostly_slab"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:ghostly_barricade",
+    "count": 4
+  }
+}

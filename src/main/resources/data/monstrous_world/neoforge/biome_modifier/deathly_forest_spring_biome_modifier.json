@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "monstrous_world:deathly_forest",
+    "monstrous_world:murky_madness",
+    "monstrous_world:forsaken_lands",
+    "monstrous_world:autumn_delight",
+    "monstrous_world:scum_swamp",
+    "monstrous_world:pumpkin_hollow"
+  ],
+  "features": "monstrous_world:deathly_forest_spring",
+  "step": "surface_structures"
+}

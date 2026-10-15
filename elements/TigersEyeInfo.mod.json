@@ -1,0 +1,17 @@
+{
+  "_fv": 89,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      "CUSTOM:TigersEye",
+      "CUSTOM:TigersEyeOre",
+      "CUSTOM:BlockOfTigersEye",
+      "CUSTOM:PurifiedTigersEye"
+    ],
+    "information": [
+      "Tiger's Eye is a Precious Stone found in shallow caves in dry regions. It is a stone of protection against evil spirits.",
+      "",
+      "Tiger's Eye is used in magic, by Goblins, and in trading."
+    ]
+  }
+}

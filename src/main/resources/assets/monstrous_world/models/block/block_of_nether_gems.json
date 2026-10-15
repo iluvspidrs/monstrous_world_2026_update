@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/evilaltartop",
+    "up": "monstrous_world:block/evilaltartop",
+    "north": "monstrous_world:block/evilaltartop",
+    "east": "monstrous_world:block/evilaltartop",
+    "south": "monstrous_world:block/evilaltartop",
+    "west": "monstrous_world:block/evilaltartop",
+    "particle": "monstrous_world:block/evilaltartop"
+  },
+  "render_type": "solid"
+}

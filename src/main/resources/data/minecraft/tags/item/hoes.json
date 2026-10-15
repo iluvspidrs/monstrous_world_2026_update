@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:shining_netherite_hoe",
+    "monstrous_world:swamp_crystal_hoe",
+    "monstrous_world:corinthian_bronze_hoe",
+    "monstrous_world:nether_brick_hoe",
+    "monstrous_world:bronze_hoe"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:pitchfork"
+    },
+    "title": {
+      "translate": "advancements.standard_weapon.title"
+    },
+    "description": {
+      "translate": "advancements.standard_weapon.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "standard_weapon_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:a_wicked_altar"
+}

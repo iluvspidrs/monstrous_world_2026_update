@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/concentratednethergem",
+  "textures": {
+    "all": "monstrous_world:block/evilaltartop",
+    "particle": "monstrous_world:block/evilaltartop",
+    "0": "monstrous_world:block/evilaltartop"
+  },
+  "render_type": "solid"
+}

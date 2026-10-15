@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:InfusedWool"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:InfusedWool",
+      "CUSTOM:InfusedWool",
+      "CUSTOM:InfusedWool",
+      "CUSTOM:InfusedWool",
+      "",
+      "CUSTOM:InfusedWool",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:VampireCloak.helmet",
+    "name": "recipe_vampire_cloak_hood",
+    "namespace": "mod"
+  }
+}

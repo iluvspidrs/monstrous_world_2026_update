@@ -1,0 +1,12 @@
+{
+  "parent": "monstrous_world:custom/tallpumpkincarved",
+  "textures": {
+    "all": "monstrous_world:block/pumpkintalllit",
+    "particle": "monstrous_world:block/pumpkintalllit",
+    "2": "monstrous_world:block/pumpkintalllit",
+    "3": "monstrous_world:block/stem",
+    "4": "monstrous_world:block/pumpkin_glow_orange",
+    "missing": "monstrous_world:block/"
+  },
+  "render_type": "solid"
+}

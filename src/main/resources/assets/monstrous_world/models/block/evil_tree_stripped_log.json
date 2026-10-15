@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/evil_tree_stripped_log_end",
+    "up": "monstrous_world:block/evil_tree_stripped_log_end",
+    "north": "monstrous_world:block/evil_tree_stripped_log",
+    "east": "monstrous_world:block/evil_tree_stripped_log",
+    "south": "monstrous_world:block/evil_tree_stripped_log",
+    "west": "monstrous_world:block/evil_tree_stripped_log",
+    "particle": "monstrous_world:block/evil_tree_stripped_log_end"
+  },
+  "render_type": "solid"
+}

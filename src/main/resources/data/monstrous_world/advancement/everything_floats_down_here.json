@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:deadly_balloon_item"
+    },
+    "title": {
+      "translate": "advancements.everything_floats_down_here.title"
+    },
+    "description": {
+      "translate": "advancements.everything_floats_down_here.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "everything_floats_down_here_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:the_most_powerful_candy"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "b b",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:swamp_crystal_shard"
+    },
+    "b": {
+      "item": "monstrous_world:hungry_tree_bark"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:swamp_crystal_leggings",
+    "count": 1
+  }
+}

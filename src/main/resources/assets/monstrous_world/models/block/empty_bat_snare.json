@@ -1,0 +1,10 @@
+{
+  "parent": "monstrous_world:custom/batsnareopen",
+  "textures": {
+    "all": "monstrous_world:block/snare_texture",
+    "particle": "monstrous_world:block/snare_texture",
+    "0": "monstrous_world:block/snare_texture",
+    "1": "monstrous_world:block/swampmonster_blood"
+  },
+  "render_type": "solid"
+}

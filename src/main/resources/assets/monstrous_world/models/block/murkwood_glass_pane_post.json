@@ -1,0 +1,9 @@
+{
+  "parent": "block/template_glass_pane_post",
+  "textures": {
+    "particle": "monstrous_world:block/darkened_glass_murkwood_planks",
+    "pane": "monstrous_world:block/darkened_glass_murkwood_planks",
+    "edge": "monstrous_world:block/darkened_glass_murkwood_planks"
+  },
+  "render_type": "translucent"
+}

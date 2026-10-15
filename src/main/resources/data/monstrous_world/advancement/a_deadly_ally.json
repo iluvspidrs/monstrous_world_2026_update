@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:death_bloom"
+    },
+    "title": {
+      "translate": "advancements.a_deadly_ally.title"
+    },
+    "description": {
+      "translate": "advancements.a_deadly_ally.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_deadly_ally_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:barking_up_a_tree"
+}

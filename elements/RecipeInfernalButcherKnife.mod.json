@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:InfernalIronIngot"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "CUSTOM:InfernalIronIngot",
+      "",
+      "CUSTOM:InfernalIronIngot",
+      "CUSTOM:InfernalIronIngot",
+      "Items.STICK",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:InfernalButcherKnife",
+    "name": "recipe_infernal_butcher_knife",
+    "namespace": "mod"
+  }
+}

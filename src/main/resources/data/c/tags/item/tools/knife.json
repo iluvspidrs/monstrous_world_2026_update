@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:iron_throwing_knife",
+    "monstrous_world:infernal_butcher_knife",
+    "monstrous_world:butcher_knife",
+    "monstrous_world:iron_throwing_knife_flying",
+    "monstrous_world:silver_throwing_knife",
+    "monstrous_world:silver_throwing_knife_flying"
+  ]
+}

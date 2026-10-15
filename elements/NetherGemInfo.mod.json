@@ -1,0 +1,17 @@
+{
+  "_fv": 89,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      "CUSTOM:NetherGem",
+      "CUSTOM:NetherGemOre",
+      "CUSTOM:BlockOfNetherGems",
+      "CUSTOM:PurifiedNetherGem"
+    ],
+    "information": [
+      "Nether Gems are dense concentrations of the Nether's pure, fiery energy. The red ore is found only in the Nether.",
+      "",
+      "This is the only Precious Stone found in the Nether, and is associated with fire."
+    ]
+  }
+}

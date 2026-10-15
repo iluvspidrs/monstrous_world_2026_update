@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:guard_robot_head"
+    },
+    "title": {
+      "translate": "advancements.its_alive.title"
+    },
+    "description": {
+      "translate": "advancements.its_alive.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "its_alive_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:pull_the_switch"
+}

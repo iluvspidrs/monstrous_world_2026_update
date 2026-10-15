@@ -1,0 +1,25 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Disappointment",
+    "icon": "disappointment",
+    "color": {
+      "value": -10066330,
+      "falpha": 0.0
+    },
+    "onAddedSound": "",
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": "LUCK",
+        "amount": -1.0,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ]
+  }
+}

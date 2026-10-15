@@ -1,0 +1,17 @@
+{
+  "name": "monstrous_world:sorcerer_village_denizen",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "monstrous_world:sorcererv_npc",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

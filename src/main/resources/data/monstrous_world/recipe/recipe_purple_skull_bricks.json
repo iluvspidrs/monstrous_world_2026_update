@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:deepslate_bricks"
+    },
+    "b": {
+      "item": "monstrous_world:purple_light_bulb_item"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:purple_skull_bricks",
+    "count": 8
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_fv": 89,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      "CUSTOM:PumpkinEssence"
+    ],
+    "information": [
+      "Pumpkin Essence is a common magical dust dropped by Vengeful Pumpkins. It is not dangerous, and can be right-clicked on regular Pumpkins to change their type.",
+      "",
+      "Pumpkin Essence is useful in many types of magic. "
+    ]
+  }
+}

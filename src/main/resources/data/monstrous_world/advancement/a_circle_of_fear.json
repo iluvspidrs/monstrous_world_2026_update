@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:pure_fear"
+    },
+    "title": {
+      "translate": "advancements.a_circle_of_fear.title"
+    },
+    "description": {
+      "translate": "advancements.a_circle_of_fear.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_circle_of_fear_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:racing_heart"
+}

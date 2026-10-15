@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "shulker_bullet",
+    "arrow",
+    "monstrous_world:thrown_vampire_cure_powder",
+    "monstrous_world:thrown_spirit_powder",
+    "monstrous_world:thrown_chickenify_powder",
+    "monstrous_world:thrown_pumpkin_powder",
+    "dragon_fireball",
+    "monstrous_world:thrown_explosion_powder",
+    "trident",
+    "monstrous_world:thrown_undeath_cure_powder",
+    "monstrous_world:thrown_vanishing_powder",
+    "monstrous_world:thrown_obstruction_powder",
+    "snowball",
+    "small_fireball",
+    "monstrous_world:thrown_frogify_powder",
+    "monstrous_world:thrown_werewolf_cure_powder",
+    "monstrous_world:thrown_midas_curse_powder",
+    "monstrous_world:sinking_powder_projectile",
+    "monstrous_world:thrown_bookish_powder",
+    "fireball",
+    "monstrous_world:thrown_paralysis_powder"
+  ]
+}

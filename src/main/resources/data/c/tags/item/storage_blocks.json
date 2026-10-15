@@ -1,0 +1,32 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:block_of_moonstone",
+    "monstrous_world:block_of_malachite",
+    "monstrous_world:block_of_clear_quartz",
+    "monstrous_world:block_of_tigers_eye",
+    "monstrous_world:block_of_cast_iron",
+    "monstrous_world:block_of_raw_tungsten",
+    "monstrous_world:block_of_red_agate",
+    "monstrous_world:block_of_darkened_iron",
+    "monstrous_world:block_of_blue_agate",
+    "monstrous_world:block_of_tungsten",
+    "monstrous_world:block_of_corinthian_bronze",
+    "monstrous_world:block_of_pale_agate",
+    "monstrous_world:block_of_sardoynx",
+    "monstrous_world:block_of_shimmering_darkness",
+    "monstrous_world:block_of_swamp_crystal",
+    "monstrous_world:block_of_rose_quartz",
+    "monstrous_world:block_of_tin",
+    "monstrous_world:block_of_infernal_iron",
+    "monstrous_world:block_of_raw_infernal_iron",
+    "monstrous_world:block_of_black_onyx",
+    "monstrous_world:blockof_shining_netherite",
+    "monstrous_world:block_of_nether_gems",
+    "monstrous_world:block_of_raw_cassiterite",
+    "monstrous_world:block_of_bronze",
+    "monstrous_world:block_of_silver",
+    "monstrous_world:electrum_block",
+    "monstrous_world:block_of_green_agate"
+  ]
+}

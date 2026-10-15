@@ -1,0 +1,33 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:Moonstone",
+      "Items.ENDER_PEARL",
+      "TAG:c:gems/moonstone"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "TAG:c:gems/moonstone",
+      "",
+      "TAG:c:gems/moonstone",
+      "Items.ENDER_PEARL",
+      "TAG:c:gems/moonstone",
+      "",
+      "TAG:c:gems/moonstone",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:LunarPearl",
+    "name": "recipe_lunar_pearl",
+    "namespace": "mod"
+  }
+}

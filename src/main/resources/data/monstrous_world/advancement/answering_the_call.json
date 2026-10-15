@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:trial_block"
+    },
+    "title": {
+      "translate": "advancements.answering_the_call.title"
+    },
+    "description": {
+      "translate": "advancements.answering_the_call.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "answering_the_call_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:warrior_armor"
+}

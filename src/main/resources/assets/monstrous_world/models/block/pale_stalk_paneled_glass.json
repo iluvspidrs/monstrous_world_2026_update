@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/pale_stalk_darkened_glass_pane",
+    "up": "monstrous_world:block/pale_stalk_darkened_glass_pane",
+    "north": "monstrous_world:block/pale_stalk_darkened_glass_pane",
+    "east": "monstrous_world:block/pale_stalk_darkened_glass_pane",
+    "south": "monstrous_world:block/pale_stalk_darkened_glass_pane",
+    "west": "monstrous_world:block/pale_stalk_darkened_glass_pane",
+    "particle": "monstrous_world:block/pale_stalk_darkened_glass_pane"
+  },
+  "render_type": "translucent"
+}

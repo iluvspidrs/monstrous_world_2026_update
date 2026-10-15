@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/droppedpaper",
+  "textures": {
+    "all": "monstrous_world:block/archaeological_note",
+    "particle": "monstrous_world:block/archaeological_note",
+    "0": "monstrous_world:block/archaeological_note"
+  },
+  "render_type": "cutout"
+}

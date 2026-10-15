@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/droppedpaper",
+  "textures": {
+    "all": "monstrous_world:block/witchery_notebook",
+    "particle": "monstrous_world:block/witchery_notebook",
+    "0": "monstrous_world:block/witchery_notebook"
+  },
+  "render_type": "cutout"
+}

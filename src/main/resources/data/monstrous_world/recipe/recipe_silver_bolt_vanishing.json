@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:silver_bolt"
+    },
+    {
+      "item": "monstrous_world:silver_bolt"
+    },
+    {
+      "item": "monstrous_world:vanishing_powder"
+    },
+    {
+      "item": "monstrous_world:silver_bolt"
+    },
+    {
+      "item": "monstrous_world:silver_bolt"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:silver_bolt_vanishing",
+    "count": 4
+  }
+}

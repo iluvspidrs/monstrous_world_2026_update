@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/barricadingboards",
+  "textures": {
+    "all": "monstrous_world:block/acacia_planks",
+    "particle": "monstrous_world:block/acacia_planks",
+    "1": "monstrous_world:block/acacia_planks"
+  },
+  "render_type": "cutout"
+}

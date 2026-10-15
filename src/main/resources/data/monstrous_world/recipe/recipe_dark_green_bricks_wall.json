@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:dark_green_bricks"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:dark_green_bricks_wall",
+    "count": 6
+  }
+}

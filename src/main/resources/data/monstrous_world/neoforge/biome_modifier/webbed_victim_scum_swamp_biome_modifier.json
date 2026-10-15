@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "monstrous_world:scum_swamp",
+  "features": "monstrous_world:webbed_victim_scum_swamp",
+  "step": "surface_structures"
+}

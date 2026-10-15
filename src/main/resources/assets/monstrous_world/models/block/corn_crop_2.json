@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "monstrous_world:block/corn_crop_3",
+    "particle": "monstrous_world:block/corn_crop_3"
+  },
+  "render_type": "cutout"
+}

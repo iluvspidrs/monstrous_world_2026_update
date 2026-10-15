@@ -1,0 +1,12 @@
+{
+  "type": "monstrous_world:sorceress_t_ent",
+  "config": {
+    "structure": "monstrous_world:sorceress_tent",
+    "ignored_blocks": "minecraft:air",
+    "offset": [
+      -4,
+      -2,
+      5
+    ]
+  }
+}

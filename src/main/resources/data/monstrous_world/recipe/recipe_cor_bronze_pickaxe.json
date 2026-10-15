@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    " bc",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/corinthian_bronze"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    },
+    "c": {
+      "item": "monstrous_world:troll_work_hammer"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:corinthian_bronze_pickaxe",
+    "count": 1
+  }
+}

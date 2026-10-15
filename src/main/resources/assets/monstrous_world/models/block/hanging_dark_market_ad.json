@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/hangingmessage",
+  "textures": {
+    "all": "monstrous_world:block/letter_from_countess_item",
+    "particle": "monstrous_world:block/letter_from_countess_item",
+    "0": "monstrous_world:block/letter_from_countess_item"
+  },
+  "render_type": "cutout"
+}

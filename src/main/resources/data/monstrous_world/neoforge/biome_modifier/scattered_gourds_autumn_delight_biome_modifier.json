@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "monstrous_world:autumn_delight",
+    "monstrous_world:pumpkin_hollow"
+  ],
+  "features": "monstrous_world:scattered_gourds_autumn_delight",
+  "step": "surface_structures"
+}

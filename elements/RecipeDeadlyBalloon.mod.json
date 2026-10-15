@@ -1,0 +1,33 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:StrangeMembrane",
+      "Items.DYE#1",
+      "Items.STRING"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:StrangeMembrane",
+      "Items.DYE#1",
+      "CUSTOM:StrangeMembrane",
+      "CUSTOM:StrangeMembrane",
+      "CUSTOM:StrangeMembrane",
+      "CUSTOM:StrangeMembrane",
+      "",
+      "Items.STRING",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:DeadlyBalloonItem",
+    "name": "recipe_deadly_balloon",
+    "namespace": "mod"
+  }
+}

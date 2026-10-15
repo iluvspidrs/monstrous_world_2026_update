@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "monstrous_world:pumpkin_hollow",
+  "features": "monstrous_world:ph_giant_pumpkin_tall",
+  "step": "surface_structures"
+}

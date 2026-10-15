@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:magical_fabric",
+    "monstrous_world:concentrated_green_agate",
+    "monstrous_world:magical_carpet",
+    "monstrous_world:concentrated_clear_quartz",
+    "monstrous_world:enchanted_tome_of_the_moon",
+    "monstrous_world:concentrated_onyx",
+    "monstrous_world:enchanted_tome_of_the_goblin",
+    "monstrous_world:concentrated_malachite",
+    "monstrous_world:concentrated_nether_gem",
+    "monstrous_world:concentrated_moonstone",
+    "monstrous_world:enchanted_tome_of_bloodlust",
+    "monstrous_world:concentrated_corrupted_crystal",
+    "minecraft:black_candle",
+    "monstrous_world:concentrated_red_agate",
+    "monstrous_world:enchanted_tome_of_sorcery",
+    "monstrous_world:darkened_candle",
+    "monstrous_world:enchanted_tome_of_the_swamp",
+    "monstrous_world:purple_light_bulb_item",
+    "monstrous_world:concentrated_pale_agate",
+    "monstrous_world:concentrated_sardonyx",
+    "minecraft:white_candle",
+    "monstrous_world:enchanted_tome_of_mad_science",
+    "monstrous_world:enchanted_tome_of_darkness",
+    "monstrous_world:concentrated_blue_agate",
+    "monstrous_world:enchanted_tome_of_the_troll",
+    "monstrous_world:concentrated_rose_quartz",
+    "monstrous_world:enchanted_tome_of_witchery",
+    "monstrous_world:concentrated_tigers_eye"
+  ]
+}

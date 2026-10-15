@@ -1,0 +1,11 @@
+{
+  "parent": "monstrous_world:custom/braininjar",
+  "textures": {
+    "all": "minecraft:block/lime_stained_glass",
+    "particle": "minecraft:block/lime_stained_glass",
+    "0": "minecraft:block/lime_stained_glass",
+    "1": "monstrous_world:block/evil_tree_planks",
+    "2": "minecraft:block/brain_coral_block"
+  },
+  "render_type": "translucent"
+}

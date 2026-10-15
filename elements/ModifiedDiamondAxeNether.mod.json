@@ -1,0 +1,42 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "modified_diamond_axe_nether",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Modified Diamond Axe [Nether Gem]",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": [
+        "Sets enemies on fire",
+        "Smelts block drops when not sneaking"
+      ]
+    },
+    "creativeTabs": [
+      "CUSTOM:MonstrousWorldTools"
+    ],
+    "efficiency": 8.0,
+    "attackSpeed": 1.0,
+    "enchantability": 10,
+    "damageVsEntity": 9.0,
+    "usageCount": 1561,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      "Items.DIAMOND"
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "DIAMOND",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": "ModifiedIronSwordNetherGemLivingEntityIsHitWithTool"
+  }
+}

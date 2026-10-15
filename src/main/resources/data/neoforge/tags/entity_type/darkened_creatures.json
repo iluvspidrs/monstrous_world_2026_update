@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:pumpkin_golem",
+    "monstrous_world:servant_pumpkin",
+    "monstrous_world:servant_skeleton",
+    "monstrous_world:darkened_blossom"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/warhammer",
+  "textures": {
+    "0": "monstrous_world:block/shimmering_dark_block",
+    "1": "monstrous_world:block/darkened_log_side",
+    "missing": "monstrous_world:block/",
+    "particle": "monstrous_world:item/troll_hammer"
+  }
+}

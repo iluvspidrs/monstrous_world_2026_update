@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "monstrous_world:item/villagerbone"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "monstrous_world:villager_bone_unlocked": 0
+      },
+      "model": "monstrous_world:item/villager_bone_0"
+    },
+    {
+      "predicate": {
+        "monstrous_world:villager_bone_unlocked": 1
+      },
+      "model": "monstrous_world:item/villager_bone_1"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "monstrous_world:block/stripped_pumpkin_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "monstrous_world:block/stripped_pumpkin_log"
+    },
+    "axis=z": {
+      "model": "monstrous_world:block/stripped_pumpkin_log",
+      "x": 90
+    }
+  }
+}

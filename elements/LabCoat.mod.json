@@ -1,0 +1,111 @@
+{
+  "_fv": 89,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "lab_glasses",
+    "enableBody": true,
+    "textureBody": "lab_coat2",
+    "enableLeggings": false,
+    "textureLeggings": "",
+    "enableBoots": true,
+    "textureBoots": "lab_boots",
+    "creativeTabs": [
+      "CUSTOM:MonstrousWorldTools"
+    ],
+    "armorTextureFile": "chainmail",
+    "helmetName": "Lab Glasses",
+    "bodyName": "Lab Coat",
+    "leggingsName": "Lab Coat Leggings",
+    "bootsName": "Lab Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": [
+        "Mad Scientist only"
+      ]
+    },
+    "bodySpecialInformation": {
+      "fixedValue": [
+        "Requires two armor slots",
+        "Mad Scientist only"
+      ]
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": [
+        "Mad Scientist Only"
+      ]
+    },
+    "helmetModelName": "ModelLabGlasses",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "lab_glasses.png",
+    "bodyModelName": "ModelLabCoat",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "labcoat.png",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "ModelMSBoots",
+    "bootsModelPartL": "LeftLeg",
+    "bootsModelPartR": "RightLeg",
+    "bootsModelTexture": "lab_boots_model.png",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetTranslucency": false,
+    "bodyTranslucency": false,
+    "leggingsTranslucency": false,
+    "bootsTranslucency": false,
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "helmetGlowCondition": {
+      "fixedValue": false
+    },
+    "bodyGlowCondition": {
+      "fixedValue": false
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": false
+    },
+    "bootsGlowCondition": {
+      "fixedValue": false
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "maxDamage": 15,
+    "damageValueHelmet": 2,
+    "damageValueBody": 8,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": "item.armor.equip_leather",
+    "repairItems": [
+      "Blocks.WOOL#0"
+    ],
+    "rarity": "COMMON",
+    "attributeModifiers": []
+  }
+}

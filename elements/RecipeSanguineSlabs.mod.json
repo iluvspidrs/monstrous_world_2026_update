@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:SanguineWoodPlanks"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "CUSTOM:SanguineWoodPlanks",
+      "CUSTOM:SanguineWoodPlanks",
+      "CUSTOM:SanguineWoodPlanks",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:SanguineWoodSlab",
+    "name": "recipe_sanguine_slabs",
+    "namespace": "mod"
+  }
+}

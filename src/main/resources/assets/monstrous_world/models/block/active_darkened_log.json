@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/activecorruptedlogend",
+    "up": "monstrous_world:block/activecorruptedlogend",
+    "north": "monstrous_world:block/activecorruptedlogside",
+    "east": "monstrous_world:block/activecorruptedlogside",
+    "south": "monstrous_world:block/activecorruptedlogside",
+    "west": "monstrous_world:block/activecorruptedlogside",
+    "particle": "monstrous_world:block/activecorruptedlogend"
+  },
+  "render_type": "solid"
+}

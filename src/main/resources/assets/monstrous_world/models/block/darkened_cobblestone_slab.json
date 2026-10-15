@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "monstrous_world:block/darkened_cobblestone",
+    "bottom": "monstrous_world:block/darkened_cobblestone",
+    "top": "monstrous_world:block/darkened_cobblestone",
+    "side": "monstrous_world:block/darkened_cobblestone"
+  },
+  "render_type": "solid"
+}

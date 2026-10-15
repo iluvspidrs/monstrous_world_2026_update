@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "Blocks.STAINED_HARDENED_CLAY#14",
+      "Blocks.STAINED_HARDENED_CLAY#4"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Blocks.STAINED_HARDENED_CLAY#14",
+      "Items.DIAMOND",
+      "",
+      "",
+      "Blocks.STAINED_HARDENED_CLAY#4",
+      "Items.DIAMOND",
+      "Blocks.STAINED_HARDENED_CLAY#4",
+      "",
+      "Blocks.STAINED_HARDENED_CLAY#14"
+    ],
+    "recipeReturnStack": "CUSTOM:Mallet",
+    "name": "recipe_mallet",
+    "namespace": "mod"
+  }
+}

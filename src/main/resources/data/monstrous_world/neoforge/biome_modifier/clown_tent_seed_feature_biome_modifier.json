@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "monstrous_world:forsaken_lands",
+  "features": "monstrous_world:clown_tent_seed_feature",
+  "step": "surface_structures"
+}

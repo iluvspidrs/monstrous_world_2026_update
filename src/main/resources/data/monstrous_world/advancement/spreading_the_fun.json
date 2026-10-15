@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:dark_essence_dust"
+    },
+    "title": {
+      "translate": "advancements.spreading_the_fun.title"
+    },
+    "description": {
+      "translate": "advancements.spreading_the_fun.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "spreading_the_fun_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:carrying_your_vengeance"
+}

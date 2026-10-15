@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:odd_pale_gravel",
+    "monstrous_world:odd_red_gravel",
+    "monstrous_world:odd_green_gravel",
+    "monstrous_world:odd_blue_gravel"
+  ]
+}

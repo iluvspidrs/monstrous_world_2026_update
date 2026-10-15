@@ -1,0 +1,34 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "Items.SLIME_BALL",
+      "CUSTOM:OddRoot",
+      "CUSTOM:SwampCrystalShard",
+      "CUSTOM:VileSlime"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "Items.SLIME_BALL",
+      "CUSTOM:VileSlime",
+      "CUSTOM:OddRoot",
+      "CUSTOM:SwampCrystalShard",
+      "Items.SLIME_BALL",
+      "CUSTOM:OddRoot",
+      "CUSTOM:OddRoot",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:CrudeSwampDagger",
+    "name": "recipe_crude_swamp_dagger",
+    "namespace": "mod"
+  }
+}

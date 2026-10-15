@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:DarkYellowBricks"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "CUSTOM:DarkYellowBricks",
+      "CUSTOM:DarkYellowBricks",
+      "CUSTOM:DarkYellowBricks",
+      "CUSTOM:DarkYellowBricks",
+      "CUSTOM:DarkYellowBricks",
+      "CUSTOM:DarkYellowBricks"
+    ],
+    "recipeReturnStack": "CUSTOM:DarkYellowBricksWall",
+    "name": "recipe_dark_yellow_bricks_wall",
+    "namespace": "mod"
+  }
+}

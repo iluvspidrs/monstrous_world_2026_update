@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:murkwood_planks"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:murkwood_slab",
+    "count": 6
+  }
+}

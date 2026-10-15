@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "pumpkinwide2lit",
+        "1": "stem",
+        "2": "pumpkin_glow_orange",
+        "missing": ""
+      }
+    }
+  }
+}

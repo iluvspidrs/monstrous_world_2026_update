@@ -1,0 +1,34 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:MurkwoodPlanks",
+      "Items.BOWL",
+      "Items.HONEYCOMB",
+      "CUSTOM:AHintOfInsanity"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Items.HONEYCOMB",
+      "Items.BOWL",
+      "Items.HONEYCOMB",
+      "CUSTOM:MurkwoodPlanks",
+      "CUSTOM:AHintOfInsanity",
+      "CUSTOM:MurkwoodPlanks",
+      "CUSTOM:MurkwoodPlanks",
+      "CUSTOM:MurkwoodPlanks",
+      "CUSTOM:MurkwoodPlanks"
+    ],
+    "recipeReturnStack": "CUSTOM:ConfectioneryTable",
+    "name": "recipe_confectionery_table",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "monstrous_world_tools",
+    "unlockingItems": [
+      "CUSTOM:DarkenedIronTrapdoor",
+      "CUSTOM:DarkenedPlanksButton",
+      "CUSTOM:ComputerChip",
+      "CUSTOM:LaptopScreen"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:DarkenedIronTrapdoor",
+      "CUSTOM:LaptopScreen",
+      "CUSTOM:DarkenedIronTrapdoor",
+      "CUSTOM:ComputerChip",
+      "CUSTOM:ComputerChip",
+      "CUSTOM:ComputerChip",
+      "CUSTOM:DarkenedPlanksButton",
+      "CUSTOM:DarkenedPlanksButton",
+      "CUSTOM:DarkenedPlanksButton"
+    ],
+    "recipeReturnStack": "CUSTOM:LaptopItem",
+    "name": "recipe_laptop",
+    "namespace": "mod"
+  }
+}

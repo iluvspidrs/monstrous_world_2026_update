@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/odd_gravel_blue",
+    "up": "monstrous_world:block/odd_gravel_blue",
+    "north": "monstrous_world:block/odd_gravel_blue",
+    "east": "monstrous_world:block/odd_gravel_blue",
+    "south": "monstrous_world:block/odd_gravel_blue",
+    "west": "monstrous_world:block/odd_gravel_blue",
+    "particle": "monstrous_world:block/odd_gravel_blue"
+  },
+  "render_type": "solid"
+}

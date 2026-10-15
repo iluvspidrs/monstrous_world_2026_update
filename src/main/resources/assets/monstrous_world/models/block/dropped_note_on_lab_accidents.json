@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/droppedpaper",
+  "textures": {
+    "all": "monstrous_world:block/note_lab_accidents",
+    "particle": "monstrous_world:block/note_lab_accidents",
+    "0": "monstrous_world:block/note_lab_accidents"
+  },
+  "render_type": "cutout"
+}

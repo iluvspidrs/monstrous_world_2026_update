@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:stripped_pumpkin_log",
+    "monstrous_world:pumpkin_log",
+    "monstrous_world:pumpkin_fence_gate",
+    "monstrous_world:pumpkin_wood",
+    "monstrous_world:stripped_pumpkin_wood",
+    "monstrous_world:pumpkin_wood_glass_pane",
+    "monstrous_world:pumpkin_fence",
+    "monstrous_world:pumpkin_barricade",
+    "monstrous_world:pumpkin_planks",
+    "monstrous_world:pumpkin_door",
+    "monstrous_world:pumpkin_trapdoor",
+    "monstrous_world:pumpkin_button",
+    "monstrous_world:pumpkin_pressure_plate",
+    "monstrous_world:pumpkin_stairs",
+    "monstrous_world:pumpkin_slab",
+    "monstrous_world:pumpkin_wood_paneled_glass"
+  ]
+}

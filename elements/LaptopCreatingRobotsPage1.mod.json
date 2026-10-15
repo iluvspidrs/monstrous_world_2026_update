@@ -1,0 +1,98 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 420,
+    "height": 190,
+    "inventoryOffsetX": -123,
+    "inventoryOffsetY": -88,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_blue_back_button",
+          "image": "blue_back_button.png",
+          "hoveredImage": "blue_back_button_hover.png",
+          "onClick": "LaptopTOCButtonPressed",
+          "x": 288,
+          "y": 35,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_forward_button",
+          "image": "forward_button.png",
+          "hoveredImage": "forward_button_hover.png",
+          "onClick": "LaptopMainScreenForward",
+          "x": 393,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "laptoptextcreatingrobots.png",
+          "use1Xscale": false,
+          "x": 159,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "OpenElectricityChanneler",
+          "width": 71,
+          "height": 20,
+          "x": 316,
+          "y": 86,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "OpenElectricityChannelerBottom",
+          "width": 48,
+          "height": 20,
+          "x": 266,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty2",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "OpenRobotTableSection",
+          "width": 101,
+          "height": 20,
+          "x": 189,
+          "y": 128,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

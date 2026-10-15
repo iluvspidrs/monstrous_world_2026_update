@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": "CUSTOM:ObstructionPowder",
+    "showParticles": false,
+    "actionSound": "entity.snowball.throw",
+    "igniteFire": false,
+    "disableGravity": false,
+    "disableDiscarding": false,
+    "power": 1.0,
+    "damage": 0.0,
+    "knockback": 0,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsBlock": "ThrownObstructionPowderProjectileHitsBlock",
+    "onHitsEntity": "ThrownObstructionPowderProjectileHitsBlock"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "monstrous_world:block/blood_bulb",
+    "particle": "monstrous_world:block/blood_bulb"
+  },
+  "render_type": "cutout"
+}

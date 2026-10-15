@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "monstrous_world:item/strange_membrane"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "monstrous_world:strange_membrane_unknown": 0
+      },
+      "model": "monstrous_world:item/strange_membrane_0"
+    },
+    {
+      "predicate": {
+        "monstrous_world:strange_membrane_unknown": 1
+      },
+      "model": "monstrous_world:item/strange_membrane_1"
+    }
+  ]
+}

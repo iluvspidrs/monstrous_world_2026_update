@@ -1,0 +1,36 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:ElectrumNugget",
+      "Items.LEATHER",
+      "CUSTOM:AlphaClaw",
+      "CUSTOM:PaleAgate",
+      "TAG:c:nuggets/electrum",
+      "TAG:c:gems/pale_agate"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "",
+      "CUSTOM:AlphaClaw",
+      "",
+      "Items.LEATHER",
+      "TAG:c:gems/pale_agate",
+      "TAG:c:nuggets/electrum",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:WerewolfNecklaceOfShield",
+    "name": "recipe_necklace_shield",
+    "namespace": "mod"
+  }
+}

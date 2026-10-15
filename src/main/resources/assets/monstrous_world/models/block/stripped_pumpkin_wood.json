@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/stripped_pumpkin_wood",
+    "up": "monstrous_world:block/stripped_pumpkin_wood",
+    "north": "monstrous_world:block/stripped_pumpkin_wood",
+    "east": "monstrous_world:block/stripped_pumpkin_wood",
+    "south": "monstrous_world:block/stripped_pumpkin_wood",
+    "west": "monstrous_world:block/stripped_pumpkin_wood",
+    "particle": "monstrous_world:block/stripped_pumpkin_wood"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:dark_essence_dust"
+    },
+    "title": {
+      "translate": "advancements.infected.title"
+    },
+    "description": {
+      "translate": "advancements.infected.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "infected_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:monstrous_world"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/deathly_wood_planks",
+    "up": "monstrous_world:block/deathly_wood_planks",
+    "north": "monstrous_world:block/deathly_wood_planks",
+    "east": "monstrous_world:block/deathly_wood_planks",
+    "south": "monstrous_world:block/deathly_wood_planks",
+    "west": "monstrous_world:block/deathly_wood_planks",
+    "particle": "monstrous_world:block/deathly_wood_planks"
+  },
+  "render_type": "solid"
+}

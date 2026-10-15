@@ -1,0 +1,40 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "bulbceilingblue"
+      },
+      "name": "default"
+    },
+    "green": {
+      "map": {
+        "0": "bulbceilinggreen"
+      },
+      "name": "green"
+    },
+    "red": {
+      "map": {
+        "0": "bulbceilingred"
+      },
+      "name": "red"
+    },
+    "orange": {
+      "map": {
+        "0": "bulbceilingorange"
+      },
+      "name": "orange"
+    },
+    "purple": {
+      "map": {
+        "0": "bulbceilingpurple"
+      },
+      "name": "purple"
+    },
+    "white": {
+      "map": {
+        "0": "bulbceilingwhite"
+      },
+      "name": "white"
+    }
+  }
+}

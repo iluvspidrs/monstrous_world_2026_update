@@ -1,0 +1,12 @@
+{
+  "parent": "monstrous_world:custom/robottablewithguardlegs",
+  "textures": {
+    "all": "monstrous_world:block/tin_tabletop_legs",
+    "particle": "monstrous_world:block/tin_block",
+    "0": "monstrous_world:block/tin_block",
+    "1": "monstrous_world:block/evil_tree_planks",
+    "4": "monstrous_world:block/robot_metal_texture",
+    "missing": "monstrous_world:block/"
+  },
+  "render_type": "solid"
+}

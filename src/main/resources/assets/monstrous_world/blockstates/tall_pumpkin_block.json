@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "monstrous_world:block/tall_pumpkin_block"
+    },
+    "facing=east": {
+      "model": "monstrous_world:block/tall_pumpkin_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "monstrous_world:block/tall_pumpkin_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "monstrous_world:block/tall_pumpkin_block",
+      "y": 270
+    }
+  }
+}

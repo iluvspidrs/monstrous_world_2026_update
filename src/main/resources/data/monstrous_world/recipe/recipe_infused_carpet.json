@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:infused_wool"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:infused_carpet",
+    "count": 3
+  }
+}

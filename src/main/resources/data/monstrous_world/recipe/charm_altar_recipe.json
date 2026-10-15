@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "monstrous_world_tools",
+  "category": "misc",
+  "pattern": [
+    "a b",
+    "cde",
+    "f f"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:gems/rose_quartz"
+    },
+    "b": {
+      "tag": "c:gems/clear_quartz"
+    },
+    "c": {
+      "tag": "c:gems/sardonyx"
+    },
+    "d": {
+      "item": "monstrous_world:evil_tree_planks"
+    },
+    "e": {
+      "tag": "c:gems/black_onyx"
+    },
+    "f": {
+      "item": "monstrous_world:evil_tree_slab"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:charm_altar",
+    "count": 1
+  }
+}

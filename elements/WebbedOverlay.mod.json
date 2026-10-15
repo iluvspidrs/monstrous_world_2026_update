@@ -1,0 +1,198 @@
+{
+  "_fv": 89,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "webbed_center_50.png",
+          "use1Xscale": false,
+          "displayCondition": "Webbed1Condition",
+          "anchorPoint": "CENTER",
+          "x": 1,
+          "y": -13,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "webbed_center.png",
+          "use1Xscale": false,
+          "displayCondition": "Webbed2Condition",
+          "anchorPoint": "CENTER",
+          "x": 1,
+          "y": -13,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "webbed_center_poison.png",
+          "use1Xscale": false,
+          "displayCondition": "Webbed3Condition",
+          "anchorPoint": "CENTER",
+          "x": 1,
+          "y": -13,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "webbed_bottom_left.png",
+          "use1Xscale": false,
+          "displayCondition": "Webbed2Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 0,
+          "y": 112,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "webbed_bottom_left_50.png",
+          "use1Xscale": false,
+          "displayCondition": "Webbed1Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 0,
+          "y": 112,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "webbed_bottom_left_poison.png",
+          "use1Xscale": false,
+          "displayCondition": "Webbed3Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 0,
+          "y": 112,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "webbed_bottom_right.png",
+          "use1Xscale": false,
+          "displayCondition": "Webbed2Condition",
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 299,
+          "y": 112,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "webbed_bottom_right_50.png",
+          "use1Xscale": false,
+          "displayCondition": "Webbed1Condition",
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 299,
+          "y": 112,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "webbed_bottom_right_poison.png",
+          "use1Xscale": false,
+          "displayCondition": "Webbed3Condition",
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 299,
+          "y": 112,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "webbed_top_left.png",
+          "use1Xscale": false,
+          "displayCondition": "Webbed2Condition",
+          "anchorPoint": "TOP_LEFT",
+          "x": 0,
+          "y": 0,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "webbed_top_left_50.png",
+          "use1Xscale": false,
+          "displayCondition": "Webbed1Condition",
+          "anchorPoint": "TOP_LEFT",
+          "x": 0,
+          "y": 0,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "webbed_top_left_poison.png",
+          "use1Xscale": false,
+          "displayCondition": "Webbed3Condition",
+          "anchorPoint": "TOP_LEFT",
+          "x": 0,
+          "y": 0,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "webbed_top_right.png",
+          "use1Xscale": false,
+          "displayCondition": "Webbed2Condition",
+          "anchorPoint": "TOP_RIGHT",
+          "x": 299,
+          "y": 0,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "webbed_top_right_50.png",
+          "use1Xscale": false,
+          "displayCondition": "Webbed1Condition",
+          "anchorPoint": "TOP_RIGHT",
+          "x": 299,
+          "y": 0,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "webbed_top_right_poison.png",
+          "use1Xscale": false,
+          "displayCondition": "Webbed3Condition",
+          "anchorPoint": "TOP_RIGHT",
+          "x": 299,
+          "y": 0,
+          "locked": false
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

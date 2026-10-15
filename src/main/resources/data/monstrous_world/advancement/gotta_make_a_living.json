@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:dire_werewolf_claw"
+    },
+    "title": {
+      "translate": "advancements.gotta_make_a_living.title"
+    },
+    "description": {
+      "translate": "advancements.gotta_make_a_living.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gotta_make_a_living_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:vampire_slayer"
+}

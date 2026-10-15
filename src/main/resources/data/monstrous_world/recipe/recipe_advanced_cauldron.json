@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "monstrous_world_tools",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:darkened_log"
+    },
+    "b": {
+      "item": "monstrous_world:darkened_crystal"
+    },
+    "c": {
+      "item": "monstrous_world:simple_cauldron"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:advanced_cauldron",
+    "count": 1
+  }
+}

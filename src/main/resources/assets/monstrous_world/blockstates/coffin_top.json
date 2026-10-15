@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,blockstate=1": {
+      "model": "monstrous_world:block/coffin_top_0"
+    },
+    "facing=north,blockstate=0": {
+      "model": "monstrous_world:block/coffin_top"
+    },
+    "facing=east,blockstate=1": {
+      "model": "monstrous_world:block/coffin_top_0",
+      "y": 90
+    },
+    "facing=east,blockstate=0": {
+      "model": "monstrous_world:block/coffin_top",
+      "y": 90
+    },
+    "facing=south,blockstate=1": {
+      "model": "monstrous_world:block/coffin_top_0",
+      "y": 180
+    },
+    "facing=south,blockstate=0": {
+      "model": "monstrous_world:block/coffin_top",
+      "y": 180
+    },
+    "facing=west,blockstate=1": {
+      "model": "monstrous_world:block/coffin_top_0",
+      "y": 270
+    },
+    "facing=west,blockstate=0": {
+      "model": "monstrous_world:block/coffin_top",
+      "y": 270
+    }
+  }
+}

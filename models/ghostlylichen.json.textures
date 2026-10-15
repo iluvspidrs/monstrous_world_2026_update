@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "ghostlylichen"
+      },
+      "name": "default"
+    },
+    "bloody": {
+      "map": {
+        "0": "bloody_lichen"
+      },
+      "name": "bloody"
+    },
+    "autumn": {
+      "map": {
+        "0": "autumn_lichen"
+      },
+      "name": "autumn"
+    }
+  }
+}

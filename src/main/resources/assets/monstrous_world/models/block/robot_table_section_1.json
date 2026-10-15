@@ -1,0 +1,10 @@
+{
+  "parent": "monstrous_world:custom/robottablebasic",
+  "textures": {
+    "all": "monstrous_world:block/tin_tabletop_body_arms",
+    "particle": "monstrous_world:block/tin_block",
+    "0": "monstrous_world:block/tin_tabletop_body_arms",
+    "1": "monstrous_world:block/evilbarkside"
+  },
+  "render_type": "solid"
+}

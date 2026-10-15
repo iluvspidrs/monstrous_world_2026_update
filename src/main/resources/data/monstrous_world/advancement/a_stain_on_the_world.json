@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:darkened_sand"
+    },
+    "title": {
+      "translate": "advancements.a_stain_on_the_world.title"
+    },
+    "description": {
+      "translate": "advancements.a_stain_on_the_world.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_stain_on_the_world_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:the_darkness_calls"
+}

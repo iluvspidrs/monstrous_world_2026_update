@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "c c"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:silver_treated_tanned_leather"
+    },
+    "b": {
+      "item": "minecraft:black_dye"
+    },
+    "c": {
+      "item": "monstrous_world:tanned_leather"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:hunter_boots",
+    "count": 1
+  }
+}

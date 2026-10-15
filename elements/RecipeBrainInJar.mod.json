@@ -1,0 +1,34 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "monstrous_world_blocks",
+    "unlockingItems": [
+      "Blocks.GLASS_PANE",
+      "CUSTOM:EvilTreeButton",
+      "Blocks.SLIME_BLOCK",
+      "CUSTOM:Brain"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "CUSTOM:EvilTreeSlab",
+      "",
+      "Blocks.GLASS_PANE",
+      "CUSTOM:Brain",
+      "Blocks.GLASS_PANE",
+      "Blocks.GLASS_PANE",
+      "Blocks.SLIME_BLOCK",
+      "Blocks.GLASS_PANE"
+    ],
+    "recipeReturnStack": "CUSTOM:BrainInJar",
+    "name": "recipe_brain_in_jar",
+    "namespace": "mod"
+  }
+}

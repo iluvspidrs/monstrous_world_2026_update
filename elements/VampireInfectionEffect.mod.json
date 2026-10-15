@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Vampire Infection Effect",
+    "icon": "blood_recovery",
+    "color": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "onAddedSound": "",
+    "isInstant": false,
+    "mobEffectCategory": "NEUTRAL",
+    "renderStatusInInventory": false,
+    "renderStatusInHUD": false,
+    "isCuredbyHoney": false,
+    "modifiers": [],
+    "onActiveTick": "VampireInfectionEffectOnEffectActiveTick"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/trial_block_active",
+    "up": "monstrous_world:block/trial_block_active",
+    "north": "monstrous_world:block/trial_block_active",
+    "east": "monstrous_world:block/trial_block_active",
+    "south": "monstrous_world:block/trial_block_active",
+    "west": "monstrous_world:block/trial_block_active",
+    "particle": "monstrous_world:block/trial_block"
+  },
+  "render_type": "solid"
+}

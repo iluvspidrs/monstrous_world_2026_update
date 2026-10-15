@@ -1,0 +1,43 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Spade",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "modified_bronze_shovel_nether",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Modified Bronze Shovel [Nether Gem]",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": [
+        "Smelts block drops when not sneaking",
+        "2% chance of common treasure from sand"
+      ]
+    },
+    "creativeTabs": [
+      "CUSTOM:MonstrousWorldTools"
+    ],
+    "efficiency": 8.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 8.0,
+    "usageCount": 700,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      "CUSTOM:BronzeIngot",
+      "TAG:c:ingots/bronze"
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "DIAMOND",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": "ModifiedIronSwordNetherGemLivingEntityIsHitWithTool"
+  }
+}

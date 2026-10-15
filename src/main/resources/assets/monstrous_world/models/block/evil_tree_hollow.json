@@ -1,0 +1,12 @@
+{
+  "parent": "monstrous_world:custom/eviltreehollow",
+  "textures": {
+    "all": "monstrous_world:block/evilbarkside",
+    "particle": "monstrous_world:block/evilbarkside",
+    "1": "monstrous_world:block/evilbarkside",
+    "2": "monstrous_world:block/evilbarkside",
+    "3": "monstrous_world:block/evilbarkside",
+    "missing": "monstrous_world:block/"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "monstrous_world:blocks/hunter_warning_circus_tent_seed",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dirt"
+        }
+      ]
+    }
+  ]
+}

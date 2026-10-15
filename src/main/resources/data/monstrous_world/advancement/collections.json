@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:blood_collector"
+    },
+    "title": {
+      "translate": "advancements.collections.title"
+    },
+    "description": {
+      "translate": "advancements.collections.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collections_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:fanged_following"
+}

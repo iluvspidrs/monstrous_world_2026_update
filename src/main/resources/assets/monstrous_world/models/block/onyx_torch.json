@@ -1,0 +1,12 @@
+{
+  "parent": "monstrous_world:custom/candlestand",
+  "textures": {
+    "all": "monstrous_world:block/black_onyx_block",
+    "particle": "monstrous_world:block/black_onyx_block",
+    "0": "monstrous_world:block/black_onyx_block",
+    "1": "minecraft:block/fire_1",
+    "2": "monstrous_world:block/electrum_block",
+    "missing": "monstrous_world:block/"
+  },
+  "render_type": "cutout"
+}

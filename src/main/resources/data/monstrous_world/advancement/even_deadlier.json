@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:bloody_lichen"
+    },
+    "title": {
+      "translate": "advancements.even_deadlier.title"
+    },
+    "description": {
+      "translate": "advancements.even_deadlier.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "even_deadlier_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:time_to_kill"
+}

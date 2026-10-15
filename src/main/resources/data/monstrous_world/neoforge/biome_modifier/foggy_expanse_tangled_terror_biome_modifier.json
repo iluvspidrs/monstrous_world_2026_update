@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "monstrous_world:foggy_expanse",
+  "features": "monstrous_world:foggy_expanse_tangled_terror",
+  "step": "surface_structures"
+}

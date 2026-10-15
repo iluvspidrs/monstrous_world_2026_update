@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_nether",
+  "features": "monstrous_world:odd_darkened_stone",
+  "step": "underground_ores"
+}

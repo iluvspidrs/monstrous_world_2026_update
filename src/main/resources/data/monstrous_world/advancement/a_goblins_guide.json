@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:tome_of_the_goblin"
+    },
+    "title": {
+      "translate": "advancements.a_goblins_guide.title"
+    },
+    "description": {
+      "translate": "advancements.a_goblins_guide.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_goblins_guide_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:tricksters_and_treasure"
+}

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "territory_marker",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

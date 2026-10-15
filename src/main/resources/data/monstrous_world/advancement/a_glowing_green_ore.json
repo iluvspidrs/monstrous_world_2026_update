@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:swamp_crystal_shard"
+    },
+    "title": {
+      "translate": "advancements.a_glowing_green_ore.title"
+    },
+    "description": {
+      "translate": "advancements.a_glowing_green_ore.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_glowing_green_ore_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:a_murky_guidebook"
+}

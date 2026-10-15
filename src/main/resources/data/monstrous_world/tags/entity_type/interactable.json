@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:hunter_npc",
+    "monstrous_world:troll_npc",
+    "monstrous_world:mutant_eye",
+    "monstrous_world:fly_mutant",
+    "monstrous_world:swampmonster_chieftan",
+    "monstrous_world:mutant_serpent",
+    "monstrous_world:witch_1",
+    "monstrous_world:mad_scientist_npc",
+    "monstrous_world:vampire_npc",
+    "monstrous_world:goblin_villager",
+    "monstrous_world:hunter_patrol_npc",
+    "monstrous_world:sorcerer_npc",
+    "monstrous_world:swampmonster_villager"
+  ]
+}

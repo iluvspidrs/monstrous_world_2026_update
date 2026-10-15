@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:magical_fabric"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:magical_carpet",
+    "count": 1
+  }
+}

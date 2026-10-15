@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:block_of_cast_iron"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:cast_iron_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "glass_translucent",
+        "1": "darkened_iron_block",
+        "2": "cureserumfluiduncooked"
+      },
+      "name": "default"
+    },
+    "stabilizeruncooked": {
+      "map": {
+        "0": "glass_translucent",
+        "1": "darkened_iron_block",
+        "2": "stabilizerfluiduncooked"
+      },
+      "name": "stabilizeruncooked"
+    },
+    "cureserumcooked": {
+      "map": {
+        "0": "glass_translucent",
+        "1": "darkened_iron_block",
+        "2": "cureserumfluid"
+      },
+      "name": "cureserumcooked"
+    },
+    "strangeuncooked": {
+      "map": {
+        "0": "glass_translucent",
+        "1": "darkened_iron_block",
+        "2": "strangeserumfluiduncooked"
+      },
+      "name": "strangeuncooked"
+    },
+    "stabilizercooked": {
+      "map": {
+        "0": "glass_translucent",
+        "1": "darkened_iron_block",
+        "2": "stabilizerfluid"
+      },
+      "name": "stabilizercooked"
+    },
+    "strangecooked": {
+      "map": {
+        "0": "glass_translucent",
+        "1": "darkened_iron_block",
+        "2": "strangeserumfluid"
+      },
+      "name": "strangecooked"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "monstrous_world:textures/screens/darkened_crystal.png",
+    "icon": {
+      "id": "monstrous_world:pure_dark_essence"
+    },
+    "title": {
+      "translate": "advancements.the_darkness_calls.title"
+    },
+    "description": {
+      "translate": "advancements.the_darkness_calls.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_darkness_calls_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

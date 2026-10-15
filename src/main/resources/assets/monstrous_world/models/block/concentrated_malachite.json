@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/concentratedtigerseye",
+  "textures": {
+    "all": "monstrous_world:block/block_of_malachite",
+    "particle": "monstrous_world:block/block_of_malachite",
+    "0": "monstrous_world:block/block_of_malachite"
+  },
+  "render_type": "solid"
+}

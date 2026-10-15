@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/magical_fabric",
+    "up": "monstrous_world:block/magical_fabric",
+    "north": "monstrous_world:block/magical_fabric",
+    "east": "monstrous_world:block/magical_fabric",
+    "south": "monstrous_world:block/magical_fabric",
+    "west": "monstrous_world:block/magical_fabric",
+    "particle": "monstrous_world:block/magical_fabric"
+  },
+  "render_type": "solid"
+}

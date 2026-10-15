@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "monstrous_world:block/soulflower",
+    "particle": "monstrous_world:block/soulflower"
+  },
+  "render_type": "cutout"
+}

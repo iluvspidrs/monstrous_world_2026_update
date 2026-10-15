@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "",
+    "unlockingItems": [
+      "Blocks.DEEPSLATE_BRICKS",
+      "CUSTOM:WhiteLightBulbItem"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Blocks.DEEPSLATE_BRICKS",
+      "Blocks.DEEPSLATE_BRICKS",
+      "Blocks.DEEPSLATE_BRICKS",
+      "Blocks.DEEPSLATE_BRICKS",
+      "CUSTOM:WhiteLightBulbItem",
+      "Blocks.DEEPSLATE_BRICKS",
+      "Blocks.DEEPSLATE_BRICKS",
+      "Blocks.DEEPSLATE_BRICKS",
+      "Blocks.DEEPSLATE_BRICKS"
+    ],
+    "recipeReturnStack": "CUSTOM:WhiteSkullBricks",
+    "name": "recipe_white_skull_bricks",
+    "namespace": "mod"
+  }
+}

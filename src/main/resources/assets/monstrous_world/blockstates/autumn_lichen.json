@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "monstrous_world:block/autumn_lichen"
+    },
+    "facing=east": {
+      "model": "monstrous_world:block/autumn_lichen",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "monstrous_world:block/autumn_lichen",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "monstrous_world:block/autumn_lichen",
+      "y": 270
+    }
+  }
+}

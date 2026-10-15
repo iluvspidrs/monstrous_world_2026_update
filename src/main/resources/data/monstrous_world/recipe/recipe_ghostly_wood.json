@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:ghostly_log"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:ghostly_wood",
+    "count": 4
+  }
+}

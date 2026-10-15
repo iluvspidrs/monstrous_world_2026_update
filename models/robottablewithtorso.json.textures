@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "tin_block",
+        "1": "evil_tree_planks",
+        "4": "robot_metal_texture",
+        "5": "robot_guard_chest",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "moonstone_block",
+        "1": "electricity_channeler",
+        "2": "web_block"
+      }
+    }
+  }
+}

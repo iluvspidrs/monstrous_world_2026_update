@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "electricity_channeler",
+        "3": "electricity_channeler_rings"
+      },
+      "name": "default"
+    }
+  }
+}

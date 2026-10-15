@@ -1,0 +1,12 @@
+{
+  "type": "monstrous_world:hay_bale_2_forsaken_lands",
+  "config": {
+    "structure": "monstrous_world:hay_bales_2",
+    "ignored_blocks": "minecraft:structure_block",
+    "offset": [
+      0,
+      -1,
+      0
+    ]
+  }
+}

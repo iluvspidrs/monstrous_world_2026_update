@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:raw_infernal_iron"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:block_of_raw_infernal_iron",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:alpha_claw"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "tag": "c:gems/malachite"
+    },
+    {
+      "tag": "c:nuggets/electrum"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:werewolf_necklace_of_cleansing",
+    "count": 1
+  }
+}

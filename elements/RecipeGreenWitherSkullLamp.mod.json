@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "Blocks.SKULL#1",
+      "CUSTOM:SpiritInfusedGreenLightBulb"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "",
+      "CUSTOM:SpiritInfusedGreenLightBulb",
+      "",
+      "",
+      "Blocks.SKULL#1",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:EmissiveGreenSkullLamp",
+    "name": "recipe_green_wither_skull_lamp",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/evil_tree_planks",
+    "up": "monstrous_world:block/evil_tree_planks",
+    "north": "monstrous_world:block/evil_bookshelf",
+    "east": "monstrous_world:block/evil_bookshelf",
+    "south": "monstrous_world:block/evil_bookshelf",
+    "west": "monstrous_world:block/evil_bookshelf",
+    "particle": "monstrous_world:block/evil_tree_planks"
+  },
+  "render_type": "solid"
+}

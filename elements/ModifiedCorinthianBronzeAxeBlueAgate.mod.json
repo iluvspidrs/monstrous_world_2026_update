@@ -1,0 +1,44 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "modified_corbronze_axe_blue_agate",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Modified Corinthian Bronze Axe [Blue Agate]",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": [
+        "Greater Strength while in water",
+        "Clears the Sinking effect when held",
+        "20% chance of one-hit kill on non-boss mobs"
+      ]
+    },
+    "creativeTabs": [
+      "CUSTOM:MonstrousWorldTools"
+    ],
+    "efficiency": 8.0,
+    "attackSpeed": 1.0,
+    "enchantability": 25,
+    "damageVsEntity": 8.0,
+    "usageCount": 600,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      "CUSTOM:CorinthianBronzeIngot",
+      "TAG:c:ingots/corinthian_bronze"
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "DIAMOND",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInUseTick": "ModifiedIronSwordBlueAgateToolInHandTick"
+  }
+}

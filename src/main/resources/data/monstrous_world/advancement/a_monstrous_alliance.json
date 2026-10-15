@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:modified_shining_netherite_pickaxe_blue_agate"
+    },
+    "title": {
+      "translate": "advancements.a_monstrous_alliance.title"
+    },
+    "description": {
+      "translate": "advancements.a_monstrous_alliance.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_monstrous_alliance_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:a_simple_modification"
+}

@@ -1,0 +1,282 @@
+{
+  "_fv": 89,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "blood_bar_empty.png",
+          "use1Xscale": false,
+          "displayCondition": "BloodBarEmptyCondition",
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 320,
+          "y": 223,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blood_bar_1.png",
+          "use1Xscale": false,
+          "displayCondition": "BloodBar1Condition",
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 320,
+          "y": 223,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blood_bar_2.png",
+          "use1Xscale": false,
+          "displayCondition": "BloodBar2Condition",
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 320,
+          "y": 223,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blood_bar_3.png",
+          "use1Xscale": false,
+          "displayCondition": "BloodBar3Condition",
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 320,
+          "y": 223,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blood_bar_4.png",
+          "use1Xscale": false,
+          "displayCondition": "BloodBar4Condition",
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 320,
+          "y": 223,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blood_bar_5.png",
+          "use1Xscale": false,
+          "displayCondition": "BloodBar5Condition",
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 320,
+          "y": 223,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blood_bar_6.png",
+          "use1Xscale": false,
+          "displayCondition": "BloodBar6Condition",
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 320,
+          "y": 223,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blood_bar_7.png",
+          "use1Xscale": false,
+          "displayCondition": "BloodBar7Condition",
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 320,
+          "y": 223,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blood_bar_8.png",
+          "use1Xscale": false,
+          "displayCondition": "BloodBar8Condition",
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 320,
+          "y": 223,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blood_bar_9.png",
+          "use1Xscale": false,
+          "displayCondition": "BloodBar9Condition",
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 320,
+          "y": 223,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blood_bar_10.png",
+          "use1Xscale": false,
+          "displayCondition": "BloodBar10Condition",
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 320,
+          "y": 223,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blood_bar_11.png",
+          "use1Xscale": false,
+          "displayCondition": "BloodBar11Condition",
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 320,
+          "y": 223,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blood_bar_12.png",
+          "use1Xscale": false,
+          "displayCondition": "BloodBar12Condition",
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 320,
+          "y": 223,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blood_bar_13.png",
+          "use1Xscale": false,
+          "displayCondition": "BloodBar13Condition",
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 320,
+          "y": 223,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blood_bar_14.png",
+          "use1Xscale": false,
+          "displayCondition": "BloodBar14Condition",
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 320,
+          "y": 223,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blood_bar_15.png",
+          "use1Xscale": false,
+          "displayCondition": "BloodBar15Condition",
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 320,
+          "y": 223,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blood_bar_16.png",
+          "use1Xscale": false,
+          "displayCondition": "BloodBar16Condition",
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 320,
+          "y": 223,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blood_bar_17.png",
+          "use1Xscale": false,
+          "displayCondition": "BloodBar17Condition",
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 320,
+          "y": 223,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blood_bar_18.png",
+          "use1Xscale": false,
+          "displayCondition": "BloodBar18Condition",
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 320,
+          "y": 223,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blood_bar_19.png",
+          "use1Xscale": false,
+          "displayCondition": "BloodBar19Condition",
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 320,
+          "y": 223,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blood_bar_full.png",
+          "use1Xscale": false,
+          "displayCondition": "BloodBarFullCondition",
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 320,
+          "y": 223,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bloodlevel12.png",
+          "use1Xscale": true,
+          "displayCondition": "BloodIconCondition",
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 311,
+          "y": 224,
+          "locked": false
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

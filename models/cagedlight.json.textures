@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "minecraft:shroomlight",
+        "1": "darkened_iron_block"
+      },
+      "name": "default"
+    }
+  }
+}

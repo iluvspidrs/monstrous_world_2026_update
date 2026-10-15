@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:magically_treated_leather"
+    },
+    "title": {
+      "translate": "advancements.economical_magic.title"
+    },
+    "description": {
+      "translate": "advancements.economical_magic.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "economical_magic_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:how_charming"
+}

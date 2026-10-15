@@ -1,0 +1,151 @@
+{
+  "mappings": {
+    "gold_2": {
+      "map": {
+        "1": "gold_glyph_2",
+        "missing": ""
+      },
+      "name": "gold_2"
+    },
+    "gold_1": {
+      "map": {
+        "1": "gold_glyph_1",
+        "missing": ""
+      },
+      "name": "gold_1"
+    },
+    "gold_3": {
+      "map": {
+        "1": "gold_glyph_3",
+        "missing": ""
+      },
+      "name": "gold_3"
+    },
+    "white_3": {
+      "map": {
+        "1": "white_glyph_3",
+        "missing": ""
+      },
+      "name": "white_3"
+    },
+    "white_2": {
+      "map": {
+        "1": "white_glyph_2",
+        "missing": ""
+      },
+      "name": "white_2"
+    },
+    "orange_2": {
+      "map": {
+        "1": "orange_glyph_2",
+        "missing": ""
+      },
+      "name": "orange_2"
+    },
+    "purple_1": {
+      "map": {
+        "1": "violet_glyph_1",
+        "missing": ""
+      },
+      "name": "purple_1"
+    },
+    "orange_1": {
+      "map": {
+        "1": "orange_glyph_1",
+        "missing": ""
+      },
+      "name": "orange_1"
+    },
+    "blue_3": {
+      "map": {
+        "1": "blue_glyph_3",
+        "missing": ""
+      },
+      "name": "blue_3"
+    },
+    "purple_2": {
+      "map": {
+        "1": "violet_glyph_2",
+        "missing": ""
+      },
+      "name": "purple_2"
+    },
+    "blue_2": {
+      "map": {
+        "1": "blue_glyph_2",
+        "missing": ""
+      },
+      "name": "blue_2"
+    },
+    "orange_3": {
+      "map": {
+        "1": "orange_glyph_3",
+        "missing": ""
+      },
+      "name": "orange_3"
+    },
+    "blue_1": {
+      "map": {
+        "1": "blue_glyph_1",
+        "missing": ""
+      },
+      "name": "blue_1"
+    },
+    "red_3": {
+      "map": {
+        "1": "red_glyph_3",
+        "missing": ""
+      },
+      "name": "red_3"
+    },
+    "red_2": {
+      "map": {
+        "1": "red_glyph_2",
+        "missing": ""
+      },
+      "name": "red_2"
+    },
+    "default": {
+      "map": {
+        "1": "white_glyph_1",
+        "missing": ""
+      },
+      "name": "default"
+    },
+    "purple_3": {
+      "map": {
+        "1": "violet_glyph_3",
+        "missing": ""
+      },
+      "name": "purple_3"
+    },
+    "red_1": {
+      "map": {
+        "1": "red_glyph_1",
+        "missing": ""
+      },
+      "name": "red_1"
+    },
+    "green_1": {
+      "map": {
+        "1": "green_glyph_1",
+        "missing": ""
+      },
+      "name": "green_1"
+    },
+    "green_3": {
+      "map": {
+        "1": "green_glyph_3",
+        "missing": ""
+      },
+      "name": "green_3"
+    },
+    "green_2": {
+      "map": {
+        "1": "green_glyph_2",
+        "missing": ""
+      },
+      "name": "green_2"
+    }
+  }
+}

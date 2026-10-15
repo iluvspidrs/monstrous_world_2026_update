@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:infected_goon",
+    "monstrous_world:hunter_npc",
+    "monstrous_world:dark_market_vendor",
+    "monstrous_world:witch_1",
+    "monstrous_world:maniac",
+    "monstrous_world:mad_scientist_npc",
+    "monstrous_world:hunter_patrol_npc",
+    "wandering_trader",
+    "vindicator",
+    "illusioner",
+    "villager",
+    "evoker",
+    "monstrous_world:sorcerer_npc",
+    "pillager",
+    "monstrous_world:aggressive_guard",
+    "witch",
+    "monstrous_world:society_goon"
+  ]
+}

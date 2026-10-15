@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "monstrous_world:murky_madness",
+    "monstrous_world:scum_swamp"
+  ],
+  "features": "monstrous_world:grungy_stone_boulder",
+  "step": "surface_structures"
+}

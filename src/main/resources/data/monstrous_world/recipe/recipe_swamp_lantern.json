@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:darkened_planks"
+    },
+    "b": {
+      "item": "monstrous_world:darkened_iron_ingot"
+    },
+    "c": {
+      "item": "monstrous_world:swamp_crystal_shard"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:swamp_lantern",
+    "count": 4
+  }
+}

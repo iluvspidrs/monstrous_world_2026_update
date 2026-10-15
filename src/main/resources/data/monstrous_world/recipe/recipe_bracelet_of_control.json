@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "monstrous_world:alpha_claw"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:bracelet_of_control",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "monstrous_world:textures/screens/infused_wool.png",
+    "icon": {
+      "id": "monstrous_world:bloodletter"
+    },
+    "title": {
+      "translate": "advancements.sanguine_craving.title"
+    },
+    "description": {
+      "translate": "advancements.sanguine_craving.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sanguine_craving_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

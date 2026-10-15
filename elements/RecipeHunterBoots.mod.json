@@ -1,0 +1,33 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:TannedLeather",
+      "CUSTOM:SilverTreatedTannedLeather",
+      "Items.DYE#16"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "CUSTOM:SilverTreatedTannedLeather",
+      "Items.DYE#16",
+      "CUSTOM:SilverTreatedTannedLeather",
+      "CUSTOM:TannedLeather",
+      "",
+      "CUSTOM:TannedLeather"
+    ],
+    "recipeReturnStack": "CUSTOM:Hunter.boots",
+    "name": "recipe_hunter_boots",
+    "namespace": "mod"
+  }
+}

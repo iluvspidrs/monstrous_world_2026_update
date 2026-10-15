@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Werewolf Effect",
+    "icon": "alphas_boon",
+    "color": {
+      "value": -3342337,
+      "falpha": 0.0
+    },
+    "onAddedSound": "",
+    "isInstant": false,
+    "mobEffectCategory": "NEUTRAL",
+    "renderStatusInInventory": false,
+    "renderStatusInHUD": false,
+    "isCuredbyHoney": false,
+    "modifiers": [],
+    "onActiveTick": "WerewolfEffectOnEffectActiveTick",
+    "onExpired": "WerewolfEffectEffectExpires"
+  }
+}

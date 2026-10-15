@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:shimmering_dark_ingot",
+    "monstrous_world:electrum_ingot",
+    "monstrous_world:cast_iron_ingot",
+    "monstrous_world:corinthian_bronze_ingot",
+    "monstrous_world:tungsten_ingot",
+    "monstrous_world:shining_netherite_ingot",
+    "monstrous_world:bronze_ingot"
+  ]
+}

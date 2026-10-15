@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "monstrous_world:ghostly_wood"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:ghostly_planks",
+    "count": 4
+  }
+}

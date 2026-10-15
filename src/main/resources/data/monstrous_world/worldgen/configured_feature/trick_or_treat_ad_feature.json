@@ -1,0 +1,12 @@
+{
+  "type": "monstrous_world:trick_or_treat_ad_feature",
+  "config": {
+    "structure": "monstrous_world:trick_or_treat_ad",
+    "ignored_blocks": "minecraft:air",
+    "offset": [
+      -2,
+      -1,
+      -2
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:tome_of_mad_science"
+    },
+    "title": {
+      "translate": "advancements.an_unethical_guide.title"
+    },
+    "description": {
+      "translate": "advancements.an_unethical_guide.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "an_unethical_guide_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:road_to_madness"
+}

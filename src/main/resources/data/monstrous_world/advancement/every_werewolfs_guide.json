@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:tome_of_the_moon"
+    },
+    "title": {
+      "translate": "advancements.every_werewolfs_guide.title"
+    },
+    "description": {
+      "translate": "advancements.every_werewolfs_guide.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "every_werewolfs_guide_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:supreme_beast"
+}

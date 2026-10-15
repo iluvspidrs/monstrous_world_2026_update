@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:green_agate"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:block_of_green_agate",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "monstrous_world:block/dark_mist"
+    },
+    "type=top": {
+      "model": "monstrous_world:block/dark_mist_top"
+    },
+    "type=double": {
+      "model": "monstrous_world:block/dark_mist_full"
+    }
+  }
+}

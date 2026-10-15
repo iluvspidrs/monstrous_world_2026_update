@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:silver_bolt_vanishing"
+    },
+    "title": {
+      "translate": "advancements.practical_magic.title"
+    },
+    "description": {
+      "translate": "advancements.practical_magic.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "practical_magic_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:just_needs_polish"
+}

@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:a_torn_journal",
+    "monstrous_world:society_directive",
+    "monstrous_world:a_note_on_spirits",
+    "monstrous_world:museum_ad",
+    "monstrous_world:trick_or_treat_ad",
+    "monstrous_world:an_unusual_infection",
+    "monstrous_world:museum_closed",
+    "monstrous_world:dark_market_ad",
+    "monstrous_world:tome_of_light_note",
+    "monstrous_world:email_archive",
+    "monstrous_world:mystery_container",
+    "monstrous_world:farmers_log",
+    "monstrous_world:quota",
+    "monstrous_world:society_pamphlet"
+  ]
+}

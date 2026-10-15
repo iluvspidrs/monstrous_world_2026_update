@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/darkstonepath",
+  "textures": {
+    "all": "monstrous_world:block/dark_shingles",
+    "particle": "monstrous_world:block/dark_shingles",
+    "0": "monstrous_world:block/dark_shingles"
+  },
+  "render_type": "cutout"
+}

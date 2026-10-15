@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:tome_of_sorcery"
+    },
+    "title": {
+      "translate": "advancements.beginning_magic.title"
+    },
+    "description": {
+      "translate": "advancements.beginning_magic.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "beginning_magic_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:envied_by_all"
+}

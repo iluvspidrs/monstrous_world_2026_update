@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:lunar_pearl"
+    },
+    "title": {
+      "translate": "advancements.a_full_alpha.title"
+    },
+    "description": {
+      "translate": "advancements.a_full_alpha.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_full_alpha_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:respect_must_be_earned"
+}

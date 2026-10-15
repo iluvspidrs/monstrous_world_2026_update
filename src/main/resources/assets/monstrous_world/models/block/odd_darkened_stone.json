@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/odd_darkened_stone",
+    "up": "monstrous_world:block/odd_darkened_stone",
+    "north": "monstrous_world:block/odd_darkened_stone",
+    "east": "monstrous_world:block/odd_darkened_stone",
+    "south": "monstrous_world:block/odd_darkened_stone",
+    "west": "monstrous_world:block/odd_darkened_stone",
+    "particle": "monstrous_world:block/odd_darkened_stone"
+  },
+  "render_type": "solid"
+}

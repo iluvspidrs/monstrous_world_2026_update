@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:sanguine_button",
+    "monstrous_world:evil_tree_button",
+    "monstrous_world:pumpkin_button",
+    "monstrous_world:darkened_planks_button",
+    "monstrous_world:pale_stalk_button",
+    "monstrous_world:ghostly_button",
+    "monstrous_world:deathly_button",
+    "monstrous_world:murkwood_button"
+  ]
+}

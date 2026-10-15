@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:sanguine_wood_planks",
+    "monstrous_world:pumpkin_planks",
+    "monstrous_world:evil_tree_planks",
+    "monstrous_world:darkened_planks",
+    "monstrous_world:deathly_wood_planks",
+    "monstrous_world:murkwood_planks",
+    "monstrous_world:ghostly_planks",
+    "monstrous_world:pale_stalk_planks"
+  ]
+}

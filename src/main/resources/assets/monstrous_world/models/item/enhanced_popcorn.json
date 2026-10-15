@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "monstrous_world:item/enhanced_popcorn"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "monstrous_world:enhanced_popcorn_unlocked": 0
+      },
+      "model": "monstrous_world:item/enhanced_popcorn_0"
+    },
+    {
+      "predicate": {
+        "monstrous_world:enhanced_popcorn_unlocked": 1
+      },
+      "model": "monstrous_world:item/enhanced_popcorn_1"
+    }
+  ]
+}

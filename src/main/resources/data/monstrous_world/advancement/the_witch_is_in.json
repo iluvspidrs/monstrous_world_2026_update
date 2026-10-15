@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "monstrous_world:textures/screens/evil_tree_planks.png",
+    "icon": {
+      "id": "monstrous_world:simple_cauldron"
+    },
+    "title": {
+      "translate": "advancements.the_witch_is_in.title"
+    },
+    "description": {
+      "translate": "advancements.the_witch_is_in.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_witch_is_in_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

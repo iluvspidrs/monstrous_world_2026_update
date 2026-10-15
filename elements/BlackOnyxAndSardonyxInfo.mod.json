@@ -1,0 +1,23 @@
+{
+  "_fv": 89,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      "CUSTOM:BlackOnyx",
+      "CUSTOM:Sardonyx",
+      "CUSTOM:BlockOfBlackOnyx",
+      "CUSTOM:BlackOnyxStoneOre",
+      "CUSTOM:BlackOnyxDeepslateOre",
+      "CUSTOM:BlockOfSardoynx",
+      "CUSTOM:SardonyxStoneOre",
+      "CUSTOM:SardonyxDeepslateOre",
+      "CUSTOM:PurifiedOnyx",
+      "CUSTOM:PurifiedSardonyx"
+    ],
+    "information": [
+      "Black Onyx and Sardoynx are two variants of Onyx, and are both Precious Stones. The ores are found deep underground and are fairly common.",
+      "",
+      "Onyx stones are associated with strength and attack, and are valued by multiple monster factions."
+    ]
+  }
+}

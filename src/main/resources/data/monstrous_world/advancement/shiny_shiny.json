@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:clear_quartz_shard"
+    },
+    "title": {
+      "translate": "advancements.shiny_shiny.title"
+    },
+    "description": {
+      "translate": "advancements.shiny_shiny.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "shiny_shiny_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:my_precious"
+}

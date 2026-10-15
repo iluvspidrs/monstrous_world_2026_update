@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:block_of_black_onyx"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:black_onyx",
+    "count": 9
+  }
+}

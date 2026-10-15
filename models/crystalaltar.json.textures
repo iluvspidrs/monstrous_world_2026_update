@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "evilbarkside",
+        "1": "evilbarkend",
+        "2": "block_of_quartz",
+        "3": "red_onyx_block",
+        "4": "black_onyx_block",
+        "5": "block_of_rose_quartz",
+        "6": "pale_agate_block",
+        "7": "orange_agate_block",
+        "missing": "",
+        "8": "blue_agate_block",
+        "9": "green_agate_block"
+      }
+    }
+  }
+}

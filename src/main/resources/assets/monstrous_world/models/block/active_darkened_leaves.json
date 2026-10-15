@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "monstrous_world:block/activecorruptedleaves",
+    "particle": "monstrous_world:block/activecorruptedleaves"
+  },
+  "render_type": "cutout"
+}

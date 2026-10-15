@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "black_onyx_block",
+        "1": "minecraft:fire_1",
+        "2": "electrum_block",
+        "missing": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/sapblock",
+  "textures": {
+    "all": "monstrous_world:block/saptexture",
+    "particle": "monstrous_world:block/saptexture",
+    "0": "monstrous_world:block/saptexture"
+  },
+  "render_type": "solid"
+}

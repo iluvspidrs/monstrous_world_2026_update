@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "monstrous_world:scum_swamp",
+  "features": "monstrous_world:scum_swamp_pond",
+  "step": "surface_structures"
+}

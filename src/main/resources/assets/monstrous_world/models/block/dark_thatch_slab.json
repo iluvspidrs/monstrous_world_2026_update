@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "monstrous_world:block/dark_thatch_top",
+    "bottom": "monstrous_world:block/dark_thatch_top",
+    "top": "monstrous_world:block/dark_thatch_top",
+    "side": "monstrous_world:block/dark_thatch_side"
+  },
+  "render_type": "solid"
+}

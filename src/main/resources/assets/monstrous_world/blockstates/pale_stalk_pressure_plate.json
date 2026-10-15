@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "monstrous_world:block/pale_stalk_pressure_plate"
+    },
+    "powered=true": {
+      "model": "monstrous_world:block/pale_stalk_pressure_plate_down"
+    }
+  }
+}

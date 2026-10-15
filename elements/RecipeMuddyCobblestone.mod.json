@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "unlockingItems": [
+      "Blocks.COBBLESTONE",
+      "Blocks.MUD"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "",
+      "Blocks.MUD",
+      "",
+      "",
+      "Blocks.COBBLESTONE",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:MuddyCobblestone",
+    "name": "recipe_muddy_cobblestone",
+    "namespace": "mod"
+  }
+}

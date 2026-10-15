@@ -1,0 +1,15 @@
+{
+  "parent": "monstrous_world:custom/bloodfocusamulet",
+  "textures": {
+    "all": "monstrous_world:block/red_onyx_block",
+    "particle": "monstrous_world:block/red_onyx_block",
+    "0": "monstrous_world:block/red_onyx_block",
+    "1": "monstrous_world:block/moonstone_block",
+    "2": "monstrous_world:block/black_onyx_block",
+    "3": "monstrous_world:block/regular_blood",
+    "4": "monstrous_world:block/block_of_quartz",
+    "5": "minecraft:block/gold_block",
+    "missing": "monstrous_world:block/"
+  },
+  "render_type": "cutout_mipped"
+}

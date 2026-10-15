@@ -1,0 +1,7 @@
+{
+  "parent": "monstrous_world:custom/mallet",
+  "textures": {
+    "1": "monstrous_world:block/mallet",
+    "particle": "monstrous_world:item/mallet"
+  }
+}

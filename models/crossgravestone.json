@@ -1,0 +1,78 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "mossy_dark_shingles",
+		"1": "black_crystal_block",
+		"particle": "mossy_dark_shingles"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 5],
+			"to": [12, 1, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [3, 8, 11, 9], "texture": "#1"},
+				"east": {"uv": [0, 0, 8, 1], "texture": "#1"},
+				"south": {"uv": [4, 4, 12, 5], "texture": "#1"},
+				"west": {"uv": [1, 8, 9, 9], "texture": "#1"},
+				"up": {"uv": [3, 3, 11, 11], "texture": "#1"},
+				"down": {"uv": [5, 4, 13, 12], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7, 1, 8],
+			"to": [9, 12, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 2, 8]},
+			"faces": {
+				"north": {"uv": [5, 2, 7, 13], "texture": "#0"},
+				"east": {"uv": [0, 0, 2, 11], "texture": "#0"},
+				"south": {"uv": [11, 2, 13, 13], "texture": "#0"},
+				"west": {"uv": [7, 1, 9, 12], "texture": "#0"},
+				"up": {"uv": [6, 5, 8, 7], "texture": "#0"},
+				"down": {"uv": [4, 9, 6, 11], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 7, 8],
+			"to": [7, 9, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 7, 8]},
+			"faces": {
+				"north": {"uv": [12, 10, 15, 12], "texture": "#0"},
+				"east": {"uv": [2, 4, 4, 6], "texture": "#0"},
+				"south": {"uv": [4, 8, 7, 10], "texture": "#0"},
+				"west": {"uv": [12, 13, 14, 15], "texture": "#0"},
+				"up": {"uv": [5, 6, 8, 8], "texture": "#0"},
+				"down": {"uv": [7, 4, 10, 6], "texture": "#0"}
+			}
+		},
+		{
+			"from": [9, 7, 8],
+			"to": [12, 9, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [10, 7, 8]},
+			"faces": {
+				"north": {"uv": [5, 3, 8, 5], "texture": "#0"},
+				"east": {"uv": [11, 8, 13, 10], "texture": "#0"},
+				"south": {"uv": [12, 10, 15, 12], "texture": "#0"},
+				"west": {"uv": [8, 4, 10, 6], "texture": "#0"},
+				"up": {"uv": [5, 6, 8, 8], "texture": "#0"},
+				"down": {"uv": [6, 3, 9, 5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, -135, 0],
+			"scale": [0.625, 0.625, 0.625]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 0, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

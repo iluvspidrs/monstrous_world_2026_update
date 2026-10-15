@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:infernal_iron_ingot"
+    },
+    "title": {
+      "translate": "advancements.forged_in_evil.title"
+    },
+    "description": {
+      "translate": "advancements.forged_in_evil.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "forged_in_evil_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:an_infernal_tome"
+}

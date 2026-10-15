@@ -1,0 +1,10 @@
+{
+  "parent": "monstrous_world:custom/skull_lamp_emissive",
+  "textures": {
+    "all": "monstrous_world:block/poisoned_skeleton_lamp",
+    "particle": "monstrous_world:block/poisoned_skeleton_lamp",
+    "0": "monstrous_world:block/poisoned_skeleton_lamp",
+    "1": "monstrous_world:block/lamp_eyes_red_emissive"
+  },
+  "render_type": "cutout"
+}

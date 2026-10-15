@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "I Cant Believe That Worked!",
+    "achievementDescription": "Hold off the monstrous possessing entity with a simple Charm",
+    "achievementIcon": "CUSTOM:CharmOfPossessionImmunity",
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": "CUSTOM:PowerCorrupts",
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"86\" y=\"91\"><next><block type=\"custom_trigger\"/></next></block></xml>"
+  }
+}

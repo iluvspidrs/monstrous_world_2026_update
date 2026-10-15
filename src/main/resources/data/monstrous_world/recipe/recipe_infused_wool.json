@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:bottle_of_blood"
+    },
+    "b": {
+      "item": "minecraft:black_wool"
+    },
+    "c": {
+      "item": "monstrous_world:blood_bulb"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:infused_wool",
+    "count": 1
+  }
+}

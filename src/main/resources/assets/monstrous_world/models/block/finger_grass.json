@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "monstrous_world:block/finger_grass",
+    "particle": "monstrous_world:block/finger_grass"
+  },
+  "render_type": "cutout"
+}

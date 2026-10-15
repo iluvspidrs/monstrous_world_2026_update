@@ -1,0 +1,46 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "a_hunters_warning_item"
+      }
+    },
+    "hunters_guild_flyer": {
+      "name": "hunters_guild_flyer",
+      "map": {
+        "0": "hunters_guild_flyer_item"
+      }
+    },
+    "mission_board": {
+      "name": "mission_board",
+      "map": {
+        "0": "hunters_guild_mission_board"
+      }
+    },
+    "museum_ad": {
+      "name": "museum_ad",
+      "map": {
+        "0": "letter_from_agatha_item"
+      }
+    },
+    "dark_market_ad": {
+      "name": "dark_market_ad",
+      "map": {
+        "0": "letter_from_countess_item"
+      }
+    },
+    "trick_or_treat_ad": {
+      "name": "trick_or_treat_ad",
+      "map": {
+        "0": "trick_or_treat_item"
+      }
+    },
+    "pumpion_cottage": {
+      "name": "pumpion_cottage",
+      "map": {
+        "0": "pumion_cottage_welcome"
+      }
+    }
+  }
+}

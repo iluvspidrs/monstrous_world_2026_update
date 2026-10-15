@@ -1,0 +1,13 @@
+{
+  "_fv": 89,
+  "_type": "humanoidmodel",
+  "definition": {
+    "modelName": "ModelPlayerFlyWingsOffGround",
+    "helmetModelPart": "Empty",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Empty",
+    "armsModelPartR": "Empty",
+    "leggingsModelPartL": "Empty",
+    "leggingsModelPartR": "Empty"
+  }
+}

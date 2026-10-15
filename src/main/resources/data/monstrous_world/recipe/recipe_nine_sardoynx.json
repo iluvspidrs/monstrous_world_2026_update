@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:block_of_sardoynx"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:sardonyx",
+    "count": 9
+  }
+}

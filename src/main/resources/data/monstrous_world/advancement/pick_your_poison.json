@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:syringe_of_vanishing"
+    },
+    "title": {
+      "translate": "advancements.pick_your_poison.title"
+    },
+    "description": {
+      "translate": "advancements.pick_your_poison.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pick_your_poison_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:pull_the_switch"
+}

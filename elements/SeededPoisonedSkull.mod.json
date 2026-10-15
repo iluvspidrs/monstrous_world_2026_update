@@ -1,0 +1,32 @@
+{
+  "_fv": 85,
+  "_type": "blockstates",
+  "definition": {
+    "block": "PoisonedSkull",
+    "blockstateList": [
+      {
+        "texture": "poisoned_skull_texture",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "poisoned_skull_texture",
+        "renderType": 2,
+        "customModelName": "poisonedskullseeded:default",
+        "luminance": 3,
+        "boundingBoxes": [
+          {
+            "mx": 4.0,
+            "my": 0.0,
+            "mz": 4.0,
+            "Mx": 12.0,
+            "My": 13.0,
+            "Mz": 12.0,
+            "subtract": false
+          }
+        ]
+      }
+    ]
+  }
+}

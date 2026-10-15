@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:dark_grass",
+    "minecraft:grass_block",
+    "minecraft:dirt",
+    "monstrous_world:darkened_sand",
+    "monstrous_world:darkened_dirt",
+    "monstrous_world:darkened_stone"
+  ]
+}

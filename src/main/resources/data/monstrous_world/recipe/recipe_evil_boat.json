@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:evil_tree_planks"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:evil_boat",
+    "count": 1
+  }
+}

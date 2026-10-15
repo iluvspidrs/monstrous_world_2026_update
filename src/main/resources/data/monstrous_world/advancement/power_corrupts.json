@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:darkened_trident"
+    },
+    "title": {
+      "translate": "advancements.power_corrupts.title"
+    },
+    "description": {
+      "translate": "advancements.power_corrupts.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "power_corrupts_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:wielding_darkness"
+}

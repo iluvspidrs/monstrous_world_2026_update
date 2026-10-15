@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "monstrous_world_tools",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    "bcb",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_nugget"
+    },
+    "b": {
+      "item": "monstrous_world:tin_trapdoor"
+    },
+    "c": {
+      "item": "monstrous_world:computer_chip"
+    },
+    "d": {
+      "item": "monstrous_world:darkened_planks_button"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:robot_controller",
+    "count": 1
+  }
+}

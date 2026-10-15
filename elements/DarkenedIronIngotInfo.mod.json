@@ -1,0 +1,14 @@
+{
+  "_fv": 89,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      "CUSTOM:DarkenedIronIngot"
+    ],
+    "information": [
+      "The Darkened Iron Ingot is created by combining Dark Essence Dust and a regular Iron Ingot in a crafting grid. The recipe is shapeless.",
+      "",
+      "Dark Essence Dust is occasionally dropped when mining Darkened Blocks, although Darkened Leaves by far offer the best chance of a drop. "
+    ]
+  }
+}

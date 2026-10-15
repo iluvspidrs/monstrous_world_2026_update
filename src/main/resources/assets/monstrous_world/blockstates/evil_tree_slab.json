@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "monstrous_world:block/evil_tree_slab"
+    },
+    "type=top": {
+      "model": "monstrous_world:block/evil_tree_slab_top"
+    },
+    "type=double": {
+      "model": "monstrous_world:block/evil_tree_slab_full"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 5,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:DarkenedGlass",
+      "CUSTOM:PaleStalkPlanks"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:PaleStalkPlanks",
+      "CUSTOM:DarkenedGlass",
+      "CUSTOM:PaleStalkPlanks",
+      "CUSTOM:DarkenedGlass",
+      "CUSTOM:DarkenedGlass",
+      "CUSTOM:DarkenedGlass",
+      "CUSTOM:PaleStalkPlanks",
+      "CUSTOM:DarkenedGlass",
+      "CUSTOM:PaleStalkPlanks"
+    ],
+    "recipeReturnStack": "CUSTOM:PaleStalkPaneledGlass",
+    "name": "recipe_pale_stalk_paneled_glass",
+    "namespace": "mod"
+  }
+}

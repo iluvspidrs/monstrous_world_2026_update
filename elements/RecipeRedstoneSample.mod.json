@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "monstrous_world_items",
+    "unlockingItems": [
+      "Items.REDSTONE",
+      "CUSTOM:TestTube"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "",
+      "Items.REDSTONE",
+      "",
+      "",
+      "CUSTOM:TestTube",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:RedstoneSample",
+    "name": "recipe_redstone_sample",
+    "namespace": "mod"
+  }
+}

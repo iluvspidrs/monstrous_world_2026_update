@@ -1,0 +1,33 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "monstrous_world_tools",
+    "unlockingItems": [
+      "CUSTOM:AHintOfInsanity",
+      "Blocks.GLASS",
+      "Items.IRON_NUGGET"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Items.IRON_NUGGET",
+      "CUSTOM:AHintOfInsanity",
+      "Items.IRON_NUGGET",
+      "Blocks.GLASS",
+      "Items.IRON_NUGGET",
+      "Blocks.GLASS",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:LabCoat.helmet",
+    "name": "lab_glasses_recipe",
+    "namespace": "mod"
+  }
+}

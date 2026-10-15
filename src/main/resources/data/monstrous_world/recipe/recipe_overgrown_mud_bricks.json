@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:vine"
+    },
+    {
+      "item": "minecraft:mud_bricks"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:overgrown_mud_bricks",
+    "count": 1
+  }
+}

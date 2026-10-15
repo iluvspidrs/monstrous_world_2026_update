@@ -1,0 +1,10 @@
+{
+  "parent": "monstrous_world:custom/wrappedvictimbottom",
+  "textures": {
+    "all": "monstrous_world:block/wrappedblock",
+    "particle": "monstrous_world:block/wrappedblock",
+    "0": "monstrous_world:block/wrappedblock",
+    "missing": "monstrous_world:block/"
+  },
+  "render_type": "solid"
+}

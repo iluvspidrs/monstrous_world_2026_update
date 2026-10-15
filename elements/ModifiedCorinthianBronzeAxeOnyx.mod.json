@@ -1,0 +1,43 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "modified_corbronze_axe_onyx",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Modified Corinthian Bronze Axe [Onyx]",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": [
+        "Grants Strength to the holder",
+        "20% chance of one-hit kill on non-boss mobs"
+      ]
+    },
+    "creativeTabs": [
+      "CUSTOM:MonstrousWorldTools"
+    ],
+    "efficiency": 7.0,
+    "attackSpeed": 1.0,
+    "enchantability": 25,
+    "damageVsEntity": 8.0,
+    "usageCount": 600,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      "CUSTOM:CorinthianBronzeIngot",
+      "TAG:c:ingots/corinthian_bronze"
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "DIAMOND",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInUseTick": "ModifiedIronSwordOnyxToolInHandTick"
+  }
+}

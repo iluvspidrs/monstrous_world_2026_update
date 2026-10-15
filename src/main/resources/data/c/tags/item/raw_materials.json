@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:raw_infernal_iron",
+    "monstrous_world:cassiterite_crystal",
+    "monstrous_world:raw_tungsten"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "_fv": 89,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      "CUSTOM:Moonstone",
+      "CUSTOM:MoonstoneOre",
+      "CUSTOM:BlockOfMoonstone",
+      "CUSTOM:PurifiedMoonstone",
+      "CUSTOM:ConcentratedMoonstone"
+    ],
+    "information": [
+      "Moonstone is a Precious Stone found in higher elevations, and its ore has a bluish-white hue.",
+      "",
+      "Moonstone is associated with night, and is useful in magic. Moonstone artifacts can also mesmerize Werewolves when held, giving the holder a bit of protection."
+    ]
+  }
+}

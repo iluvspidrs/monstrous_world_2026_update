@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "monstrous_world:darkened_sandstone"
+  },
+  "result": {
+    "id": "monstrous_world:darkened_sandstone_wall",
+    "count": 1
+  }
+}

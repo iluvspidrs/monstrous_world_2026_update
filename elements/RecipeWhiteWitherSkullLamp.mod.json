@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "Blocks.SKULL#1",
+      "CUSTOM:SpiritInfusedWhiteLightBulb"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "",
+      "CUSTOM:SpiritInfusedWhiteLightBulb",
+      "",
+      "",
+      "Blocks.SKULL#1",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:EmissiveWhiteSkullLamp",
+    "name": "recipe_white_wither_skull_lamp",
+    "namespace": "mod"
+  }
+}

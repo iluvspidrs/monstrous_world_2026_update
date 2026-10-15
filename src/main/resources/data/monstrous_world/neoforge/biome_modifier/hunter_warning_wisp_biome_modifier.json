@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#c:is_forest",
+  "features": "monstrous_world:hunter_warning_wisp",
+  "step": "surface_structures"
+}

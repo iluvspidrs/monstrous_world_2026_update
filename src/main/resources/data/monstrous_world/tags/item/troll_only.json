@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:troll_mace",
+    "monstrous_world:troll_work_hammer",
+    "monstrous_world:troll_battle_axe",
+    "monstrous_world:troll_war_hammer"
+  ]
+}

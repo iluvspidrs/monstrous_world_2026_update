@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "stray",
+    "cave_spider",
+    "creeper",
+    "skeleton",
+    "wither_skeleton",
+    "spider"
+  ]
+}

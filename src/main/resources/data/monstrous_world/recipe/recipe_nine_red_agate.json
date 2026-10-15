@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:block_of_red_agate"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:red_agate",
+    "count": 9
+  }
+}

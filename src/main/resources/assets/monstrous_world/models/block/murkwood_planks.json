@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/murkwood_planks",
+    "up": "monstrous_world:block/murkwood_planks",
+    "north": "monstrous_world:block/murkwood_planks",
+    "east": "monstrous_world:block/murkwood_planks",
+    "south": "monstrous_world:block/murkwood_planks",
+    "west": "monstrous_world:block/murkwood_planks",
+    "particle": "monstrous_world:block/murkwood_planks"
+  },
+  "render_type": "solid"
+}

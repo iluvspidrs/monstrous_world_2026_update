@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:red_agate",
+    "monstrous_world:purified_blue_agate",
+    "monstrous_world:pale_agate",
+    "monstrous_world:green_agate",
+    "monstrous_world:purified_green_agate",
+    "monstrous_world:purified_pale_agate",
+    "monstrous_world:blue_agate",
+    "monstrous_world:purified_red_agate"
+  ]
+}

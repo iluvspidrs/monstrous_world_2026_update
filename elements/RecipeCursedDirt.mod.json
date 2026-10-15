@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:DarkenedDirt",
+      "Items.SPIDER_EYE"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "",
+      "CUSTOM:DarkenedDirt",
+      "",
+      "",
+      "Items.SPIDER_EYE",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:CursedDirtDecoration",
+    "name": "recipe_cursed_dirt",
+    "namespace": "mod"
+  }
+}

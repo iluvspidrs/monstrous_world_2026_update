@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "ba ",
+    "  a"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:darkened_log"
+    },
+    "b": {
+      "item": "monstrous_world:block_of_shimmering_darkness"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:troll_war_hammer",
+    "count": 1
+  }
+}

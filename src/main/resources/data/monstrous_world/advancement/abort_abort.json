@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:mysterious_container"
+    },
+    "title": {
+      "translate": "advancements.abort_abort.title"
+    },
+    "description": {
+      "translate": "advancements.abort_abort.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "abort_abort_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:shame_shame"
+}

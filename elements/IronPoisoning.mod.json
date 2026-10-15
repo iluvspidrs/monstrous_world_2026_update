@@ -1,0 +1,35 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Iron Poisoning",
+    "icon": "iron_poisoning",
+    "color": {
+      "value": -3342388,
+      "falpha": 0.0
+    },
+    "onAddedSound": "",
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": "ATTACK_SPEED",
+        "amount": -0.3,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": "MOVEMENT_SPEED",
+        "amount": -0.2,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": "SNEAKING_SPEED",
+        "amount": -0.1,
+        "operation": "ADD_VALUE"
+      }
+    ]
+  }
+}

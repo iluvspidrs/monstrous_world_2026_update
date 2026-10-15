@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:block_of_tigers_eye"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:tigers_eye",
+    "count": 9
+  }
+}

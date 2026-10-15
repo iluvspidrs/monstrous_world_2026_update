@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:amulet_of_following"
+    },
+    "title": {
+      "translate": "advancements.fanged_following.title"
+    },
+    "description": {
+      "translate": "advancements.fanged_following.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fanged_following_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:your_first_amulet"
+}

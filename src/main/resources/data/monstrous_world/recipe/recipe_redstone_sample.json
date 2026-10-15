@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "monstrous_world_items",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "monstrous_world:test_tube"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:redstone_sample",
+    "count": 1
+  }
+}

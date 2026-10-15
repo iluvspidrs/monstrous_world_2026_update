@@ -1,0 +1,117 @@
+{
+  "_fv": 89,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "corinthian_bronze_troll_helmet",
+    "enableBody": true,
+    "textureBody": "corinthian_bronze_troll_chestplate_2",
+    "enableLeggings": true,
+    "textureLeggings": "corinthian_bronze_troll_leggings_2",
+    "enableBoots": true,
+    "textureBoots": "corinthian_bronze_troll_boots",
+    "creativeTabs": [
+      "CUSTOM:MonstrousWorldTools"
+    ],
+    "armorTextureFile": "chainmail",
+    "helmetName": "Corinthian Bronze Troll Helmet",
+    "bodyName": "Corinthian Bronze Troll Chestplate",
+    "leggingsName": "Corinthian Bronze Troll Leggings",
+    "bootsName": "Corinthian Bronze Troll Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": [
+        "Heavy! Only usable by Trolls",
+        "Full set removes Poison and Wither, stops projectiles"
+      ]
+    },
+    "bodySpecialInformation": {
+      "fixedValue": [
+        "Heavy! Only usable by Trolls",
+        "Full set removes Poison and Wither, stops projectiles"
+      ]
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": [
+        "Heavy! Only usable by Trolls",
+        "Full set removes Poison and Wither, stops projectiles"
+      ]
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": [
+        "Heavy! Only usable by Trolls",
+        "Removes Poison and Wither, stops projectiles"
+      ]
+    },
+    "helmetModelName": "ModelTrollHelmetUpdated",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "trollarmorcorbronzeupdated.png",
+    "bodyModelName": "ModelTrollChestplateUpdated",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "trollarmorcorbronzeupdated.png",
+    "leggingsModelName": "Modelaquaticleggings",
+    "leggingsModelPartL": "LeftLeg",
+    "leggingsModelPartR": "RightLeg",
+    "leggingsModelTexture": "trollarmorcorbronzeupdated.png",
+    "bootsModelName": "Modelaquaticboots",
+    "bootsModelPartL": "LeftLeg",
+    "bootsModelPartR": "RightLeg",
+    "bootsModelTexture": "trollarmorcorbronzeupdated.png",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetTranslucency": false,
+    "bodyTranslucency": false,
+    "leggingsTranslucency": false,
+    "bootsTranslucency": false,
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "helmetGlowCondition": {
+      "fixedValue": false
+    },
+    "bodyGlowCondition": {
+      "fixedValue": false
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": false
+    },
+    "bootsGlowCondition": {
+      "fixedValue": false
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": true
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": true
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": true
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": true
+    },
+    "maxDamage": 22,
+    "damageValueHelmet": 2,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 25,
+    "toughness": 1.2,
+    "knockbackResistance": 0.1,
+    "equipSound": "item.armor.equip_netherite",
+    "repairItems": [
+      "CUSTOM:CorinthianBronzeIngot",
+      "TAG:c:ingots/corinthian_bronze"
+    ],
+    "rarity": "COMMON",
+    "attributeModifiers": []
+  }
+}

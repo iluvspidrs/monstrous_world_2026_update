@@ -1,0 +1,60 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "darkened_iron_block",
+        "1": "minecraft:black_concrete_powder"
+      }
+    },
+    "green": {
+      "name": "green",
+      "map": {
+        "0": "darkened_iron_block",
+        "1": "minecraft:green_concrete_powder"
+      }
+    },
+    "yellow": {
+      "name": "yellow",
+      "map": {
+        "0": "darkened_iron_block",
+        "1": "minecraft:yellow_concrete_powder"
+      }
+    },
+    "orange": {
+      "name": "orange",
+      "map": {
+        "0": "darkened_iron_block",
+        "1": "minecraft:orange_concrete_powder"
+      }
+    },
+    "red": {
+      "name": "red",
+      "map": {
+        "0": "darkened_iron_block",
+        "1": "minecraft:red_concrete_powder"
+      }
+    },
+    "purple": {
+      "name": "purple",
+      "map": {
+        "0": "darkened_iron_block",
+        "1": "minecraft:purple_concrete_powder"
+      }
+    },
+    "blue": {
+      "name": "blue",
+      "map": {
+        "0": "darkened_iron_block",
+        "1": "minecraft:cyan_concrete_powder"
+      }
+    },
+    "gray": {
+      "name": "gray",
+      "map": {
+        "0": "darkened_iron_block",
+        "1": "minecraft:light_gray_concrete_powder"
+      }
+    }
+  }
+}

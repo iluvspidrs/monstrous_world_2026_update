@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Worth The Upgrade",
+    "achievementDescription": "Upgrade your Troll Forge with a Work Hammer and a block of Raw Tungsten",
+    "achievementIcon": "CUSTOM:TrollForgeTungsten",
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": "CUSTOM:CastingCall",
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"126\" y=\"115\"><next><block type=\"custom_trigger\"/></next></block></xml>"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:TigersEye"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:TigersEye",
+      "CUSTOM:TigersEye",
+      "CUSTOM:TigersEye",
+      "CUSTOM:TigersEye",
+      "CUSTOM:TigersEye",
+      "CUSTOM:TigersEye",
+      "CUSTOM:TigersEye",
+      "CUSTOM:TigersEye",
+      "CUSTOM:TigersEye"
+    ],
+    "recipeReturnStack": "CUSTOM:BlockOfTigersEye",
+    "name": "recipe_block_of_tigers_eye",
+    "namespace": "mod"
+  }
+}

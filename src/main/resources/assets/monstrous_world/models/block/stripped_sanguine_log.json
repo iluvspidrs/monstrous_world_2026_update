@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/sanguine_log_end_stripped",
+    "up": "monstrous_world:block/sanguine_log_end_stripped",
+    "north": "monstrous_world:block/sanguine_stripped_wood",
+    "east": "monstrous_world:block/sanguine_stripped_wood",
+    "south": "monstrous_world:block/sanguine_stripped_wood",
+    "west": "monstrous_world:block/sanguine_stripped_wood",
+    "particle": "monstrous_world:block/sanguine_log_end_stripped"
+  },
+  "render_type": "solid"
+}

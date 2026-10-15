@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/soul_crucible_side",
+    "up": "monstrous_world:block/soul_crucible_top",
+    "north": "monstrous_world:block/soul_crucible_side",
+    "east": "monstrous_world:block/soul_crucible_side",
+    "south": "monstrous_world:block/soul_crucible_side",
+    "west": "monstrous_world:block/soul_crucible_side",
+    "particle": "monstrous_world:block/soul_crucible_side"
+  },
+  "render_type": "solid"
+}

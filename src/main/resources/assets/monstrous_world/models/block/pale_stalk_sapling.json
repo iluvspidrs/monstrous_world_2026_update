@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "monstrous_world:block/pale_stalk_sapling",
+    "particle": "monstrous_world:block/pale_stalk_sapling"
+  },
+  "render_type": "cutout"
+}

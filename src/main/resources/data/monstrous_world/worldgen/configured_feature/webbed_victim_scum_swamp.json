@@ -1,0 +1,12 @@
+{
+  "type": "monstrous_world:webbed_victim_scum_swamp",
+  "config": {
+    "structure": "monstrous_world:webbed_victim_2",
+    "ignored_blocks": "minecraft:air",
+    "offset": [
+      0,
+      -1,
+      0
+    ]
+  }
+}

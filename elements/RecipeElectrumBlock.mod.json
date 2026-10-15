@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:ElectrumIngot"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:ElectrumIngot",
+      "CUSTOM:ElectrumIngot",
+      "CUSTOM:ElectrumIngot",
+      "CUSTOM:ElectrumIngot",
+      "CUSTOM:ElectrumIngot",
+      "CUSTOM:ElectrumIngot",
+      "CUSTOM:ElectrumIngot",
+      "CUSTOM:ElectrumIngot",
+      "CUSTOM:ElectrumIngot"
+    ],
+    "recipeReturnStack": "CUSTOM:ElectrumBlock",
+    "name": "recipe_electrum_block",
+    "namespace": "mod"
+  }
+}

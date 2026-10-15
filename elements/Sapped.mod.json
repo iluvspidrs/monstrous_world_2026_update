@@ -1,0 +1,25 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Sapped",
+    "icon": "sapped",
+    "color": {
+      "value": -7817615,
+      "falpha": 0.0
+    },
+    "onAddedSound": "",
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": "MOVEMENT_SPEED",
+        "amount": -8.0,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ]
+  }
+}

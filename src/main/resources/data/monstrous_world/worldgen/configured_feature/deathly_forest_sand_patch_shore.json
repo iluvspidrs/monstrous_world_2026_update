@@ -1,0 +1,30 @@
+{
+  "type": "monstrous_world:deathly_forest_sand_patch_shore",
+  "config": {
+    "radius": {
+      "type": "uniform",
+      "min_inclusive": 2,
+      "max_inclusive": 3
+    },
+    "half_height": 1,
+    "target": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "minecraft:grass_block",
+        "minecraft:dirt",
+        "minecraft:gravel",
+        "monstrous_world:dark_grass",
+        "minecraft:rooted_dirt"
+      ]
+    },
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:sand"
+        }
+      },
+      "rules": []
+    }
+  }
+}

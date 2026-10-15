@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "monstrous_world:blocks/dropped_cure_serum_note_block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "monstrous_world:dropped_cure_serum_note"
+        }
+      ]
+    }
+  ]
+}

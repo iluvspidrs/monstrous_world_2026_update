@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "bc",
+    " c"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:nether_gem"
+    },
+    "b": {
+      "item": "monstrous_world:infernal_iron_ingot"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:infernal_iron_axe",
+    "count": 1
+  }
+}

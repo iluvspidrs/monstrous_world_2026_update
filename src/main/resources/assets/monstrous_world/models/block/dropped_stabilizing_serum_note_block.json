@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/droppedpaper",
+  "textures": {
+    "all": "monstrous_world:block/note_stabilizing_serum",
+    "particle": "monstrous_world:block/note_stabilizing_serum",
+    "0": "monstrous_world:block/note_stabilizing_serum"
+  },
+  "render_type": "cutout"
+}

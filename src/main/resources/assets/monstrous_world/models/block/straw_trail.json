@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/strawtrail1",
+  "textures": {
+    "all": "monstrous_world:block/strawtexture",
+    "particle": "monstrous_world:block/strawtexture",
+    "0": "monstrous_world:block/strawtexture"
+  },
+  "render_type": "cutout"
+}

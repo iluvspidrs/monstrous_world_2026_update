@@ -1,0 +1,11 @@
+{
+  "parent": "monstrous_world:custom/hotplatewithflask",
+  "textures": {
+    "all": "monstrous_world:block/glass_translucent",
+    "particle": "monstrous_world:block/glass_translucent",
+    "0": "monstrous_world:block/glass_translucent",
+    "1": "monstrous_world:block/darkened_iron_block",
+    "2": "monstrous_world:block/stabilizerfluiduncooked"
+  },
+  "render_type": "translucent"
+}

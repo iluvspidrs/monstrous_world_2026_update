@@ -1,0 +1,33 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:VirtuousSoul",
+      "CUSTOM:NetherGem",
+      "Blocks.NETHERITE_BLOCK"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:VirtuousSoul",
+      "CUSTOM:VirtuousSoul",
+      "CUSTOM:VirtuousSoul",
+      "CUSTOM:VirtuousSoul",
+      "CUSTOM:VirtuousSoul",
+      "CUSTOM:VirtuousSoul",
+      "CUSTOM:NetherGem",
+      "Blocks.NETHERITE_BLOCK",
+      "CUSTOM:NetherGem"
+    ],
+    "recipeReturnStack": "CUSTOM:SoulCrucible",
+    "name": "recipe_soul_crucible",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "monstrous_world:custom/chalkglyph",
+  "textures": {
+    "all": "monstrous_world:block/blue_glyph_1",
+    "particle": "minecraft:block/cyan_concrete_powder",
+    "1": "monstrous_world:block/blue_glyph_1",
+    "missing": "monstrous_world:block/"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "monstrous_world:sanguinus_2",
+  "config": {
+    "structure": "monstrous_world:sanguinus_2",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:air"
+  }
+}

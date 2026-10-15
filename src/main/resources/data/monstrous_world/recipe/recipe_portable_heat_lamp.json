@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "monstrous_world_tools",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "monstrous_world:nether_gem"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:portable_heat_lamp",
+    "count": 1
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 212,
+    "height": 212,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 19,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 141,
+          "y": 100,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "testtubeoutline.png",
+          "use1Xscale": false,
+          "x": 131,
+          "y": 51,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 195,
+          "y": 100,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "testtubeoutline.png",
+          "use1Xscale": false,
+          "x": 185,
+          "y": 51,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "flaskoutline.png",
+          "use1Xscale": false,
+          "x": 232,
+          "y": 51,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 255,
+          "y": 100,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 255,
+          "y": 24,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "border_slot.png",
+          "use1Xscale": false,
+          "x": 139,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "border_slot.png",
+          "use1Xscale": false,
+          "x": 193,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "border_slot.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "border_slot.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 22,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_blue_back_button",
+          "image": "blue_back_button.png",
+          "hoveredImage": "blue_back_button_hover.png",
+          "onClick": "GUIandInfoBackButton",
+          "x": 118,
+          "y": 22,
+          "locked": false
+        }
+      }
+    ],
+    "onOpen": "TestTubeMixerThisGUIIsOpened",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

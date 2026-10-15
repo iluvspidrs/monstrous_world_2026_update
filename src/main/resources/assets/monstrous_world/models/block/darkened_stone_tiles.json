@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/darkened_stone_tiles",
+    "up": "monstrous_world:block/darkened_stone_tiles",
+    "north": "monstrous_world:block/darkened_stone_tiles",
+    "east": "monstrous_world:block/darkened_stone_tiles",
+    "south": "monstrous_world:block/darkened_stone_tiles",
+    "west": "monstrous_world:block/darkened_stone_tiles",
+    "particle": "monstrous_world:block/darkened_stone_tiles"
+  },
+  "render_type": "solid"
+}

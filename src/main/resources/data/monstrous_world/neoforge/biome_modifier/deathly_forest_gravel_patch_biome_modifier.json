@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "monstrous_world:deathly_forest",
+    "monstrous_world:crimson_dread",
+    "monstrous_world:murky_madness",
+    "monstrous_world:forsaken_lands",
+    "monstrous_world:autumn_delight",
+    "monstrous_world:scum_swamp",
+    "monstrous_world:pumpkin_hollow",
+    "monstrous_world:foggy_expanse"
+  ],
+  "features": "monstrous_world:deathly_forest_gravel_patch",
+  "step": "surface_structures"
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "monstrous_world_tools",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    "aa ",
+    "ba "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_nugget"
+    },
+    "b": {
+      "tag": "c:gems/sardonyx"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:bloodletter",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/skull_bricks_purple",
+    "up": "monstrous_world:block/skull_bricks_purple",
+    "north": "monstrous_world:block/skull_bricks_purple",
+    "east": "monstrous_world:block/skull_bricks_purple",
+    "south": "monstrous_world:block/skull_bricks_purple",
+    "west": "monstrous_world:block/skull_bricks_purple",
+    "particle": "monstrous_world:block/skull_bricks_purple"
+  },
+  "render_type": "solid"
+}

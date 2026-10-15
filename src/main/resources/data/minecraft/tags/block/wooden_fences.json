@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:sanguine_wood_fence",
+    "monstrous_world:pale_stalk_fence",
+    "monstrous_world:darkened_planks_fence",
+    "monstrous_world:murkwood_fence",
+    "monstrous_world:ghostly_fence",
+    "monstrous_world:deathly_wood_fence",
+    "monstrous_world:pumpkin_fence",
+    "monstrous_world:evil_tree_fence"
+  ]
+}

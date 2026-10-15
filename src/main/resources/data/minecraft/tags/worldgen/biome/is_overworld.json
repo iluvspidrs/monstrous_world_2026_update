@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:murky_madness",
+    "monstrous_world:forsaken_lands",
+    "monstrous_world:crimson_dread",
+    "monstrous_world:deathly_forest",
+    "monstrous_world:scum_swamp",
+    "monstrous_world:autumn_delight"
+  ]
+}

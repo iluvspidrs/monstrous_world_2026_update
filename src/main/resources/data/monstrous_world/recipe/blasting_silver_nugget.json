@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 5,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "monstrous_world:silver_dust"
+  },
+  "result": {
+    "id": "monstrous_world:silver_nugget"
+  }
+}

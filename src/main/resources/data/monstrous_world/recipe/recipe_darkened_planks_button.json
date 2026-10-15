@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "monstrous_world:darkened_planks"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:darkened_planks_button",
+    "count": 1
+  }
+}

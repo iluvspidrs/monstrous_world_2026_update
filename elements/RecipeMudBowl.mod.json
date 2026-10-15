@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "unlockingItems": [
+      "Blocks.PACKED_MUD"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "Blocks.PACKED_MUD",
+      "",
+      "Blocks.PACKED_MUD",
+      "",
+      "Blocks.PACKED_MUD",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:MudBowl",
+    "name": "recipe_mud_bowl",
+    "namespace": "mod"
+  }
+}

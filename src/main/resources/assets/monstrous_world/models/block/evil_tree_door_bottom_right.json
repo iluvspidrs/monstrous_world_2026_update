@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_right",
+  "textures": {
+    "particle": "monstrous_world:block/dilapidated_door",
+    "bottom": "monstrous_world:block/dilapidated_door",
+    "top": "monstrous_world:block/dilapidated_door_top"
+  },
+  "render_type": "solid"
+}

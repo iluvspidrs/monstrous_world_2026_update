@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/darkened_gravel",
+    "up": "monstrous_world:block/darkened_gravel",
+    "north": "monstrous_world:block/darkened_gravel",
+    "east": "monstrous_world:block/darkened_gravel",
+    "south": "monstrous_world:block/darkened_gravel",
+    "west": "monstrous_world:block/darkened_gravel",
+    "particle": "monstrous_world:block/darkened_gravel"
+  },
+  "render_type": "solid"
+}

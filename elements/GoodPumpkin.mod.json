@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Good Pumpkin!",
+    "achievementDescription": "Use Pumpkin Essence on a hostile Trapped Pumpkin to change its type",
+    "achievementIcon": "Blocks.CARVED_PUMPKIN",
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": "CUSTOM:MonstrousWorld",
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"145\" y=\"74\"><next><block type=\"custom_trigger\"/></next></block></xml>"
+  }
+}

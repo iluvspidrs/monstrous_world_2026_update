@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:shining_netherite_ingot"
+    },
+    "title": {
+      "translate": "advancements.a_shining_accomplishment.title"
+    },
+    "description": {
+      "translate": "advancements.a_shining_accomplishment.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_shining_accomplishment_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:worth_the_upgrade"
+}

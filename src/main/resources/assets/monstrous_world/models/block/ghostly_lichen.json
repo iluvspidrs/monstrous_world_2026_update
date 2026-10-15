@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/ghostlylichen",
+  "textures": {
+    "all": "monstrous_world:block/ghostlylichen",
+    "particle": "monstrous_world:block/ghostlylichen",
+    "0": "monstrous_world:block/ghostlylichen"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:BlueAgate"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:BlueAgate",
+      "CUSTOM:BlueAgate",
+      "CUSTOM:BlueAgate",
+      "CUSTOM:BlueAgate",
+      "CUSTOM:BlueAgate",
+      "CUSTOM:BlueAgate",
+      "CUSTOM:BlueAgate",
+      "CUSTOM:BlueAgate",
+      "CUSTOM:BlueAgate"
+    ],
+    "recipeReturnStack": "CUSTOM:BlockOfBlueAgate",
+    "name": "recipe_block_of_blue_agate",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/electrum_block",
+    "up": "monstrous_world:block/electrum_block",
+    "north": "monstrous_world:block/electrum_block",
+    "east": "monstrous_world:block/electrum_block",
+    "south": "monstrous_world:block/electrum_block",
+    "west": "monstrous_world:block/electrum_block",
+    "particle": "monstrous_world:block/electrum_block"
+  },
+  "render_type": "solid"
+}

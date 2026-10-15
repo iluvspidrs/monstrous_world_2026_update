@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#minecraft:is_nether",
+  "spawners": {
+    "type": "monstrous_world:demon_npc",
+    "weight": 180,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

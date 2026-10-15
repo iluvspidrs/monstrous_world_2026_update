@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:moon_clock"
+    },
+    "title": {
+      "translate": "advancements.the_monster_calls.title"
+    },
+    "description": {
+      "translate": "advancements.the_monster_calls.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_monster_calls_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:every_werewolfs_guide"
+}

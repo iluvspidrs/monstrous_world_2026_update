@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:cultivated_pumpkin_essence"
+    },
+    "title": {
+      "translate": "advancements.not_so_useless.title"
+    },
+    "description": {
+      "translate": "advancements.not_so_useless.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "not_so_useless_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:a_furry_alarm_clock"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/darkened_planks",
+    "up": "monstrous_world:block/darkened_planks",
+    "north": "monstrous_world:block/darkened_planks",
+    "east": "monstrous_world:block/darkened_planks",
+    "south": "monstrous_world:block/darkened_planks",
+    "west": "monstrous_world:block/darkened_planks",
+    "particle": "monstrous_world:block/darkened_planks"
+  },
+  "render_type": "solid"
+}

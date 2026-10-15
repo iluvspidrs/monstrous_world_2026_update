@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_forest",
+  "spawners": {
+    "type": "monstrous_world:feral_goblin",
+    "weight": 100,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

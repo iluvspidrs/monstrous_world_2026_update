@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "monstrous_world:deathly_forest",
+    "monstrous_world:crimson_dread",
+    "monstrous_world:murky_madness",
+    "monstrous_world:autumn_delight",
+    "monstrous_world:scum_swamp"
+  ],
+  "features": "monstrous_world:scattered_white_wide_pumpkins",
+  "step": "surface_structures"
+}

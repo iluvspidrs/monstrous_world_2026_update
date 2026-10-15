@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:strange_serum_syringe_fly"
+    },
+    "title": {
+      "translate": "advancements.this_will_only_hurt_a_little.title"
+    },
+    "description": {
+      "translate": "advancements.this_will_only_hurt_a_little.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "this_will_only_hurt_a_little_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:technical_expertise"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/black_onyx_block",
+    "up": "monstrous_world:block/black_onyx_block",
+    "north": "monstrous_world:block/black_onyx_block",
+    "east": "monstrous_world:block/black_onyx_block",
+    "south": "monstrous_world:block/black_onyx_block",
+    "west": "monstrous_world:block/black_onyx_block",
+    "particle": "monstrous_world:block/black_onyx_block"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,117 @@
+{
+  "_fv": 89,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "bronze_troll_helmet",
+    "enableBody": true,
+    "textureBody": "bronze_troll_chestplate_2",
+    "enableLeggings": true,
+    "textureLeggings": "bronze_troll_leggings_2",
+    "enableBoots": true,
+    "textureBoots": "bronze_troll_boots",
+    "creativeTabs": [
+      "CUSTOM:MonstrousWorldTools"
+    ],
+    "armorTextureFile": "chainmail",
+    "helmetName": "Bronze Troll Helmet",
+    "bodyName": "Bronze Troll Chestplate",
+    "leggingsName": "Bronze Troll Leggings",
+    "bootsName": "Bronze Troll Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": [
+        "Heavy! Only usable by Trolls",
+        "Full set repels projectiles"
+      ]
+    },
+    "bodySpecialInformation": {
+      "fixedValue": [
+        "Heavy! Only usable by Trolls",
+        "Full set repels projectiles"
+      ]
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": [
+        "Heavy! Only usable by Trolls",
+        "Full set repels projectiles"
+      ]
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": [
+        "Heavy! Only usable by Trolls",
+        "Full set repels projectiles"
+      ]
+    },
+    "helmetModelName": "ModelTrollHelmetUpdated",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "trollarmorbronzeupdated.png",
+    "bodyModelName": "ModelTrollChestplateUpdated",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "trollarmorbronzeupdated.png",
+    "leggingsModelName": "Modelaquaticleggings",
+    "leggingsModelPartL": "LeftLeg",
+    "leggingsModelPartR": "RightLeg",
+    "leggingsModelTexture": "trollarmorbronzeupdated.png",
+    "bootsModelName": "Modelaquaticboots",
+    "bootsModelPartL": "LeftLeg",
+    "bootsModelPartR": "RightLeg",
+    "bootsModelTexture": "trollarmorbronzeupdated.png",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetTranslucency": false,
+    "bodyTranslucency": false,
+    "leggingsTranslucency": false,
+    "bootsTranslucency": false,
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "helmetGlowCondition": {
+      "fixedValue": false
+    },
+    "bodyGlowCondition": {
+      "fixedValue": false
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": false
+    },
+    "bootsGlowCondition": {
+      "fixedValue": false
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "maxDamage": 25,
+    "damageValueHelmet": 2,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 10,
+    "toughness": 1.5,
+    "knockbackResistance": 0.1,
+    "equipSound": "item.armor.equip_netherite",
+    "repairItems": [
+      "CUSTOM:BronzeIngot",
+      "TAG:c:ingots/bronze"
+    ],
+    "rarity": "COMMON",
+    "attributeModifiers": []
+  }
+}

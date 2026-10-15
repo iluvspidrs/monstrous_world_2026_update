@@ -1,0 +1,14 @@
+{
+  "type": "monstrous_world:hunter_notice_flyer",
+  "config": {
+    "structure": "monstrous_world:hunters_guild_flyer",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:air",
+    "offset": [
+      0,
+      -1,
+      0
+    ]
+  }
+}

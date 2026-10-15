@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:murkwood_door",
+    "monstrous_world:murkwood_paneled_glass",
+    "monstrous_world:murkwood_glass_pane",
+    "monstrous_world:murkwood_log",
+    "monstrous_world:murkwood_leaves",
+    "monstrous_world:murkwood_barricade",
+    "monstrous_world:stripped_murkwood_log",
+    "monstrous_world:murkwood_fence",
+    "monstrous_world:murkwood_wood",
+    "monstrous_world:murkwood_pressure_plate",
+    "monstrous_world:murkwood_slab",
+    "monstrous_world:murkwood_planks",
+    "monstrous_world:murkwood_sapling",
+    "monstrous_world:stripped_murkwood_wood",
+    "monstrous_world:murkwood_fence_gate",
+    "monstrous_world:murkwood_button",
+    "monstrous_world:murkwood_stairs",
+    "monstrous_world:murkwood_trapdoor"
+  ]
+}

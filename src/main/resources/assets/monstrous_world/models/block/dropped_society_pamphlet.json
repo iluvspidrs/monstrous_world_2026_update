@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/droppedpaper",
+  "textures": {
+    "all": "monstrous_world:block/society_pamphet",
+    "particle": "monstrous_world:block/society_pamphet",
+    "0": "monstrous_world:block/society_pamphet"
+  },
+  "render_type": "cutout"
+}

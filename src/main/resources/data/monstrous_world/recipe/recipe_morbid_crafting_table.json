@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:nether_gem"
+    },
+    "b": {
+      "item": "monstrous_world:dried_skin"
+    },
+    "c": {
+      "item": "monstrous_world:infernal_iron_ingot"
+    },
+    "d": {
+      "item": "monstrous_world:block_of_raw_infernal_iron"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:morbid_work_table",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "bbb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:evil_tree_planks"
+    },
+    "b": {
+      "item": "monstrous_world:darkened_glass"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:evil_wood_paneled_glass",
+    "count": 5
+  }
+}

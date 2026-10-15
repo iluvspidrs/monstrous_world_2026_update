@@ -1,0 +1,36 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "monstrous_world_tools",
+    "unlockingItems": [
+      "CUSTOM:EvilTreePlanks",
+      "CUSTOM:EvilTreeSlab",
+      "CUSTOM:ClearQuartzShard",
+      "CUSTOM:RoseQuartzShard",
+      "CUSTOM:BlackOnyx",
+      "CUSTOM:Sardonyx"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "TAG:c:gems/rose_quartz",
+      "",
+      "TAG:c:gems/clear_quartz",
+      "TAG:c:gems/sardonyx",
+      "CUSTOM:EvilTreePlanks",
+      "TAG:c:gems/black_onyx",
+      "CUSTOM:EvilTreeSlab",
+      "",
+      "CUSTOM:EvilTreeSlab"
+    ],
+    "recipeReturnStack": "CUSTOM:CharmAltar",
+    "name": "charm_altar_recipe",
+    "namespace": "mod"
+  }
+}

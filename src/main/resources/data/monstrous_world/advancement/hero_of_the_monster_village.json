@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:tall_pumpkin_lantern"
+    },
+    "title": {
+      "translate": "advancements.hero_of_the_monster_village.title"
+    },
+    "description": {
+      "translate": "advancements.hero_of_the_monster_village.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hero_of_the_monster_village_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:monstrous_world"
+}

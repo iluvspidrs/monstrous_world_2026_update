@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:blue_light_bulb_item",
+    "monstrous_world:red_light_bulb_item",
+    "monstrous_world:orange_light_bulb_item",
+    "monstrous_world:purple_light_bulb_item",
+    "monstrous_world:white_light_bulb_item",
+    "monstrous_world:green_light_bulb_item"
+  ]
+}

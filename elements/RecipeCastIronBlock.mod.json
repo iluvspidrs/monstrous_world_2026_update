@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:CastIronIngot"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:CastIronIngot",
+      "CUSTOM:CastIronIngot",
+      "CUSTOM:CastIronIngot",
+      "CUSTOM:CastIronIngot",
+      "CUSTOM:CastIronIngot",
+      "CUSTOM:CastIronIngot",
+      "CUSTOM:CastIronIngot",
+      "CUSTOM:CastIronIngot",
+      "CUSTOM:CastIronIngot"
+    ],
+    "recipeReturnStack": "CUSTOM:BlockOfCastIron",
+    "name": "recipe_cast_iron_block",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 420,
+    "height": 190,
+    "inventoryOffsetX": -123,
+    "inventoryOffsetY": -88,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_you_must_have_an_analyzer_attach",
+          "text": {
+            "fixedValue": "You have not collected this DNA"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 210,
+          "y": 63,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_this_laptop_to_analyze_a_dna_sam",
+          "text": {
+            "fixedValue": "sample yet, and information will"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 214,
+          "y": 77,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_blue_back_button",
+          "image": "blue_back_button.png",
+          "hoveredImage": "blue_back_button_hover.png",
+          "onClick": "LaptopTOCButtonPressed",
+          "x": 288,
+          "y": 35,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_appear_here_when_you_do",
+          "text": {
+            "fixedValue": "appear here when you do."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 226,
+          "y": 91,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/block_of_raw_cassiterite",
+    "up": "monstrous_world:block/block_of_raw_cassiterite",
+    "north": "monstrous_world:block/block_of_raw_cassiterite",
+    "east": "monstrous_world:block/block_of_raw_cassiterite",
+    "south": "monstrous_world:block/block_of_raw_cassiterite",
+    "west": "monstrous_world:block/block_of_raw_cassiterite",
+    "particle": "monstrous_world:block/block_of_raw_cassiterite"
+  },
+  "render_type": "solid"
+}

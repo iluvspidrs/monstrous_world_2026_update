@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:alpha_claw"
+    },
+    "title": {
+      "translate": "advancements.most_savage.title"
+    },
+    "description": {
+      "translate": "advancements.most_savage.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "most_savage_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:imitation_full_moon"
+}

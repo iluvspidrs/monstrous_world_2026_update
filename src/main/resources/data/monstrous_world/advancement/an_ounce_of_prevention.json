@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:distilled_silver_injection"
+    },
+    "title": {
+      "translate": "advancements.an_ounce_of_prevention.title"
+    },
+    "description": {
+      "translate": "advancements.an_ounce_of_prevention.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "an_ounce_of_prevention_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:no_thanks"
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:charm_altar"
+    },
+    "title": {
+      "translate": "advancements.how_charming.title"
+    },
+    "description": {
+      "translate": "advancements.how_charming.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "how_charming_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:bubbling_brew"
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 16,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:DeathlyWoodPaneledGlass"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "CUSTOM:DeathlyWoodPaneledGlass",
+      "CUSTOM:DeathlyWoodPaneledGlass",
+      "CUSTOM:DeathlyWoodPaneledGlass",
+      "CUSTOM:DeathlyWoodPaneledGlass",
+      "CUSTOM:DeathlyWoodPaneledGlass",
+      "CUSTOM:DeathlyWoodPaneledGlass"
+    ],
+    "recipeReturnStack": "CUSTOM:DeathlyWoodGlassPane",
+    "name": "recipe_deathly_wood_glass_pane",
+    "namespace": "mod"
+  }
+}

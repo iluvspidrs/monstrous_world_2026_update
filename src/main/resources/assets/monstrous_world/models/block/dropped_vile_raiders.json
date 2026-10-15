@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/droppedpaper",
+  "textures": {
+    "all": "monstrous_world:block/the_warriors_arena",
+    "particle": "monstrous_world:block/the_warriors_arena",
+    "0": "monstrous_world:block/the_warriors_arena"
+  },
+  "render_type": "cutout"
+}

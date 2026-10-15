@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "monstrous_world:textures/screens/polished_blackstone_bricks.png",
+    "icon": {
+      "id": "monstrous_world:pitchfork"
+    },
+    "title": {
+      "translate": "advancements.an_unholy_beginning.title"
+    },
+    "description": {
+      "translate": "advancements.an_unholy_beginning.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "an_unholy_beginning_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "creeper",
+    "monstrous_world:evil_tree_hostile",
+    "vindicator",
+    "monstrous_world:evil_tree_passive",
+    "pillager",
+    "monstrous_world:channeler_spark",
+    "monstrous_world:society_goon",
+    "enderman"
+  ]
+}

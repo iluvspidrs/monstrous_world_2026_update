@@ -1,0 +1,33 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "unlockingItems": [
+      "Items.DYE#5",
+      "Blocks.GLASS",
+      "Items.GLOWSTONE_DUST"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "Items.DYE#5",
+      "",
+      "",
+      "Blocks.GLASS",
+      "",
+      "",
+      "Items.GLOWSTONE_DUST",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:PurpleLightBulbItem",
+    "name": "recipe_purple_light_bulb",
+    "namespace": "mod"
+  }
+}

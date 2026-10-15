@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:dark_yellow_bricks"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:dark_yellow_bricks_slab",
+    "count": 6
+  }
+}

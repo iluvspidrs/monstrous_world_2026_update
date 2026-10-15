@@ -1,0 +1,64 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "tin_block",
+		"1": "evilbarkside",
+		"4": "monstrous_world:block/robot_metal_texture",
+		"particle": "tin_block"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 1],
+			"to": [15, 5, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [13, 0, 1]},
+			"faces": {
+				"north": {"uv": [1, 5, 15, 10], "texture": "#1"},
+				"east": {"uv": [0, 0, 14, 5], "texture": "#1"},
+				"south": {"uv": [1, 5, 15, 10], "texture": "#1"},
+				"west": {"uv": [0, 0, 14, 5], "texture": "#1"},
+				"up": {"uv": [0, 0, 14, 14], "texture": "#1"},
+				"down": {"uv": [0, 0, 14, 14], "texture": "#1"}
+			}
+		},
+		{
+			"from": [0, 5, 0],
+			"to": [16, 7, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 5, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 2], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 2], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 2], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 2], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [2, 7, 0],
+			"to": [7, 13, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 7, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 5, 6], "texture": "#4"},
+				"east": {"uv": [0, 0, 16, 6], "texture": "#4"},
+				"south": {"uv": [0, 0, 5, 6], "texture": "#4"},
+				"west": {"uv": [0, 0, 16, 6], "texture": "#4"},
+				"up": {"uv": [0, 0, 5, 16], "texture": "#4"},
+				"down": {"uv": [0, 0, 5, 16], "texture": "#missing"}
+			}
+		},
+		{
+			"from": [9, 7, 0],
+			"to": [14, 13, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 7, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 5, 6], "texture": "#4"},
+				"east": {"uv": [0, 0, 16, 6], "texture": "#4"},
+				"south": {"uv": [0, 0, 5, 6], "texture": "#4"},
+				"west": {"uv": [0, 0, 16, 6], "texture": "#4"},
+				"up": {"uv": [0, 0, 5, 16], "texture": "#4"},
+				"down": {"uv": [0, 0, 5, 16], "texture": "#missing"}
+			}
+		}
+	]
+}

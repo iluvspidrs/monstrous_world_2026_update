@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    " aa",
+    "b  "
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:infernal_iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:infernal_butcher_knife",
+    "count": 1
+  }
+}

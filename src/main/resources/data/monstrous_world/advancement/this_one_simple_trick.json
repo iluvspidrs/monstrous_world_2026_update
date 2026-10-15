@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:tome_of_light"
+    },
+    "title": {
+      "translate": "advancements.this_one_simple_trick.title"
+    },
+    "description": {
+      "translate": "advancements.this_one_simple_trick.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "this_one_simple_trick_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:now_were_talking"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/concentratedswampcrystal",
+  "textures": {
+    "all": "monstrous_world:block/moonstone_block",
+    "particle": "monstrous_world:block/moonstone_block",
+    "1": "monstrous_world:block/moonstone_block"
+  },
+  "render_type": "solid"
+}

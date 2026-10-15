@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 5,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:DarkenedGlass",
+      "CUSTOM:PumpkinPlanks"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:PumpkinPlanks",
+      "CUSTOM:DarkenedGlass",
+      "CUSTOM:PumpkinPlanks",
+      "CUSTOM:DarkenedGlass",
+      "CUSTOM:DarkenedGlass",
+      "CUSTOM:DarkenedGlass",
+      "CUSTOM:PumpkinPlanks",
+      "CUSTOM:DarkenedGlass",
+      "CUSTOM:PumpkinPlanks"
+    ],
+    "recipeReturnStack": "CUSTOM:PumpkinWoodPaneledGlass",
+    "name": "recipe_pumpkin_wood_paneled_glass",
+    "namespace": "mod"
+  }
+}

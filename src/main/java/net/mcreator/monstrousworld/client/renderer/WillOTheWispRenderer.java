@@ -1,0 +1,37 @@
+package net.mcreator.monstrousworld.client.renderer;
+
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.renderer.entity.layers.RenderLayer;
+import net.minecraft.client.renderer.entity.MobRenderer;
+import net.minecraft.client.renderer.entity.LivingEntityRenderer;
+import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.MultiBufferSource;
+
+import net.mcreator.monstrousworld.entity.WillOTheWispEntity;
+import net.mcreator.monstrousworld.client.model.ModelSwampLight;
+
+import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.blaze3d.vertex.PoseStack;
+
+public class WillOTheWispRenderer extends MobRenderer<WillOTheWispEntity, ModelSwampLight<WillOTheWispEntity>> {
+	private final ResourceLocation entityTexture = ResourceLocation.parse("monstrous_world:textures/entities/will_o_the_wisp.png");
+
+	public WillOTheWispRenderer(EntityRendererProvider.Context context) {
+		super(context, new ModelSwampLight<WillOTheWispEntity>(context.bakeLayer(ModelSwampLight.LAYER_LOCATION)), 0f);
+		this.addLayer(new RenderLayer<WillOTheWispEntity, ModelSwampLight<WillOTheWispEntity>>(this) {
+			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("monstrous_world:textures/entities/will_o_the_wisp.png");
+
+			@Override
+			public void render(PoseStack poseStack, MultiBufferSource bufferSource, int light, WillOTheWispEntity entity, float limbSwing, float limbSwingAmount, float partialTicks, float ageInTicks, float netHeadYaw, float headPitch) {
+				VertexConsumer vertexConsumer = bufferSource.getBuffer(RenderType.eyes(LAYER_TEXTURE));
+				this.getParentModel().renderToBuffer(poseStack, vertexConsumer, light, LivingEntityRenderer.getOverlayCoords(entity, 0));
+			}
+		});
+	}
+
+	@Override
+	public ResourceLocation getTextureLocation(WillOTheWispEntity entity) {
+		return entityTexture;
+	}
+}

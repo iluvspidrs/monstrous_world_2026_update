@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:brain"
+    },
+    "title": {
+      "translate": "advancements.undead_superfood.title"
+    },
+    "description": {
+      "translate": "advancements.undead_superfood.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "undead_superfood_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:zombified"
+}

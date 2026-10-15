@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:stabilizing_dust",
+    "monstrous_world:spirit_dust",
+    "monstrous_world:dark_essence_dust",
+    "monstrous_world:silver_dust",
+    "monstrous_world:moon_dust",
+    "minecraft:glowstone_dust",
+    "monstrous_world:swamp_essence_dust",
+    "monstrous_world:quartz_dust",
+    "monstrous_world:purified_silver_dust",
+    "monstrous_world:gold_dust"
+  ]
+}

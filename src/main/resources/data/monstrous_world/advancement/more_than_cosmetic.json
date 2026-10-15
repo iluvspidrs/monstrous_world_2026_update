@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:stabilizer_syringe"
+    },
+    "title": {
+      "translate": "advancements.more_than_cosmetic.title"
+    },
+    "description": {
+      "translate": "advancements.more_than_cosmetic.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "more_than_cosmetic_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:mutation"
+}

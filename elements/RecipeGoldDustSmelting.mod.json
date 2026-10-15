@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "monstrous_world_items",
+    "unlockingItems": [
+      "Items.GOLD_NUGGET"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": "Items.GOLD_NUGGET",
+    "smeltingReturnStack": "CUSTOM:GoldDust",
+    "name": "recipe_gold_dust_smelting",
+    "namespace": "mod"
+  }
+}

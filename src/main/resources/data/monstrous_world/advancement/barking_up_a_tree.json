@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:hungry_tree_bark"
+    },
+    "title": {
+      "translate": "advancements.barking_up_a_tree.title"
+    },
+    "description": {
+      "translate": "advancements.barking_up_a_tree.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "barking_up_a_tree_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:dont_be_crude"
+}

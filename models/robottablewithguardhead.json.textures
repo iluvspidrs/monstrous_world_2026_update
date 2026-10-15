@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "tin_block",
+        "1": "evilbarkside",
+        "2": "robot_texture",
+        "4": "robot_metal_texture",
+        "6": "robot_face_texture"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "monstrous_world_tools",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "bcb",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:tin_rod"
+    },
+    "b": {
+      "tag": "c:ingots/tin"
+    },
+    "c": {
+      "item": "minecraft:note_block"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:handheld_radio",
+    "count": 1
+  }
+}

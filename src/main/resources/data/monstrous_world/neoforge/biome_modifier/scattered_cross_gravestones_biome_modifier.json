@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "monstrous_world:deathly_forest",
+    "monstrous_world:nightmare"
+  ],
+  "features": "monstrous_world:scattered_cross_gravestones",
+  "step": "surface_structures"
+}

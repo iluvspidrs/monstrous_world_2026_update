@@ -1,0 +1,36 @@
+{
+  "workspacePanelIconSize": "DETAILS",
+  "workspacePanelSortType": "CREATED",
+  "workspacePanelSortAscending": true,
+  "projectBrowserState": {
+    "expandedPaths": [
+      "[, Monstrous World]",
+      "[, Monstrous World, Source (Gradle)]",
+      "[, Monstrous World, Source (Gradle), C:\\Users\\holly\\MCreatorWorkspaces\\monstrous_world_2026_update\\src\\main\\java\\net]",
+      "[, Monstrous World, Source (Gradle), C:\\Users\\holly\\MCreatorWorkspaces\\monstrous_world_2026_update\\src\\main\\java\\net, C:\\Users\\holly\\MCreatorWorkspaces\\monstrous_world_2026_update\\src\\main\\java\\net\\mcreator]",
+      "[, Monstrous World, Resources (Gradle)]",
+      "[, Monstrous World, Resources (Gradle), C:\\Users\\holly\\MCreatorWorkspaces\\monstrous_world_2026_update\\src\\main\\resources\\assets]",
+      "[, Monstrous World, Resources (Gradle), C:\\Users\\holly\\MCreatorWorkspaces\\monstrous_world_2026_update\\src\\main\\resources\\assets, C:\\Users\\holly\\MCreatorWorkspaces\\monstrous_world_2026_update\\src\\main\\resources\\assets\\monstrous_world]",
+      "[, Monstrous World, Resources (Gradle), C:\\Users\\holly\\MCreatorWorkspaces\\monstrous_world_2026_update\\src\\main\\resources\\assets, C:\\Users\\holly\\MCreatorWorkspaces\\monstrous_world_2026_update\\src\\main\\resources\\assets\\monstrous_world, C:\\Users\\holly\\MCreatorWorkspaces\\monstrous_world_2026_update\\src\\main\\resources\\assets\\monstrous_world\\textures]",
+      "[, Monstrous World, Resources (Gradle), C:\\Users\\holly\\MCreatorWorkspaces\\monstrous_world_2026_update\\src\\main\\resources\\assets, C:\\Users\\holly\\MCreatorWorkspaces\\monstrous_world_2026_update\\src\\main\\resources\\assets\\monstrous_world, C:\\Users\\holly\\MCreatorWorkspaces\\monstrous_world_2026_update\\src\\main\\resources\\assets\\monstrous_world\\textures, C:\\Users\\holly\\MCreatorWorkspaces\\monstrous_world_2026_update\\src\\main\\resources\\assets\\monstrous_world\\textures\\block]"
+    ]
+  },
+  "leftDockState": {
+    "expandedDock": "project_browser",
+    "dockSizes": {
+      "project_browser": 25,
+      "local_history": 280
+    }
+  },
+  "rightDockState": {
+    "dockSizes": {}
+  },
+  "bottomDockState": {
+    "expandedDock": "console",
+    "dockSizes": {
+      "console": 27,
+      "code_viewer": 300,
+      "debugger": 300
+    }
+  }
+}

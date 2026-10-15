@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "monstrous_world:block/toxic_gas",
+    "bottom": "monstrous_world:block/toxic_gas",
+    "top": "monstrous_world:block/toxic_gas",
+    "side": "monstrous_world:block/toxic_gas"
+  },
+  "render_type": "translucent"
+}

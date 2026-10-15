@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:BlockOfShimmeringDarkness",
+      "CUSTOM:DarkenedLog"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:DarkenedLog",
+      "CUSTOM:BlockOfShimmeringDarkness",
+      "",
+      "CUSTOM:BlockOfShimmeringDarkness",
+      "CUSTOM:DarkenedLog",
+      "",
+      "",
+      "",
+      "CUSTOM:DarkenedLog"
+    ],
+    "recipeReturnStack": "CUSTOM:TrollWarHammer",
+    "name": "recipe_troll_war_hammer",
+    "namespace": "mod"
+  }
+}

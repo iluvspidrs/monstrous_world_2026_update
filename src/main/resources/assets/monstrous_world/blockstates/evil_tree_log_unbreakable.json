@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "monstrous_world:block/evil_tree_log_unbreakable",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "monstrous_world:block/evil_tree_log_unbreakable"
+    },
+    "axis=z": {
+      "model": "monstrous_world:block/evil_tree_log_unbreakable",
+      "x": 90
+    }
+  }
+}

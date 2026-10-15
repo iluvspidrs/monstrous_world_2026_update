@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:emissive_blue_skull_lamp_regular",
+    "monstrous_world:emissive_red_skull_lamp",
+    "monstrous_world:emissive_green_skull_lamp",
+    "monstrous_world:emissive_purple_skull_lamp",
+    "monstrous_world:emissive_white_skull_lamp",
+    "monstrous_world:emissive_orange_skull_lamp_regular",
+    "monstrous_world:emissive_red_skull_lamp_regular",
+    "monstrous_world:emissive_white_skull_lamp_regular",
+    "monstrous_world:emissive_green_skull_lamp_regular",
+    "monstrous_world:emissive_blue_skull_lamp",
+    "monstrous_world:emissive_orange_skull_lamp",
+    "monstrous_world:emissive_purple_skull_lamp_regular"
+  ]
+}

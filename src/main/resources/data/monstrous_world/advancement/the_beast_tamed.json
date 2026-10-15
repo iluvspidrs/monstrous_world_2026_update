@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:werewolf_cure_powder"
+    },
+    "title": {
+      "translate": "advancements.the_beast_tamed.title"
+    },
+    "description": {
+      "translate": "advancements.the_beast_tamed.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_beast_tamed_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:beast_unleashed"
+}

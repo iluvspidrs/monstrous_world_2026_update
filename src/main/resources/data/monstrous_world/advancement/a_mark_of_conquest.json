@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:brand_of_conquest"
+    },
+    "title": {
+      "translate": "advancements.a_mark_of_conquest.title"
+    },
+    "description": {
+      "translate": "advancements.a_mark_of_conquest.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_mark_of_conquest_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:a_brand_of_strength"
+}

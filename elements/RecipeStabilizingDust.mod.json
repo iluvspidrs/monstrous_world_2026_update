@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "monstrous_world_items",
+    "unlockingItems": [
+      "Items.GLOWSTONE_DUST",
+      "Items.REDSTONE"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "",
+      "Items.GLOWSTONE_DUST",
+      "",
+      "",
+      "Items.REDSTONE",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:StabilizingDust",
+    "name": "recipe_stabilizing_dust",
+    "namespace": "mod"
+  }
+}

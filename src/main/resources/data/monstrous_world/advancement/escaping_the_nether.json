@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:infernal_chestplate"
+    },
+    "title": {
+      "translate": "advancements.escaping_the_nether.title"
+    },
+    "description": {
+      "translate": "advancements.escaping_the_nether.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "escaping_the_nether_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:a_wicked_altar"
+}

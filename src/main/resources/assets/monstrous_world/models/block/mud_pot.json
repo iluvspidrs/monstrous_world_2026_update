@@ -1,0 +1,13 @@
+{
+  "parent": "monstrous_world:custom/mudpot",
+  "textures": {
+    "all": "monstrous_world:block/evilaltartop",
+    "particle": "monstrous_world:block/evilaltartop",
+    "0": "monstrous_world:block/evilaltartop",
+    "1": "monstrous_world:block/pale_stalk_planks",
+    "2": "monstrous_world:block/overgrown_mud_bricks",
+    "4": "monstrous_world:block/strangeserumfluiduncooked",
+    "missing": "monstrous_world:block/"
+  },
+  "render_type": "translucent"
+}

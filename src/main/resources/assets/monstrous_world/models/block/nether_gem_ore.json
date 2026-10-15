@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/nethergemore",
+    "up": "monstrous_world:block/nethergemore",
+    "north": "monstrous_world:block/nethergemore",
+    "east": "monstrous_world:block/nethergemore",
+    "south": "monstrous_world:block/nethergemore",
+    "west": "monstrous_world:block/nethergemore",
+    "particle": "monstrous_world:block/nethergemore"
+  },
+  "render_type": "solid"
+}

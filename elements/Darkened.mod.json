@@ -1,0 +1,102 @@
+{
+  "_fv": 89,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "corhelmetitem",
+    "enableBody": true,
+    "textureBody": "corrupted_chestplate_item",
+    "enableLeggings": true,
+    "textureLeggings": "corrupted_leggings_item",
+    "enableBoots": true,
+    "textureBoots": "corrupted_boots_item",
+    "creativeTabs": [
+      "CUSTOM:MonstrousWorldTools"
+    ],
+    "armorTextureFile": "chainmail",
+    "helmetName": "Darkened Crown",
+    "bodyName": "Darkened Chestplate",
+    "leggingsName": "Darkened Leggings",
+    "bootsName": "Darkened Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
+    "helmetModelName": "Modelcorruptedhelmet",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "corhelmet2.png",
+    "bodyModelName": "ModelCorruptedEyeChestplate4",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "corruptedchestplatetexturefixed.png",
+    "leggingsModelName": "ModelCorruptedEyeLeggings5",
+    "leggingsModelPartL": "LeftLeg",
+    "leggingsModelPartR": "RightLeg",
+    "leggingsModelTexture": "corleggings.png",
+    "bootsModelName": "ModelCorruptedEyeBoots2",
+    "bootsModelPartL": "LeftLeg",
+    "bootsModelPartR": "RightLeg",
+    "bootsModelTexture": "corboots.png",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetTranslucency": false,
+    "bodyTranslucency": false,
+    "leggingsTranslucency": false,
+    "bootsTranslucency": false,
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "helmetGlowCondition": {
+      "fixedValue": false
+    },
+    "bodyGlowCondition": {
+      "fixedValue": false
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": false
+    },
+    "bootsGlowCondition": {
+      "fixedValue": false
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "maxDamage": 45,
+    "damageValueHelmet": 10,
+    "damageValueBody": 20,
+    "damageValueLeggings": 19,
+    "damageValueBoots": 10,
+    "enchantability": 9,
+    "toughness": 3.0,
+    "knockbackResistance": 0.1,
+    "equipSound": "",
+    "repairItems": [],
+    "rarity": "COMMON",
+    "attributeModifiers": []
+  }
+}

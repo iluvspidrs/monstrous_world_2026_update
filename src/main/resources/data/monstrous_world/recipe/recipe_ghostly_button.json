@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "monstrous_world:ghostly_planks"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:ghostly_button",
+    "count": 1
+  }
+}

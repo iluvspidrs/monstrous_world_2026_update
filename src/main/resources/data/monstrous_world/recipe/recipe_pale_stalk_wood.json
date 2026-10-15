@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:pale_stalk_log"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:pale_stalk_wood",
+    "count": 4
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:evil_broom_entity",
+    "monstrous_world:pumpkin_broom_entity",
+    "monstrous_world:ghostly_broom_entity"
+  ]
+}

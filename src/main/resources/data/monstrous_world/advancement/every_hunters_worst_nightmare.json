@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:cross_gravestone"
+    },
+    "title": {
+      "translate": "advancements.every_hunters_worst_nightmare.title"
+    },
+    "description": {
+      "translate": "advancements.every_hunters_worst_nightmare.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "every_hunters_worst_nightmare_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:every_hunters_field_guide"
+}

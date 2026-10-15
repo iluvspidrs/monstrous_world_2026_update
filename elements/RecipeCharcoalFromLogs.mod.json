@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "TAG:monstrous_world:logs_smeltable"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": "TAG:monstrous_world:logs_smeltable",
+    "smeltingReturnStack": "Items.COAL#1",
+    "name": "recipe_charcoal_from_logs",
+    "namespace": "mod"
+  }
+}

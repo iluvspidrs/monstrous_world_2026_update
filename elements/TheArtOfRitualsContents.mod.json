@@ -1,0 +1,487 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 350,
+    "height": 240,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "the_art_of_rituals_border.png",
+          "use1Xscale": false,
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guidebookpages.png",
+          "use1Xscale": false,
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_back_button",
+          "image": "back_button.png",
+          "hoveredImage": "back_button_hover.png",
+          "onClick": "TheArtOfRitualsPageBackward",
+          "displayCondition": "TheArtOfRitualsBackwardButtonShowCondition",
+          "x": 78,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_forward_button",
+          "image": "forward_button.png",
+          "hoveredImage": "forward_button_hover.png",
+          "onClick": "TheArtOfRitualsPageForward",
+          "displayCondition": "TheArtOfRitualsForwardButtonShowCondition",
+          "x": 339,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualpage1.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage1Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualpage3.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage3Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualpage4.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage4Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualpage5.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage5Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualpage6.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage6Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualpage7.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage7Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualinfusion1.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage8Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualinfusion2.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage9Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualblazing.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage10Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualluckyday2.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage11Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualmoondust.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage12Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualhealing.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage13Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualresistance.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage14Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rituallycancure.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage15Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualexorcism.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage16Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualadvintro.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage17Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualteleport1.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage18Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualteleport2.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage19Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualteleport3.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage20Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualpageblazingbarrier.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage21Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualpageautumnmagic.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage22Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualpagetricktreat.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage23Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualpagecorruptedcrystals.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage24Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualpagecorruptedcandles.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage25Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualpagediamondwand.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage26Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualpagemasterwand.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage27Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualpageeasymining.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage28Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualpageultimatetome.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage29Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualpagetomelight.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage30Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualpagepuredark1.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage31Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualpagepuredark2.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage32Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualpagepuredark3a.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage33Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualpagedarksummons.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage34Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualinfused1.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage35Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualinfused2.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage36Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualinfused3.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage37Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritualinfused4.png",
+          "use1Xscale": false,
+          "displayCondition": "TheArtOfRitualsPage38Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_blue_back_button",
+          "image": "blue_back_button.png",
+          "hoveredImage": "blue_back_button_hover.png",
+          "onClick": "TheArtOfRitualsBlueTOCButton",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "group": "monstrous_world_items",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "minecraft:gold_nugget"
+  },
+  "result": {
+    "id": "monstrous_world:gold_dust"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "monstrous_world_items",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:evil_tree_button"
+    },
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "minecraft:glass"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:empty_powder_bottle",
+    "count": 3
+  }
+}

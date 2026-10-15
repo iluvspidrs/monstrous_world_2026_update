@@ -1,0 +1,43 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "bloodletter",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Bloodletter",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": [
+        "Right-click and hold a Glass Bottle in your off hand to collect blood from entities",
+        "Sneak + use to collect blood from self"
+      ]
+    },
+    "creativeTabs": [
+      "TOOLS",
+      "CUSTOM:MonstrousWorldTools"
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 25,
+    "damageVsEntity": 1.0,
+    "usageCount": 100,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      "Items.GOLD_NUGGET"
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": "BloodletterRightclicked"
+  }
+}

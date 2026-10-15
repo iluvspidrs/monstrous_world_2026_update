@@ -1,0 +1,51 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Hypnosis",
+    "icon": "hypnosis_2",
+    "color": {
+      "value": -13434829,
+      "falpha": 0.0
+    },
+    "onAddedSound": "",
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "equipmentSlot": "any",
+        "attribute": "MOVEMENT_SPEED",
+        "amount": -0.1,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "equipmentSlot": "any",
+        "attribute": "JUMP_STRENGTH",
+        "amount": -0.8,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "equipmentSlot": "any",
+        "attribute": "ATTACK_DAMAGE",
+        "amount": -1.0,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "equipmentSlot": "any",
+        "attribute": "ATTACK_SPEED",
+        "amount": -1.0,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "equipmentSlot": "any",
+        "attribute": "ARMOR",
+        "amount": 0.0,
+        "operation": "ADD_VALUE"
+      }
+    ],
+    "onActiveTick": "HypnosisOnEffectActiveTick"
+  }
+}

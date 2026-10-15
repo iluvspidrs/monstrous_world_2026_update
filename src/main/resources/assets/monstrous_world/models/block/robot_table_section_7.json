@@ -1,0 +1,13 @@
+{
+  "parent": "monstrous_world:custom/robottablewithtorso",
+  "textures": {
+    "all": "monstrous_world:block/tin_tabletop_body_arms",
+    "particle": "monstrous_world:block/tin_block",
+    "0": "monstrous_world:block/tin_block",
+    "1": "monstrous_world:block/evil_tree_planks",
+    "4": "monstrous_world:block/robot_metal_texture",
+    "5": "monstrous_world:block/robot_guard_chest",
+    "missing": "monstrous_world:block/"
+  },
+  "render_type": "solid"
+}

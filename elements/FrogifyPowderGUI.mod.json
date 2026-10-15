@@ -1,0 +1,60 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 247,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "OpenMagickalCatalyst",
+          "width": 40,
+          "height": 20,
+          "x": 284,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "frogifypowdertext.png",
+          "use1Xscale": false,
+          "x": 78,
+          "y": 17,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "OpenMagickalCatalyst",
+          "width": 42,
+          "height": 20,
+          "x": 110,
+          "y": 74,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "An Infernal Tome",
+    "achievementDescription": "Get the Tome of Infernal Power from another Demon, or from breaking Dark Bookshelves",
+    "achievementIcon": "CUSTOM:TomeOfInfernalPower",
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": "CUSTOM:AnUnholyBeginning",
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"153\" y=\"99\"><next><block type=\"custom_trigger\"/></next></block></xml>"
+  }
+}

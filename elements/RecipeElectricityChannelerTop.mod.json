@@ -1,0 +1,34 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:DarkenedIronIngot",
+      "Blocks.LIGHTNING_ROD",
+      "Blocks.REDSTONE_BLOCK",
+      "Blocks.CHISELED_COPPER"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Blocks.CHISELED_COPPER",
+      "Blocks.LIGHTNING_ROD",
+      "Blocks.CHISELED_COPPER",
+      "CUSTOM:DarkenedIronIngot",
+      "Blocks.REDSTONE_BLOCK",
+      "CUSTOM:DarkenedIronIngot",
+      "Blocks.CHISELED_COPPER",
+      "Blocks.LIGHTNING_ROD",
+      "Blocks.CHISELED_COPPER"
+    ],
+    "recipeReturnStack": "CUSTOM:ElectricityChannelerTop",
+    "name": "recipe_electricity_channeler_top",
+    "namespace": "mod"
+  }
+}

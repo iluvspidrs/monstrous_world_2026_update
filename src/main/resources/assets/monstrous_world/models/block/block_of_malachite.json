@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/block_of_malachite",
+    "up": "monstrous_world:block/block_of_malachite",
+    "north": "monstrous_world:block/block_of_malachite",
+    "east": "monstrous_world:block/block_of_malachite",
+    "south": "monstrous_world:block/block_of_malachite",
+    "west": "monstrous_world:block/block_of_malachite",
+    "particle": "monstrous_world:block/block_of_malachite"
+  },
+  "render_type": "solid"
+}

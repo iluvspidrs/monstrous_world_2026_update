@@ -1,0 +1,12 @@
+{
+  "type": "monstrous_world:odd_green_gravel_feature_d_scum_swamp",
+  "config": {
+    "structure": "monstrous_world:odd_green_gravel",
+    "ignored_blocks": "minecraft:air",
+    "offset": [
+      0,
+      -1,
+      0
+    ]
+  }
+}

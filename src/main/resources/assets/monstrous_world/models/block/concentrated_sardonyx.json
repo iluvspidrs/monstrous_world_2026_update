@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/concentratedonyx",
+  "textures": {
+    "all": "monstrous_world:block/red_onyx_block",
+    "particle": "monstrous_world:block/red_onyx_block",
+    "0": "monstrous_world:block/red_onyx_block"
+  },
+  "render_type": "solid"
+}

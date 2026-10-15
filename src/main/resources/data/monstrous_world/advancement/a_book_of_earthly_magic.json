@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:tome_of_witchery"
+    },
+    "title": {
+      "translate": "advancements.a_book_of_earthly_magic.title"
+    },
+    "description": {
+      "translate": "advancements.a_book_of_earthly_magic.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_book_of_earthly_magic_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:the_witch_is_in"
+}

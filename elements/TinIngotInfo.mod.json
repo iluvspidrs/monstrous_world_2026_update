@@ -1,0 +1,14 @@
+{
+  "_fv": 89,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      "CUSTOM:TinIngot"
+    ],
+    "information": [
+      "Tin Ingots are made by smelting Cassiterite, an ore found in shallow caves. They are valued by Mad Scientists, and are useful as trade items. ",
+      "",
+      "This item should be compatible with any recipes that require Tin Ingots. "
+    ]
+  }
+}

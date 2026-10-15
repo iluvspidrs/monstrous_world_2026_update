@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "monstrous_world:block/pumpkin_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "monstrous_world:block/pumpkin_wood"
+    },
+    "axis=z": {
+      "model": "monstrous_world:block/pumpkin_wood",
+      "x": 90
+    }
+  }
+}

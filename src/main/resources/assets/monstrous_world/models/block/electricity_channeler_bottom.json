@@ -1,0 +1,10 @@
+{
+  "parent": "monstrous_world:custom/electricitychanneler",
+  "textures": {
+    "all": "monstrous_world:block/electricity_channeler",
+    "particle": "monstrous_world:block/electricity_channeler",
+    "1": "monstrous_world:block/electricity_channeler",
+    "3": "monstrous_world:block/electricity_channeler_rings"
+  },
+  "render_type": "solid"
+}

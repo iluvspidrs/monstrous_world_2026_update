@@ -1,0 +1,16 @@
+{
+  "_fv": 89,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      "CUSTOM:DarkEssenceDust"
+    ],
+    "information": [
+      "Dark Essence Dust is a magical material that occasionally drops from broken, natural Darkened Blocks such as Darkened Dirt and Darkened Logs.",
+      "",
+      "It most often drops from Darkened Leaves, and from newly infected blocks that still have animated textures. ",
+      "",
+      "This essence can alter some blocks upon right-clicking them, and has magical applications as well."
+    ]
+  }
+}

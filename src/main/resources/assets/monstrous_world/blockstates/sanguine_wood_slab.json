@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "monstrous_world:block/sanguine_wood_slab"
+    },
+    "type=top": {
+      "model": "monstrous_world:block/sanguine_wood_slab_top"
+    },
+    "type=double": {
+      "model": "monstrous_world:block/sanguine_wood_slab_full"
+    }
+  }
+}

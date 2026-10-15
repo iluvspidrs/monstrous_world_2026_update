@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:PaleAgate"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:PaleAgate",
+      "CUSTOM:PaleAgate",
+      "CUSTOM:PaleAgate",
+      "CUSTOM:PaleAgate",
+      "CUSTOM:PaleAgate",
+      "CUSTOM:PaleAgate",
+      "CUSTOM:PaleAgate",
+      "CUSTOM:PaleAgate",
+      "CUSTOM:PaleAgate"
+    ],
+    "recipeReturnStack": "CUSTOM:BlockOfPaleAgate",
+    "name": "recipe_block_of_pale_agate",
+    "namespace": "mod"
+  }
+}

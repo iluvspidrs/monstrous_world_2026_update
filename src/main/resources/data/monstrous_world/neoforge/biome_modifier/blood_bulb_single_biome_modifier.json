@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "monstrous_world:crimson_dread",
+  "features": "monstrous_world:blood_bulb_single",
+  "step": "surface_structures"
+}

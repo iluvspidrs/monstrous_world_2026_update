@@ -1,0 +1,33 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "monstrous_world_tools",
+    "unlockingItems": [
+      "CUSTOM:DarkenedIronIngot",
+      "CUSTOM:ComputerChip",
+      "Items.REDSTONE"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "CUSTOM:DarkenedIronIngot",
+      "",
+      "Items.REDSTONE",
+      "CUSTOM:ComputerChip",
+      "Items.REDSTONE",
+      "",
+      "CUSTOM:DarkenedIronIngot",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:Analyzer",
+    "name": "recipe_analyzer",
+    "namespace": "mod"
+  }
+}

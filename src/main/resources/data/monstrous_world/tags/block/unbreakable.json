@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:mossy_evil_tree_log_unbreakable",
+    "monstrous_world:evil_tree_mouth_right",
+    "monstrous_world:evil_tree_hollow",
+    "monstrous_world:evil_tree_mouth_left",
+    "monstrous_world:evil_tree_log_unbreakable",
+    "monstrous_world:evil_tree_eye",
+    "monstrous_world:evil_tree_mouth_center"
+  ]
+}

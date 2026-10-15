@@ -1,0 +1,44 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "minecraft:glass",
+        "1": "block_block",
+        "2": "evil_tree_planks",
+        "3": "darkened_iron_block",
+        "missing": ""
+      }
+    },
+    "blue": {
+      "name": "blue",
+      "map": {
+        "0": "glass_translucent",
+        "1": "cureserumfluiduncooked",
+        "2": "evil_tree_planks",
+        "3": "darkened_iron_block",
+        "missing": ""
+      }
+    },
+    "green": {
+      "name": "green",
+      "map": {
+        "0": "glass_translucent",
+        "1": "strangeserumfluiduncooked",
+        "2": "evil_tree_planks",
+        "3": "darkened_iron_block",
+        "missing": ""
+      }
+    },
+    "red": {
+      "name": "red",
+      "map": {
+        "0": "glass_translucent",
+        "1": "stabilizerfluiduncooked",
+        "2": "evil_tree_planks",
+        "3": "darkened_iron_block",
+        "missing": ""
+      }
+    }
+  }
+}

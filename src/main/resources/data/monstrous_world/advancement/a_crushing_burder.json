@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "monstrous_world:textures/screens/cast_iron_block.png",
+    "icon": {
+      "id": "monstrous_world:troll_battle_axe"
+    },
+    "title": {
+      "translate": "advancements.a_crushing_burder.title"
+    },
+    "description": {
+      "translate": "advancements.a_crushing_burder.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_crushing_burder_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

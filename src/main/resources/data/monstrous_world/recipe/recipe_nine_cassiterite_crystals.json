@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:block_of_raw_cassiterite"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:cassiterite_crystal",
+    "count": 9
+  }
+}

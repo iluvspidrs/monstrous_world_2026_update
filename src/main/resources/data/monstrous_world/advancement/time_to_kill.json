@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "monstrous_world:textures/screens/sanguine_log_side.png",
+    "icon": {
+      "id": "monstrous_world:butcher_knife"
+    },
+    "title": {
+      "translate": "advancements.time_to_kill.title"
+    },
+    "description": {
+      "translate": "advancements.time_to_kill.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "time_to_kill_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

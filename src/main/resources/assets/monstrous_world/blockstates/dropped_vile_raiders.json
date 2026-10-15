@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "monstrous_world:block/dropped_vile_raiders"
+    },
+    "facing=east": {
+      "model": "monstrous_world:block/dropped_vile_raiders",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "monstrous_world:block/dropped_vile_raiders",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "monstrous_world:block/dropped_vile_raiders",
+      "y": 270
+    }
+  }
+}

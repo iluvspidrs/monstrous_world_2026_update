@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:chieftan_headdress_helmet"
+    },
+    "title": {
+      "translate": "advancements.bearer_of_civilization.title"
+    },
+    "description": {
+      "translate": "advancements.bearer_of_civilization.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bearer_of_civilization_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:a_mark_of_conquest"
+}

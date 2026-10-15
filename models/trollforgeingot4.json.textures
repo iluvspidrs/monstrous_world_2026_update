@@ -1,0 +1,84 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "cast_iron_block",
+        "3": "minecraft:copper_block",
+        "4": "cast_iron_block"
+      },
+      "name": "default"
+    },
+    "copper_electrum": {
+      "map": {
+        "2": "cast_iron_block",
+        "3": "minecraft:copper_block",
+        "4": "electrum_block"
+      },
+      "name": "copper_electrum"
+    },
+    "copper_bronze": {
+      "map": {
+        "2": "cast_iron_block",
+        "3": "minecraft:copper_block",
+        "4": "bronze_block"
+      },
+      "name": "copper_bronze"
+    },
+    "tungsten_cast_iron": {
+      "map": {
+        "2": "cast_iron_block",
+        "3": "block_of_raw_tungsten",
+        "4": "cast_iron_block"
+      },
+      "name": "tungsten_cast_iron"
+    },
+    "tungsten_electrum": {
+      "map": {
+        "2": "cast_iron_block",
+        "3": "block_of_raw_tungsten",
+        "4": "electrum_block"
+      },
+      "name": "tungsten_electrum"
+    },
+    "tungsten_bronze": {
+      "map": {
+        "2": "cast_iron_block",
+        "3": "block_of_raw_tungsten",
+        "4": "bronze_block"
+      },
+      "name": "tungsten_bronze"
+    },
+    "tungsten_corinthian_bronze": {
+      "map": {
+        "2": "cast_iron_block",
+        "3": "block_of_raw_tungsten",
+        "4": "corinthian_bronze_block"
+      },
+      "name": "tungsten_corinthian_bronze"
+    },
+    "tungsten_shining_netherite": {
+      "map": {
+        "2": "cast_iron_block",
+        "3": "block_of_raw_tungsten",
+        "4": "shining_netherite_block"
+      },
+      "name": "tungsten_shining_netherite"
+    },
+    "tungsten_shimmering_darkness": {
+      "map": {
+        "2": "cast_iron_block",
+        "3": "block_of_raw_tungsten",
+        "4": "shimmering_dark_block"
+      },
+      "name": "tungsten_shimmering_darkness"
+    },
+    "tungsten_tungsten": {
+      "map": {
+        "2": "cast_iron_block",
+        "3": "block_of_raw_tungsten",
+        "4": "tungsten_block"
+      },
+      "name": "tungsten_tungsten"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/lightbulbceiling3",
+  "textures": {
+    "all": "monstrous_world:block/bulbmaininvertedred",
+    "particle": "monstrous_world:block/bulbmaininvertedred",
+    "0": "monstrous_world:block/bulbceilingred"
+  },
+  "render_type": "translucent"
+}

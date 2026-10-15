@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "monstrous_world:block/darkened_sandstone_bottom",
+    "bottom": "monstrous_world:block/darkened_sandstone_bottom",
+    "top": "monstrous_world:block/darkened_sandstone_top",
+    "side": "monstrous_world:block/darkened_sandstone_side"
+  },
+  "render_type": "solid"
+}

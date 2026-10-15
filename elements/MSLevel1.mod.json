@@ -1,0 +1,90 @@
+{
+  "_fv": 89,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGHEST",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "ms1.png",
+          "use1Xscale": false,
+          "displayCondition": "MSLevel1Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 6,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ms2.png",
+          "use1Xscale": false,
+          "displayCondition": "MSLevel2Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 6,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ms3.png",
+          "use1Xscale": false,
+          "displayCondition": "MSLevel3Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 6,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ms4.png",
+          "use1Xscale": false,
+          "displayCondition": "MSLevel4Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 6,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ms5.png",
+          "use1Xscale": false,
+          "displayCondition": "MSLevel5Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 6,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ms6.png",
+          "use1Xscale": false,
+          "displayCondition": "MSLevel6Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 6,
+          "y": 197,
+          "locked": false
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

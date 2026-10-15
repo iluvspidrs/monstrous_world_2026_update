@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:darkened_iron_trapdoor",
+    "monstrous_world:pumpkin_trapdoor",
+    "monstrous_world:tin_trapdoor"
+  ]
+}

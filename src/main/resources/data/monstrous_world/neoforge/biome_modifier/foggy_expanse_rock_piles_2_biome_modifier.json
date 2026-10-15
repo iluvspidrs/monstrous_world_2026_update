@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "monstrous_world:foggy_expanse",
+  "features": "monstrous_world:foggy_expanse_rock_piles_2",
+  "step": "surface_structures"
+}

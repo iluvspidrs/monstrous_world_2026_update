@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:monster_detector"
+    },
+    "title": {
+      "translate": "advancements.the_ultimate_irony.title"
+    },
+    "description": {
+      "translate": "advancements.the_ultimate_irony.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_ultimate_irony_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:your_first_amulet"
+}

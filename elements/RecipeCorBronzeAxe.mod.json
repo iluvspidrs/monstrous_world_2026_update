@@ -1,0 +1,33 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:TrollWorkHammer",
+      "CUSTOM:CorinthianBronzeIngot",
+      "TAG:c:ingots/corinthian_bronze"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "TAG:c:ingots/corinthian_bronze",
+      "TAG:c:ingots/corinthian_bronze",
+      "",
+      "TAG:c:ingots/corinthian_bronze",
+      "Items.STICK",
+      "CUSTOM:TrollWorkHammer",
+      "",
+      "Items.STICK",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:CorinthianBronzeAxe",
+    "name": "recipe_cor_bronze_axe",
+    "namespace": "mod"
+  }
+}

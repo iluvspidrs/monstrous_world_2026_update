@@ -1,0 +1,23 @@
+{
+  "_fv": 89,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "charm_altar_recipe_type",
+    "ingredients": [
+      "CUSTOM:DarkEssenceDust",
+      "CUSTOM:AnointmentOil",
+      "CUSTOM:IncantationBook",
+      "TAG:c:gems/clear_quartz"
+    ],
+    "integers": [],
+    "strings": [],
+    "recipetype": "CharmAltarRecipeType",
+    "results": [
+      "CUSTOM:CharmOfDarkness"
+    ],
+    "resultCounts": [
+      1
+    ],
+    "count": 0
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "monstrous_world:corn_farm_1_forsaken_lands",
+  "config": {
+    "structure": "monstrous_world:corn_farm_1",
+    "ignored_blocks": "minecraft:structure_block",
+    "offset": [
+      -4,
+      -1,
+      -3
+    ]
+  }
+}

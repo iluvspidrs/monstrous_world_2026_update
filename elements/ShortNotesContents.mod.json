@@ -1,0 +1,543 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 350,
+    "height": 240,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "anoteonspiritspage1.png",
+          "use1Xscale": false,
+          "displayCondition": "ANoteOnSpiritsPage1Condition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "anoteonspiritspage2.png",
+          "use1Xscale": false,
+          "displayCondition": "ANoteOnSpiritsPage2Condition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_forward_button",
+          "image": "forward_button.png",
+          "hoveredImage": "forward_button_hover.png",
+          "onClick": "ShortNotesPageForward",
+          "displayCondition": "ShortNotesForwardButtonCondition",
+          "x": 339,
+          "y": 206,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_back_button",
+          "image": "back_button.png",
+          "hoveredImage": "back_button_hover.png",
+          "onClick": "ShortNotesPageBackward",
+          "displayCondition": "ShortNotesBackwardButtonCondition",
+          "x": 69,
+          "y": 206,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "societydirectivegui.png",
+          "use1Xscale": false,
+          "displayCondition": "SocietyDirectivePageCondition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "farmerslogpage1.png",
+          "use1Xscale": false,
+          "displayCondition": "FarmersLogPage1Condition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "farmerslogpage2.png",
+          "use1Xscale": false,
+          "displayCondition": "FarmersLogPage2Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "emailarchivepage1.png",
+          "use1Xscale": false,
+          "displayCondition": "EmailArchivePage1Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "emailarchivepage2.png",
+          "use1Xscale": false,
+          "displayCondition": "EmailArchivePage2Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "emailarchivepage3.png",
+          "use1Xscale": false,
+          "displayCondition": "EmailArchivePage3Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cureserumpaper1.png",
+          "use1Xscale": false,
+          "displayCondition": "CureSerumNotePage1Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cureserumpaper2.png",
+          "use1Xscale": false,
+          "displayCondition": "CureSerumNotePage2Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stabilzingseruminstructions.png",
+          "use1Xscale": false,
+          "displayCondition": "StabilizingSerumNoteCondition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "huntersguildcureserumnote.png",
+          "use1Xscale": false,
+          "displayCondition": "HuntersNoteOnCureSerumCondition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a_hunters_warning.png",
+          "use1Xscale": false,
+          "displayCondition": "HuntersWarningWispTextCondition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a_hunters_warning_swamp.png",
+          "use1Xscale": false,
+          "displayCondition": "HuntersWarningSwampTextCondition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a_hunters_warning_vampire.png",
+          "use1Xscale": false,
+          "displayCondition": "HuntersWarningVampireTextCondition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a_hunters_warning_werewolf.png",
+          "use1Xscale": false,
+          "displayCondition": "HuntersWarningWerewolfTextCondition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "recovered_journal_1.png",
+          "use1Xscale": false,
+          "displayCondition": "ARecoveredJournalPage1Condition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "recovered_journal_2.png",
+          "use1Xscale": false,
+          "displayCondition": "ARecoveredJournalPage2Condition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "recovered_journal_3.png",
+          "use1Xscale": false,
+          "displayCondition": "ARecoveredJournalPage3Condition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "note_from_witches.png",
+          "use1Xscale": false,
+          "displayCondition": "ALetterFromAgathaPage1Condition",
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "note_from_countess_1.png",
+          "use1Xscale": false,
+          "displayCondition": "LetterFromCountessPage1Condition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "note_from_countess_2.png",
+          "use1Xscale": false,
+          "displayCondition": "LetterFromCountessPage2Condition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hunterwarningferalmountaintroll.png",
+          "use1Xscale": false,
+          "displayCondition": "HuntersWarningTrollTextCondition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "unusualinfectionpage1.png",
+          "use1Xscale": false,
+          "displayCondition": "UnusualInfectionPage1Condition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "unusualinfectionpage2.png",
+          "use1Xscale": false,
+          "displayCondition": "UnusualInfectionPage2Condition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "unusualinfectionpage3.png",
+          "use1Xscale": false,
+          "displayCondition": "UnusualInfectionPage3Condition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "museumlootpage1.png",
+          "use1Xscale": false,
+          "displayCondition": "MysteryContainerPage1Condition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "museumlootpage2.png",
+          "use1Xscale": false,
+          "displayCondition": "MysteryContainerPage2Condition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "curatoradams.png",
+          "use1Xscale": false,
+          "displayCondition": "MuseumClosedCondition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "quotas_text.png",
+          "use1Xscale": false,
+          "displayCondition": "QuotaCondition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sacrifice_1_text.png",
+          "use1Xscale": false,
+          "displayCondition": "SacrificePage1Condition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sacrifice_2_text.png",
+          "use1Xscale": false,
+          "displayCondition": "SacrificePage2Condition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sacrifice_3_text.png",
+          "use1Xscale": false,
+          "displayCondition": "SacrificePage3Condition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hunterwarningclowns.png",
+          "use1Xscale": false,
+          "displayCondition": "HuntersWarningCircusTentsCondition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "museumad.png",
+          "use1Xscale": false,
+          "displayCondition": "MuseumAdCondition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "darkmarketad.png",
+          "use1Xscale": false,
+          "displayCondition": "DarkMarketAdCondition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "noteonpiglins.png",
+          "use1Xscale": false,
+          "displayCondition": "NoteOnPiglinsCondition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "noteonmaniacs.png",
+          "use1Xscale": false,
+          "displayCondition": "NoteOnManiacsCondition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a_warriors_arena.png",
+          "use1Xscale": false,
+          "displayCondition": "TheWarriorsArenaCondition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "the_vile_raiders.png",
+          "use1Xscale": false,
+          "displayCondition": "TheVileRaidersCondition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fresh_cookies_goblin_made_gui.png",
+          "use1Xscale": false,
+          "displayCondition": "FreshCookiesCondition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "trick_or_treat.png",
+          "use1Xscale": false,
+          "displayCondition": "TrickOrTreatAdCondition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tome_of_light.png",
+          "use1Xscale": false,
+          "displayCondition": "TomeOfLightNoteCondition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lock_your_door.png",
+          "use1Xscale": false,
+          "displayCondition": "HuntersWarningManiacsTextCondition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "avoid_the_nether.png",
+          "use1Xscale": false,
+          "displayCondition": "HuntersWarningDemonTextCondition",
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

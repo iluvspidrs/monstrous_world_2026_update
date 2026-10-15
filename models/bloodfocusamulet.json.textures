@@ -1,0 +1,100 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "red_onyx_block",
+        "1": "moonstone_block",
+        "2": "black_onyx_block",
+        "3": "regular_blood",
+        "4": "block_of_quartz",
+        "5": "minecraft:gold_block",
+        "missing": ""
+      },
+      "name": "default"
+    },
+    "goblin": {
+      "map": {
+        "0": "red_onyx_block",
+        "1": "moonstone_block",
+        "2": "black_onyx_block",
+        "3": "goblin_blood",
+        "4": "block_of_quartz",
+        "5": "minecraft:gold_block",
+        "missing": ""
+      },
+      "name": "goblin"
+    },
+    "troll": {
+      "map": {
+        "0": "red_onyx_block",
+        "1": "moonstone_block",
+        "2": "black_onyx_block",
+        "3": "troll_blood",
+        "4": "block_of_quartz",
+        "5": "minecraft:gold_block",
+        "missing": ""
+      },
+      "name": "troll"
+    },
+    "swampmonster": {
+      "map": {
+        "0": "red_onyx_block",
+        "1": "moonstone_block",
+        "2": "black_onyx_block",
+        "3": "swampmonster_blood",
+        "4": "block_of_quartz",
+        "5": "minecraft:gold_block",
+        "missing": ""
+      },
+      "name": "swampmonster"
+    },
+    "werewolf": {
+      "map": {
+        "0": "red_onyx_block",
+        "1": "moonstone_block",
+        "2": "black_onyx_block",
+        "3": "werewolf_blood",
+        "4": "block_of_quartz",
+        "5": "minecraft:gold_block",
+        "missing": ""
+      },
+      "name": "werewolf"
+    },
+    "eye": {
+      "map": {
+        "0": "red_onyx_block",
+        "1": "moonstone_block",
+        "2": "black_onyx_block",
+        "3": "eye_blood",
+        "4": "block_of_quartz",
+        "5": "minecraft:gold_block",
+        "missing": ""
+      },
+      "name": "eye"
+    },
+    "serpent": {
+      "map": {
+        "0": "red_onyx_block",
+        "1": "moonstone_block",
+        "2": "black_onyx_block",
+        "3": "goblin_blood",
+        "4": "block_of_quartz",
+        "5": "minecraft:gold_block",
+        "missing": ""
+      },
+      "name": "serpent"
+    },
+    "fly": {
+      "map": {
+        "0": "red_onyx_block",
+        "1": "moonstone_block",
+        "2": "black_onyx_block",
+        "3": "fly_blood",
+        "4": "block_of_quartz",
+        "5": "minecraft:gold_block",
+        "missing": ""
+      },
+      "name": "fly"
+    }
+  }
+}

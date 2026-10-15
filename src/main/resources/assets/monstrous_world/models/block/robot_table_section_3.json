@@ -1,0 +1,12 @@
+{
+  "parent": "monstrous_world:custom/robottablewithspiderhead",
+  "textures": {
+    "all": "monstrous_world:block/tin_tabletop_head",
+    "particle": "monstrous_world:block/tin_block",
+    "0": "monstrous_world:block/tin_tabletop_head",
+    "1": "monstrous_world:block/evilbarkside",
+    "2": "monstrous_world:block/robot_texture",
+    "3": "monstrous_world:block/robot_spider_head_block"
+  },
+  "render_type": "solid"
+}

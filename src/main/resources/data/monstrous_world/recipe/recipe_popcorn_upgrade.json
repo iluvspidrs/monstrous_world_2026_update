@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bbb",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:darkened_glass"
+    },
+    "b": {
+      "item": "monstrous_world:enhanced_popcorn"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:acid_gun_popcorn_upgrade",
+    "count": 1
+  }
+}

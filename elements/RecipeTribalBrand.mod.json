@@ -1,0 +1,34 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:NetherGem",
+      "CUSTOM:SwampEssence",
+      "CUSTOM:SwampEssenceDust",
+      "CUSTOM:OddRoot"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:OddRoot",
+      "CUSTOM:SwampEssenceDust",
+      "CUSTOM:OddRoot",
+      "CUSTOM:SwampEssence",
+      "CUSTOM:NetherGem",
+      "CUSTOM:SwampEssence",
+      "CUSTOM:OddRoot",
+      "CUSTOM:SwampEssenceDust",
+      "CUSTOM:OddRoot"
+    ],
+    "recipeReturnStack": "CUSTOM:TribalBrand",
+    "name": "recipe_tribal_brand",
+    "namespace": "mod"
+  }
+}

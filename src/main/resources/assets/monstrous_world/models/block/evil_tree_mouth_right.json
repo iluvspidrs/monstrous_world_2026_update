@@ -1,0 +1,11 @@
+{
+  "parent": "monstrous_world:custom/eviltreemouthright",
+  "textures": {
+    "all": "monstrous_world:block/evilbarkside",
+    "particle": "monstrous_world:block/evilbarkside",
+    "0": "monstrous_world:block/evilbarkside",
+    "1": "monstrous_world:block/evilbarkside",
+    "missing": "monstrous_world:block/"
+  },
+  "render_type": "solid"
+}

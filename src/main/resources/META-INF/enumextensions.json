@@ -1,0 +1,67 @@
+{
+  "entries": [
+    {
+      "enum": "net/minecraft/world/entity/vehicle/Boat$Type",
+      "name": "MONSTROUS_WORLD_PUMPKIN_BOAT",
+      "constructor": "(Ljava/util/function/Supplier;Ljava/lang/String;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Z)V",
+      "parameters": {
+        "class": "net/mcreator/monstrousworld/init/MonstrousWorldModBoatTypes",
+        "field": "PUMPKIN_BOAT_TYPE"
+      }
+    },
+    {
+      "enum": "net/minecraft/world/entity/vehicle/Boat$Type",
+      "name": "MONSTROUS_WORLD_GHOSTLY_BOAT",
+      "constructor": "(Ljava/util/function/Supplier;Ljava/lang/String;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Z)V",
+      "parameters": {
+        "class": "net/mcreator/monstrousworld/init/MonstrousWorldModBoatTypes",
+        "field": "GHOSTLY_BOAT_TYPE"
+      }
+    },
+    {
+      "enum": "net/minecraft/world/entity/vehicle/Boat$Type",
+      "name": "MONSTROUS_WORLD_EVIL_BOAT",
+      "constructor": "(Ljava/util/function/Supplier;Ljava/lang/String;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Z)V",
+      "parameters": {
+        "class": "net/mcreator/monstrousworld/init/MonstrousWorldModBoatTypes",
+        "field": "EVIL_BOAT_TYPE"
+      }
+    },
+    {
+      "enum": "net/minecraft/world/entity/vehicle/Boat$Type",
+      "name": "MONSTROUS_WORLD_PALE_STALK_BOAT",
+      "constructor": "(Ljava/util/function/Supplier;Ljava/lang/String;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Z)V",
+      "parameters": {
+        "class": "net/mcreator/monstrousworld/init/MonstrousWorldModBoatTypes",
+        "field": "PALE_STALK_BOAT_TYPE"
+      }
+    },
+    {
+      "enum": "net/minecraft/world/entity/vehicle/Boat$Type",
+      "name": "MONSTROUS_WORLD_MURKWOOD_BOAT",
+      "constructor": "(Ljava/util/function/Supplier;Ljava/lang/String;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Z)V",
+      "parameters": {
+        "class": "net/mcreator/monstrousworld/init/MonstrousWorldModBoatTypes",
+        "field": "MURKWOOD_BOAT_TYPE"
+      }
+    },
+    {
+      "enum": "net/minecraft/world/entity/vehicle/Boat$Type",
+      "name": "MONSTROUS_WORLD_SANGUINUS_BOAT",
+      "constructor": "(Ljava/util/function/Supplier;Ljava/lang/String;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Z)V",
+      "parameters": {
+        "class": "net/mcreator/monstrousworld/init/MonstrousWorldModBoatTypes",
+        "field": "SANGUINUS_BOAT_TYPE"
+      }
+    },
+    {
+      "enum": "net/minecraft/world/entity/vehicle/Boat$Type",
+      "name": "MONSTROUS_WORLD_DEATHLY_BOAT",
+      "constructor": "(Ljava/util/function/Supplier;Ljava/lang/String;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Z)V",
+      "parameters": {
+        "class": "net/mcreator/monstrousworld/init/MonstrousWorldModBoatTypes",
+        "field": "DEATHLY_BOAT_TYPE"
+      }
+    }
+  ]
+}

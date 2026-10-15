@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:block_of_clear_quartz"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:clear_quartz_shard",
+    "count": 9
+  }
+}

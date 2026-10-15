@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:odd_root",
+    "monstrous_world:swamp_essence_dust",
+    "minecraft:slime_ball",
+    "monstrous_world:vile_slime",
+    "monstrous_world:swamp_wort"
+  ]
+}

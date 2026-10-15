@@ -1,0 +1,11 @@
+{
+  "parent": "monstrous_world:custom/trollforgeingot4",
+  "textures": {
+    "all": "monstrous_world:block/cast_iron_block",
+    "particle": "monstrous_world:block/cast_iron_block",
+    "2": "monstrous_world:block/cast_iron_block",
+    "3": "minecraft:block/copper_block",
+    "4": "monstrous_world:block/cast_iron_block"
+  },
+  "render_type": "solid"
+}

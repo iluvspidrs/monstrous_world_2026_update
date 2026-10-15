@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:shining_netherite_ingot"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:blockof_shining_netherite",
+    "count": 1
+  }
+}

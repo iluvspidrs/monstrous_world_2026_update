@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:strange_residue"
+    },
+    "title": {
+      "translate": "advancements.an_odd_residue.title"
+    },
+    "description": {
+      "translate": "advancements.an_odd_residue.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "an_odd_residue_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:monster_hunter_hunter"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "monstrous_world:item/birch_barricading_boards_item"
+  },
+  "render_type": "translucent"
+}

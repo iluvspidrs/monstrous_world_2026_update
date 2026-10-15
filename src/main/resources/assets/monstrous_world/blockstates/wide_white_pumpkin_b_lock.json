@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "monstrous_world:block/wide_white_pumpkin_b_lock"
+    },
+    "facing=east": {
+      "model": "monstrous_world:block/wide_white_pumpkin_b_lock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "monstrous_world:block/wide_white_pumpkin_b_lock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "monstrous_world:block/wide_white_pumpkin_b_lock",
+      "y": 270
+    }
+  }
+}

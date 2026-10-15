@@ -1,0 +1,52 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Webbed",
+    "icon": "webbed",
+    "color": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "onAddedSound": "",
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": "MOVEMENT_SPEED",
+        "amount": -0.1,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": "ATTACK_DAMAGE",
+        "amount": -1.0,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": "KNOCKBACK_RESISTANCE",
+        "amount": 1.0,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": "STEP_HEIGHT",
+        "amount": -0.5,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": "ARMOR",
+        "amount": 10.0,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": "JUMP_STRENGTH",
+        "amount": -0.8,
+        "operation": "ADD_VALUE"
+      }
+    ],
+    "onActiveTick": "WebbedOnEffectActiveTick",
+    "onExpired": "WebbedEffectExpires"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "shining_netherite_sword_sardonyx",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Modified Shining Netherite Sword [Sardonyx]",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": [
+        "Grants Strength to the holder and deals extra damage"
+      ]
+    },
+    "creativeTabs": [
+      "CUSTOM:MonstrousWorldTools"
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
+    "enchantability": 15,
+    "damageVsEntity": 10.0,
+    "usageCount": 3500,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      "CUSTOM:ShiningNetheriteIngot"
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": "ModifiedIronSwordSardonyxLivingEntityIsHitWithTool",
+    "onItemInUseTick": "ModifiedIronSwordOnyxToolInHandTick"
+  }
+}

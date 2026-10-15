@@ -1,0 +1,13 @@
+{
+  "_fv": 89,
+  "_type": "humanoidmodel",
+  "definition": {
+    "modelName": "ModelWerewolf",
+    "helmetModelPart": "Head",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "leggingsModelPartL": "LeftLeg",
+    "leggingsModelPartR": "RightLeg"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#c:is_cold",
+  "features": "monstrous_world:deepslate_boulder_is_cold",
+  "step": "surface_structures"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    "ab ",
+    "aa "
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:infernal_iron_ingot"
+    },
+    "b": {
+      "item": "monstrous_world:nether_gem"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:infernal_sword",
+    "count": 1
+  }
+}

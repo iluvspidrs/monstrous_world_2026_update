@@ -1,0 +1,10 @@
+{
+  "parent": "monstrous_world:custom/tallpumpkin",
+  "textures": {
+    "all": "monstrous_world:block/pumpkintall",
+    "particle": "monstrous_world:block/pumpkintall",
+    "2": "monstrous_world:block/pumpkintall",
+    "3": "monstrous_world:block/stem"
+  },
+  "render_type": "solid"
+}

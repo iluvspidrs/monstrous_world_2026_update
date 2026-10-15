@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/hotplateempty",
+  "textures": {
+    "all": "monstrous_world:block/darkened_iron_block",
+    "particle": "monstrous_world:block/darkened_iron_block",
+    "1": "monstrous_world:block/darkened_iron_block"
+  },
+  "render_type": "translucent"
+}

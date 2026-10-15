@@ -1,0 +1,10 @@
+{
+  "_fv": 89,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "V",
+    "keyBindingName": "Feed",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": "FeedOnKeyPressed"
+  }
+}

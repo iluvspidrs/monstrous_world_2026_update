@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "monstrous_world:block/blue_skull_bricks"
+    },
+    "facing=east": {
+      "model": "monstrous_world:block/blue_skull_bricks",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "monstrous_world:block/blue_skull_bricks",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "monstrous_world:block/blue_skull_bricks",
+      "y": 270
+    }
+  }
+}

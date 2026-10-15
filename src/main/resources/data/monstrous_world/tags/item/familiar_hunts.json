@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:dread_moth",
+    "monstrous_world:bat_wing",
+    "monstrous_world:swamp_wort",
+    "monstrous_world:rat_tail"
+  ]
+}

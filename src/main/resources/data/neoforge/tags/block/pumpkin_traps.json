@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:pumpkin",
+    "monstrous_world:pumpkin_trap",
+    "minecraft:carved_pumpkin"
+  ]
+}

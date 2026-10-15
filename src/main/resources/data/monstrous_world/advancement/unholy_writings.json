@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:unholy_scroll"
+    },
+    "title": {
+      "translate": "advancements.unholy_writings.title"
+    },
+    "description": {
+      "translate": "advancements.unholy_writings.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unholy_writings_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:nobody_has_to_know"
+}

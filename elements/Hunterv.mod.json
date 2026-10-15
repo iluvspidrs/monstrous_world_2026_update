@@ -1,0 +1,153 @@
+{
+  "_fv": 89,
+  "_type": "structure",
+  "definition": {
+    "structure": "hunter_office",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      "Blocks.STRUCTURE_BLOCK"
+    ],
+    "spacing": 22,
+    "separation": 21,
+    "restrictionBiomes": [
+      "#c:is_savanna"
+    ],
+    "terrainAdaptation": "beard_box",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 5,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": [
+      {
+        "poolName": "path",
+        "fallbackPool": "monstrous_world:hunterv_end",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "hunter_path_1",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "plot",
+        "fallbackPool": "monstrous_world:hunterv_end",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "hunter_barracks",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "hunter_range",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "hunter_piles",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "end",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "hunter_end",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "deco",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "hunterv_basin",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "hunter_lantern",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "hunterv_gourds",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "hunterv_malachite",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "hunterv_haybale",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "piles",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 50,
+            "structure": "hunterv_silver_pile",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 50,
+            "structure": "hunterv_silver_pile_2",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "denizen",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 100,
+            "structure": "hunter",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "supplies",
+        "fallbackPool": "monstrous_world:hunterv_end",
+        "poolParts": [
+          {
+            "weight": 100,
+            "structure": "hunter_supplies",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      }
+    ]
+  }
+}

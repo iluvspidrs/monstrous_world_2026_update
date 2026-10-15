@@ -1,0 +1,10 @@
+{
+  "parent": "monstrous_world:custom/firecanestalk",
+  "textures": {
+    "all": "monstrous_world:block/firecane_surface",
+    "particle": "monstrous_world:block/firecane_surface",
+    "1": "minecraft:block/lava_still",
+    "2": "monstrous_world:block/firecane_surface"
+  },
+  "render_type": "solid"
+}

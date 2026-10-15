@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "monstrous_world:textures/screens/silver_nugget_ore.png",
+    "icon": {
+      "id": "monstrous_world:hunters_guild_application_block"
+    },
+    "title": {
+      "translate": "advancements.join_the_hunt.title"
+    },
+    "description": {
+      "translate": "advancements.join_the_hunt.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "join_the_hunt_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

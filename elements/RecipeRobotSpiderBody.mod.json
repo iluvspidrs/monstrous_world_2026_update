@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "monstrous_world_items",
+    "unlockingItems": [
+      "Items.COMPASS",
+      "Items.IRON_INGOT"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "Items.IRON_INGOT",
+      "",
+      "Items.IRON_INGOT",
+      "Items.COMPASS",
+      "Items.IRON_INGOT",
+      "Items.IRON_INGOT",
+      "Items.IRON_INGOT",
+      "Items.IRON_INGOT"
+    ],
+    "recipeReturnStack": "CUSTOM:RobotSpiderBody",
+    "name": "recipe_robot_spider_body",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/evilbarkside",
+    "up": "monstrous_world:block/evilbarkside",
+    "north": "monstrous_world:block/evilbarkside",
+    "east": "monstrous_world:block/evilbarkside",
+    "south": "monstrous_world:block/evilbarkside",
+    "west": "monstrous_world:block/evilbarkside",
+    "particle": "monstrous_world:block/evilbarkside"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:strange_serum_flask_2"
+    },
+    "title": {
+      "translate": "advancements.improving_the_gene_pool.title"
+    },
+    "description": {
+      "translate": "advancements.improving_the_gene_pool.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "improving_the_gene_pool_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:this_will_only_hurt_a_little"
+}

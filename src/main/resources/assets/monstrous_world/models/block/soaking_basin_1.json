@@ -1,0 +1,11 @@
+{
+  "parent": "monstrous_world:custom/advancedcauldronliquid",
+  "textures": {
+    "all": "minecraft:block/exposed_copper",
+    "particle": "minecraft:block/cracked_deepslate_tiles",
+    "0": "minecraft:block/exposed_copper",
+    "1": "minecraft:block/cracked_deepslate_tiles",
+    "2": "monstrous_world:block/ruined_brew"
+  },
+  "render_type": "solid"
+}

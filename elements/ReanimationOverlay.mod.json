@@ -1,0 +1,210 @@
+{
+  "_fv": 89,
+  "_type": "overlay",
+  "definition": {
+    "priority": "LOWEST",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "reanimation_bottom_left.png",
+          "use1Xscale": false,
+          "displayCondition": "Reanimate100Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 0,
+          "y": -16,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "reanimation_bottom_left_50.png",
+          "use1Xscale": false,
+          "displayCondition": "Reanimate50Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 0,
+          "y": 0,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "reanimation_bottom_left_75.png",
+          "use1Xscale": false,
+          "displayCondition": "Reanimate75Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 0,
+          "y": -16,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "reanimation_bottom_left_25.png",
+          "use1Xscale": false,
+          "displayCondition": "Reanimate25Condition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": -1,
+          "y": -16,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "reanimation_top_right_75.png",
+          "use1Xscale": false,
+          "displayCondition": "Reanimate75Condition",
+          "anchorPoint": "TOP_RIGHT",
+          "x": 171,
+          "y": 0,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "reanimation_top_right_50.png",
+          "use1Xscale": false,
+          "displayCondition": "Reanimate50Condition",
+          "anchorPoint": "TOP_RIGHT",
+          "x": 171,
+          "y": 0,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "reanimation_top_right_25.png",
+          "use1Xscale": false,
+          "displayCondition": "Reanimate25Condition",
+          "anchorPoint": "TOP_RIGHT",
+          "x": 171,
+          "y": 0,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "reanimation_top_right.png",
+          "use1Xscale": false,
+          "displayCondition": "Reanimate100Condition",
+          "anchorPoint": "TOP_RIGHT",
+          "x": 171,
+          "y": 0,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "reanimation_top_left_75.png",
+          "use1Xscale": false,
+          "displayCondition": "Reanimate75Condition",
+          "anchorPoint": "TOP_LEFT",
+          "x": 0,
+          "y": 0,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "reanimation_top_left_50.png",
+          "use1Xscale": false,
+          "displayCondition": "Reanimate50Condition",
+          "anchorPoint": "TOP_LEFT",
+          "x": 0,
+          "y": 0,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "reanimation_top_left_25.png",
+          "use1Xscale": false,
+          "displayCondition": "Reanimate25Condition",
+          "anchorPoint": "TOP_LEFT",
+          "x": 0,
+          "y": 0,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "reanimation_top_left.png",
+          "use1Xscale": false,
+          "displayCondition": "Reanimate100Condition",
+          "anchorPoint": "TOP_LEFT",
+          "x": 0,
+          "y": 0,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "reanimation_bottom_right_75.png",
+          "use1Xscale": false,
+          "displayCondition": "Reanimate75Condition",
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 171,
+          "y": -16,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "reanimation_bottom_right_50.png",
+          "use1Xscale": false,
+          "displayCondition": "Reanimate50Condition",
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 171,
+          "y": -16,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "reanimation_bottom_right_25.png",
+          "use1Xscale": false,
+          "displayCondition": "Reanimate25Condition",
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 171,
+          "y": -16,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "reanimation_bottom_right.png",
+          "use1Xscale": false,
+          "displayCondition": "Reanimate100Condition",
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 171,
+          "y": -16,
+          "locked": false
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

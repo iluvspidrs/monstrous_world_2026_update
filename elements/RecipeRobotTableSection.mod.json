@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "monstrous_world_blocks",
+    "unlockingItems": [
+      "CUSTOM:TinSlab",
+      "CUSTOM:EvilTreeWood"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "",
+      "CUSTOM:TinSlab",
+      "",
+      "",
+      "CUSTOM:EvilTreeWood",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:RobotTableSection",
+    "name": "recipe_robot_table_section",
+    "namespace": "mod"
+  }
+}

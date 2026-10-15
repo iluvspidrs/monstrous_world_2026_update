@@ -1,0 +1,11 @@
+{
+  "parent": "monstrous_world:custom/advancedcauldronliquid",
+  "textures": {
+    "all": "monstrous_world:block/darkened_log_side",
+    "particle": "monstrous_world:block/darkened_crystal",
+    "0": "monstrous_world:block/darkened_log_side",
+    "1": "monstrous_world:block/darkened_crystal",
+    "2": "monstrous_world:block/ruined_brew"
+  },
+  "render_type": "translucent"
+}

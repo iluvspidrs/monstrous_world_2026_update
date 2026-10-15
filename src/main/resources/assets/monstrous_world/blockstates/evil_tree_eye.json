@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "monstrous_world:block/evil_tree_eye"
+    },
+    "facing=east": {
+      "model": "monstrous_world:block/evil_tree_eye",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "monstrous_world:block/evil_tree_eye",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "monstrous_world:block/evil_tree_eye",
+      "y": 270
+    }
+  }
+}

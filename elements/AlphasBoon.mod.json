@@ -1,0 +1,36 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Alphas Boon",
+    "icon": "alphas_boon",
+    "color": {
+      "value": -2228227,
+      "falpha": 0.0
+    },
+    "onAddedSound": "",
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": "ARMOR",
+        "amount": 10.0,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": "ATTACK_DAMAGE",
+        "amount": 5.0,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": "MOVEMENT_SPEED",
+        "amount": 0.01,
+        "operation": "ADD_VALUE"
+      }
+    ],
+    "onActiveTick": "AlphasBoonOnEffectActiveTick"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "vindicator",
+    "illusioner",
+    "evoker",
+    "monstrous_world:sorcerer_npc",
+    "monstrous_world:witch_1",
+    "witch",
+    "monstrous_world:maniac",
+    "monstrous_world:mad_scientist_npc"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "monstrous_world:block/darkened_candle"
+    },
+    "facing=east": {
+      "model": "monstrous_world:block/darkened_candle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "monstrous_world:block/darkened_candle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "monstrous_world:block/darkened_candle",
+      "y": 270
+    }
+  }
+}

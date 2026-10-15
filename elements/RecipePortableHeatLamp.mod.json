@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "monstrous_world_tools",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "Items.IRON_INGOT",
+      "",
+      "",
+      "CUSTOM:NetherGem",
+      "",
+      "",
+      "Items.IRON_INGOT",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:PortableHeatLamp",
+    "name": "recipe_portable_heat_lamp",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:hunters_guild_field_guide_item"
+    },
+    "title": {
+      "translate": "advancements.every_hunters_field_guide.title"
+    },
+    "description": {
+      "translate": "advancements.every_hunters_field_guide.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "every_hunters_field_guide_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:join_the_hunt"
+}

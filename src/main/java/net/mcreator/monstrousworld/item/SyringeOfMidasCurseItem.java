@@ -1,0 +1,24 @@
+package net.mcreator.monstrousworld.item;
+
+import net.neoforged.api.distmarker.OnlyIn;
+import net.neoforged.api.distmarker.Dist;
+
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.network.chat.Component;
+
+import java.util.List;
+
+public class SyringeOfMidasCurseItem extends Item {
+	public SyringeOfMidasCurseItem() {
+		super(new Item.Properties());
+	}
+
+	@Override
+	@OnlyIn(Dist.CLIENT)
+	public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, context, list, flag);
+		list.add(Component.translatable("item.monstrous_world.syringe_of_midas_curse.description_0"));
+	}
+}

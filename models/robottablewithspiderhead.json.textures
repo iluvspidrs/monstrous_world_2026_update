@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "tin_tabletop_head",
+        "1": "evilbarkside",
+        "2": "robot_texture",
+        "3": "robot_spider_head_block"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "_fv": 89,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Witch 1",
+    "mobLabel": "",
+    "mobModelName": "Biped",
+    "mobModelTexture": "npc1.png",
+    "transparentModelCondition": {
+      "fixedValue": false
+    },
+    "isShakingCondition": {
+      "fixedValue": false
+    },
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "modelLayers": [
+      {
+        "model": "Default",
+        "texture": "npc14.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "Witch1Skin1Condition"
+      },
+      {
+        "model": "Default",
+        "texture": "npc13.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "Witch1Skin2Condition"
+      },
+      {
+        "model": "Default",
+        "texture": "npc12.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "Witch1Skin3Condition"
+      },
+      {
+        "model": "Default",
+        "texture": "npc11.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "Witch1Skin4Condition"
+      },
+      {
+        "model": "Default",
+        "texture": "npc10.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "Witch1Skin5Condition"
+      },
+      {
+        "model": "Default",
+        "texture": "npc10_vampire.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "Witch1Skin5VampireCondition"
+      },
+      {
+        "model": "Default",
+        "texture": "npc11_vampire.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "Witch1Skin4VampireCondition"
+      },
+      {
+        "model": "Default",
+        "texture": "npc12_vampire.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "Witch1Skin3VampireCondition"
+      },
+      {
+        "model": "Default",
+        "texture": "npc13_vampire.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "Witch1Skin2VampireCondition"
+      },
+      {
+        "model": "Default",
+        "texture": "npc14_vampire.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "Witch1Skin1VampireCondition"
+      }
+    ],
+    "animations": [],
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -13057,
+      "falpha": 0.0
+    },
+    "spawnEggTexture": "",
+    "creativeTabs": [
+      "MISC"
+    ],
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": "",
+    "equipmentOffHand": "",
+    "equipmentHelmet": "",
+    "equipmentBody": "CUSTOM:Witchery.body",
+    "equipmentLeggings": "",
+    "equipmentBoots": "",
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 2,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.25,
+    "stepHeight": 0.6,
+    "armorBaseValue": 5.0,
+    "trackingRange": 64,
+    "followRange": 16,
+    "health": 30,
+    "xpAmount": 0,
+    "waterMob": false,
+    "breatheUnderwater": {
+      "fixedValue": false
+    },
+    "pushedByFluids": {
+      "fixedValue": true
+    },
+    "flyingMob": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 99,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
+    "mobDrop": "",
+    "livingSound": "",
+    "hurtSound": "entity.generic.hurt",
+    "deathSound": "entity.generic.death",
+    "stepSound": "",
+    "raidCelebrationSound": "",
+    "entityDataEntries": [
+      {
+        "name": "Vampire",
+        "type": "logic",
+        "value": false
+      },
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "Trade",
+        "type": "integer",
+        "value": 0
+      },
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "HasZombieCure",
+        "type": "integer",
+        "value": 0
+      },
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "HasVampireCure",
+        "type": "integer",
+        "value": 0
+      },
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "HasWerewolfCure",
+        "type": "integer",
+        "value": 0
+      },
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "Skin",
+        "type": "integer",
+        "value": 0
+      }
+    ],
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"39\" y=\"37\"><next><block type=\"wander_avoid_water\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">CUSTOM:SocietyGoon</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">CUSTOM:AggressiveGuard</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">CUSTOM:DireWerewolf</field><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"watch_closest_entity\"><field name=\"entity\">EntityPlayerMP</field><field name=\"radius\">8</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block><block type=\"wander\" x=\"469\" y=\"51\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field></block></xml>",
+    "breedable": false,
+    "tameable": false,
+    "breedTriggerItems": [],
+    "ranged": true,
+    "rangedAttackItem": "",
+    "rangedItemType": "ThrownFrogifyPowder",
+    "rangedAttackInterval": 60,
+    "rangedAttackRadius": 10.0,
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 20,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 4,
+    "maxNumberOfMobsPerGroup": 4,
+    "restrictionBiomes": [],
+    "spawnInDungeons": false,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
+    "sensitiveToVibration": false,
+    "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 7.0
+    }
+  }
+}

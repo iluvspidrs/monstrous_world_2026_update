@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:infernal_butcher_knife"
+    },
+    "title": {
+      "translate": "advancements.a_ghastly_alliance.title"
+    },
+    "description": {
+      "translate": "advancements.a_ghastly_alliance.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_ghastly_alliance_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:murder_101"
+}

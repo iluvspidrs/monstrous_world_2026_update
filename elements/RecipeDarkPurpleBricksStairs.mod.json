@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 5,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:DarkPurpleBricks"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:DarkPurpleBricks",
+      "",
+      "",
+      "CUSTOM:DarkPurpleBricks",
+      "CUSTOM:DarkPurpleBricks",
+      "",
+      "CUSTOM:DarkPurpleBricks",
+      "CUSTOM:DarkPurpleBricks",
+      "CUSTOM:DarkPurpleBricks"
+    ],
+    "recipeReturnStack": "CUSTOM:DarkPurpleBricksStairs",
+    "name": "recipe_dark_purple_bricks_stairs",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "",
+    "unlockingItems": [
+      "Blocks.COBBLED_DEEPSLATE",
+      "Items.FLINT"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Items.FLINT",
+      "",
+      "Items.FLINT",
+      "",
+      "Blocks.COBBLED_DEEPSLATE",
+      "",
+      "Items.FLINT",
+      "",
+      "Items.FLINT"
+    ],
+    "recipeReturnStack": "CUSTOM:GrungyStone",
+    "name": "recipe_grungy_stone",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:darkened_sandstone_stairs",
+    "monstrous_world:pale_stalk_stairs",
+    "monstrous_world:tin_stairs",
+    "monstrous_world:dark_yellow_bricks_stairs",
+    "monstrous_world:dark_orange_bricks_stairs",
+    "monstrous_world:deathly_wood_stairs",
+    "monstrous_world:darkened_stone_tiles_stairs",
+    "monstrous_world:darkened_cobblestone_stairs",
+    "monstrous_world:evil_tree_stairs",
+    "monstrous_world:dark_green_bricks_stairs",
+    "monstrous_world:dark_red_bricks_stairs",
+    "monstrous_world:cob_stairs",
+    "monstrous_world:sanguine_wood_stairs",
+    "monstrous_world:dark_purple_bricks_stairs",
+    "monstrous_world:dark_blue_bricks_stairs",
+    "monstrous_world:ghostly_stairs",
+    "monstrous_world:darkened_stone_bricks_stairs",
+    "monstrous_world:darkened_planks_stairs",
+    "monstrous_world:pumpkin_stairs",
+    "monstrous_world:murkwood_stairs"
+  ]
+}

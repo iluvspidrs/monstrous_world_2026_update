@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_right_open",
+  "textures": {
+    "particle": "monstrous_world:block/ghostly_door",
+    "bottom": "monstrous_world:block/ghostly_door",
+    "top": "monstrous_world:block/ghostly_door_top"
+  },
+  "render_type": "cutout"
+}

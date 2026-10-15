@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:ghostly_log",
+    "monstrous_world:ghostly_fence_gate",
+    "monstrous_world:ghostly_trapdoor",
+    "monstrous_world:ghostly_slab",
+    "monstrous_world:ghostly_wood_paneled_glass",
+    "monstrous_world:stripped_ghostly_wood",
+    "monstrous_world:ghostly_wood_glass_pane",
+    "monstrous_world:ghostly_door",
+    "monstrous_world:ghostly_pressure_plate",
+    "monstrous_world:stripped_ghostly_log",
+    "monstrous_world:ghostly_button",
+    "monstrous_world:ghostly_barricade",
+    "monstrous_world:ghostly_stairs",
+    "monstrous_world:ghostly_sapling",
+    "monstrous_world:ghostly_planks",
+    "monstrous_world:ghostly_fence",
+    "monstrous_world:ghostly_wood"
+  ]
+}

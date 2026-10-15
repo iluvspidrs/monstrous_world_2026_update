@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "monstrous_world:the_deep_biome",
+  "features": "monstrous_world:darkened_boulder",
+  "step": "surface_structures"
+}

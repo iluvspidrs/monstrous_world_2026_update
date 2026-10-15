@@ -1,0 +1,76 @@
+{
+  "mappings": {
+    "red": {
+      "map": {
+        "0": "darkened_iron_block",
+        "1": "",
+        "2": "red_brew"
+      },
+      "name": "red"
+    },
+    "orange": {
+      "map": {
+        "0": "darkened_iron_block",
+        "1": "",
+        "2": "orange_brew"
+      },
+      "name": "orange"
+    },
+    "default": {
+      "map": {
+        "0": "darkened_iron_block",
+        "1": "",
+        "2": "green_brew"
+      },
+      "name": "default"
+    },
+    "blue": {
+      "map": {
+        "0": "darkened_iron_block",
+        "1": "",
+        "2": "blue_brew"
+      },
+      "name": "blue"
+    },
+    "yellow": {
+      "map": {
+        "0": "darkened_iron_block",
+        "1": "",
+        "2": "yellow_brew"
+      },
+      "name": "yellow"
+    },
+    "purple": {
+      "map": {
+        "0": "darkened_iron_block",
+        "1": "",
+        "2": "purple_brew"
+      },
+      "name": "purple"
+    },
+    "brown": {
+      "map": {
+        "0": "darkened_iron_block",
+        "1": "",
+        "2": "ruined_brew"
+      },
+      "name": "brown"
+    },
+    "gray": {
+      "map": {
+        "0": "darkened_iron_block",
+        "1": "",
+        "2": "gray_brew"
+      },
+      "name": "gray"
+    },
+    "black": {
+      "map": {
+        "0": "darkened_iron_block",
+        "1": "",
+        "2": "black_brew"
+      },
+      "name": "black"
+    }
+  }
+}

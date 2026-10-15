@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "monstrous_world:murky_madness",
+    "monstrous_world:nightmare"
+  ],
+  "features": "monstrous_world:murkwood_dark_oak_taller_spooky",
+  "step": "surface_structures"
+}

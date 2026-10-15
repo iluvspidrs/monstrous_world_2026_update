@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:oak_barricade",
+    "monstrous_world:darkened_barricade",
+    "monstrous_world:acacia_barricade",
+    "monstrous_world:deathly_barricade",
+    "monstrous_world:birch_barricade",
+    "monstrous_world:murkwood_barricade",
+    "monstrous_world:spruce_barricade",
+    "monstrous_world:jungle_barricade",
+    "monstrous_world:sanguine_barricade",
+    "monstrous_world:pumpkin_barricade",
+    "monstrous_world:dark_oak_barricade",
+    "monstrous_world:crimson_barricade",
+    "monstrous_world:ghostly_barricade",
+    "monstrous_world:evil_barricade",
+    "monstrous_world:warped_barricade"
+  ]
+}

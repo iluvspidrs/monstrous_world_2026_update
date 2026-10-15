@@ -1,0 +1,36 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Warrior Trial",
+    "icon": "warrior_trial",
+    "color": {
+      "value": -10092544,
+      "falpha": 0.0
+    },
+    "onAddedSound": "",
+    "isInstant": false,
+    "mobEffectCategory": "NEUTRAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": "ATTACK_DAMAGE",
+        "amount": 4.0,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": "ATTACK_KNOCKBACK",
+        "amount": 1.0,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": "MAX_HEALTH",
+        "amount": 4.0,
+        "operation": "ADD_VALUE"
+      }
+    ],
+    "onActiveTick": "WarriorTrialOnEffectActiveTick"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "parent": "monstrous_world:custom/gourds1",
+  "textures": {
+    "all": "monstrous_world:block/pumpkin_side",
+    "particle": "monstrous_world:block/pumpkin_side",
+    "0": "monstrous_world:block/pumpkin",
+    "1": "monstrous_world:block/stemgourd",
+    "2": "monstrous_world:block/stripedgourd",
+    "3": "monstrous_world:block/spidergourd",
+    "4": "monstrous_world:block/palegourd",
+    "missing": "monstrous_world:block/"
+  },
+  "render_type": "solid"
+}

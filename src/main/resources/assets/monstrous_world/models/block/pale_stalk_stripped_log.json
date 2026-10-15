@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/pale_stalk_log_end",
+    "up": "monstrous_world:block/pale_stalk_log_end",
+    "north": "monstrous_world:block/pale_stalk_wood",
+    "east": "monstrous_world:block/pale_stalk_wood",
+    "south": "monstrous_world:block/pale_stalk_wood",
+    "west": "monstrous_world:block/pale_stalk_wood",
+    "particle": "monstrous_world:block/pale_stalk_log_end"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/electrical_box",
+    "up": "monstrous_world:block/electrical_box",
+    "north": "monstrous_world:block/electrical_box",
+    "east": "monstrous_world:block/electrical_box",
+    "south": "monstrous_world:block/electrical_box",
+    "west": "monstrous_world:block/electrical_box",
+    "particle": "monstrous_world:block/electrical_box"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+{
+  "type": "monstrous_world:dark_seed_feature",
+  "config": {
+    "structure": "monstrous_world:dark_seed",
+    "ignored_blocks": "minecraft:structure_block"
+  }
+}

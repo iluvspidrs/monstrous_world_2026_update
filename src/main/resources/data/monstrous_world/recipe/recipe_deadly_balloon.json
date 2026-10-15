@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aaa",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:strange_membrane"
+    },
+    "b": {
+      "item": "minecraft:red_dye"
+    },
+    "c": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:deadly_balloon_item",
+    "count": 1
+  }
+}

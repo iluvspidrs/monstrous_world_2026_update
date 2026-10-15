@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:soul_sand"
+    },
+    "b": {
+      "item": "monstrous_world:nether_gem"
+    }
+  },
+  "result": {
+    "id": "minecraft:obsidian",
+    "count": 1
+  }
+}

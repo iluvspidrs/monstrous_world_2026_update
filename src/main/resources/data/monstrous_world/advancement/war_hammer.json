@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:troll_war_hammer"
+    },
+    "title": {
+      "translate": "advancements.war_hammer.title"
+    },
+    "description": {
+      "translate": "advancements.war_hammer.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "war_hammer_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:show_off"
+}

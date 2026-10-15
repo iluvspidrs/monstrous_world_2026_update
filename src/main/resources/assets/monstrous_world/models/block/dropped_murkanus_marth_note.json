@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/droppedpaper",
+  "textures": {
+    "all": "monstrous_world:block/murkanus_marth_note",
+    "particle": "monstrous_world:block/murkanus_marth_note",
+    "0": "monstrous_world:block/murkanus_marth_note"
+  },
+  "render_type": "cutout"
+}

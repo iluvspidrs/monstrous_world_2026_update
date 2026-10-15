@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:essence_of_enchantment"
+    },
+    "title": {
+      "translate": "advancements.an_enchanting_essence.title"
+    },
+    "description": {
+      "translate": "advancements.an_enchanting_essence.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "an_enchanting_essence_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:deadly_trickery"
+}

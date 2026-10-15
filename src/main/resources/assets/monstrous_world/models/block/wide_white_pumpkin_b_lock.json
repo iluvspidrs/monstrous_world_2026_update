@@ -1,0 +1,10 @@
+{
+  "parent": "monstrous_world:custom/smallpumpkin",
+  "textures": {
+    "all": "monstrous_world:block/white_pumpkin_wide",
+    "particle": "monstrous_world:block/white_pumpkin_wide",
+    "0": "monstrous_world:block/white_pumpkin_wide",
+    "1": "monstrous_world:block/stem"
+  },
+  "render_type": "solid"
+}

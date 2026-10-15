@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:amulet_of_reserve"
+    },
+    "title": {
+      "translate": "advancements.calming_your_thirst.title"
+    },
+    "description": {
+      "translate": "advancements.calming_your_thirst.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "calming_your_thirst_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:feeding_from_the_source"
+}

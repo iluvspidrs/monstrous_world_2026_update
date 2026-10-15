@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/droppedpaper",
+  "textures": {
+    "all": "monstrous_world:block/dropped_society_plans",
+    "particle": "monstrous_world:block/dropped_society_plans",
+    "0": "monstrous_world:block/dropped_society_plans"
+  },
+  "render_type": "cutout"
+}

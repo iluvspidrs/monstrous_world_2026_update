@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "monstrous_world:block/dropped_a_good_alpha"
+    },
+    "facing=east": {
+      "model": "monstrous_world:block/dropped_a_good_alpha",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "monstrous_world:block/dropped_a_good_alpha",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "monstrous_world:block/dropped_a_good_alpha",
+      "y": 270
+    }
+  }
+}

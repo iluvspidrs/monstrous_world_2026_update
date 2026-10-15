@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "monstrous_world:block/tangled_terror",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "monstrous_world:block/tangled_terror"
+    },
+    "axis=z": {
+      "model": "monstrous_world:block/tangled_terror",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_swamp",
+  "spawners": {
+    "type": "monstrous_world:hungry_tree",
+    "weight": 60,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

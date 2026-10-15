@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:active_darkened_log",
+    "monstrous_world:darkened_planks_fence_gate",
+    "monstrous_world:darkened_planks_trapdoor",
+    "monstrous_world:darkened_planks",
+    "monstrous_world:darkened_log",
+    "monstrous_world:darkened_planks_button",
+    "monstrous_world:darkened_planks_fence",
+    "monstrous_world:darkened_planks_stairs",
+    "monstrous_world:darkened_planks_slab",
+    "monstrous_world:darkened_planks_door"
+  ]
+}

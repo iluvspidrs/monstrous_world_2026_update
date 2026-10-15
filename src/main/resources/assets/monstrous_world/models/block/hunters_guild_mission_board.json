@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/hangingmessage",
+  "textures": {
+    "all": "monstrous_world:block/hunters_guild_mission_board",
+    "particle": "monstrous_world:block/hunters_guild_mission_board",
+    "0": "monstrous_world:block/hunters_guild_mission_board"
+  },
+  "render_type": "cutout"
+}

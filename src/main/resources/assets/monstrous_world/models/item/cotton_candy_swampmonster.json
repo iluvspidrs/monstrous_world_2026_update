@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "monstrous_world:item/cotton_candy_swampmonster"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "monstrous_world:cotton_candy_swampmonster_unlocked": 0
+      },
+      "model": "monstrous_world:item/cotton_candy_swampmonster_0"
+    },
+    {
+      "predicate": {
+        "monstrous_world:cotton_candy_swampmonster_unlocked": 1
+      },
+      "model": "monstrous_world:item/cotton_candy_swampmonster_1"
+    }
+  ]
+}

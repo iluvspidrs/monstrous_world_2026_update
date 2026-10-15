@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      "CUSTOM:SilverIngot",
+      "CUSTOM:SilverOre",
+      "CUSTOM:SilverNugget",
+      "CUSTOM:SilverDust",
+      "CUSTOM:BlockOfSilver",
+      "CUSTOM:PurifiedSilver",
+      "CUSTOM:PurifiedSilverDust"
+    ],
+    "information": [
+      "Silver is a holy metal, and also useful in magic. It is valued by Hunters and some magic users.",
+      "",
+      "Silver is found deep underground, and the ore drops both nuggets and dust. These items should be interchangeable with silver nuggets and dust from other mods."
+    ]
+  }
+}

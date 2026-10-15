@@ -1,0 +1,10 @@
+{
+  "parent": "monstrous_world:custom/advancedcauldronempty",
+  "textures": {
+    "all": "monstrous_world:block/darkened_log_side",
+    "particle": "monstrous_world:block/darkened_log_side",
+    "0": "monstrous_world:block/darkened_log_side",
+    "1": "monstrous_world:block/darkened_crystal"
+  },
+  "render_type": "translucent"
+}

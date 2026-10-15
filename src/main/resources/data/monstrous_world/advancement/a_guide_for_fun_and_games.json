@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:tome_of_fun_and_games"
+    },
+    "title": {
+      "translate": "advancements.a_guide_for_fun_and_games.title"
+    },
+    "description": {
+      "translate": "advancements.a_guide_for_fun_and_games.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_guide_for_fun_and_games_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:no_laughing_matter"
+}

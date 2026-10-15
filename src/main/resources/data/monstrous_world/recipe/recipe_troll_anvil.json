@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c ",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/tungsten"
+    },
+    "b": {
+      "tag": "c:storage_blocks/tungsten"
+    },
+    "c": {
+      "tag": "c:storage_blocks/bronze"
+    },
+    "d": {
+      "tag": "c:ingots/bronze"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:troll_anvil",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:ghostly_slab",
+    "monstrous_world:evil_tree_slab",
+    "monstrous_world:sanguine_wood_slab",
+    "monstrous_world:deathly_wood_slab",
+    "monstrous_world:murkwood_slab",
+    "monstrous_world:darkened_planks_slab",
+    "monstrous_world:pale_stalk_slab",
+    "monstrous_world:pumpkin_slab"
+  ]
+}

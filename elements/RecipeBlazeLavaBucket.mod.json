@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "Items.BLAZE_ROD",
+      "Items.LAVA_BUCKET"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "",
+      "Items.BLAZE_ROD",
+      "",
+      "Items.BLAZE_ROD",
+      "Items.LAVA_BUCKET",
+      "Items.BLAZE_ROD",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:BlazeLavaBucket",
+    "name": "recipe_blaze_lava_bucket",
+    "namespace": "mod"
+  }
+}

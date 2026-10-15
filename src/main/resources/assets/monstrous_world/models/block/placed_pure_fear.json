@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/droppedpaper",
+  "textures": {
+    "all": "monstrous_world:block/placed_pure_fear",
+    "particle": "monstrous_world:block/placed_pure_fear",
+    "0": "monstrous_world:block/placed_pure_fear"
+  },
+  "render_type": "cutout"
+}

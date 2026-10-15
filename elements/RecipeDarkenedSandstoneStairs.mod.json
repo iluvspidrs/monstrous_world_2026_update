@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 5,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:DarkenedSandstone"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:DarkenedSandstone",
+      "",
+      "",
+      "CUSTOM:DarkenedSandstone",
+      "CUSTOM:DarkenedSandstone",
+      "",
+      "CUSTOM:DarkenedSandstone",
+      "CUSTOM:DarkenedSandstone",
+      "CUSTOM:DarkenedSandstone"
+    ],
+    "recipeReturnStack": "CUSTOM:DarkenedSandstoneStairs",
+    "name": "recipe_darkened_sandstone_stairs",
+    "namespace": "mod"
+  }
+}

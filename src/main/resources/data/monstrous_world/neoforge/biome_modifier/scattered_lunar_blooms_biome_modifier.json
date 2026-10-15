@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "monstrous_world:deathly_forest",
+  "features": "monstrous_world:scattered_lunar_blooms",
+  "step": "surface_structures"
+}

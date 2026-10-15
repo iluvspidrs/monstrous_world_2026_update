@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Holy Damage",
+    "icon": "holy_damage",
+    "color": {
+      "value": -3342337,
+      "falpha": 0.0
+    },
+    "onAddedSound": "",
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [],
+    "onActiveTick": "HolyDamageOnEffectActiveTick",
+    "activeTickCondition": "HolyDamageActiveTickCondition"
+  }
+}

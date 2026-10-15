@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:silver_ingot"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:silver_nugget",
+    "count": 9
+  }
+}

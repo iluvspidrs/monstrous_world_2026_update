@@ -1,0 +1,34 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:PaleStalkLog",
+      "CUSTOM:PaleStalkWood",
+      "CUSTOM:PaleStalkStrippedLog",
+      "CUSTOM:PaleStalkStrippedWood"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "",
+      "TAG:monstrous_world:pale_stalk_logs",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:PaleStalkPlanks",
+    "name": "recipe_pale_stalk_planks",
+    "namespace": "mod"
+  }
+}

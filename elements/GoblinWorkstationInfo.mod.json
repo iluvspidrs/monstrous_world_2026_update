@@ -1,0 +1,16 @@
+{
+  "_fv": 89,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      "CUSTOM:GoblinWorkstation"
+    ],
+    "information": [
+      "The Goblin Workstation is only usable by Level 2+ Goblins.",
+      "",
+      "This Workstation can modify some vanilla and Monstrous World tools with Precious Stones, among other things. The Tome of the Goblin contains instructions for use as well as a few item recipes.",
+      "",
+      "This Workstation's recipes are not enabled in JEI to prevent cheating."
+    ]
+  }
+}

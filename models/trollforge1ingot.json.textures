@@ -1,0 +1,169 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "cast_iron_block",
+        "3": "minecraft:copper_block",
+        "4": "minecraft:lava_still",
+        "5": "gray_brew",
+        "6": "cast_iron_block",
+        "missing": ""
+      },
+      "name": "default"
+    },
+    "tungsten_cast_iron_blaze": {
+      "map": {
+        "2": "cast_iron_block",
+        "3": "block_of_raw_tungsten",
+        "4": "cast_iron_block",
+        "5": "blaze_lava",
+        "6": "gray_brew",
+        "missing": ""
+      },
+      "name": "tungsten_cast_iron_blaze"
+    },
+    "tungsten_electrum_blaze": {
+      "map": {
+        "2": "cast_iron_block",
+        "3": "block_of_raw_tungsten",
+        "4": "electrum_block",
+        "5": "blaze_lava",
+        "6": "blaze_lava",
+        "missing": ""
+      },
+      "name": "tungsten_electrum_blaze"
+    },
+    "tungsten_bronze_blaze": {
+      "map": {
+        "2": "cast_iron_block",
+        "3": "block_of_raw_tungsten",
+        "4": "bronze_block",
+        "5": "blaze_lava",
+        "6": "ruined_brew",
+        "missing": ""
+      },
+      "name": "tungsten_bronze_blaze"
+    },
+    "tungsten_corinthian_bronze_blaze": {
+      "map": {
+        "2": "cast_iron_block",
+        "3": "block_of_raw_tungsten",
+        "4": "corinthian_bronze_block",
+        "5": "blaze_lava",
+        "6": "orange_brew",
+        "missing": ""
+      },
+      "name": "tungsten_corinthian_bronze_blaze"
+    },
+    "copper_cast_iron": {
+      "map": {
+        "2": "cast_iron_block",
+        "3": "minecraft:copper_block",
+        "4": "cast_iron_block",
+        "5": "minecraft:lava_still",
+        "6": "gray_brew",
+        "missing": ""
+      },
+      "name": "copper_cast_iron"
+    },
+    "copper_lava_electrum": {
+      "map": {
+        "2": "cast_iron_block",
+        "3": "minecraft:copper_block",
+        "4": "electrum_block",
+        "5": "minecraft:lava_still",
+        "6": "blaze_lava",
+        "missing": ""
+      },
+      "name": "copper_lava_electrum"
+    },
+    "lava_copper_bronze": {
+      "map": {
+        "2": "cast_iron_block",
+        "3": "minecraft:copper_block",
+        "4": "bronze_block",
+        "5": "minecraft:lava_still",
+        "6": "ruined_brew",
+        "missing": ""
+      },
+      "name": "lava_copper_bronze"
+    },
+    "tungsten_lava_cast_iron": {
+      "map": {
+        "2": "cast_iron_block",
+        "3": "block_of_raw_tungsten",
+        "4": "cast_iron_block",
+        "5": "minecraft:lava_still",
+        "6": "gray_brew",
+        "missing": ""
+      },
+      "name": "tungsten_lava_cast_iron"
+    },
+    "tungsten_lava_electrum": {
+      "map": {
+        "2": "cast_iron_block",
+        "3": "block_of_raw_tungsten",
+        "4": "electrum_block",
+        "5": "minecraft:lava_still",
+        "6": "blaze_lava",
+        "missing": ""
+      },
+      "name": "tungsten_lava_electrum"
+    },
+    "tungsten_lava_bronze": {
+      "map": {
+        "2": "cast_iron_block",
+        "3": "block_of_raw_tungsten",
+        "4": "bronze_block",
+        "5": "minecraft:lava_still",
+        "6": "ruined_brew",
+        "missing": ""
+      },
+      "name": "tungsten_lava_bronze"
+    },
+    "tungsten_blaze_corinthian_bronze": {
+      "map": {
+        "2": "cast_iron_block",
+        "3": "block_of_raw_tungsten",
+        "4": "corinthian_bronze_block",
+        "5": "blaze_lava",
+        "6": "orange_brew",
+        "missing": ""
+      },
+      "name": "tungsten_blaze_corinthian_bronze"
+    },
+    "tungsten_blaze_tungsten": {
+      "map": {
+        "2": "cast_iron_block",
+        "3": "block_of_raw_tungsten",
+        "4": "tungsten_block",
+        "5": "blaze_lava",
+        "6": "white_liquid",
+        "missing": ""
+      },
+      "name": "tungsten_blaze_tungsten"
+    },
+    "tungsten_blaze_shining_netherite": {
+      "map": {
+        "2": "cast_iron_block",
+        "3": "block_of_raw_tungsten",
+        "4": "shining_netherite_block",
+        "5": "blaze_lava",
+        "6": "purple_brew",
+        "missing": ""
+      },
+      "name": "tungsten_blaze_shining_netherite"
+    },
+    "tungsten_blaze_shimmering": {
+      "map": {
+        "2": "cast_iron_block",
+        "3": "block_of_raw_tungsten",
+        "4": "shimmering_dark_block",
+        "5": "blaze_lava",
+        "6": "stabilizerfluiduncooked",
+        "missing": ""
+      },
+      "name": "tungsten_blaze_shimmering"
+    }
+  }
+}

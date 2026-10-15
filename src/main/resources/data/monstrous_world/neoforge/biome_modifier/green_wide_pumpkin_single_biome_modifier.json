@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "monstrous_world:scum_swamp",
+    "monstrous_world:foggy_expanse"
+  ],
+  "features": "monstrous_world:green_wide_pumpkin_single",
+  "step": "surface_structures"
+}

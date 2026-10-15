@@ -1,0 +1,17 @@
+{
+  "_fv": 89,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      "CUSTOM:SwampCrystalOre",
+      "CUSTOM:BlockOfSwampCrystal",
+      "CUSTOM:SwampCrystalShard",
+      "CUSTOM:ConcentratedSwampCrystal"
+    ],
+    "information": [
+      "Swamp Crystals are pure concentrations of Swamp Essence, the murky energy of swamps, which is in turn an evolved form of Dark Essence.  The glowing green ore is only found in shallow swamp caves.",
+      "",
+      "These crystals are toxic to most beings, and can only be used by one monster faction."
+    ]
+  }
+}

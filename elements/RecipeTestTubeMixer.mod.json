@@ -1,0 +1,34 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "monstrous_world_tools",
+    "unlockingItems": [
+      "CUSTOM:DarkenedIronIngot",
+      "CUSTOM:TestTube",
+      "CUSTOM:EmptyFlask",
+      "CUSTOM:DarkenedIronTrapdoor"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "CUSTOM:DarkenedIronIngot",
+      "",
+      "CUSTOM:TestTube",
+      "CUSTOM:EmptyFlaskItem",
+      "CUSTOM:TestTube",
+      "CUSTOM:DarkenedIronTrapdoor",
+      "CUSTOM:DarkenedIronTrapdoor",
+      "CUSTOM:DarkenedIronTrapdoor"
+    ],
+    "recipeReturnStack": "CUSTOM:TestTubeMixer",
+    "name": "recipe_test_tube_mixer",
+    "namespace": "mod"
+  }
+}

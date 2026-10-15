@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:deathly_wood_planks"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:deathly_wood_door",
+    "count": 3
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "monstrous_world:custom/popcorngun",
+  "textures": {
+    "2": "monstrous_world:block/popcorn_gun",
+    "missing": "monstrous_world:block/",
+    "particle": "monstrous_world:item/popcorn_gun"
+  }
+}

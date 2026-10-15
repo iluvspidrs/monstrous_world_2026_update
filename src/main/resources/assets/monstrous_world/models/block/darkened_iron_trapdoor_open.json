@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_orientable_trapdoor_open",
+  "textures": {
+    "texture": "monstrous_world:block/darkened_iron_trapdoor",
+    "particle": "monstrous_world:block/darkened_iron_trapdoor"
+  },
+  "render_type": "cutout"
+}

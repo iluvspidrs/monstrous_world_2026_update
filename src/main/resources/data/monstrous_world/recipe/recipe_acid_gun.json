@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "bgb"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:cursed_candy"
+    },
+    "b": {
+      "item": "minecraft:orange_glazed_terracotta"
+    },
+    "c": {
+      "item": "monstrous_world:cursed_confectionery"
+    },
+    "d": {
+      "item": "monstrous_world:cotton_candy_human"
+    },
+    "e": {
+      "item": "monstrous_world:bottle_of_acid"
+    },
+    "f": {
+      "item": "monstrous_world:cotton_candy_magical"
+    },
+    "g": {
+      "item": "monstrous_world:ghostly_button"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:acid_gun_tool",
+    "count": 1
+  }
+}

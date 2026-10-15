@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Sinking",
+    "icon": "sinking",
+    "color": {
+      "value": -13434829,
+      "falpha": 0.0
+    },
+    "onAddedSound": "",
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": "STEP_HEIGHT",
+        "amount": -0.3,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": "JUMP_STRENGTH",
+        "amount": -0.3,
+        "operation": "ADD_VALUE"
+      }
+    ],
+    "onActiveTick": "SinkingActiveTickCondition",
+    "onExpired": "SinkingEffectExpires"
+  }
+}

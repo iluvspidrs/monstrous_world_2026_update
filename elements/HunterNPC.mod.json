@@ -1,0 +1,225 @@
+{
+  "_fv": 89,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Hunter NPC",
+    "mobLabel": "",
+    "mobModelName": "Biped",
+    "mobModelTexture": "hunter_1.png",
+    "transparentModelCondition": {
+      "fixedValue": false
+    },
+    "isShakingCondition": {
+      "fixedValue": false
+    },
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "modelLayers": [
+      {
+        "model": "Default",
+        "texture": "hunter_2.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "HunterSkin1Condition"
+      },
+      {
+        "model": "Default",
+        "texture": "hunter_3.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "HunterSkin2Condition"
+      },
+      {
+        "model": "Default",
+        "texture": "hunter_4.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "HunterSkin3Condition"
+      },
+      {
+        "model": "Default",
+        "texture": "hunter_5.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "HunterSkin4Condition"
+      },
+      {
+        "model": "Default",
+        "texture": "hunter_1.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "HunterSkin5Condition"
+      },
+      {
+        "model": "Default",
+        "texture": "hunter_1_vampire.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "HunterSkin1VampireCondition"
+      },
+      {
+        "model": "Default",
+        "texture": "hunter_2_vampire.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "HunterSkin2VampireCondition"
+      },
+      {
+        "model": "Default",
+        "texture": "hunter_3_vampire.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "HunterSkin3VampireCondition"
+      },
+      {
+        "model": "Default",
+        "texture": "hunter_4_vampire.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "HunterSkin4VampireCondition"
+      },
+      {
+        "model": "Default",
+        "texture": "hunter_5_vampire.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "HunterSkin5VampireCondition"
+      }
+    ],
+    "animations": [],
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -11124684,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -5320494,
+      "falpha": 0.0
+    },
+    "spawnEggTexture": "",
+    "creativeTabs": [
+      "MISC"
+    ],
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": "CUSTOM:TraineeCrossbowStandby",
+    "equipmentOffHand": "",
+    "equipmentHelmet": "CUSTOM:Hunter.helmet",
+    "equipmentBody": "CUSTOM:Hunter.body",
+    "equipmentLeggings": "CUSTOM:Hunter.legs",
+    "equipmentBoots": "CUSTOM:Hunter.boots",
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 5,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.25,
+    "stepHeight": 0.6,
+    "armorBaseValue": 4.0,
+    "trackingRange": 64,
+    "followRange": 16,
+    "health": 30,
+    "xpAmount": 0,
+    "waterMob": false,
+    "breatheUnderwater": {
+      "fixedValue": false
+    },
+    "pushedByFluids": {
+      "fixedValue": true
+    },
+    "flyingMob": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 99,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
+    "mobDrop": "",
+    "livingSound": "",
+    "hurtSound": "entity.generic.hurt",
+    "deathSound": "entity.generic.death",
+    "stepSound": "",
+    "raidCelebrationSound": "",
+    "entityDataEntries": [
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "Skin",
+        "type": "integer",
+        "value": 0
+      },
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "Trade",
+        "type": "integer",
+        "value": 0
+      },
+      {
+        "name": "Vampire",
+        "type": "logic",
+        "value": false
+      }
+    ],
+    "whenThisMobKillsAnother": "DemonNPCThisEntityKillsAnotherOne",
+    "onInitialSpawn": "HunterTagsOnSpawn",
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"watch_closest_entity\"><field name=\"entity\">EntityPlayer</field><field name=\"radius\">8</field><field name=\"condition\">null,null</field><next><block type=\"watch_closest_entity\"><field name=\"entity\">EntityPlayerMP</field><field name=\"radius\">8</field><field name=\"condition\">null,null</field><next><block type=\"follow_entity\"><field name=\"speed\">1</field><field name=\"maxrange\">10</field><field name=\"followarea\">5</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block><block type=\"attack_entity\" x=\"714\" y=\"129\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">CUSTOM:FeralWerewolf</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">CUSTOM:FeralVampire</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">CUSTOM:DireWerewolf</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">CUSTOM:FeralSwampmonster</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">CUSTOM:FeralGoblin</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">CUSTOM:EvilDarknessSpirit</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">CUSTOM:EvilLevitatingSpirit</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityZombie</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityZombieVillager</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">CUSTOM:WillOTheWisp</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">CUSTOM:VengefulPumpkin</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": false,
+    "tameable": false,
+    "breedTriggerItems": [],
+    "ranged": true,
+    "rangedAttackItem": "",
+    "rangedItemType": "SilverBoltNPCProjectile",
+    "rangedAttackInterval": 40,
+    "rangedAttackRadius": 16.0,
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 20,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 4,
+    "maxNumberOfMobsPerGroup": 4,
+    "restrictionBiomes": [],
+    "spawnInDungeons": false,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
+    "sensitiveToVibration": false,
+    "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 7.0
+    }
+  }
+}

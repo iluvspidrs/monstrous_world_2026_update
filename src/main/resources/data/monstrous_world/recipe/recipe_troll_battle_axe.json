@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "bab",
+    " ba"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:darkened_log"
+    },
+    "b": {
+      "item": "monstrous_world:shimmering_dark_ingot"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:troll_battle_axe",
+    "count": 1
+  }
+}

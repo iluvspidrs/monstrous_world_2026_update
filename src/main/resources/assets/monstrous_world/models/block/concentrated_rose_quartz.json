@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/concentratedswampcrystal",
+  "textures": {
+    "all": "monstrous_world:block/block_of_rose_quartz",
+    "particle": "monstrous_world:block/block_of_rose_quartz",
+    "1": "monstrous_world:block/block_of_rose_quartz"
+  },
+  "render_type": "translucent"
+}

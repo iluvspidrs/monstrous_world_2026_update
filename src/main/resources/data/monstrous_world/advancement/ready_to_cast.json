@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:ritual_wand"
+    },
+    "title": {
+      "translate": "advancements.ready_to_cast.title"
+    },
+    "description": {
+      "translate": "advancements.ready_to_cast.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ready_to_cast_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:the_art_of_rituals_adv"
+}

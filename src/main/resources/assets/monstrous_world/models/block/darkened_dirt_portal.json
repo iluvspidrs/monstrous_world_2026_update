@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/darkened_dirt",
+    "up": "monstrous_world:block/darkened_dirt",
+    "north": "monstrous_world:block/darkened_dirt",
+    "east": "monstrous_world:block/darkened_dirt",
+    "south": "monstrous_world:block/darkened_dirt",
+    "west": "monstrous_world:block/darkened_dirt",
+    "particle": "monstrous_world:block/darkened_dirt"
+  },
+  "render_type": "solid"
+}

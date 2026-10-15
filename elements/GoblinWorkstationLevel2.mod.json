@@ -1,0 +1,253 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 325,
+    "height": 137,
+    "inventoryOffsetX": -56,
+    "inventoryOffsetY": -38,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_add_button",
+          "image": "add_button.png",
+          "hoveredImage": "add_button_hover.png",
+          "onClick": "ButtonPressedGoblinWorkstation2",
+          "x": 297,
+          "y": 169,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "goblin_workstation.png",
+          "use1Xscale": false,
+          "x": 239,
+          "y": 52,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 271,
+          "y": 86,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 322,
+          "y": 86,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 271,
+          "y": 136,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 322,
+          "y": 136,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 4,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 322,
+          "y": 110,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 5,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 271,
+          "y": 110,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 6,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 297,
+          "y": 136,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 7,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 297,
+          "y": 86,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 8,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 297,
+          "y": 110,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "electrum_nugget_transparent.png",
+          "use1Xscale": false,
+          "displayCondition": "ElectrumNuggetShowCondition",
+          "x": 323,
+          "y": 113,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "purified_silver_transparent.png",
+          "use1Xscale": false,
+          "displayCondition": "PurifiedSilverShowCondition",
+          "x": 326,
+          "y": 111,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "book_transparent.png",
+          "use1Xscale": false,
+          "displayCondition": "BooksShowCondition",
+          "x": 273,
+          "y": 112,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "enchanted_book_transparent.png",
+          "use1Xscale": false,
+          "displayCondition": "BooksShowCondition",
+          "x": 299,
+          "y": 137,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

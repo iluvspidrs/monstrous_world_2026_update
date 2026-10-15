@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:DarkenedCobblestone"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": "CUSTOM:DarkenedCobblestone",
+    "stoneCuttingReturnStack": "CUSTOM:DarkenedCobblestoneSlab",
+    "name": "stonecutter_darkened_cobblestone_slab",
+    "namespace": "mod"
+  }
+}

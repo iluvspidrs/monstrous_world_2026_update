@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:enhanced_husk",
+    "monstrous_world:dark_market_vendor",
+    "monstrous_world:feral_swampmonster",
+    "monstrous_world:demon_npc",
+    "monstrous_world:feral_vampire",
+    "monstrous_world:enhanced_drowned",
+    "monstrous_world:maniac",
+    "monstrous_world:feral_werewolf",
+    "monstrous_world:enhanced_zombie",
+    "monstrous_world:feral_mountain_troll",
+    "vindicator",
+    "monstrous_world:feral_goblin",
+    "evoker",
+    "monstrous_world:evil_clown_1",
+    "monstrous_world:aggressive_guard",
+    "monstrous_world:dire_werewolf",
+    "monstrous_world:evil_clown_3",
+    "monstrous_world:evil_clown_2",
+    "monstrous_world:society_goon",
+    "witch"
+  ]
+}

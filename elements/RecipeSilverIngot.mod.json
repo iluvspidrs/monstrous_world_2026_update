@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:SilverNugget"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "TAG:c:nuggets/silver",
+      "TAG:c:nuggets/silver",
+      "TAG:c:nuggets/silver",
+      "TAG:c:nuggets/silver",
+      "TAG:c:nuggets/silver",
+      "TAG:c:nuggets/silver",
+      "TAG:c:nuggets/silver",
+      "TAG:c:nuggets/silver",
+      "TAG:c:nuggets/silver"
+    ],
+    "recipeReturnStack": "CUSTOM:SilverIngot",
+    "name": "recipe_silver_ingot",
+    "namespace": "mod"
+  }
+}

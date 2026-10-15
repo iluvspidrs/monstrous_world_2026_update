@@ -1,0 +1,9 @@
+{
+  "parent": "block/template_glass_pane_post",
+  "textures": {
+    "particle": "monstrous_world:block/pale_stalk_darkened_glass_pane",
+    "pane": "monstrous_world:block/pale_stalk_darkened_glass_pane",
+    "edge": "monstrous_world:block/pale_stalk_darkened_glass_pane"
+  },
+  "render_type": "translucent"
+}

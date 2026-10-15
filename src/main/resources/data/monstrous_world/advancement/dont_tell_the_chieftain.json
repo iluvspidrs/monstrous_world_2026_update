@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:murky_medley"
+    },
+    "title": {
+      "translate": "advancements.dont_tell_the_chieftain.title"
+    },
+    "description": {
+      "translate": "advancements.dont_tell_the_chieftain.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dont_tell_the_chieftain_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:the_toxic_avenger"
+}

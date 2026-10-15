@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "monstrous_world:block/center_glyph"
+    },
+    "facing=east": {
+      "model": "monstrous_world:block/center_glyph",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "monstrous_world:block/center_glyph",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "monstrous_world:block/center_glyph",
+      "y": 270
+    }
+  }
+}

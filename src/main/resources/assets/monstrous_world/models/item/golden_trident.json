@@ -1,0 +1,8 @@
+{
+  "parent": "monstrous_world:custom/darkenedtrident",
+  "textures": {
+    "0": "minecraft:block/prismarine",
+    "2": "minecraft:block/dark_prismarine",
+    "particle": "monstrous_world:item/divine_trident"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "monstrous_world_items",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:pumpkin_essence"
+    },
+    {
+      "item": "monstrous_world:spirit_dust"
+    },
+    {
+      "item": "monstrous_world:moon_dust"
+    },
+    {
+      "item": "monstrous_world:a_hint_of_insanity"
+    },
+    {
+      "item": "monstrous_world:undeathly_essence"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:magickal_catalyst",
+    "count": 3
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "monstrous_world:block/darkened_glass_sanguine_planks"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "monstrous_world:custom/trollforgeempty",
+  "textures": {
+    "all": "monstrous_world:block/cast_iron_block",
+    "particle": "monstrous_world:block/cast_iron_block",
+    "2": "monstrous_world:block/cast_iron_block",
+    "3": "monstrous_world:block/block_of_raw_tungsten"
+  },
+  "render_type": "solid"
+}

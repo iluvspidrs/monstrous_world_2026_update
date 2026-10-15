@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:bronze_sword"
+    },
+    "title": {
+      "translate": "advancements.no_bronze_medal.title"
+    },
+    "description": {
+      "translate": "advancements.no_bronze_medal.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "no_bronze_medal_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:heavy_metal"
+}

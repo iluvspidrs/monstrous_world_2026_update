@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:amulet_of_clear_mind"
+    },
+    "title": {
+      "translate": "advancements.you_have_no_power.title"
+    },
+    "description": {
+      "translate": "advancements.you_have_no_power.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "you_have_no_power_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:defense_against_darkness"
+}

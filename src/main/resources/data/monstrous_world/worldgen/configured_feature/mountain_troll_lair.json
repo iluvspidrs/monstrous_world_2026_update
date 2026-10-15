@@ -1,0 +1,9 @@
+{
+  "type": "monstrous_world:mountain_troll_lair",
+  "config": {
+    "structure": "monstrous_world:mountain_troll_lair",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:structure_block"
+  }
+}

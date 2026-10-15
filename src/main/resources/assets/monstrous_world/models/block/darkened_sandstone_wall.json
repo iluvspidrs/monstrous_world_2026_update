@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "monstrous_world:block/darkened_sandstone_top",
+    "particle": "monstrous_world:block/darkened_sandstone_top"
+  },
+  "render_type": "solid"
+}

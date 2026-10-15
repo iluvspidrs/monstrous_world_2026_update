@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/soul_infused_glass_clear",
+    "up": "monstrous_world:block/soul_infused_glass_clear",
+    "north": "monstrous_world:block/soul_infused_glass_clear",
+    "east": "monstrous_world:block/soul_infused_glass_clear",
+    "south": "monstrous_world:block/soul_infused_glass_clear",
+    "west": "monstrous_world:block/soul_infused_glass_clear",
+    "particle": "monstrous_world:block/soul_infused_glass_clear"
+  },
+  "render_type": "translucent"
+}

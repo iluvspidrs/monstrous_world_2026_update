@@ -1,0 +1,116 @@
+{
+  "_fv": 89,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "shining_netherite_troll_helmet",
+    "enableBody": true,
+    "textureBody": "shining_netherite_troll_chestplate_2",
+    "enableLeggings": true,
+    "textureLeggings": "shining_netherite_troll_leggings_2",
+    "enableBoots": true,
+    "textureBoots": "shining_netherite_troll_boots",
+    "creativeTabs": [
+      "CUSTOM:MonstrousWorldTools"
+    ],
+    "armorTextureFile": "chainmail",
+    "helmetName": "Shining Netherite Troll Helmet",
+    "bodyName": "Shining Netherite Troll Chestplate",
+    "leggingsName": "Shining Netherite Troll Leggings",
+    "bootsName": "Shining Netherite Troll Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": [
+        "Heavy! Only usable by Trolls",
+        "Full set grants Resistance III and Speed when attacked"
+      ]
+    },
+    "bodySpecialInformation": {
+      "fixedValue": [
+        "Heavy! Only usable by Trolls",
+        "Full set grants Resistance III and Speed when attacked"
+      ]
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": [
+        "Heavy! Only usable by Trolls",
+        "Full set grants Resistance III and Speed when attacked"
+      ]
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": [
+        "Heavy! Only usable by Trolls",
+        "Full set grants Resistance III and Speed when attacked"
+      ]
+    },
+    "helmetModelName": "ModelTrollHelmetUpdated",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "trollarmorshiningupdated.png",
+    "bodyModelName": "ModelTrollChestplateUpdated",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "trollarmorshiningupdated.png",
+    "leggingsModelName": "Modelaquaticleggings",
+    "leggingsModelPartL": "LeftLeg",
+    "leggingsModelPartR": "RightLeg",
+    "leggingsModelTexture": "trollarmorshiningupdated.png",
+    "bootsModelName": "Modelaquaticboots",
+    "bootsModelPartL": "LeftLeg",
+    "bootsModelPartR": "RightLeg",
+    "bootsModelTexture": "trollarmorshiningupdated.png",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetTranslucency": false,
+    "bodyTranslucency": false,
+    "leggingsTranslucency": false,
+    "bootsTranslucency": false,
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "helmetGlowCondition": {
+      "fixedValue": false
+    },
+    "bodyGlowCondition": {
+      "fixedValue": false
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": false
+    },
+    "bootsGlowCondition": {
+      "fixedValue": false
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "maxDamage": 50,
+    "damageValueHelmet": 6,
+    "damageValueBody": 14,
+    "damageValueLeggings": 12,
+    "damageValueBoots": 6,
+    "enchantability": 20,
+    "toughness": 3.0,
+    "knockbackResistance": 0.2,
+    "equipSound": "item.armor.equip_netherite",
+    "repairItems": [
+      "CUSTOM:ShiningNetheriteIngot"
+    ],
+    "rarity": "COMMON",
+    "attributeModifiers": []
+  }
+}

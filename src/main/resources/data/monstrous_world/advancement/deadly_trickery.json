@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:flute_of_enchantment"
+    },
+    "title": {
+      "translate": "advancements.deadly_trickery.title"
+    },
+    "description": {
+      "translate": "advancements.deadly_trickery.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "deadly_trickery_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:a_goblins_guide"
+}

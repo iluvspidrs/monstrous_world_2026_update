@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:TomeOfTheSwamp",
+      "Items.LEATHER"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "",
+      "Items.LEATHER",
+      "",
+      "Items.LEATHER",
+      "CUSTOM:TomeOfTheSwamp",
+      "Items.LEATHER",
+      "",
+      "Items.LEATHER",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:LoreBinderSwampMonster",
+    "name": "recipe_lore_binder_swamp_monster",
+    "namespace": "mod"
+  }
+}

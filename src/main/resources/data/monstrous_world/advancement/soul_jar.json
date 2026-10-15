@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:enslaved_soul"
+    },
+    "title": {
+      "translate": "advancements.soul_jar.title"
+    },
+    "description": {
+      "translate": "advancements.soul_jar.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "soul_jar_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:predatory_contract"
+}

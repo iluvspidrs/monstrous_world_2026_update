@@ -1,0 +1,29 @@
+{
+  "type": "monstrous_world:deathly_forest_gravel_patch_shore",
+  "config": {
+    "radius": {
+      "type": "uniform",
+      "min_inclusive": 2,
+      "max_inclusive": 3
+    },
+    "half_height": 1,
+    "target": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "minecraft:dirt",
+        "monstrous_world:dark_grass",
+        "minecraft:dirt",
+        "minecraft:grass_block"
+      ]
+    },
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:gravel"
+        }
+      },
+      "rules": []
+    }
+  }
+}

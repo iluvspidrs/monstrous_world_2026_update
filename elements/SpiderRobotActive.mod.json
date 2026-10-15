@@ -1,0 +1,184 @@
+{
+  "_fv": 89,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Spider Robot Active",
+    "mobLabel": "",
+    "mobModelName": "Spider",
+    "mobModelTexture": "metalspider.png",
+    "transparentModelCondition": {
+      "fixedValue": false
+    },
+    "isShakingCondition": {
+      "fixedValue": false
+    },
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "modelLayers": [
+      {
+        "model": "Default",
+        "texture": "spider_vanishing_eyes.png",
+        "disableHurtOverlay": false,
+        "glow": true,
+        "condition": "SpiderVanishingEyesCondition"
+      },
+      {
+        "model": "Default",
+        "texture": "spider_chickenify_eyes.png",
+        "disableHurtOverlay": false,
+        "glow": true,
+        "condition": "SpiderChickenifyEyesCondition"
+      },
+      {
+        "model": "Default",
+        "texture": "spider_frogify_eyes.png",
+        "disableHurtOverlay": false,
+        "glow": true,
+        "condition": "SpiderFrogifyEyesCondition"
+      },
+      {
+        "model": "Default",
+        "texture": "spider_midas_eyes.png",
+        "disableHurtOverlay": false,
+        "glow": true,
+        "condition": "SpiderMidasCurseEyesCondition"
+      },
+      {
+        "model": "Default",
+        "texture": "spider_sinking_eyes.png",
+        "disableHurtOverlay": false,
+        "glow": true,
+        "condition": "SpiderSinkingEyesCondition"
+      },
+      {
+        "model": "Default",
+        "texture": "spider_paralysis_eyes.png",
+        "disableHurtOverlay": false,
+        "glow": true,
+        "condition": "SpiderParalysisEyesCondition"
+      }
+    ],
+    "animations": [],
+    "modelWidth": 0.9,
+    "modelHeight": 0.9,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -6710887,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -65536,
+      "falpha": 0.0
+    },
+    "spawnEggTexture": "",
+    "creativeTabs": [
+      "MISC"
+    ],
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": "",
+    "equipmentOffHand": "",
+    "equipmentHelmet": "",
+    "equipmentBody": "",
+    "equipmentLeggings": "",
+    "equipmentBoots": "",
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 10,
+    "attackKnockback": 1.0,
+    "knockbackResistance": 2.0,
+    "movementSpeed": 0.3,
+    "stepHeight": 1.2,
+    "armorBaseValue": 10.0,
+    "trackingRange": 64,
+    "followRange": 16,
+    "health": 200,
+    "xpAmount": 0,
+    "waterMob": false,
+    "breatheUnderwater": {
+      "fixedValue": false
+    },
+    "pushedByFluids": {
+      "fixedValue": true
+    },
+    "flyingMob": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 99,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": true,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": true,
+    "immuneToLightning": false,
+    "immuneToPotions": true,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
+    "mobDrop": "",
+    "livingSound": "",
+    "hurtSound": "entity.iron_golem.damage",
+    "deathSound": "entity.irongolem.death",
+    "stepSound": "entity.spider.step",
+    "raidCelebrationSound": "",
+    "entityDataEntries": [
+      {
+        "name": "Mode",
+        "type": "string",
+        "value": "None"
+      }
+    ],
+    "onMobTickUpdate": "SpiderRobotActiveOnEntityTickUpdate",
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"-146\" y=\"21\"><next><block type=\"protect_owner\"><field name=\"condition\">null,null</field><next><block type=\"fight_as_owner\"><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"follow_owner\"><field name=\"speed\">1</field><field name=\"min_distance\">10</field><field name=\"max_distance\">2</field><field name=\"condition\">SittingNoFollow,SittingNoFollow</field><next><block type=\"find_and_move_to_air\"><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": true,
+    "tameable": true,
+    "breedTriggerItems": [
+      "Blocks.LIGHT"
+    ],
+    "ranged": false,
+    "rangedAttackItem": "",
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 20,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 4,
+    "maxNumberOfMobsPerGroup": 4,
+    "restrictionBiomes": [],
+    "spawnInDungeons": false,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
+    "sensitiveToVibration": false,
+    "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 7.0
+    }
+  }
+}

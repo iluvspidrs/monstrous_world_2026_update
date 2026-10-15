@@ -1,0 +1,177 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 420,
+    "height": 190,
+    "inventoryOffsetX": -123,
+    "inventoryOffsetY": -88,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_analyze_a_sample",
+          "text": {
+            "fixedValue": "ANALYZE A SAMPLE"
+          },
+          "color": {
+            "value": -16750951,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 263,
+          "y": 144,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_introduction",
+          "text": {
+            "fixedValue": "INTRODUCTION"
+          },
+          "color": {
+            "value": -16750951,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 271,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_dna_samples_list",
+          "text": {
+            "fixedValue": "DNA SAMPLES LIST"
+          },
+          "color": {
+            "value": -16750951,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 259,
+          "y": 79,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_creating_strange_serum",
+          "text": {
+            "fixedValue": "CREATING STRANGE SERUM"
+          },
+          "color": {
+            "value": -16750951,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 245,
+          "y": 101,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "LaptopSampleListButtonPressed",
+          "width": 86,
+          "height": 20,
+          "x": 259,
+          "y": 75,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "LaptopIntroButtonPressed",
+          "width": 65,
+          "height": 20,
+          "x": 271,
+          "y": 52,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_creating_robots",
+          "text": {
+            "fixedValue": "CREATING ROBOTS"
+          },
+          "color": {
+            "value": -16750951,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 264,
+          "y": 123,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty2",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "LaptopStrangeSerumButtonPressed",
+          "width": 119,
+          "height": 20,
+          "x": 246,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty3",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "LaptopCreatingRobotsButtonPressed",
+          "width": 81,
+          "height": 20,
+          "x": 264,
+          "y": 118,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty4",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "LaptopAnalyzeOptionPressed",
+          "width": 86,
+          "height": 20,
+          "x": 263,
+          "y": 140,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

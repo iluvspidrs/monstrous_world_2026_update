@@ -1,0 +1,35 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "monstrous_world_items",
+    "unlockingItems": [
+      "CUSTOM:DarkenedIronIngot",
+      "CUSTOM:TinIngot",
+      "Items.REDSTONE",
+      "CUSTOM:BrainInJar",
+      "TAG:c:ingots/tin"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:DarkenedIronIngot",
+      "CUSTOM:DarkenedIronIngot",
+      "CUSTOM:DarkenedIronIngot",
+      "TAG:c:ingots/tin",
+      "CUSTOM:BrainInJar",
+      "TAG:c:ingots/tin",
+      "CUSTOM:DarkenedIronIngot",
+      "Items.REDSTONE",
+      "CUSTOM:DarkenedIronIngot"
+    ],
+    "recipeReturnStack": "CUSTOM:GuardRobotHead",
+    "name": "recipe_guard_robot_head",
+    "namespace": "mod"
+  }
+}

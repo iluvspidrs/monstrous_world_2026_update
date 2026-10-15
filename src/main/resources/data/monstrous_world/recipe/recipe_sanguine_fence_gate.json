@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "monstrous_world:sanguine_wood_planks"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:sanguine_wood_fence_gate",
+    "count": 1
+  }
+}

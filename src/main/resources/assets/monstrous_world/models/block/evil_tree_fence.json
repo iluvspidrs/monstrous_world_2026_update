@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "monstrous_world:block/evil_tree_planks",
+    "particle": "monstrous_world:block/evil_tree_planks"
+  },
+  "render_type": "solid"
+}

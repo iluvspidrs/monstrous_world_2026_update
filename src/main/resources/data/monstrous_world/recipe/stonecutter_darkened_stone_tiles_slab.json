@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "monstrous_world:darkened_stone_tiles"
+  },
+  "result": {
+    "id": "monstrous_world:darkened_stone_tiles_slab",
+    "count": 2
+  }
+}

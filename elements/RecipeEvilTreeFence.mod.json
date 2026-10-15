@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:EvilTreePlanks"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "CUSTOM:EvilTreePlanks",
+      "Items.STICK",
+      "CUSTOM:EvilTreePlanks",
+      "CUSTOM:EvilTreePlanks",
+      "Items.STICK",
+      "CUSTOM:EvilTreePlanks"
+    ],
+    "recipeReturnStack": "CUSTOM:EvilTreeFence",
+    "name": "recipe_evil_tree_fence",
+    "namespace": "mod"
+  }
+}

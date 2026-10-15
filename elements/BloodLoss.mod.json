@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Blood Loss",
+    "icon": "bloodlevel12",
+    "color": {
+      "value": -6684672,
+      "falpha": 0.0
+    },
+    "onAddedSound": "",
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [],
+    "onActiveTick": "BloodLossOnEffectActiveTick",
+    "activeTickCondition": "BloodLossActiveTickCondition"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_forest",
+  "spawners": {
+    "type": "monstrous_world:will_o_the_wisp",
+    "weight": 100,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

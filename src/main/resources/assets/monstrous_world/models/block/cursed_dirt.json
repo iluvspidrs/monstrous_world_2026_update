@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/cursed_ground",
+    "up": "monstrous_world:block/cursed_ground",
+    "north": "monstrous_world:block/cursed_ground",
+    "east": "monstrous_world:block/cursed_ground",
+    "south": "monstrous_world:block/cursed_ground",
+    "west": "monstrous_world:block/cursed_ground",
+    "particle": "monstrous_world:block/cursed_ground"
+  },
+  "render_type": "solid"
+}

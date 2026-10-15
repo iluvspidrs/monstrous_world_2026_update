@@ -1,0 +1,88 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 247,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "OpenMagickalCatalyst",
+          "width": 83,
+          "height": 20,
+          "x": 209,
+          "y": 75,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "OpenSilver",
+          "width": 52,
+          "height": 20,
+          "x": 193,
+          "y": 97,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "vampirecuretext.png",
+          "use1Xscale": false,
+          "x": 76,
+          "y": 17,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty2",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "OpenBloodBottle",
+          "width": 71,
+          "height": 20,
+          "x": 183,
+          "y": 115,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty3",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "OpenMonstrousPlants",
+          "width": 52,
+          "height": 20,
+          "x": 192,
+          "y": 134,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

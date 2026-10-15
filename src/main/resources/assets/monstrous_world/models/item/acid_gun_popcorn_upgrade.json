@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "monstrous_world:item/popcorn_upgrade"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "monstrous_world:acid_gun_popcorn_upgrade_unlocked": 0
+      },
+      "model": "monstrous_world:item/acid_gun_popcorn_upgrade_0"
+    },
+    {
+      "predicate": {
+        "monstrous_world:acid_gun_popcorn_upgrade_unlocked": 1
+      },
+      "model": "monstrous_world:item/acid_gun_popcorn_upgrade_1"
+    }
+  ]
+}

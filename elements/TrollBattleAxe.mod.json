@@ -1,0 +1,41 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "troll_battle_axe",
+    "customModelName": "battleaxe:default",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Troll Battle Axe",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": [
+        "Troll Only"
+      ]
+    },
+    "creativeTabs": [
+      "CUSTOM:MonstrousWorldTools"
+    ],
+    "efficiency": 9.0,
+    "attackSpeed": 1.0,
+    "enchantability": 22,
+    "damageVsEntity": 13.0,
+    "usageCount": 5000,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      "CUSTOM:ShimmeringDarkIngot"
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": "TrollBattleAxeBlockDestroyedWithTool"
+  }
+}

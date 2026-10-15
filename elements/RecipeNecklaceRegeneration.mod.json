@@ -1,0 +1,36 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:ElectrumNugget",
+      "Items.LEATHER",
+      "CUSTOM:AlphaClaw",
+      "CUSTOM:RoseQuartzShard",
+      "TAG:c:gems/rose_quartz",
+      "TAG:c:nuggets/electrum"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "",
+      "CUSTOM:AlphaClaw",
+      "",
+      "Items.LEATHER",
+      "TAG:c:gems/rose_quartz",
+      "TAG:c:nuggets/electrum",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:WerewolfNecklaceOfRegeneration",
+    "name": "recipe_necklace_regeneration",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:modified_darkened_sword_moonstone"
+    },
+    "title": {
+      "translate": "advancements.modified_darkness.title"
+    },
+    "description": {
+      "translate": "advancements.modified_darkness.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "modified_darkness_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:spreading_the_fun"
+}

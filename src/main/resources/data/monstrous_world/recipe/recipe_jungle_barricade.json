@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:jungle_slab"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:jungle_barricade",
+    "count": 4
+  }
+}

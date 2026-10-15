@@ -1,0 +1,14 @@
+{
+  "type": "monstrous_world:structure_feature",
+  "config": {
+    "structure": "monstrous_world:webbed_ruins_1",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:air",
+    "offset": [
+      -4,
+      -3,
+      -4
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:evil_tree_slab",
+    "monstrous_world:darkened_stone_bricks_slab",
+    "monstrous_world:dark_mist",
+    "monstrous_world:dark_green_bricks_slab",
+    "monstrous_world:dark_red_bricks_slab",
+    "monstrous_world:dark_blue_bricks_slab",
+    "monstrous_world:dark_orange_bricks_slab",
+    "monstrous_world:darkened_stone_tiles_slab",
+    "monstrous_world:tin_slab",
+    "monstrous_world:cob_slab",
+    "monstrous_world:darkened_sandstone_slab",
+    "monstrous_world:darkened_planks_slab",
+    "monstrous_world:dark_yellow_bricks_slab",
+    "monstrous_world:fog",
+    "monstrous_world:ghostly_slab",
+    "monstrous_world:sanguine_wood_slab",
+    "monstrous_world:murkwood_slab",
+    "monstrous_world:deathly_wood_slab",
+    "monstrous_world:darkened_cobblestone_slab",
+    "monstrous_world:dark_thatch_slab",
+    "monstrous_world:dark_purple_bricks_slab",
+    "monstrous_world:pale_stalk_slab",
+    "monstrous_world:pumpkin_slab"
+  ]
+}

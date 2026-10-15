@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:undeath_cure_powder",
+    "monstrous_world:paralysis_powder",
+    "monstrous_world:obstruction_powder",
+    "monstrous_world:midas_curse_powder",
+    "monstrous_world:sinking_powder",
+    "monstrous_world:vanishing_powder",
+    "monstrous_world:pumpkin_powder",
+    "monstrous_world:spirit_trap_powder",
+    "monstrous_world:explosion_powder",
+    "monstrous_world:trick_or_treat_bag",
+    "monstrous_world:frogify_powder",
+    "monstrous_world:werewolf_cure_powder",
+    "monstrous_world:vampire_cure_powder",
+    "monstrous_world:chickenify_powder",
+    "monstrous_world:bookish_powder",
+    "monstrous_world:empty_trick_or_treat_bag"
+  ]
+}

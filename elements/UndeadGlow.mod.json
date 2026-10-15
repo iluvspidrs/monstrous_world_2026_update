@@ -1,0 +1,41 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Undead Glow",
+    "icon": "reanimatedeffect2",
+    "color": {
+      "value": -10043546,
+      "falpha": 0.0
+    },
+    "onAddedSound": "",
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": "MOVEMENT_SPEED",
+        "amount": 0.05,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": "ATTACK_DAMAGE",
+        "amount": 2.0,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": "ARMOR",
+        "amount": 4.0,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": "ATTACK_SPEED",
+        "amount": 0.5,
+        "operation": "ADD_VALUE"
+      }
+    ],
+    "onExpired": "UndeadGlowEffectExpires"
+  }
+}

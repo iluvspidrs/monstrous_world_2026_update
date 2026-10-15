@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:DeathlyWoodPlanks"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "Items.STICK",
+      "CUSTOM:DeathlyWoodPlanks",
+      "Items.STICK",
+      "Items.STICK",
+      "CUSTOM:DeathlyWoodPlanks",
+      "Items.STICK"
+    ],
+    "recipeReturnStack": "CUSTOM:DeathlyWoodFenceGate",
+    "name": "recipe_deathly_fence_gate",
+    "namespace": "mod"
+  }
+}

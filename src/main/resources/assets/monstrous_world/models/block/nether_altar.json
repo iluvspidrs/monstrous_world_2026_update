@@ -1,0 +1,12 @@
+{
+  "parent": "monstrous_world:custom/netheraltar",
+  "textures": {
+    "all": "monstrous_world:block/evilaltartop",
+    "particle": "monstrous_world:block/evilaltartop",
+    "0": "monstrous_world:block/evilaltartop",
+    "1": "minecraft:block/blackstone",
+    "2": "monstrous_world:block/altarcloth",
+    "missing": "monstrous_world:block/"
+  },
+  "render_type": "solid"
+}

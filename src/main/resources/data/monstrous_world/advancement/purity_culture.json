@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:purified_silver"
+    },
+    "title": {
+      "translate": "advancements.purity_culture.title"
+    },
+    "description": {
+      "translate": "advancements.purity_culture.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "purity_culture_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:good_relations"
+}

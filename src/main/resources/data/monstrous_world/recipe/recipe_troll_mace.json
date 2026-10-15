@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    " bc",
+    "b d"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/cast_iron"
+    },
+    "b": {
+      "item": "monstrous_world:darkened_log"
+    },
+    "c": {
+      "item": "minecraft:chain"
+    },
+    "d": {
+      "tag": "c:storage_blocks/cast_iron"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:troll_mace",
+    "count": 1
+  }
+}

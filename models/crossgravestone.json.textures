@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "mossy_dark_shingles",
+        "1": "black_crystal_block"
+      }
+    }
+  }
+}

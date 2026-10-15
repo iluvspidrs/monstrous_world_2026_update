@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:hockey_mask_helmet"
+    },
+    "title": {
+      "translate": "advancements.macabe_trading.title"
+    },
+    "description": {
+      "translate": "advancements.macabe_trading.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "macabe_trading_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:an_unholy_beginning"
+}

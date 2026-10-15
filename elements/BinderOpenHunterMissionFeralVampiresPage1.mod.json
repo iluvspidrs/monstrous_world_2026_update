@@ -1,0 +1,8 @@
+{
+  "_fv": 89,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"192\" y=\"89\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"controls_if\"><value name=\"IF0\"><block type=\"compare_mcitems\"><value name=\"a\"><block type=\"gui_get_item_inslot\"><value name=\"slotid\"><block type=\"math_number\"><field name=\"NUM\">7</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block></value><value name=\"b\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:HunterMissionVampireItem</field></block></value></block></value><statement name=\"DO0\"><block type=\"variables_set_string\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" is_player_var=\"true\" has_entity=\"true\"></mutation><field name=\"VAR\">global:Page</field><value name=\"VAL\"><block type=\"text\"><field name=\"TEXT\">Hunter Mission Feral Vampires Page 1</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"></block></value><next><block type=\"entity_open_gui\"><field name=\"guiname\">HunterMissionContents</field><value name=\"entity\"><block type=\"entity_from_deps\"></block></value><value name=\"x\"><block type=\"coord_x\"></block></value><value name=\"y\"><block type=\"coord_y\"></block></value><value name=\"z\"><block type=\"coord_z\"></block></value></block></next></block></statement></block></next></block></xml>",
+    "skipDependencyNullCheck": false
+  }
+}

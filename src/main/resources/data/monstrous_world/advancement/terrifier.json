@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:hockey_mask_helmet"
+    },
+    "title": {
+      "translate": "advancements.terrifier.title"
+    },
+    "description": {
+      "translate": "advancements.terrifier.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "terrifier_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:a_ghastly_alliance"
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:PumpkinPlanks"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "CUSTOM:PumpkinPlanks",
+      "CUSTOM:PumpkinPlanks",
+      "CUSTOM:PumpkinPlanks",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:PumpkinSlab",
+    "name": "recipe_pumpkin_slab",
+    "namespace": "mod"
+  }
+}

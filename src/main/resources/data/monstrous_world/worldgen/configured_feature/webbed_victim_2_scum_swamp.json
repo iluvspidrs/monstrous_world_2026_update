@@ -1,0 +1,7 @@
+{
+  "type": "monstrous_world:webbed_victim_2_scum_swamp",
+  "config": {
+    "structure": "monstrous_world:webbed_victim_1",
+    "ignored_blocks": "minecraft:air"
+  }
+}

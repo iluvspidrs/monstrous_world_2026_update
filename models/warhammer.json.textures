@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "shimmering_dark_block",
+        "1": "darkened_log_side",
+        "missing": ""
+      }
+    }
+  }
+}

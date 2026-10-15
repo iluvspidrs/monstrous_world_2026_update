@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "poisoned_skull_texture",
+        "1": "mysterious_seed_in_skull",
+        "2": "bark_large"
+      }
+    }
+  }
+}

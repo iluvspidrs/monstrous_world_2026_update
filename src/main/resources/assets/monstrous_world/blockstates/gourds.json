@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "monstrous_world:block/gourds"
+    },
+    "facing=east": {
+      "model": "monstrous_world:block/gourds",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "monstrous_world:block/gourds",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "monstrous_world:block/gourds",
+      "y": 270
+    }
+  }
+}

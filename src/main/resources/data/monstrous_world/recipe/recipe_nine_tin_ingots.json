@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:block_of_tin"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:tin_ingot",
+    "count": 9
+  }
+}

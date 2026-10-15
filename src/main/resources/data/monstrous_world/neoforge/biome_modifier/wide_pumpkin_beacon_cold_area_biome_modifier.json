@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#c:is_cold",
+  "features": "monstrous_world:wide_pumpkin_beacon_cold_area",
+  "step": "surface_structures"
+}

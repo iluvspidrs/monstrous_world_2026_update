@@ -1,0 +1,26 @@
+{
+  "_fv": 89,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      "CUSTOM:BottleOfBlood",
+      "CUSTOM:BottleOfWeakBlood",
+      "CUSTOM:BottleOfGoblinBlood",
+      "CUSTOM:BottleOfTrollBlood",
+      "CUSTOM:BottleOfSwampmonsterBlood",
+      "CUSTOM:BottleOfWerewolfBlood",
+      "CUSTOM:BottleOfSerpentMutantBlood",
+      "CUSTOM:BottleOfFlyMutantBlood",
+      "CUSTOM:BottleOfEyeMutantBlood"
+    ],
+    "information": [
+      "Blood Bottles are useful for Vampires , for trading with Vampires, and in some magic.",
+      "",
+      "Blood Bottles are obtained in three ways:",
+      "",
+      "1. By clicking on a filled Blood Bulb plant with a glass bottle",
+      "2. By right-clicking some beings with a Bloodletter while holding an empty glass bottle in your off hand",
+      "3. By trading with first-generation Vampires in the Vampire Manor as a Vampire yourself"
+    ]
+  }
+}

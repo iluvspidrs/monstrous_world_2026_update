@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:crimson_slab"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:crimson_barricade",
+    "count": 4
+  }
+}

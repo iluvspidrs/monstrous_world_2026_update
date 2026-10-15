@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:silver_bolt_sinking_projectile",
+    "monstrous_world:silver_bolt_blinding_projectile",
+    "monstrous_world:silver_bolt_projectile",
+    "monstrous_world:silver_bolt_vanishing_projectile",
+    "monstrous_world:silver_throwing_knife_projectile",
+    "monstrous_world:iron_bolt_projectile_despawning",
+    "monstrous_world:iron_bolt_projectile",
+    "monstrous_world:iron_throwing_knife_projectile",
+    "monstrous_world:silver_bolt_paralysis_projectile",
+    "monstrous_world:silver_bolt_npc_projectile"
+  ]
+}

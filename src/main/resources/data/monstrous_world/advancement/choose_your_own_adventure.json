@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:enchanted_tome_of_sorcery"
+    },
+    "title": {
+      "translate": "advancements.choose_your_own_adventure.title"
+    },
+    "description": {
+      "translate": "advancements.choose_your_own_adventure.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "choose_your_own_adventure_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:magical_wares"
+}

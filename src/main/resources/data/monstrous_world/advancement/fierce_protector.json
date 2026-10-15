@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:troll_mace"
+    },
+    "title": {
+      "translate": "advancements.fierce_protector.title"
+    },
+    "description": {
+      "translate": "advancements.fierce_protector.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fierce_protector_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:no_ordinary_anvil"
+}

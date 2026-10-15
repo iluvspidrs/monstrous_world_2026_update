@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:dark_market_vendor",
+    "vindicator",
+    "illusioner",
+    "monstrous_world:sorcerer_npc",
+    "evoker",
+    "monstrous_world:witch_1",
+    "monstrous_world:evil_clown_1",
+    "monstrous_world:demon_npc",
+    "monstrous_world:evil_clown_3",
+    "monstrous_world:evil_clown_2",
+    "monstrous_world:maniac",
+    "monstrous_world:mad_scientist_npc"
+  ]
+}

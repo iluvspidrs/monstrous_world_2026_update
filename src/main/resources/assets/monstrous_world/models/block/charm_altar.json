@@ -1,0 +1,19 @@
+{
+  "parent": "monstrous_world:custom/crystalaltar",
+  "textures": {
+    "all": "monstrous_world:block/evilbarkside",
+    "particle": "monstrous_world:block/evilbarkside",
+    "0": "monstrous_world:block/evilbarkside",
+    "1": "monstrous_world:block/evilbarkend",
+    "2": "monstrous_world:block/block_of_quartz",
+    "3": "monstrous_world:block/red_onyx_block",
+    "4": "monstrous_world:block/black_onyx_block",
+    "5": "monstrous_world:block/block_of_rose_quartz",
+    "6": "monstrous_world:block/pale_agate_block",
+    "7": "monstrous_world:block/orange_agate_block",
+    "missing": "monstrous_world:block/",
+    "8": "monstrous_world:block/blue_agate_block",
+    "9": "monstrous_world:block/green_agate_block"
+  },
+  "render_type": "solid"
+}

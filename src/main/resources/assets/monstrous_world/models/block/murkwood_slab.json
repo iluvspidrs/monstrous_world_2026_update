@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "monstrous_world:block/murkwood_planks",
+    "bottom": "monstrous_world:block/murkwood_planks",
+    "top": "monstrous_world:block/murkwood_planks",
+    "side": "monstrous_world:block/murkwood_planks"
+  },
+  "render_type": "solid"
+}

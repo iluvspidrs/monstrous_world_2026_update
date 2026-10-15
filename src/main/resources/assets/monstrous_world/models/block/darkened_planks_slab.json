@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "monstrous_world:block/darkened_planks",
+    "bottom": "monstrous_world:block/darkened_planks",
+    "top": "monstrous_world:block/darkened_planks",
+    "side": "monstrous_world:block/darkened_planks"
+  },
+  "render_type": "solid"
+}

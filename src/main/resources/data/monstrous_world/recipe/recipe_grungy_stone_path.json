@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:grungy_stone"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:dark_stone_path",
+    "count": 4
+  }
+}

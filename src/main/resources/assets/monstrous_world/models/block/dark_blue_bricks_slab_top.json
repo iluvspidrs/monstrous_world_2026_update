@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "monstrous_world:block/dark_blue_bricks",
+    "bottom": "monstrous_world:block/dark_blue_bricks",
+    "top": "monstrous_world:block/dark_blue_bricks",
+    "side": "monstrous_world:block/dark_blue_bricks"
+  },
+  "render_type": "solid"
+}

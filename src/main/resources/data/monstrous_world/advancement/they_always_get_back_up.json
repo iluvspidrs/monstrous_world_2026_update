@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:square_gravestone"
+    },
+    "title": {
+      "translate": "advancements.they_always_get_back_up.title"
+    },
+    "description": {
+      "translate": "advancements.they_always_get_back_up.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "they_always_get_back_up_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:monster_versus_monster"
+}

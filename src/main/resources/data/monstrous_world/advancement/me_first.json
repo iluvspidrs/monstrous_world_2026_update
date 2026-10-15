@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:bottle_of_goblin_blood"
+    },
+    "title": {
+      "translate": "advancements.me_first.title"
+    },
+    "description": {
+      "translate": "advancements.me_first.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "me_first_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:feeding_from_the_source"
+}

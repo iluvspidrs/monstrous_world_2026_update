@@ -1,0 +1,14 @@
+{
+  "type": "monstrous_world:bookshelves_3_deathly_forest",
+  "config": {
+    "structure": "monstrous_world:bookshelves3",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:air",
+    "offset": [
+      -1,
+      -1,
+      -1
+    ]
+  }
+}

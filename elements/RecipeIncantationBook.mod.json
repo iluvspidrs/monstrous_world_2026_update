@@ -1,0 +1,33 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "monstrous_world_items",
+    "unlockingItems": [
+      "Items.PAPER",
+      "CUSTOM:MagicallyTreatedLeather",
+      "CUSTOM:VileLattice"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "",
+      "CUSTOM:MagicallyTreatedLeather",
+      "",
+      "Items.PAPER",
+      "Items.PAPER",
+      "Items.PAPER",
+      "",
+      "CUSTOM:VileLattice",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:IncantationBook",
+    "name": "recipe_incantation_book",
+    "namespace": "mod"
+  }
+}

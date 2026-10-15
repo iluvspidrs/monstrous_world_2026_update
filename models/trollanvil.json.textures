@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "cast_iron_block",
+        "1": "darkened_log_side",
+        "2": "tungsten_block",
+        "3": "bronze_block"
+      }
+    }
+  }
+}

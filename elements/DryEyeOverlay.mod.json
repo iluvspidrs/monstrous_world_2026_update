@@ -1,0 +1,66 @@
+{
+  "_fv": 89,
+  "_type": "overlay",
+  "definition": {
+    "priority": "LOWEST",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "dry_eye_top_right.png",
+          "use1Xscale": false,
+          "displayCondition": "DryEyeOverlayCondition",
+          "anchorPoint": "TOP_RIGHT",
+          "x": 171,
+          "y": 0,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dry_eye_bottom_right.png",
+          "use1Xscale": false,
+          "displayCondition": "DryEyeOverlayCondition",
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 171,
+          "y": -16,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dry_eye_top_left.png",
+          "use1Xscale": false,
+          "displayCondition": "DryEyeOverlayCondition",
+          "anchorPoint": "TOP_LEFT",
+          "x": 0,
+          "y": 0,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dry_eye_bottom_left.png",
+          "use1Xscale": false,
+          "displayCondition": "DryEyeOverlayCondition",
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 0,
+          "y": -16,
+          "locked": false
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

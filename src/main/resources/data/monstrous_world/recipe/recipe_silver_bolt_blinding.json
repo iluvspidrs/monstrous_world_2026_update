@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:silver_bolt"
+    },
+    {
+      "item": "monstrous_world:silver_bolt"
+    },
+    {
+      "item": "monstrous_world:obstruction_powder"
+    },
+    {
+      "item": "monstrous_world:silver_bolt"
+    },
+    {
+      "item": "monstrous_world:silver_bolt"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:silver_bolt_blinding",
+    "count": 4
+  }
+}

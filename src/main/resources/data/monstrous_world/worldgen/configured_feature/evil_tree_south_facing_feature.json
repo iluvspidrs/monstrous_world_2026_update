@@ -1,0 +1,10 @@
+{
+  "type": "monstrous_world:structure_feature",
+  "config": {
+    "structure": "monstrous_world:evil_tree_south",
+    "ignored_blocks": [
+      "minecraft:structure_block",
+      "minecraft:jigsaw"
+    ]
+  }
+}

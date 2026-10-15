@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:goblin_villager",
+    "monstrous_world:hunter_npc",
+    "monstrous_world:troll_npc",
+    "monstrous_world:hunter_patrol_npc",
+    "wandering_trader",
+    "monstrous_world:swampmonster_chieftan",
+    "villager"
+  ]
+}

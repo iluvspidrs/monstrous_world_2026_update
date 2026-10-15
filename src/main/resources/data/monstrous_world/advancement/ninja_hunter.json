@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:silver_throwing_knife"
+    },
+    "title": {
+      "translate": "advancements.ninja_hunter.title"
+    },
+    "description": {
+      "translate": "advancements.ninja_hunter.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ninja_hunter_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:mission_complete"
+}

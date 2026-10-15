@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:swamp_essence"
+    },
+    "b": {
+      "item": "minecraft:mud"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:living_mud",
+    "count": 1
+  }
+}

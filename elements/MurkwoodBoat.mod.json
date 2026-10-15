@@ -1,0 +1,15 @@
+{
+  "_fv": 89,
+  "_type": "specialentity",
+  "definition": {
+    "entityType": "Boat",
+    "name": "Murkwood Boat",
+    "rarity": "COMMON",
+    "creativeTabs": [
+      "TOOLS",
+      "CUSTOM:MonstrousWorldItems"
+    ],
+    "entityTexture": "murkwood_boat",
+    "itemTexture": "murkwood_boat"
+  }
+}

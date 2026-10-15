@@ -1,0 +1,66 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:nether_gem",
+    "monstrous_world:red_agate",
+    "monstrous_world:green_agate",
+    "monstrous_world:swamp_crystal_shard",
+    "monstrous_world:clear_quartz_shard",
+    {
+      "id": "#c:gems/blue_agate",
+      "required": false
+    },
+    "monstrous_world:rose_quartz_shard",
+    "monstrous_world:pale_agate",
+    {
+      "id": "#c:gems/tigers_eye",
+      "required": false
+    },
+    {
+      "id": "#c:gems/sardoynx",
+      "required": false
+    },
+    "monstrous_world:malachite",
+    {
+      "id": "#c:gems/pale_agate",
+      "required": false
+    },
+    {
+      "id": "#c:gems/rose_quartz",
+      "required": false
+    },
+    {
+      "id": "#c:gems/black_onyx",
+      "required": false
+    },
+    "monstrous_world:tigers_eye",
+    {
+      "id": "#c:gems/clear_quartz",
+      "required": false
+    },
+    {
+      "id": "#c:gems/moonstone",
+      "required": false
+    },
+    "monstrous_world:moonstone",
+    "monstrous_world:blue_agate",
+    {
+      "id": "#c:gems/malachite",
+      "required": false
+    },
+    {
+      "id": "#c:gems/red_agate",
+      "required": false
+    },
+    "monstrous_world:black_onyx",
+    {
+      "id": "#c:gems/swamp_crystal",
+      "required": false
+    },
+    {
+      "id": "#c:gems/green_agate",
+      "required": false
+    },
+    "monstrous_world:sardonyx"
+  ]
+}

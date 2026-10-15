@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "unlockingItems": [
+      "Items.WHEAT",
+      "Items.CLAY_BALL"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "CUSTOM:CobBlock",
+      "CUSTOM:CobBlock",
+      "CUSTOM:CobBlock",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:CobSlab",
+    "name": "recipe_cob_slab",
+    "namespace": "mod"
+  }
+}

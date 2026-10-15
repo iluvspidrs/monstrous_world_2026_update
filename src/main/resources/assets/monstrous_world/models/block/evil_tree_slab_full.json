@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "monstrous_world:block/evil_tree_planks",
+    "bottom": "monstrous_world:block/evil_tree_planks",
+    "top": "monstrous_world:block/evil_tree_planks",
+    "side": "monstrous_world:block/evil_tree_planks"
+  },
+  "render_type": "solid"
+}

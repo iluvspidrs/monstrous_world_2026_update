@@ -1,0 +1,15 @@
+{
+  "_fv": 89,
+  "_type": "specialentity",
+  "definition": {
+    "entityType": "Boat",
+    "name": "Evil Boat",
+    "rarity": "COMMON",
+    "creativeTabs": [
+      "TOOLS",
+      "CUSTOM:MonstrousWorldItems"
+    ],
+    "entityTexture": "evil_boat",
+    "itemTexture": "evil_boat"
+  }
+}

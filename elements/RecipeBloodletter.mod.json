@@ -1,0 +1,33 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "monstrous_world_tools",
+    "unlockingItems": [
+      "CUSTOM:Sardonyx",
+      "Items.GOLD_NUGGET",
+      "TAG:c:gems/sardonyx"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "Items.GOLD_NUGGET",
+      "Items.GOLD_NUGGET",
+      "Items.GOLD_NUGGET",
+      "",
+      "TAG:c:gems/sardonyx",
+      "Items.GOLD_NUGGET",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:Bloodletter",
+    "name": "recipe_bloodletter",
+    "namespace": "mod"
+  }
+}

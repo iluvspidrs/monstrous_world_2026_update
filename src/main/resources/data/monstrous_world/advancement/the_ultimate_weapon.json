@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:chainsaw_weapon"
+    },
+    "title": {
+      "translate": "advancements.the_ultimate_weapon.title"
+    },
+    "description": {
+      "translate": "advancements.the_ultimate_weapon.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_ultimate_weapon_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:a_walking_nightmare"
+}

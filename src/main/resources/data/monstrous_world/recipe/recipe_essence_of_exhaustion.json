@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:spirit_dust"
+    },
+    {
+      "item": "monstrous_world:blood_bulb"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:essence_of_exhaustion",
+    "count": 4
+  }
+}

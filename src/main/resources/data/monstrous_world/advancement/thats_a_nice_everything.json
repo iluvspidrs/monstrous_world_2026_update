@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:tome_of_interruption"
+    },
+    "title": {
+      "translate": "advancements.thats_a_nice_everything.title"
+    },
+    "description": {
+      "translate": "advancements.thats_a_nice_everything.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "thats_a_nice_everything_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:the_power_compels"
+}

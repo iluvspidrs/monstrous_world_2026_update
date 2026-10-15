@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "3": "orange_agate_block"
+      }
+    },
+    "green": {
+      "name": "green",
+      "map": {
+        "3": "green_agate_block"
+      }
+    },
+    "blue": {
+      "name": "blue",
+      "map": {
+        "3": "blue_agate_block"
+      }
+    },
+    "pale": {
+      "name": "pale",
+      "map": {
+        "3": "pale_agate_block"
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/droppedpaper",
+  "textures": {
+    "all": "monstrous_world:block/exit_portal",
+    "particle": "monstrous_world:block/exit_portal",
+    "0": "monstrous_world:block/exit_portal"
+  },
+  "render_type": "solid"
+}

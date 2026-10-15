@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:tome_of_wealth"
+    },
+    "title": {
+      "translate": "advancements.a_good_time_to_gamble.title"
+    },
+    "description": {
+      "translate": "advancements.a_good_time_to_gamble.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_good_time_to_gamble_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:dont_blame_me"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "flower_forest",
+  "features": "monstrous_world:yellow_autumn_tree_dark",
+  "step": "surface_structures"
+}

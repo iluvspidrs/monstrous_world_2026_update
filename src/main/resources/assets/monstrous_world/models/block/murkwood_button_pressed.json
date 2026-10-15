@@ -1,0 +1,8 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "monstrous_world:block/murkwood_planks",
+    "particle": "monstrous_world:block/murkwood_planks"
+  },
+  "render_type": "solid"
+}

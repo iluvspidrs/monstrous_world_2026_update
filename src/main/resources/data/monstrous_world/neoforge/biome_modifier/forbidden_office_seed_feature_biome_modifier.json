@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_jungle",
+  "features": "monstrous_world:forbidden_office_seed_feature",
+  "step": "surface_structures"
+}

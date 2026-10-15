@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "blockstate=1": {
+      "model": "monstrous_world:block/trial_block_0"
+    },
+    "blockstate=0": {
+      "model": "monstrous_world:block/trial_block"
+    }
+  }
+}

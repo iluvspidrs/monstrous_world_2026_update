@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    " cb",
+    "c a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:red_terracotta"
+    },
+    "b": {
+      "item": "minecraft:diamond"
+    },
+    "c": {
+      "item": "minecraft:yellow_terracotta"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:mallet",
+    "count": 1
+  }
+}

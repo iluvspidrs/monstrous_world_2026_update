@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:darkened_cobblestone"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:darkened_cobblestone_wall",
+    "count": 6
+  }
+}

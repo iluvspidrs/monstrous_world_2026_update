@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:cookie_of_confusion"
+    },
+    "title": {
+      "translate": "advancements.spirit_treats.title"
+    },
+    "description": {
+      "translate": "advancements.spirit_treats.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "spirit_treats_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:a_suspicious_bakery"
+}

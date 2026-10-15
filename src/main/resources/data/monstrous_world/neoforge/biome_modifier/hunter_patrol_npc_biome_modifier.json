@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#minecraft:has_structure/mineshaft",
+  "spawners": {
+    "type": "monstrous_world:hunter_patrol_npc",
+    "weight": 5,
+    "minCount": 2,
+    "maxCount": 3
+  }
+}

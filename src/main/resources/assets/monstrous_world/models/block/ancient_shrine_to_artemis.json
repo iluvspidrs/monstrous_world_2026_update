@@ -1,0 +1,11 @@
+{
+  "parent": "monstrous_world:custom/ancientshrinetoartemis",
+  "textures": {
+    "all": "monstrous_world:block/moonstone_block",
+    "particle": "monstrous_world:block/moonstone_block",
+    "0": "monstrous_world:block/moonstone_block",
+    "1": "monstrous_world:block/electricity_channeler",
+    "2": "monstrous_world:block/web_block"
+  },
+  "render_type": "solid"
+}

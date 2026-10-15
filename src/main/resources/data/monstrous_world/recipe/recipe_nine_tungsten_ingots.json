@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:block_of_tungsten"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:tungsten_ingot",
+    "count": 9
+  }
+}

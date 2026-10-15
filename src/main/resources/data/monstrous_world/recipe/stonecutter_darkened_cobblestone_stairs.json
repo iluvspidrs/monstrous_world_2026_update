@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "monstrous_world:darkened_cobblestone"
+  },
+  "result": {
+    "id": "monstrous_world:darkened_cobblestone_stairs",
+    "count": 1
+  }
+}

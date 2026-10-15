@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:spider_robot_active",
+    "monstrous_world:cat_familiar",
+    "monstrous_world:goblin_follower",
+    "monstrous_world:helper_spirit",
+    "monstrous_world:guard_robot",
+    "monstrous_world:follower_werewolf"
+  ]
+}

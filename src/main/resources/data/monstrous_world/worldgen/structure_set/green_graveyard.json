@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "monstrous_world:green_graveyard",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 19,
+    "separation": 18,
+    "salt": 796111719
+  }
+}

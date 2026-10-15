@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/mossy_dark_shingles",
+    "up": "monstrous_world:block/mossy_dark_shingles",
+    "north": "monstrous_world:block/mossy_dark_shingles",
+    "east": "monstrous_world:block/mossy_dark_shingles",
+    "south": "monstrous_world:block/mossy_dark_shingles",
+    "west": "monstrous_world:block/mossy_dark_shingles",
+    "particle": "monstrous_world:block/mossy_dark_shingles"
+  },
+  "render_type": "solid"
+}

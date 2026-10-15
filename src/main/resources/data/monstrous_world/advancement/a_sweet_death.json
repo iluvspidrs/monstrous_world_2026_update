@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:acid_gun_tool"
+    },
+    "title": {
+      "translate": "advancements.a_sweet_death.title"
+    },
+    "description": {
+      "translate": "advancements.a_sweet_death.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_sweet_death_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:the_worlds_best_cotton_candy"
+}

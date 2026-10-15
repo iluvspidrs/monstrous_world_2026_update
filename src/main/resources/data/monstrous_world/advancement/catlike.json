@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:amulet_of_slow_falling"
+    },
+    "title": {
+      "translate": "advancements.catlike.title"
+    },
+    "description": {
+      "translate": "advancements.catlike.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "catlike_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:professional_diver"
+}

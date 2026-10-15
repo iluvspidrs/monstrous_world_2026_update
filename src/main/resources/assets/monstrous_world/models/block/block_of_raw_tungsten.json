@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/block_of_raw_tungsten",
+    "up": "monstrous_world:block/block_of_raw_tungsten",
+    "north": "monstrous_world:block/block_of_raw_tungsten",
+    "east": "monstrous_world:block/block_of_raw_tungsten",
+    "south": "monstrous_world:block/block_of_raw_tungsten",
+    "west": "monstrous_world:block/block_of_raw_tungsten",
+    "particle": "monstrous_world:block/block_of_raw_tungsten"
+  },
+  "render_type": "solid"
+}

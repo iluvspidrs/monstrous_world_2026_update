@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:SpiritInfusedBlueLightBulb",
+      "CUSTOM:PoisonedSkull"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "",
+      "CUSTOM:SpiritInfusedBlueLightBulb",
+      "",
+      "",
+      "CUSTOM:PoisonedSkull",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:EmissiveBlueSkullLampPoisoned",
+    "name": "recipe_blue_poisoned_skull_lamp",
+    "namespace": "mod"
+  }
+}

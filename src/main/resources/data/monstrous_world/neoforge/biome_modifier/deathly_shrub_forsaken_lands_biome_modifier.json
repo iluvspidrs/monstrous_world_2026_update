@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "monstrous_world:forsaken_lands",
+    "monstrous_world:foggy_expanse"
+  ],
+  "features": "monstrous_world:deathly_shrub_forsaken_lands",
+  "step": "surface_structures"
+}

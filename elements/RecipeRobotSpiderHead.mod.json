@@ -1,0 +1,36 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "monstrous_world_items",
+    "unlockingItems": [
+      "Items.IRON_INGOT",
+      "CUSTOM:TinIngot",
+      "CUSTOM:RedstoneEye",
+      "CUSTOM:ComputerChip",
+      "Items.IRON_NUGGET",
+      "TAG:c:ingots/tin"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Items.IRON_INGOT",
+      "TAG:c:ingots/tin",
+      "Items.IRON_INGOT",
+      "CUSTOM:RedstoneEye",
+      "CUSTOM:ComputerChip",
+      "CUSTOM:RedstoneEye",
+      "Items.IRON_NUGGET",
+      "Items.IRON_INGOT",
+      "Items.IRON_NUGGET"
+    ],
+    "recipeReturnStack": "CUSTOM:RobotSpiderHead",
+    "name": "recipe_robot_spider_head",
+    "namespace": "mod"
+  }
+}

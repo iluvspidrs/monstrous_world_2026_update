@@ -1,0 +1,17 @@
+{
+  "name": "monstrous_world:hunterv_supplies",
+  "fallback": "monstrous_world:hunterv_end",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "monstrous_world:hunter_supplies",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

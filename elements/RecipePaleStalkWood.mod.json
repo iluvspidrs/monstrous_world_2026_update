@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:PaleStalkLog"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:PaleStalkLog",
+      "CUSTOM:PaleStalkLog",
+      "",
+      "CUSTOM:PaleStalkLog",
+      "CUSTOM:PaleStalkLog",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:PaleStalkWood",
+    "name": "recipe_pale_stalk_wood",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:armor_core"
+    },
+    "title": {
+      "translate": "advancements.our_talents_combined.title"
+    },
+    "description": {
+      "translate": "advancements.our_talents_combined.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "our_talents_combined_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:no_ordinary_anvil"
+}

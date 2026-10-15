@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:advanced_crossbow_standby"
+    },
+    "title": {
+      "translate": "advancements.just_needs_polish.title"
+    },
+    "description": {
+      "translate": "advancements.just_needs_polish.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "just_needs_polish_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:mission_complete"
+}

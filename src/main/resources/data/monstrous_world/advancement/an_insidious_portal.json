@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:darkened_crumbling_pillar"
+    },
+    "title": {
+      "translate": "advancements.an_insidious_portal.title"
+    },
+    "description": {
+      "translate": "advancements.an_insidious_portal.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "an_insidious_portal_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:wielding_darkness"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "monstrous_world:block/dark_red_bricks",
+    "particle": "monstrous_world:block/dark_red_bricks"
+  },
+  "render_type": "solid"
+}

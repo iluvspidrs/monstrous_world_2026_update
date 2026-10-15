@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:werewolf_territory_marker",
+    "monstrous_world:autumn_placeholder",
+    "monstrous_world:demon_spawner",
+    "monstrous_world:maniac_spawner",
+    "monstrous_world:enemy_placeholder",
+    "monstrous_world:feral_mountain_troll_spawner",
+    "monstrous_world:ore_placeholder",
+    "monstrous_world:monster_village_marker",
+    "monstrous_world:clown_spawner",
+    "monstrous_world:hunter_village_marker",
+    "monstrous_world:channeler_spark",
+    "monstrous_world:guard_spawner",
+    "monstrous_world:society_spawner"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "monstrous_world:textures/screens/warped_door_bottom.png",
+    "icon": {
+      "id": "monstrous_world:mallet"
+    },
+    "title": {
+      "translate": "advancements.no_laughing_matter.title"
+    },
+    "description": {
+      "translate": "advancements.no_laughing_matter.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "no_laughing_matter_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

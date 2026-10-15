@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:has_structure/mineshaft",
+  "features": "monstrous_world:scattered_finger_grass_is_cold",
+  "step": "surface_structures"
+}

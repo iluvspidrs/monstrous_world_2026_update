@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "monstrous_world:stripped_pumpkin_log"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:pumpkin_planks",
+    "count": 4
+  }
+}

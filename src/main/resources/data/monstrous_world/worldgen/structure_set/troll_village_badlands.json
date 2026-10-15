@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "monstrous_world:troll_village_badlands",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 33,
+    "separation": 32,
+    "salt": 1232398264
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "monstrous_world_items",
+    "unlockingItems": [
+      "CUSTOM:GuardRobotBody",
+      "CUSTOM:GuardRobotArm"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "CUSTOM:GuardRobotArm",
+      "CUSTOM:GuardRobotBody",
+      "CUSTOM:GuardRobotArm",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:RobotGuardBodyAndArms",
+    "name": "recipe_robot_guard_body_and_arms",
+    "namespace": "mod"
+  }
+}

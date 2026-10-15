@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "laptop",
+        "1": "screen",
+        "2": "analyzer"
+      },
+      "name": "default"
+    }
+  }
+}

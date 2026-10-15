@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "monstrous_world_tools",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:darkened_iron_trapdoor"
+    },
+    {
+      "item": "monstrous_world:nether_gem"
+    },
+    {
+      "item": "monstrous_world:darkened_iron_trapdoor"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:hot_plate",
+    "count": 1
+  }
+}

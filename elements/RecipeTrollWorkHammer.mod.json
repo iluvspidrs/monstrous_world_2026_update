@@ -1,0 +1,33 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:DarkenedLog",
+      "CUSTOM:CastIronIngot",
+      "TAG:c:ingots/cast_iron"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "TAG:c:ingots/cast_iron",
+      "TAG:c:ingots/cast_iron",
+      "TAG:c:ingots/cast_iron",
+      "CUSTOM:DarkenedLog",
+      "",
+      "TAG:c:ingots/cast_iron",
+      "",
+      "CUSTOM:DarkenedLog"
+    ],
+    "recipeReturnStack": "CUSTOM:TrollWorkHammer",
+    "name": "recipe_troll_work_hammer",
+    "namespace": "mod"
+  }
+}

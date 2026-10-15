@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:cure_serum_syringe",
+    "monstrous_world:dreadful_tears",
+    "monstrous_world:digested_rotten_flesh",
+    "monstrous_world:venom_bottle",
+    "monstrous_world:tin_ingot",
+    "monstrous_world:serpent_scale",
+    "monstrous_world:stabilizer_syringe",
+    "monstrous_world:darkened_iron_ingot",
+    "minecraft:redstone"
+  ]
+}

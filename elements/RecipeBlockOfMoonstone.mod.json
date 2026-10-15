@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:Moonstone"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:Moonstone",
+      "CUSTOM:Moonstone",
+      "CUSTOM:Moonstone",
+      "CUSTOM:Moonstone",
+      "CUSTOM:Moonstone",
+      "CUSTOM:Moonstone",
+      "CUSTOM:Moonstone",
+      "CUSTOM:Moonstone",
+      "CUSTOM:Moonstone"
+    ],
+    "recipeReturnStack": "CUSTOM:BlockOfMoonstone",
+    "name": "recipe_block_of_moonstone",
+    "namespace": "mod"
+  }
+}

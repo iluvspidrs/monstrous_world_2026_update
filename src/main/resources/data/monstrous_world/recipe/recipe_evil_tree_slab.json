@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "monstrous_world:evil_tree_planks"
+    },
+    {
+      "item": "monstrous_world:evil_tree_planks"
+    },
+    {
+      "item": "monstrous_world:evil_tree_planks"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:evil_tree_slab",
+    "count": 6
+  }
+}

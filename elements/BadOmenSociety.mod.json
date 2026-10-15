@@ -1,0 +1,19 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Bad Omen",
+    "icon": "bad_omen_society",
+    "color": {
+      "value": -13421773,
+      "falpha": 0.0
+    },
+    "onAddedSound": "event.mob_effect.bad_omen",
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": []
+  }
+}

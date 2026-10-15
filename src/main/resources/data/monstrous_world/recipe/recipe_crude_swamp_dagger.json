@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " ab",
+    "cda",
+    "cc "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:slime_ball"
+    },
+    "b": {
+      "item": "monstrous_world:vile_slime"
+    },
+    "c": {
+      "item": "monstrous_world:odd_root"
+    },
+    "d": {
+      "item": "monstrous_world:swamp_crystal_shard"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:crude_swamp_dagger",
+    "count": 1
+  }
+}

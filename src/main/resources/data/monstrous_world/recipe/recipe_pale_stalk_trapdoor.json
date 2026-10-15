@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:pale_stalk_planks"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:pale_stalk_trapdoor",
+    "count": 2
+  }
+}

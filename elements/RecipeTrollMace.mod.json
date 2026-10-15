@@ -1,0 +1,36 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:DarkenedLog",
+      "Blocks.CHAIN",
+      "CUSTOM:CastIronIngot",
+      "CUSTOM:BlockOfCastIron",
+      "TAG:c:ingots/cast_iron",
+      "TAG:c:storage_blocks/cast_iron"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "TAG:c:ingots/cast_iron",
+      "",
+      "CUSTOM:DarkenedLog",
+      "Blocks.CHAIN",
+      "CUSTOM:DarkenedLog",
+      "",
+      "TAG:c:storage_blocks/cast_iron"
+    ],
+    "recipeReturnStack": "CUSTOM:TrollMace",
+    "name": "recipe_troll_mace",
+    "namespace": "mod"
+  }
+}

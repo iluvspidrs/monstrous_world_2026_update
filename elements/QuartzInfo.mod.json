@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      "CUSTOM:ClearQuartzShard",
+      "CUSTOM:RoseQuartzShard",
+      "CUSTOM:BlockOfClearQuartz",
+      "CUSTOM:ClearQuartzOre",
+      "CUSTOM:BlockOfRoseQuartz",
+      "CUSTOM:RoseQuartzOre",
+      "CUSTOM:PurifiedClearQuartzShard",
+      "CUSTOM:PurifiedRoseQuartzShard"
+    ],
+    "information": [
+      "Clear Quartz and Rose Quartz are both Precious Stones. The clear variety is common, and good for various types of magic and modding weapons.",
+      "",
+      "Rose Quartz is rarer and associated with healing, and the ore appears in flowery biomes."
+    ]
+  }
+}

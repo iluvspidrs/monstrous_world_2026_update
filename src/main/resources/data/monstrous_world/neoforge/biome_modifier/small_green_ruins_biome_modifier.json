@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "monstrous_world:murky_madness",
+    "monstrous_world:scum_swamp"
+  ],
+  "features": "monstrous_world:small_green_ruins",
+  "step": "vegetal_decoration"
+}

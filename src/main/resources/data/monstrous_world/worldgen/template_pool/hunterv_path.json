@@ -1,0 +1,17 @@
+{
+  "name": "monstrous_world:hunterv_path",
+  "fallback": "monstrous_world:hunterv_end",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "monstrous_world:hunter_path_1",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

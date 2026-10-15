@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 5,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "monstrous_world:darkened_cobblestone"
+  },
+  "result": {
+    "id": "monstrous_world:darkened_stone"
+  }
+}

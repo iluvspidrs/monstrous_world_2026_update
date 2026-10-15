@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:mysterious_container"
+    },
+    "title": {
+      "translate": "advancements.time_for_a_reset.title"
+    },
+    "description": {
+      "translate": "advancements.time_for_a_reset.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "time_for_a_reset_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:infected"
+}

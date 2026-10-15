@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:hint_of_sanity"
+    },
+    {
+      "item": "monstrous_world:distilled_silver_injection"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:injection_of_clarity",
+    "count": 1
+  }
+}

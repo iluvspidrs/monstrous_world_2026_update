@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "monstrous_world:block/deathly_wood_planks",
+    "bottom": "monstrous_world:block/deathly_wood_planks",
+    "top": "monstrous_world:block/deathly_wood_planks",
+    "side": "monstrous_world:block/deathly_wood_planks"
+  },
+  "render_type": "solid"
+}

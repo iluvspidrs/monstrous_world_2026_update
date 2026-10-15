@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:lore_binder_misc",
+    "monstrous_world:lore_binder_witchery",
+    "monstrous_world:lore_binder_sorcery",
+    "monstrous_world:lore_binder_maniac",
+    "monstrous_world:lore_binder_hunter",
+    "monstrous_world:lore_binder_swamp_monster",
+    "monstrous_world:lore_binder_demon",
+    "monstrous_world:lore_binder_master",
+    "monstrous_world:lore_binder_mad_science",
+    "monstrous_world:lore_binder_werewolf",
+    "monstrous_world:lore_binder_clown",
+    "monstrous_world:lore_binder_vampire",
+    "monstrous_world:lore_binder_troll",
+    "monstrous_world:lore_binder_goblin"
+  ]
+}

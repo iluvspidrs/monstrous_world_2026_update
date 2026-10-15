@@ -1,0 +1,11 @@
+{
+  "parent": "monstrous_world:custom/hangingpumpkinlantern",
+  "textures": {
+    "all": "monstrous_world:block/pumpkin_side",
+    "particle": "monstrous_world:block/pumpkin_side",
+    "1": "monstrous_world:block/pumpkin_side",
+    "3": "monstrous_world:block/pumpkin_log",
+    "4": "monstrous_world:block/pumpkin_glow_yellow"
+  },
+  "render_type": "cutout"
+}

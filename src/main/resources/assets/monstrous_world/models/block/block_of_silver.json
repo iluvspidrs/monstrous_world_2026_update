@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/block_of_silver",
+    "up": "monstrous_world:block/block_of_silver",
+    "north": "monstrous_world:block/block_of_silver",
+    "east": "monstrous_world:block/block_of_silver",
+    "south": "monstrous_world:block/block_of_silver",
+    "west": "monstrous_world:block/block_of_silver",
+    "particle": "monstrous_world:block/block_of_silver"
+  },
+  "render_type": "solid"
+}

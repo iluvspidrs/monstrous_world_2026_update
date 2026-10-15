@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:vampire_cure_powder"
+    },
+    "title": {
+      "translate": "advancements.time_for_the_beach.title"
+    },
+    "description": {
+      "translate": "advancements.time_for_the_beach.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "time_for_the_beach_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:liquid_diet"
+}

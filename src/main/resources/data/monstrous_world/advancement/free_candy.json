@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:confectionery_table"
+    },
+    "title": {
+      "translate": "advancements.free_candy.title"
+    },
+    "description": {
+      "translate": "advancements.free_candy.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "free_candy_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:a_guide_for_fun_and_games"
+}

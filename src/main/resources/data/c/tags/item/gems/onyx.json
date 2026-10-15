@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:black_onyx",
+    "monstrous_world:sardonyx",
+    "monstrous_world:purified_sardonyx",
+    "monstrous_world:purified_onyx"
+  ]
+}

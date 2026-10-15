@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:StrippedSanguineLog"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:StrippedSanguineLog",
+      "CUSTOM:StrippedSanguineLog",
+      "",
+      "CUSTOM:StrippedSanguineLog",
+      "CUSTOM:StrippedSanguineLog",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:StrippedSanguineWood",
+    "name": "recipe_stripped_sanguine_wood",
+    "namespace": "mod"
+  }
+}

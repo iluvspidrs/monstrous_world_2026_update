@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:pale_stalk_stripped_wood",
+    "monstrous_world:pale_stalk_wood",
+    "monstrous_world:pale_stalk_stripped_log",
+    "monstrous_world:pale_stalk_log"
+  ]
+}

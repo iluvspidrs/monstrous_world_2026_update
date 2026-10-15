@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:CorinthianBronzeIngot"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:CorinthianBronzeIngot",
+      "CUSTOM:CorinthianBronzeIngot",
+      "CUSTOM:CorinthianBronzeIngot",
+      "CUSTOM:CorinthianBronzeIngot",
+      "CUSTOM:CorinthianBronzeIngot",
+      "CUSTOM:CorinthianBronzeIngot",
+      "CUSTOM:CorinthianBronzeIngot",
+      "CUSTOM:CorinthianBronzeIngot",
+      "CUSTOM:CorinthianBronzeIngot"
+    ],
+    "recipeReturnStack": "CUSTOM:BlockOfCorinthianBronze",
+    "name": "recipe_block_of_cor_bronze",
+    "namespace": "mod"
+  }
+}

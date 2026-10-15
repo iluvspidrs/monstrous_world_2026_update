@@ -1,0 +1,130 @@
+{
+  "mappings": {
+    "orange": {
+      "name": "orange",
+      "map": {
+        "0": "regular_wither_skeleton_lamp",
+        "1": "lamp_eyes_orange_emissive"
+      }
+    },
+    "red": {
+      "name": "red",
+      "map": {
+        "0": "regular_wither_skeleton_lamp",
+        "1": "lamp_eyes_red_emissive"
+      }
+    },
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "regular_wither_skeleton_lamp",
+        "1": "lamp_eyes_blue_emissive"
+      }
+    },
+    "green": {
+      "name": "green",
+      "map": {
+        "0": "regular_wither_skeleton_lamp",
+        "1": "lamp_eyes_green_emissive"
+      }
+    },
+    "regular_orange": {
+      "name": "regular_orange",
+      "map": {
+        "0": "regular_skeleton_lamp_orange",
+        "1": "lamp_eyes_orange_emissive"
+      }
+    },
+    "regular_red": {
+      "name": "regular_red",
+      "map": {
+        "0": "regular_skeleton_lamp_red",
+        "1": "lamp_eyes_red_emissive"
+      }
+    },
+    "regular_white": {
+      "name": "regular_white",
+      "map": {
+        "0": "regular_skeleton_lamp",
+        "1": "lamp_eyes_white_emissive"
+      }
+    },
+    "white": {
+      "name": "white",
+      "map": {
+        "0": "regular_wither_skeleton_lamp",
+        "1": "lamp_eyes_white_emissive"
+      }
+    },
+    "regular_purple": {
+      "name": "regular_purple",
+      "map": {
+        "0": "regular_skeleton_lamp_purple",
+        "1": "lamp_eyes_purple_emissive"
+      }
+    },
+    "regular_green": {
+      "name": "regular_green",
+      "map": {
+        "0": "regular_skeleton_lamp_green",
+        "1": "lamp_eyes_green_emissive"
+      }
+    },
+    "purple": {
+      "name": "purple",
+      "map": {
+        "0": "regular_wither_skeleton_lamp",
+        "1": "lamp_eyes_purple_emissive"
+      }
+    },
+    "regular_blue": {
+      "name": "regular_blue",
+      "map": {
+        "0": "regular_skeleton_lamp_blue",
+        "1": "lamp_eyes_blue_emissive"
+      }
+    },
+    "poisoned_orange": {
+      "name": "poisoned_orange",
+      "map": {
+        "0": "poisoned_skeleton_lamp",
+        "1": "lamp_eyes_orange_emissive"
+      }
+    },
+    "poisoned_red": {
+      "name": "poisoned_red",
+      "map": {
+        "0": "poisoned_skeleton_lamp",
+        "1": "lamp_eyes_red_emissive"
+      }
+    },
+    "poisoned_purple": {
+      "name": "poisoned_purple",
+      "map": {
+        "0": "poisoned_skeleton_lamp",
+        "1": "lamp_eyes_purple_emissive"
+      }
+    },
+    "poisoned_blue": {
+      "name": "poisoned_blue",
+      "map": {
+        "0": "poisoned_skeleton_lamp",
+        "1": "lamp_eyes_blue_emissive"
+      }
+    },
+    "poisoned_green": {
+      "name": "poisoned_green",
+      "map": {
+        "0": "poisoned_skeleton_lamp",
+        "1": "lamp_eyes_green_emissive"
+      }
+    },
+    "poisoned_white": {
+      "name": "poisoned_white",
+      "map": {
+        "0": "poisoned_skeleton_lamp",
+        "1": "lamp_eyes_white_emissive"
+      }
+    }
+  }
+}

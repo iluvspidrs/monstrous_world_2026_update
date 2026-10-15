@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/concentratedagate",
+  "textures": {
+    "all": "monstrous_world:block/green_agate_block",
+    "particle": "monstrous_world:block/green_agate_block",
+    "3": "monstrous_world:block/green_agate_block"
+  },
+  "render_type": "solid"
+}

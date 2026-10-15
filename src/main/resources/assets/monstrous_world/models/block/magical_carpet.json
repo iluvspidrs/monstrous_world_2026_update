@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/carpet",
+  "textures": {
+    "all": "monstrous_world:block/magical_fabric",
+    "particle": "monstrous_world:block/magical_fabric",
+    "0": "monstrous_world:block/magical_fabric"
+  },
+  "render_type": "solid"
+}

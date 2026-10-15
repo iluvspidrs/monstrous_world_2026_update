@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:has_structure/mineshaft",
+  "features": "monstrous_world:hunters_warning_maniac_seed_feature",
+  "step": "surface_structures"
+}

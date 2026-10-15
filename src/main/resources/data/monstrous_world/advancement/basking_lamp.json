@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:portable_heat_lamp"
+    },
+    "title": {
+      "translate": "advancements.basking_lamp.title"
+    },
+    "description": {
+      "translate": "advancements.basking_lamp.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "basking_lamp_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:mutation"
+}

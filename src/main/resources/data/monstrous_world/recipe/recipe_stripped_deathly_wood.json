@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:stripped_deathly_log"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:stripped_deathly_wood",
+    "count": 1
+  }
+}

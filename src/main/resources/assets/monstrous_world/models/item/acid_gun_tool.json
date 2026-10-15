@@ -1,0 +1,7 @@
+{
+  "parent": "monstrous_world:custom/acidgun",
+  "textures": {
+    "2": "monstrous_world:block/acid_gun",
+    "particle": "monstrous_world:item/popcorn_acid_gun_flipped"
+  }
+}

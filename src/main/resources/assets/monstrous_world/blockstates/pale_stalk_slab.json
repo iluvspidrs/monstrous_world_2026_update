@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "monstrous_world:block/pale_stalk_slab"
+    },
+    "type=top": {
+      "model": "monstrous_world:block/pale_stalk_slab_top"
+    },
+    "type=double": {
+      "model": "monstrous_world:block/pale_stalk_slab_full"
+    }
+  }
+}

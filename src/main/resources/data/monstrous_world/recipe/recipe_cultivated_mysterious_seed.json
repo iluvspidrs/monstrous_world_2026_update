@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:swamp_essence"
+    },
+    "b": {
+      "item": "monstrous_world:odd_root"
+    },
+    "c": {
+      "item": "monstrous_world:mysterious_seed"
+    },
+    "d": {
+      "item": "monstrous_world:vile_slime"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:cultivated_mysterious_seed",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_fv": 89,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      "CUSTOM:GoblinOven"
+    ],
+    "information": [
+      "The Goblin Oven is only usable by the Goblin faction. ",
+      "",
+      "This Oven can bake magical Pumpkin Cookies with both good and bad effects. Instructions are available in the Tome of the Goblin.",
+      "",
+      "Oven recipes are disabled in JEI to prevent cheating."
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "monstrous_world:murky_madness",
+    "monstrous_world:forsaken_lands",
+    "monstrous_world:scum_swamp",
+    "monstrous_world:pumpkin_hollow",
+    "monstrous_world:foggy_expanse"
+  ],
+  "features": "monstrous_world:tall_pumpkin_beacon",
+  "step": "surface_structures"
+}

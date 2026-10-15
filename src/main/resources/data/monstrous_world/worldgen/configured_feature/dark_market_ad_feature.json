@@ -1,0 +1,9 @@
+{
+  "type": "monstrous_world:dark_market_ad_feature",
+  "config": {
+    "structure": "monstrous_world:dark_market_ad",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:air"
+  }
+}

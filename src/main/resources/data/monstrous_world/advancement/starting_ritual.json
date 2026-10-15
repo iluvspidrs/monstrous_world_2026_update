@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:golden_chalk"
+    },
+    "title": {
+      "translate": "advancements.starting_ritual.title"
+    },
+    "description": {
+      "translate": "advancements.starting_ritual.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "starting_ritual_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:the_art_of_rituals_adv"
+}

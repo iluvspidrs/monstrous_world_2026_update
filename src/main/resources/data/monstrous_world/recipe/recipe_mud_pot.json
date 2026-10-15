@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aba",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:pale_stalk_planks"
+    },
+    "b": {
+      "item": "monstrous_world:overgrown_mud_bricks"
+    },
+    "c": {
+      "item": "monstrous_world:nether_gem"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:mud_pot",
+    "count": 1
+  }
+}

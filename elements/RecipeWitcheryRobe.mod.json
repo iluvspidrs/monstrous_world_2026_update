@@ -1,0 +1,33 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "monstrous_world_tools",
+    "unlockingItems": [
+      "Blocks.WOOL#15",
+      "CUSTOM:MagickalCatalyst",
+      "Blocks.CARPET#15"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Blocks.CARPET#15",
+      "",
+      "Blocks.CARPET#15",
+      "Blocks.CARPET#15",
+      "CUSTOM:MagickalCatalyst",
+      "Blocks.CARPET#15",
+      "Blocks.CARPET#15",
+      "Blocks.WOOL#15",
+      "Blocks.CARPET#15"
+    ],
+    "recipeReturnStack": "CUSTOM:Witchery.body",
+    "name": "recipe_witchery_robe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:odd_root"
+    },
+    "b": {
+      "item": "monstrous_world:swamp_essence_dust"
+    },
+    "c": {
+      "item": "monstrous_world:swamp_essence"
+    },
+    "d": {
+      "item": "monstrous_world:nether_gem"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:tribal_brand",
+    "count": 1
+  }
+}

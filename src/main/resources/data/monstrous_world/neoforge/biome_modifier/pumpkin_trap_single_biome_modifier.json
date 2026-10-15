@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "monstrous_world:pumpkin_trap_single",
+  "step": "surface_structures"
+}

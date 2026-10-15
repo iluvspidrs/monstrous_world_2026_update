@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#c:is_wet",
+  "features": "monstrous_world:scattered_insanosus_is_wet",
+  "step": "surface_structures"
+}

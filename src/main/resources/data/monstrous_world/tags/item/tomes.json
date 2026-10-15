@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:tome_of_interruption",
+    "monstrous_world:enchanted_tome_of_the_swamp",
+    "monstrous_world:tome_of_curse_breaking",
+    "monstrous_world:enchanted_tome_of_mad_science",
+    "monstrous_world:enchanted_tome_of_the_moon",
+    "monstrous_world:tome_of_light",
+    "monstrous_world:enchanted_tome_of_darkness",
+    "monstrous_world:enchanted_tome_of_the_troll",
+    "monstrous_world:enchanted_tome_of_the_goblin",
+    "monstrous_world:ultimate_tome_of_exorcism",
+    "monstrous_world:enchanted_tome_of_bloodlust",
+    "monstrous_world:tome_of_wealth",
+    "monstrous_world:tome_of_exorcism",
+    "monstrous_world:enchanted_tome_of_witchery",
+    "monstrous_world:enchanted_tome_of_sorcery",
+    "monstrous_world:tome_of_true_death",
+    "monstrous_world:tome_of_pumpkins_rest"
+  ]
+}

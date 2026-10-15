@@ -1,0 +1,30 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Cold Blooded",
+    "icon": "cold_blooded",
+    "color": {
+      "value": -16724737,
+      "falpha": 0.0
+    },
+    "onAddedSound": "",
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": "MOVEMENT_SPEED",
+        "amount": -0.03,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": "ATTACK_SPEED",
+        "amount": -0.03,
+        "operation": "ADD_VALUE"
+      }
+    ]
+  }
+}

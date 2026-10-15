@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "A Darkened Crown",
+    "achievementDescription": "Become possessed by the source of the Mysterious Darkness",
+    "achievementIcon": "CUSTOM:Darkened.helmet",
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 0,
+    "achievementType": "challenge",
+    "parent": "CUSTOM:PowerCorrupts",
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"117\" y=\"40\"><next><block type=\"custom_trigger\"/></next></block></xml>"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "pumpkin_top",
+        "1": "minecraft:sweet_berry_bush_stage1"
+      },
+      "name": "default"
+    }
+  }
+}

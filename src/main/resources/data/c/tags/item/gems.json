@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:purified_malachite",
+    "monstrous_world:nether_gem",
+    "monstrous_world:purified_nether_gem",
+    "monstrous_world:moonstone",
+    "monstrous_world:purified_moonstone",
+    "monstrous_world:red_agate",
+    "monstrous_world:purified_blue_agate",
+    "monstrous_world:green_agate",
+    "monstrous_world:purified_rose_quartz_shard",
+    "monstrous_world:purified_sardonyx",
+    "monstrous_world:purified_onyx",
+    "monstrous_world:blue_agate",
+    "monstrous_world:purified_red_agate",
+    "monstrous_world:purified_tigers_eye",
+    "monstrous_world:black_onyx",
+    "monstrous_world:purified_clear_quartz_shard",
+    "monstrous_world:swamp_crystal_shard",
+    "monstrous_world:clear_quartz_shard",
+    "monstrous_world:rose_quartz_shard",
+    "monstrous_world:pale_agate",
+    "monstrous_world:sardonyx",
+    "monstrous_world:purified_green_agate",
+    "monstrous_world:malachite",
+    "monstrous_world:purified_pale_agate"
+  ]
+}

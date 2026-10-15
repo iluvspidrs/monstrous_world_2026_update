@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:block_of_shimmering_darkness"
+    },
+    "title": {
+      "translate": "advancements.show_off.title"
+    },
+    "description": {
+      "translate": "advancements.show_off.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "show_off_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:harnessing_darkness"
+}

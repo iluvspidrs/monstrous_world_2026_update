@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "monstrous_world:item/charmofdeception"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "monstrous_world:charm_of_deception_unlocked": 0
+      },
+      "model": "monstrous_world:item/charm_of_deception_0"
+    },
+    {
+      "predicate": {
+        "monstrous_world:charm_of_deception_unlocked": 1
+      },
+      "model": "monstrous_world:item/charm_of_deception_1"
+    }
+  ]
+}

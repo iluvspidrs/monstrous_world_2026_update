@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "monstrous_world:item/caged_light"
+  },
+  "render_type": "translucent"
+}

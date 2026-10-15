@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "darkened_planks",
+        "1": "swamp_crystal_block",
+        "2": "darkened_iron_block",
+        "missing": ""
+      }
+    }
+  }
+}

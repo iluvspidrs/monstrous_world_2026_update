@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a ",
+    "bc",
+    "b "
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:shining_netherite_ingot"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    },
+    "c": {
+      "item": "monstrous_world:troll_work_hammer"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:shining_netherite_shovel",
+    "count": 1
+  }
+}

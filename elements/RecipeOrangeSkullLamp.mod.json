@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "Blocks.SKULL#0",
+      "CUSTOM:SpiritInfusedOrangeLightBulb"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "",
+      "CUSTOM:SpiritInfusedOrangeLightBulb",
+      "",
+      "",
+      "Blocks.SKULL#0",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:EmissiveOrangeSkullLampRegular",
+    "name": "recipe_orange_skull_lamp",
+    "namespace": "mod"
+  }
+}

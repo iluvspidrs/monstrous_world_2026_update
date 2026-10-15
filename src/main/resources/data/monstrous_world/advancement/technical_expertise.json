@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:laptop"
+    },
+    "title": {
+      "translate": "advancements.technical_expertise.title"
+    },
+    "description": {
+      "translate": "advancements.technical_expertise.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "technical_expertise_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:your_first_experiment"
+}

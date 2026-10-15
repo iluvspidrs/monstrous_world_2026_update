@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/darkened_glass_deathly_planks",
+    "up": "monstrous_world:block/darkened_glass_deathly_planks",
+    "north": "monstrous_world:block/darkened_glass_deathly_planks",
+    "east": "monstrous_world:block/darkened_glass_deathly_planks",
+    "south": "monstrous_world:block/darkened_glass_deathly_planks",
+    "west": "monstrous_world:block/darkened_glass_deathly_planks",
+    "particle": "monstrous_world:block/darkened_glass_deathly_planks"
+  },
+  "render_type": "translucent"
+}

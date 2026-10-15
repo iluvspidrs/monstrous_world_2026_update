@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/concentratedswampcrystal",
+  "textures": {
+    "all": "monstrous_world:block/darkened_crystal",
+    "particle": "monstrous_world:block/darkened_crystal",
+    "1": "monstrous_world:block/darkened_crystal"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/bloody_boulder_1",
+    "up": "monstrous_world:block/bloody_boulder_1",
+    "north": "monstrous_world:block/bloody_boulder_1",
+    "east": "monstrous_world:block/bloody_boulder_1",
+    "south": "monstrous_world:block/bloody_boulder_1",
+    "west": "monstrous_world:block/bloody_boulder_1",
+    "particle": "monstrous_world:block/bloody_boulder_1"
+  },
+  "render_type": "solid"
+}

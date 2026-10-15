@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:block_of_pale_agate"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:pale_agate",
+    "count": 9
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:swamp_crystal_shovel"
+    },
+    "title": {
+      "translate": "advancements.digging_for_treasure.title"
+    },
+    "description": {
+      "translate": "advancements.digging_for_treasure.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "digging_for_treasure_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:a_murky_guidebook"
+}

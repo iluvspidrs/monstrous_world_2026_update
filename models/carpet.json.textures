@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "magical": {
+      "name": "magical",
+      "map": {
+        "0": "magical_fabric"
+      }
+    },
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "infused_wool"
+      }
+    },
+    "pond_scum": {
+      "name": "pond_scum",
+      "map": {
+        "0": "pond_scum"
+      }
+    }
+  }
+}

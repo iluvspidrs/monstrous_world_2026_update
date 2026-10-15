@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:tome_of_the_swamp"
+    },
+    "title": {
+      "translate": "advancements.a_murky_guidebook.title"
+    },
+    "description": {
+      "translate": "advancements.a_murky_guidebook.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_murky_guidebook_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:making_a_splash"
+}

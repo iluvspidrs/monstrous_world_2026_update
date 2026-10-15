@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:society_pamphlet"
+    },
+    "title": {
+      "translate": "advancements.starting_lore.title"
+    },
+    "description": {
+      "translate": "advancements.starting_lore.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "starting_lore_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:monstrous_world"
+}

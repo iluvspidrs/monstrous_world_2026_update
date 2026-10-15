@@ -1,0 +1,19 @@
+{
+  "_fv": 89,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": "CUSTOM:IronBolt",
+    "showParticles": false,
+    "actionSound": "entity.arrow.shoot",
+    "igniteFire": false,
+    "disableGravity": false,
+    "disableDiscarding": false,
+    "power": 1.0,
+    "damage": 2.0,
+    "knockback": 2,
+    "entityModel": "ModelBolt",
+    "customModelTexture": "iron_block.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5
+  }
+}

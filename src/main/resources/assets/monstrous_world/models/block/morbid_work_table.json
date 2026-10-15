@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/morbid_workstation_bottom",
+    "up": "monstrous_world:block/morbid_workstation_top",
+    "north": "monstrous_world:block/morbid_workstation_side",
+    "east": "monstrous_world:block/morbid_workstation_side",
+    "south": "monstrous_world:block/morbid_workstation_side",
+    "west": "monstrous_world:block/morbid_workstation_side",
+    "particle": "monstrous_world:block/morbid_workstation_bottom"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "monstrous_world:stripped_ghostly_log"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:ghostly_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:demonic_contract_villager",
+    "monstrous_world:demonic_contract_goblin",
+    "monstrous_world:demonic_contract_werewolf",
+    "monstrous_world:demonic_contract_swampmonster",
+    "monstrous_world:demonic_contract_mad_scientist",
+    "monstrous_world:demonic_contract_witch",
+    "monstrous_world:demonic_contract_troll",
+    "monstrous_world:demonic_contract_sorcerer",
+    "monstrous_world:demonic_contract_vampire"
+  ]
+}

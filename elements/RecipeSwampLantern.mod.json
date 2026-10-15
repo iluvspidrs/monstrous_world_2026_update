@@ -1,0 +1,33 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:DarkenedPlanks",
+      "CUSTOM:SwampCrystalShard",
+      "CUSTOM:DarkenedIronIngot"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "CUSTOM:DarkenedPlanks",
+      "",
+      "CUSTOM:DarkenedIronIngot",
+      "CUSTOM:SwampCrystalShard",
+      "CUSTOM:DarkenedIronIngot",
+      "",
+      "CUSTOM:DarkenedPlanks",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:SwampLantern",
+    "name": "recipe_swamp_lantern",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "monstrous_world:deathly_forest",
+    "monstrous_world:murky_madness"
+  ],
+  "features": "monstrous_world:evil_tree_north_seed_feature_spooky",
+  "step": "surface_structures"
+}

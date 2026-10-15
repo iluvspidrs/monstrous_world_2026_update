@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "monstrous_world:ghostly_planks"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:ghostly_fence_gate",
+    "count": 1
+  }
+}

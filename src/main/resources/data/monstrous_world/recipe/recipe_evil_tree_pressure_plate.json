@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:evil_tree_planks"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:evil_tree_pressure_plate",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_fv": 89,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      "CUSTOM:SpiritDust"
+    ],
+    "information": [
+      "Spirit Dust,  or Spirit Essence, is dropped by various types of Evil Sprits when defeated. This cold dust can alter torches, campfires, and lanterns on right-clicking them.",
+      "",
+      "Spirit Dust is useful in many types of magic. "
+    ]
+  }
+}

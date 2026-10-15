@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "blockstate=1": {
+      "model": "monstrous_world:block/corn_crop_0"
+    },
+    "blockstate=2": {
+      "model": "monstrous_world:block/corn_crop_1"
+    },
+    "blockstate=3": {
+      "model": "monstrous_world:block/corn_crop_2"
+    },
+    "blockstate=0": {
+      "model": "monstrous_world:block/corn_crop"
+    }
+  }
+}

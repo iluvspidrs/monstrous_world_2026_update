@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#c:is_cold",
+  "features": "monstrous_world:ghostly_tree_spruce_type_short",
+  "step": "surface_structures"
+}

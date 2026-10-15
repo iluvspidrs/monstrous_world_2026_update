@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:blood_focus"
+    },
+    "title": {
+      "translate": "advancements.blood_focus_adv.title"
+    },
+    "description": {
+      "translate": "advancements.blood_focus_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "blood_focus_adv_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:sample_pack"
+}

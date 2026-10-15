@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:nightmare",
+    "monstrous_world:the_deep_biome",
+    "monstrous_world:crimson_dread",
+    "monstrous_world:foggy_expanse",
+    "monstrous_world:scum_swamp"
+  ]
+}

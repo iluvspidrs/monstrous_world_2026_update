@@ -1,0 +1,32 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:darkened_dirt_bottom",
+    "monstrous_world:odd_pale_gravel",
+    "monstrous_world:grave_soil",
+    "monstrous_world:darkened_gravel",
+    "monstrous_world:living_mud",
+    "monstrous_world:awakened_soul_sand_block",
+    "monstrous_world:mossy_cursed_dirt_decoration",
+    "monstrous_world:darkened_sand_bottom",
+    "monstrous_world:mossy_cursed_dirt",
+    "monstrous_world:cursed_dirt_decoration",
+    "monstrous_world:dark_grass",
+    "monstrous_world:active_darkened_sand",
+    "monstrous_world:darkened_sand",
+    "monstrous_world:darkened_dirt",
+    "monstrous_world:active_darkened_gravel",
+    "monstrous_world:darkened_dirt_passthrough",
+    "monstrous_world:darkened_sand_deep",
+    "monstrous_world:darkened_dirt_portal",
+    "monstrous_world:cursed_dirt",
+    "monstrous_world:odd_red_gravel",
+    "monstrous_world:active_darkened_dirt",
+    "monstrous_world:odd_blue_gravel",
+    "monstrous_world:odd_green_gravel",
+    "monstrous_world:quickmud",
+    "monstrous_world:darkened_dirt_deep",
+    "monstrous_world:darkened_sand_passthrough",
+    "monstrous_world:dark_dirt"
+  ]
+}

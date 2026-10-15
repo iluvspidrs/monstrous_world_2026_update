@@ -1,0 +1,286 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 420,
+    "height": 190,
+    "inventoryOffsetX": -123,
+    "inventoryOffsetY": -88,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_blue_back_button",
+          "image": "blue_back_button.png",
+          "hoveredImage": "blue_back_button_hover.png",
+          "onClick": "LaptopTOCButtonPressed",
+          "x": 186,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "OpenElectricityChanneler",
+          "width": 104,
+          "height": 20,
+          "x": 198,
+          "y": 132,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_back_button",
+          "image": "back_button.png",
+          "hoveredImage": "back_button_hover.png",
+          "onClick": "LaptopMainScreenBackward",
+          "x": 186,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "laptoptextspiderrobot2.png",
+          "use1Xscale": false,
+          "x": 159,
+          "y": 35,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "OpenRobotTableSection",
+          "width": 101,
+          "height": 20,
+          "x": 278,
+          "y": 40,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_you_will_need_these_parts",
+          "text": {
+            "fixedValue": "You will need these parts:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 21,
+          "y": 110,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "robot_spider_head.png",
+          "use1Xscale": false,
+          "x": 21,
+          "y": 126,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_robot_spider_head",
+          "text": {
+            "fixedValue": "Robot Spider Head"
+          },
+          "color": {
+            "value": -16750951,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 41,
+          "y": 127,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "spider_body.png",
+          "use1Xscale": false,
+          "x": 21,
+          "y": 145,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_robot_spider_body",
+          "text": {
+            "fixedValue": "Robot Spider Body"
+          },
+          "color": {
+            "value": -16750951,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 41,
+          "y": 147,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "robot_spider_legs.png",
+          "use1Xscale": false,
+          "x": 21,
+          "y": 165,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_robot_spider_legs",
+          "text": {
+            "fixedValue": "Robot Spider Legs"
+          },
+          "color": {
+            "value": -16750951,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 41,
+          "y": 168,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_channeler_top",
+          "text": {
+            "fixedValue": "Channeler Top"
+          },
+          "color": {
+            "value": -16750951,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 21,
+          "y": 187,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_bottom",
+          "text": {
+            "fixedValue": "Bottom"
+          },
+          "color": {
+            "value": -16750951,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 129,
+          "y": 188,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty2",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "OpenRobotSpiderHead",
+          "width": 92,
+          "height": 20,
+          "x": 41,
+          "y": 122,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty3",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "OpenElectricityChanneler",
+          "width": 69,
+          "height": 20,
+          "x": 22,
+          "y": 184,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty4",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "OpenElectricityChannelerBottom",
+          "width": 32,
+          "height": 20,
+          "x": 129,
+          "y": 184,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty5",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "OpenRobotSpiderBody",
+          "width": 92,
+          "height": 20,
+          "x": 41,
+          "y": 143,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty6",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "OpenRobotSpiderLegs",
+          "width": 91,
+          "height": 20,
+          "x": 41,
+          "y": 164,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

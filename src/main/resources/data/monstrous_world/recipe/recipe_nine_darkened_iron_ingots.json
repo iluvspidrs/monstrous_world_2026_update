@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:block_of_darkened_iron"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:darkened_iron_ingot",
+    "count": 9
+  }
+}

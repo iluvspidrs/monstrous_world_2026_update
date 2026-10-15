@@ -1,0 +1,100 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "1": "acacia_planks"
+      }
+    },
+    "oak": {
+      "name": "oak",
+      "map": {
+        "1": "oak_planks"
+      }
+    },
+    "dark_oak": {
+      "name": "dark_oak",
+      "map": {
+        "1": "dark_oak_planks"
+      }
+    },
+    "jungle": {
+      "name": "jungle",
+      "map": {
+        "1": "jungle_planks"
+      }
+    },
+    "birch": {
+      "name": "birch",
+      "map": {
+        "1": "birch_planks"
+      }
+    },
+    "warped": {
+      "name": "warped",
+      "map": {
+        "1": "warped_planks"
+      }
+    },
+    "crimson": {
+      "name": "crimson",
+      "map": {
+        "1": "crimson_planks"
+      }
+    },
+    "spruce": {
+      "name": "spruce",
+      "map": {
+        "1": "spruce_planks"
+      }
+    },
+    "darkened": {
+      "name": "darkened",
+      "map": {
+        "1": "darkened_planks"
+      }
+    },
+    "pumpkin": {
+      "name": "pumpkin",
+      "map": {
+        "1": "pumpkin_planks"
+      }
+    },
+    "ghostly": {
+      "name": "ghostly",
+      "map": {
+        "1": "ghostly_planks"
+      }
+    },
+    "evil": {
+      "name": "evil",
+      "map": {
+        "1": "evil_tree_planks"
+      }
+    },
+    "deathly": {
+      "name": "deathly",
+      "map": {
+        "1": "deathly_wood_planks"
+      }
+    },
+    "sanguine": {
+      "name": "sanguine",
+      "map": {
+        "1": "sanguine_planks"
+      }
+    },
+    "murkwood": {
+      "name": "murkwood",
+      "map": {
+        "1": "murkwood_planks"
+      }
+    },
+    "pale_stalk": {
+      "name": "pale_stalk",
+      "map": {
+        "1": "pale_stalk_planks"
+      }
+    }
+  }
+}

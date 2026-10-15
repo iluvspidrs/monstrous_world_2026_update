@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:pumpkin_planks"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:pumpkin_boat",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:enhanced_husk",
+    "monstrous_world:enhanced_zombie",
+    "monstrous_world:evil_darkness_spirit",
+    "monstrous_world:enhanced_drowned",
+    "monstrous_world:evil_levitating_spirit"
+  ]
+}

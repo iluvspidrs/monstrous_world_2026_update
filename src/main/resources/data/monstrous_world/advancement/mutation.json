@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:strange_serum_syringe_fly"
+    },
+    "title": {
+      "translate": "advancements.mutation.title"
+    },
+    "description": {
+      "translate": "advancements.mutation.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mutation_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:a_calculated_risk"
+}

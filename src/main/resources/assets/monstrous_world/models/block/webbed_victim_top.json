@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/webbedvictimtop",
+  "textures": {
+    "all": "monstrous_world:block/wrappedblocktop",
+    "particle": "monstrous_world:block/wrappedblocktop",
+    "0": "monstrous_world:block/wrappedblocktop"
+  },
+  "render_type": "solid"
+}

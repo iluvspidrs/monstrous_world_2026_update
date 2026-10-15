@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:tome_of_true_death"
+    },
+    "title": {
+      "translate": "advancements.horde_b_gone.title"
+    },
+    "description": {
+      "translate": "advancements.horde_b_gone.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "horde_b_gone_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:a_good_time_to_gamble"
+}

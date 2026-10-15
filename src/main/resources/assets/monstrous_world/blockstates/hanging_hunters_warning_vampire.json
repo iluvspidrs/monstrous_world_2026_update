@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "monstrous_world:block/hanging_hunters_warning_vampire"
+    },
+    "facing=east": {
+      "model": "monstrous_world:block/hanging_hunters_warning_vampire",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "monstrous_world:block/hanging_hunters_warning_vampire",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "monstrous_world:block/hanging_hunters_warning_vampire",
+      "y": 270
+    }
+  }
+}

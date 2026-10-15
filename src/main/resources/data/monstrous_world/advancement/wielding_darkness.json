@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:darkened_sword"
+    },
+    "title": {
+      "translate": "advancements.wielding_darkness.title"
+    },
+    "description": {
+      "translate": "advancements.wielding_darkness.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "wielding_darkness_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:spreading_the_fun"
+}

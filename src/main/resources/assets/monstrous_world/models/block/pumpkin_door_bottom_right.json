@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_right",
+  "textures": {
+    "particle": "monstrous_world:block/pumpkin_door_bottom",
+    "bottom": "monstrous_world:block/pumpkin_door_bottom",
+    "top": "monstrous_world:block/pumpkin_door_top"
+  },
+  "render_type": "cutout"
+}

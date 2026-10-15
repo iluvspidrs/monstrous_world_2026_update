@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#c:is_mountain",
+  "features": "monstrous_world:warrior_arena_seed_feature",
+  "step": "surface_structures"
+}

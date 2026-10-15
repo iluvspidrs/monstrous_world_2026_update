@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "pumpkin",
+        "1": "stemgourd",
+        "2": "stripedgourd",
+        "3": "spidergourd",
+        "4": "palegourd",
+        "missing": ""
+      }
+    }
+  }
+}

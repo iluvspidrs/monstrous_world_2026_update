@@ -1,0 +1,130 @@
+{
+  "feature": "monstrous_world:desert_boulder",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 4
+    },
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "uniform",
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "blocks": [
+                "minecraft:deepslate_bricks",
+                "monstrous_world:pumpkin_slab",
+                "minecraft:deepslate_tiles",
+                "monstrous_world:tin_slab",
+                "monstrous_world:dark_orange_bricks",
+                "minecraft:water"
+              ],
+              "offset": [
+                0,
+                -1,
+                0
+              ]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "blocks": [
+                "minecraft:deepslate_bricks",
+                "monstrous_world:pumpkin_slab",
+                "minecraft:deepslate_tiles",
+                "monstrous_world:tin_slab",
+                "monstrous_world:dark_orange_bricks",
+                "minecraft:water"
+              ],
+              "offset": [
+                -2,
+                -1,
+                0
+              ]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "blocks": [
+                "minecraft:deepslate_bricks",
+                "minecraft:deepslate_tiles",
+                "monstrous_world:pumpkin_slab",
+                "monstrous_world:tin_slab",
+                "monstrous_world:dark_orange_bricks",
+                "minecraft:water"
+              ],
+              "offset": [
+                2,
+                -1,
+                0
+              ]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "blocks": [
+                "minecraft:deepslate_bricks",
+                "minecraft:deepslate_tiles",
+                "monstrous_world:pumpkin_slab",
+                "monstrous_world:tin_slab",
+                "monstrous_world:dark_orange_bricks",
+                "minecraft:water"
+              ],
+              "offset": [
+                0,
+                -1,
+                -2
+              ]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "blocks": [
+                "minecraft:deepslate_bricks",
+                "minecraft:deepslate_tiles",
+                "monstrous_world:pumpkin_slab",
+                "monstrous_world:tin_slab",
+                "monstrous_world:dark_orange_bricks",
+                "minecraft:water"
+              ],
+              "offset": [
+                0,
+                -1,
+                2
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

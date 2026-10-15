@@ -1,0 +1,189 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 420,
+    "height": 190,
+    "inventoryOffsetX": -123,
+    "inventoryOffsetY": -88,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_blue_back_button",
+          "image": "blue_back_button.png",
+          "hoveredImage": "blue_back_button_hover.png",
+          "onClick": "LaptopTOCButtonPressed",
+          "x": 288,
+          "y": 35,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_fly_dna_sample",
+          "text": {
+            "fixedValue": "Fly DNA Sample"
+          },
+          "color": {
+            "value": -16750951,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 263,
+          "y": 63,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_serpent_dna_sample",
+          "text": {
+            "fixedValue": "Serpent DNA Sample"
+          },
+          "color": {
+            "value": -16750951,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 251,
+          "y": 84,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_dreadful_watcher_dna_sample",
+          "text": {
+            "fixedValue": "Dreadful Watcher DNA Sample"
+          },
+          "color": {
+            "value": -16750951,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 231,
+          "y": 109,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_spider_dna_sample",
+          "text": {
+            "fixedValue": "Spider DNA Sample"
+          },
+          "color": {
+            "value": -16750951,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 255,
+          "y": 135,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_illager_dna_sample",
+          "text": {
+            "fixedValue": "Illager DNA Sample"
+          },
+          "color": {
+            "value": -16750951,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 253,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "LaptopFlyDNAButtonPressed",
+          "width": 75,
+          "height": 20,
+          "x": 263,
+          "y": 59,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "LaptopSerpentDNAButtonPressed",
+          "width": 97,
+          "height": 20,
+          "x": 251,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty2",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "LaptopDreadfulWatcherDNAButtonPressed",
+          "width": 146,
+          "height": 20,
+          "x": 231,
+          "y": 104,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty3",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "LaptopSpiderDNAButtonPressed",
+          "width": 92,
+          "height": 20,
+          "x": 255,
+          "y": 131,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty4",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "LaptopIllagerDNAButtonPressed",
+          "width": 96,
+          "height": 20,
+          "x": 254,
+          "y": 156,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

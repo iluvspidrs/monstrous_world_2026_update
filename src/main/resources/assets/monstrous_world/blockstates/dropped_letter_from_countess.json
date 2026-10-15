@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "monstrous_world:block/dropped_letter_from_countess"
+    },
+    "facing=east": {
+      "model": "monstrous_world:block/dropped_letter_from_countess",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "monstrous_world:block/dropped_letter_from_countess",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "monstrous_world:block/dropped_letter_from_countess",
+      "y": 270
+    }
+  }
+}

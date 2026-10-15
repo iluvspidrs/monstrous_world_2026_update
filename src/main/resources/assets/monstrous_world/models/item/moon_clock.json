@@ -1,0 +1,56 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "monstrous_world:item/moon_clock_0"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "monstrous_world:moon_clock_phase": 0
+      },
+      "model": "monstrous_world:item/moon_clock_0"
+    },
+    {
+      "predicate": {
+        "monstrous_world:moon_clock_phase": 1
+      },
+      "model": "monstrous_world:item/moon_clock_1"
+    },
+    {
+      "predicate": {
+        "monstrous_world:moon_clock_phase": 2
+      },
+      "model": "monstrous_world:item/moon_clock_2"
+    },
+    {
+      "predicate": {
+        "monstrous_world:moon_clock_phase": 3
+      },
+      "model": "monstrous_world:item/moon_clock_3"
+    },
+    {
+      "predicate": {
+        "monstrous_world:moon_clock_phase": 4
+      },
+      "model": "monstrous_world:item/moon_clock_4"
+    },
+    {
+      "predicate": {
+        "monstrous_world:moon_clock_phase": 5
+      },
+      "model": "monstrous_world:item/moon_clock_5"
+    },
+    {
+      "predicate": {
+        "monstrous_world:moon_clock_phase": 6
+      },
+      "model": "monstrous_world:item/moon_clock_6"
+    },
+    {
+      "predicate": {
+        "monstrous_world:moon_clock_phase": 7
+      },
+      "model": "monstrous_world:item/moon_clock_7"
+    }
+  ]
+}

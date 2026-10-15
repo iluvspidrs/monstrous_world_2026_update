@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:Malachite"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:Malachite",
+      "CUSTOM:Malachite",
+      "CUSTOM:Malachite",
+      "CUSTOM:Malachite",
+      "CUSTOM:Malachite",
+      "CUSTOM:Malachite",
+      "CUSTOM:Malachite",
+      "CUSTOM:Malachite",
+      "CUSTOM:Malachite"
+    ],
+    "recipeReturnStack": "CUSTOM:BlockOfMalachite",
+    "name": "recipe_block_of_malachite",
+    "namespace": "mod"
+  }
+}

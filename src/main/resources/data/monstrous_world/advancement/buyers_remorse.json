@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:darkened_candle"
+    },
+    "title": {
+      "translate": "advancements.buyers_remorse.title"
+    },
+    "description": {
+      "translate": "advancements.buyers_remorse.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "buyers_remorse_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:shame_shame"
+}

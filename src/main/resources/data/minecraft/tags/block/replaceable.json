@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:fog",
+    "monstrous_world:dark_mist",
+    "monstrous_world:ghostly_lichen",
+    "monstrous_world:acid",
+    "monstrous_world:entrance_portal",
+    "monstrous_world:white_glyph",
+    "monstrous_world:exit_portal",
+    "monstrous_world:autumn_lichen",
+    "monstrous_world:bloody_lichen"
+  ]
+}

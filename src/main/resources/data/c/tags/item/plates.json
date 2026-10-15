@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:sanguine_wood_pressure_plate",
+    "monstrous_world:pumpkin_pressure_plate",
+    "monstrous_world:ghostly_pressure_plate",
+    "monstrous_world:evil_tree_pressure_plate",
+    "monstrous_world:deathly_wood_pressure_plate",
+    "monstrous_world:murkwood_pressure_plate"
+  ]
+}

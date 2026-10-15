@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/tin"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:tin_slab",
+    "count": 3
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:wicked_soul"
+    },
+    {
+      "item": "minecraft:weeping_vines"
+    },
+    {
+      "item": "monstrous_world:nether_gem"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:infernal_fabric",
+    "count": 1
+  }
+}

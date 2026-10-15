@@ -1,0 +1,46 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "bulbmainuprightblue",
+        "1": "baseinverted"
+      },
+      "name": "default"
+    },
+    "green": {
+      "map": {
+        "0": "bulbmaininvertedgreen",
+        "1": "baseinverted"
+      },
+      "name": "green"
+    },
+    "orange": {
+      "map": {
+        "0": "bulbmaininvertedorange",
+        "1": "baseinverted"
+      },
+      "name": "orange"
+    },
+    "red": {
+      "map": {
+        "0": "bulbmaininvertedred",
+        "1": "baseinverted"
+      },
+      "name": "red"
+    },
+    "purple": {
+      "map": {
+        "0": "bulbmaininvertedpurple",
+        "1": "baseinverted"
+      },
+      "name": "purple"
+    },
+    "white": {
+      "map": {
+        "0": "bulbmainwhite",
+        "1": "baseinverted"
+      },
+      "name": "white"
+    }
+  }
+}

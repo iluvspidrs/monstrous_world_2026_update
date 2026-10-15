@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/hangingmessage",
+  "textures": {
+    "all": "monstrous_world:block/pumion_cottage_welcome",
+    "particle": "monstrous_world:block/pumion_cottage_welcome",
+    "0": "monstrous_world:block/pumion_cottage_welcome"
+  },
+  "render_type": "cutout"
+}

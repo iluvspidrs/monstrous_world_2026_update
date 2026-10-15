@@ -1,0 +1,14 @@
+{
+  "type": "monstrous_world:ph_giant_pumpkin_short",
+  "config": {
+    "structure": "monstrous_world:giant_pumpkin_2",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:air",
+    "offset": [
+      -3,
+      -1,
+      -3
+    ]
+  }
+}

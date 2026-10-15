@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Time To Kill",
+    "achievementDescription": "Gain a thirst for violence feared by almost all...",
+    "achievementIcon": "CUSTOM:ButcherKnife",
+    "background": "sanguine_log_side.png",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": "No parent: root",
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"84\" y=\"58\"><next><block type=\"custom_trigger\"/></next></block></xml>"
+  }
+}

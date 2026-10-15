@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "evilbarkside",
+        "2": "evilbarkside",
+        "3": "evilbarkside",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

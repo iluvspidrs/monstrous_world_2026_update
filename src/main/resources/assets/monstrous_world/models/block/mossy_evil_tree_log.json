@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/robustevilbarkend",
+    "up": "monstrous_world:block/robustevilbarkend",
+    "north": "monstrous_world:block/robustevilbarkside",
+    "east": "monstrous_world:block/robustevilbarkside",
+    "south": "monstrous_world:block/robustevilbarkside",
+    "west": "monstrous_world:block/robustevilbarkside",
+    "particle": "monstrous_world:block/robustevilbarkend"
+  },
+  "render_type": "solid"
+}

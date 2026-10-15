@@ -1,0 +1,199 @@
+{
+  "_fv": 85,
+  "_type": "blockstates",
+  "definition": {
+    "block": "CagedLight",
+    "blockstateList": [
+      {
+        "texture": "darkened_iron_block",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "darkened_iron_block",
+        "renderType": 2,
+        "customModelName": "cagedlightfloor:default",
+        "luminance": 10,
+        "boundingBoxes": [
+          {
+            "mx": 7.5,
+            "my": 7.0,
+            "mz": 6.0,
+            "Mx": 8.5,
+            "My": 7.0,
+            "Mz": 8.0,
+            "subtract": false
+          },
+          {
+            "mx": 7.5,
+            "my": 7.0,
+            "mz": 8.0,
+            "Mx": 8.5,
+            "My": 7.0,
+            "Mz": 10.0,
+            "subtract": false
+          },
+          {
+            "mx": 10.0,
+            "my": 1.0,
+            "mz": 7.5,
+            "Mx": 10.0,
+            "My": 7.0,
+            "Mz": 8.5,
+            "subtract": false
+          },
+          {
+            "mx": 6.0,
+            "my": 1.0,
+            "mz": 7.5,
+            "Mx": 6.0,
+            "My": 7.0,
+            "Mz": 8.5,
+            "subtract": false
+          },
+          {
+            "mx": 7.5,
+            "my": 1.0,
+            "mz": 10.0,
+            "Mx": 8.5,
+            "My": 7.0,
+            "Mz": 10.0,
+            "subtract": false
+          },
+          {
+            "mx": 7.5,
+            "my": 1.0,
+            "mz": 6.0,
+            "Mx": 8.5,
+            "My": 7.0,
+            "Mz": 6.0,
+            "subtract": false
+          },
+          {
+            "mx": 6.0,
+            "my": 0.0,
+            "mz": 6.0,
+            "Mx": 10.0,
+            "My": 1.0,
+            "Mz": 10.0,
+            "subtract": false
+          },
+          {
+            "mx": 6.0,
+            "my": 7.0,
+            "mz": 7.5,
+            "Mx": 10.0,
+            "My": 7.0,
+            "Mz": 8.5,
+            "subtract": false
+          },
+          {
+            "mx": 7.0,
+            "my": 1.0,
+            "mz": 7.0,
+            "Mx": 9.0,
+            "My": 6.0,
+            "Mz": 9.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "darkened_iron_block",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "darkened_iron_block",
+        "renderType": 2,
+        "customModelName": "cagedlightwall:default",
+        "luminance": 10,
+        "boundingBoxes": [
+          {
+            "mx": 7.5,
+            "my": 6.0,
+            "mz": 9.0,
+            "Mx": 8.5,
+            "My": 8.0,
+            "Mz": 9.0,
+            "subtract": false
+          },
+          {
+            "mx": 7.5,
+            "my": 8.0,
+            "mz": 9.0,
+            "Mx": 8.5,
+            "My": 10.0,
+            "Mz": 9.0,
+            "subtract": false
+          },
+          {
+            "mx": 10.0,
+            "my": 7.5,
+            "mz": 9.0,
+            "Mx": 10.0,
+            "My": 8.5,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 6.0,
+            "my": 7.5,
+            "mz": 9.0,
+            "Mx": 6.0,
+            "My": 8.5,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 7.5,
+            "my": 10.0,
+            "mz": 9.0,
+            "Mx": 8.5,
+            "My": 10.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 7.5,
+            "my": 6.0,
+            "mz": 9.0,
+            "Mx": 8.5,
+            "My": 6.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 6.0,
+            "my": 6.0,
+            "mz": 15.0,
+            "Mx": 10.0,
+            "My": 10.0,
+            "Mz": 16.0,
+            "subtract": false
+          },
+          {
+            "mx": 6.0,
+            "my": 7.5,
+            "mz": 9.0,
+            "Mx": 10.0,
+            "My": 8.5,
+            "Mz": 9.0,
+            "subtract": false
+          },
+          {
+            "mx": 7.0,
+            "my": 7.0,
+            "mz": 10.0,
+            "Mx": 9.0,
+            "My": 9.0,
+            "Mz": 15.0,
+            "subtract": false
+          }
+        ]
+      }
+    ]
+  }
+}

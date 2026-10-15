@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "monstrous_world:block/tin_block",
+    "bottom": "monstrous_world:block/tin_block",
+    "top": "monstrous_world:block/tin_block",
+    "side": "monstrous_world:block/tin_block"
+  },
+  "render_type": "solid"
+}

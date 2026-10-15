@@ -1,0 +1,11 @@
+{
+  "parent": "monstrous_world:custom/laptopwithanalyzer",
+  "textures": {
+    "all": "monstrous_world:block/laptop",
+    "particle": "monstrous_world:block/laptop",
+    "0": "monstrous_world:block/laptop",
+    "1": "monstrous_world:block/screen",
+    "2": "monstrous_world:block/analyzer"
+  },
+  "render_type": "cutout"
+}

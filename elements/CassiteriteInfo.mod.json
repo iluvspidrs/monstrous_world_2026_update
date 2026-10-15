@@ -1,0 +1,14 @@
+{
+  "_fv": 89,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      "CUSTOM:CassiteriteCrystal",
+      "CUSTOM:CassiteriteOre",
+      "CUSTOM:BlockOfRawCassiterite"
+    ],
+    "information": [
+      "Cassiterite is the ore that is smelted into tin ingots. It is useful for multiple monster factions, and the ore is found in shallow caves and high elevations."
+    ]
+  }
+}

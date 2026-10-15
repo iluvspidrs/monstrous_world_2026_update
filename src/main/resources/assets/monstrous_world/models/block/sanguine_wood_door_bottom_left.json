@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_left",
+  "textures": {
+    "particle": "monstrous_world:block/sanguine_door_bottom",
+    "bottom": "monstrous_world:block/sanguine_door_bottom",
+    "top": "monstrous_world:block/sanguine_door_top"
+  },
+  "render_type": "cutout"
+}

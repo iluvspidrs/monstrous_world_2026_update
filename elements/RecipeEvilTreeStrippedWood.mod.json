@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:EvilTreeStrippedLog"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:EvilTreeStrippedLog",
+      "CUSTOM:EvilTreeStrippedLog",
+      "",
+      "CUSTOM:EvilTreeStrippedLog",
+      "CUSTOM:EvilTreeStrippedLog",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:EvilTreeStrippedWood",
+    "name": "recipe_evil_tree_stripped_wood",
+    "namespace": "mod"
+  }
+}

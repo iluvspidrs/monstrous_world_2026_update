@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:bracelet_of_control"
+    },
+    "title": {
+      "translate": "advancements.growing_your_pack.title"
+    },
+    "description": {
+      "translate": "advancements.growing_your_pack.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "growing_your_pack_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:respect_must_be_earned"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "monstrous_world:block/deathcatcher",
+    "particle": "monstrous_world:block/deathcatcher"
+  },
+  "render_type": "cutout"
+}

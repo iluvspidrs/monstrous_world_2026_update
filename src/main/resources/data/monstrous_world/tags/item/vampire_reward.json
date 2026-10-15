@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:gold_ingot",
+    "monstrous_world:black_onyx",
+    "monstrous_world:moonstone",
+    "monstrous_world:swamp_crystal_shard",
+    "monstrous_world:sardonyx",
+    "monstrous_world:darkened_iron_ingot",
+    "monstrous_world:green_agate"
+  ]
+}

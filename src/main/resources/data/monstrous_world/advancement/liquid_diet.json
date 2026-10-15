@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:bottle_of_blood"
+    },
+    "title": {
+      "translate": "advancements.liquid_diet.title"
+    },
+    "description": {
+      "translate": "advancements.liquid_diet.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "liquid_diet_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:bitten"
+}

@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "darkened_log_side",
+        "1": "darkened_crystal"
+      }
+    },
+    "soaking_basin": {
+      "name": "soaking_basin",
+      "map": {
+        "0": "minecraft:exposed_cut_copper",
+        "1": "minecraft:cracked_deepslate_tiles"
+      }
+    }
+  }
+}

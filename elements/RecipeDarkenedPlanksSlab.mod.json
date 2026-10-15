@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:DarkenedPlanks"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "CUSTOM:DarkenedPlanks",
+      "CUSTOM:DarkenedPlanks",
+      "CUSTOM:DarkenedPlanks"
+    ],
+    "recipeReturnStack": "CUSTOM:DarkenedPlanksSlab",
+    "name": "recipe_darkened_planks_slab",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "monstrous_world_items",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:laptop_screen",
+    "count": 3
+  }
+}

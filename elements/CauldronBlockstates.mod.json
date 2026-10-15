@@ -1,0 +1,377 @@
+{
+  "_fv": 85,
+  "_type": "blockstates",
+  "definition": {
+    "block": "SimpleCauldron",
+    "blockstateList": [
+      {
+        "texture": "darkened_iron_block",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "darkened_iron_block",
+        "renderType": 2,
+        "customModelName": "simplecauldronplain:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 2.0,
+            "my": 0.0,
+            "mz": 2.0,
+            "Mx": 14.0,
+            "My": 8.0,
+            "Mz": 14.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "darkened_iron_block",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "darkened_iron_block",
+        "renderType": 2,
+        "customModelName": "simplecauldrongreen:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 2.0,
+            "my": 0.0,
+            "mz": 2.0,
+            "Mx": 14.0,
+            "My": 8.0,
+            "Mz": 14.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "darkened_iron_block",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "darkened_iron_block",
+        "renderType": 2,
+        "customModelName": "simplecauldrongreen:blue",
+        "luminance": 3,
+        "boundingBoxes": [
+          {
+            "mx": 2.0,
+            "my": 0.0,
+            "mz": 2.0,
+            "Mx": 14.0,
+            "My": 8.0,
+            "Mz": 14.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "darkened_iron_block",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "darkened_iron_block",
+        "renderType": 2,
+        "customModelName": "simplecauldrongreen:purple",
+        "luminance": 3,
+        "boundingBoxes": [
+          {
+            "mx": 2.0,
+            "my": 0.0,
+            "mz": 2.0,
+            "Mx": 14.0,
+            "My": 8.0,
+            "Mz": 14.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "darkened_iron_block",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "darkened_iron_block",
+        "renderType": 2,
+        "customModelName": "simplecauldrongreen:red",
+        "luminance": 3,
+        "boundingBoxes": [
+          {
+            "mx": 2.0,
+            "my": 0.0,
+            "mz": 2.0,
+            "Mx": 14.0,
+            "My": 8.0,
+            "Mz": 14.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "darkened_iron_block",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "darkened_iron_block",
+        "renderType": 2,
+        "customModelName": "simplecauldrongreen:orange",
+        "luminance": 3,
+        "boundingBoxes": [
+          {
+            "mx": 2.0,
+            "my": 0.0,
+            "mz": 2.0,
+            "Mx": 14.0,
+            "My": 8.0,
+            "Mz": 14.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "darkened_iron_block",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "darkened_iron_block",
+        "renderType": 2,
+        "customModelName": "simplecauldrongreen:yellow",
+        "luminance": 3,
+        "boundingBoxes": [
+          {
+            "mx": 2.0,
+            "my": 0.0,
+            "mz": 2.0,
+            "Mx": 14.0,
+            "My": 8.0,
+            "Mz": 14.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "darkened_iron_block",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "darkened_iron_block",
+        "renderType": 2,
+        "customModelName": "simplecauldrongreen:brown",
+        "luminance": 3,
+        "boundingBoxes": [
+          {
+            "mx": 2.0,
+            "my": 0.0,
+            "mz": 2.0,
+            "Mx": 14.0,
+            "My": 8.0,
+            "Mz": 14.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "darkened_iron_block",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "darkened_iron_block",
+        "renderType": 2,
+        "customModelName": "simplecauldrongreen:gray",
+        "luminance": 3,
+        "boundingBoxes": [
+          {
+            "mx": 2.0,
+            "my": 0.0,
+            "mz": 2.0,
+            "Mx": 14.0,
+            "My": 8.0,
+            "Mz": 14.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "darkened_iron_block",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "darkened_iron_block",
+        "renderType": 2,
+        "customModelName": "simplecauldrongreen:black",
+        "luminance": 3,
+        "boundingBoxes": [
+          {
+            "mx": 2.0,
+            "my": 0.0,
+            "mz": 2.0,
+            "Mx": 14.0,
+            "My": 8.0,
+            "Mz": 14.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "darkened_iron_block",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "darkened_iron_block",
+        "renderType": 2,
+        "customModelName": "simplecauldronpowder:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 2.0,
+            "my": 0.0,
+            "mz": 2.0,
+            "Mx": 14.0,
+            "My": 8.0,
+            "Mz": 14.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "darkened_iron_block",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "darkened_iron_block",
+        "renderType": 2,
+        "customModelName": "simplecauldronpowder:green",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 2.0,
+            "my": 0.0,
+            "mz": 2.0,
+            "Mx": 14.0,
+            "My": 8.0,
+            "Mz": 14.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "darkened_iron_block",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "darkened_iron_block",
+        "renderType": 2,
+        "customModelName": "simplecauldronpowder:blue",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 2.0,
+            "my": 0.0,
+            "mz": 2.0,
+            "Mx": 14.0,
+            "My": 8.0,
+            "Mz": 14.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "darkened_iron_block",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "darkened_iron_block",
+        "renderType": 2,
+        "customModelName": "simplecauldronpowder:purple",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 2.0,
+            "my": 0.0,
+            "mz": 2.0,
+            "Mx": 14.0,
+            "My": 8.0,
+            "Mz": 14.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "darkened_iron_block",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "darkened_iron_block",
+        "renderType": 2,
+        "customModelName": "simplecauldronpowder:red",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 2.0,
+            "my": 0.0,
+            "mz": 2.0,
+            "Mx": 14.0,
+            "My": 8.0,
+            "Mz": 14.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "darkened_iron_block",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "darkened_iron_block",
+        "renderType": 2,
+        "customModelName": "simplecauldronpowder:gray",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 2.0,
+            "my": 0.0,
+            "mz": 2.0,
+            "Mx": 14.0,
+            "My": 8.0,
+            "Mz": 14.0,
+            "subtract": false
+          }
+        ]
+      }
+    ]
+  }
+}

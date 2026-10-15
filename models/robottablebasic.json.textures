@@ -1,0 +1,32 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "tin_block",
+        "1": "evilbarkside"
+      }
+    },
+    "head": {
+      "name": "head",
+      "map": {
+        "0": "tin_tabletop_head",
+        "1": "evilbarkside"
+      }
+    },
+    "body": {
+      "name": "body",
+      "map": {
+        "0": "tin_tabletop_body_arms",
+        "1": "evilbarkside"
+      }
+    },
+    "legs": {
+      "name": "legs",
+      "map": {
+        "0": "tin_tabletop_legs",
+        "1": "evilbarkside"
+      }
+    }
+  }
+}

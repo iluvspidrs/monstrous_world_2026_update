@@ -1,0 +1,33 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "monstrous_world_items",
+    "unlockingItems": [
+      "Blocks.GLASS",
+      "CUSTOM:EvilTreeButton",
+      "Items.STRING"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "",
+      "CUSTOM:EvilTreeButton",
+      "Items.STRING",
+      "",
+      "Blocks.GLASS",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:EmptyPowderBottle",
+    "name": "recipe_empty_powder_bottle",
+    "namespace": "mod"
+  }
+}

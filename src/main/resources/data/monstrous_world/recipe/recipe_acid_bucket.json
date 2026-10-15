@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:acidified_flesh"
+    },
+    {
+      "item": "monstrous_world:acidified_flesh"
+    },
+    {
+      "item": "monstrous_world:acidified_flesh"
+    },
+    {
+      "item": "monstrous_world:acidified_flesh"
+    },
+    {
+      "item": "monstrous_world:acidified_flesh"
+    },
+    {
+      "item": "monstrous_world:acidified_flesh"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:acid_bucket",
+    "count": 1
+  }
+}

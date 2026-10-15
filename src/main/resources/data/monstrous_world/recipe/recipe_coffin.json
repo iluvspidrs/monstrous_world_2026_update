@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "monstrous_world_items",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:evil_tree_log"
+    },
+    "b": {
+      "item": "minecraft:red_wool"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:coffin",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/centerglyph",
+  "textures": {
+    "all": "monstrous_world:block/centerglyph",
+    "particle": "monstrous_world:block/centerglyph",
+    "22": "monstrous_world:block/centerglyph"
+  },
+  "render_type": "cutout_mipped"
+}

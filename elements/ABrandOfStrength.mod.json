@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "A Brand Of Strength",
+    "achievementDescription": "Use the Brand of Strength, and then conquer an ocean monument",
+    "achievementIcon": "CUSTOM:BrandOfStrength",
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": "CUSTOM:ADeadlyAlly",
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"67\" y=\"44\"><next><block type=\"custom_trigger\"></block></next></block></xml>"
+  }
+}

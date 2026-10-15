@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:sorcerer_chestplate",
+    "monstrous_world:lab_coat_chestplate",
+    "monstrous_world:witchery_chestplate",
+    "monstrous_world:vampire_cloak_chestplate"
+  ]
+}

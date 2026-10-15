@@ -1,0 +1,22 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Lunar Pull",
+    "icon": "lunar_pull",
+    "color": {
+      "value": -8677471,
+      "falpha": 0.0
+    },
+    "onAddedSound": "",
+    "isInstant": false,
+    "mobEffectCategory": "NEUTRAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [],
+    "onStarted": "LunarPullEffectStartedapplied",
+    "onActiveTick": "LunarPullOnEffectActiveTick",
+    "onExpired": "LunarPullEffectExpires"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "monstrous_world:block/tough_floor_t_ile"
+    },
+    "facing=east": {
+      "model": "monstrous_world:block/tough_floor_t_ile",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "monstrous_world:block/tough_floor_t_ile",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "monstrous_world:block/tough_floor_t_ile",
+      "y": 270
+    }
+  }
+}

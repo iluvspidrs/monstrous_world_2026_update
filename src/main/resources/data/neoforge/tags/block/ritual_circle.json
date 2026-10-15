@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:concentrated_green_agate",
+    "monstrous_world:concentrated_pale_agate",
+    "monstrous_world:concentrated_sardonyx",
+    "minecraft:white_candle",
+    "monstrous_world:concentrated_clear_quartz",
+    "monstrous_world:white_glyph",
+    "monstrous_world:concentrated_blue_agate",
+    "monstrous_world:concentrated_onyx",
+    "monstrous_world:concentrated_malachite",
+    "monstrous_world:white_skull_bricks",
+    "monstrous_world:concentrated_nether_gem",
+    "monstrous_world:concentrated_moonstone",
+    "monstrous_world:concentrated_rose_quartz",
+    "monstrous_world:concentrated_tigers_eye",
+    "monstrous_world:concentrated_corrupted_crystal",
+    "monstrous_world:concentrated_red_agate",
+    "monstrous_world:darkened_candle"
+  ]
+}

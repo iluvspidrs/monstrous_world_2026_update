@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#c:is_dry/overworld",
+  "features": "monstrous_world:tigers_eye_ore",
+  "step": "underground_ores"
+}

@@ -1,0 +1,33 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "monstrous_world_items",
+    "unlockingItems": [
+      "CUSTOM:SilverNugget",
+      "Blocks.LIGHT_WEIGHTED_PRESSURE_PLATE",
+      "Blocks.COPPER_TRAPDOOR"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "TAG:c:nuggets/silver",
+      "",
+      "TAG:c:nuggets/silver",
+      "Blocks.COPPER_TRAPDOOR",
+      "Blocks.LIGHT_WEIGHTED_PRESSURE_PLATE",
+      "Blocks.COPPER_TRAPDOOR",
+      "TAG:c:nuggets/silver",
+      "",
+      "TAG:c:nuggets/silver"
+    ],
+    "recipeReturnStack": "CUSTOM:ComputerChip",
+    "name": "recipe_computer_chip",
+    "namespace": "mod"
+  }
+}

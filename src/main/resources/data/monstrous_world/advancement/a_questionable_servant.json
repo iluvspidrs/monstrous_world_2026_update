@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:captive_spirit"
+    },
+    "title": {
+      "translate": "advancements.a_questionable_servant.title"
+    },
+    "description": {
+      "translate": "advancements.a_questionable_servant.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_questionable_servant_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:how_charming"
+}

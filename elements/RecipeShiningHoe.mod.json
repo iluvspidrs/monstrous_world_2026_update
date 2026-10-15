@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:TrollWorkHammer",
+      "CUSTOM:ShiningNetheriteIngot"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:ShiningNetheriteIngot",
+      "CUSTOM:ShiningNetheriteIngot",
+      "",
+      "",
+      "Items.STICK",
+      "CUSTOM:TrollWorkHammer",
+      "",
+      "Items.STICK",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:ShiningNetheriteHoe",
+    "name": "recipe_shining_hoe",
+    "namespace": "mod"
+  }
+}

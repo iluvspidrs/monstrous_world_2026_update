@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_jungle",
+  "spawners": {
+    "type": "monstrous_world:giant_snake",
+    "weight": 100,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

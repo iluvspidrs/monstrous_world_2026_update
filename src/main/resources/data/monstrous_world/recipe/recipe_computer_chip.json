@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "monstrous_world_items",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bcb",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:nuggets/silver"
+    },
+    "b": {
+      "item": "minecraft:copper_trapdoor"
+    },
+    "c": {
+      "item": "minecraft:light_weighted_pressure_plate"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:computer_chip",
+    "count": 3
+  }
+}

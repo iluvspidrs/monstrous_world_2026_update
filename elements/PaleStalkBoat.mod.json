@@ -1,0 +1,15 @@
+{
+  "_fv": 89,
+  "_type": "specialentity",
+  "definition": {
+    "entityType": "Boat",
+    "name": "Pale Stalk Boat",
+    "rarity": "COMMON",
+    "creativeTabs": [
+      "TOOLS",
+      "CUSTOM:MonstrousWorldItems"
+    ],
+    "entityTexture": "pale_stalk_boat",
+    "itemTexture": "pale_stalk_boat"
+  }
+}

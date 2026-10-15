@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/corruptedcandle",
+  "textures": {
+    "all": "monstrous_world:block/corrupted_candle_wax",
+    "particle": "monstrous_world:block/corrupted_candle_wax",
+    "0": "monstrous_world:block/corrupted_candle_wax"
+  },
+  "render_type": "solid"
+}

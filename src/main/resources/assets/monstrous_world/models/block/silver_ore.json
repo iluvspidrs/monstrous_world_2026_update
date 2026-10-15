@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/silver_nugget_ore_2",
+    "up": "monstrous_world:block/silver_nugget_ore_2",
+    "north": "monstrous_world:block/silver_nugget_ore_2",
+    "east": "monstrous_world:block/silver_nugget_ore_2",
+    "south": "monstrous_world:block/silver_nugget_ore_2",
+    "west": "monstrous_world:block/silver_nugget_ore_2",
+    "particle": "monstrous_world:block/silver_nugget_ore_2"
+  },
+  "render_type": "solid"
+}

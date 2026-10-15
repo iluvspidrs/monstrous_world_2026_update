@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:FluteOfEnchantment",
+      "CUSTOM:EssenceOfDeception"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "CUSTOM:DarkenedPlanks",
+      "",
+      "CUSTOM:EssenceOfDeception",
+      "",
+      "CUSTOM:DarkenedPlanks",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:FluteOfEnchantment",
+    "name": "recipe_flute_of_enchantment",
+    "namespace": "mod"
+  }
+}

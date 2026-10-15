@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    "ab ",
+    "aa "
+  ],
+  "key": {
+    "a": {
+      "tag": "c:nuggets/silver"
+    },
+    "b": {
+      "tag": "c:ingots/silver"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:silver_dagger",
+    "count": 1
+  }
+}

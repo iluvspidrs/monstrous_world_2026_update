@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:venom_bottle"
+    },
+    "title": {
+      "translate": "advancements.reluctant_trading.title"
+    },
+    "description": {
+      "translate": "advancements.reluctant_trading.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "reluctant_trading_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:how_charming"
+}

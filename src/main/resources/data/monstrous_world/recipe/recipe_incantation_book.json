@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "monstrous_world_items",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:magically_treated_leather"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "monstrous_world:vile_lattice"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:incantation_book",
+    "count": 1
+  }
+}

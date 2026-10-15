@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "monstrous_world:textures/screens/magical_fabric.png",
+    "icon": {
+      "id": "monstrous_world:sorcerer_chestplate"
+    },
+    "title": {
+      "translate": "advancements.envied_by_all.title"
+    },
+    "description": {
+      "translate": "advancements.envied_by_all.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "envied_by_all_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

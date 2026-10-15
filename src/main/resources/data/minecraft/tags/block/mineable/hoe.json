@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:dark_thatch",
+    "monstrous_world:yellow_autumn_leaves",
+    "monstrous_world:deathly_leaves",
+    "monstrous_world:pale_stalk_leaves",
+    "monstrous_world:evil_tree_leaves",
+    "monstrous_world:red_autumn_leaves",
+    "monstrous_world:murkwood_leaves",
+    "monstrous_world:ghostly_leaves",
+    "monstrous_world:orange_autumn_leaves",
+    "monstrous_world:web_block",
+    "monstrous_world:darkened_leaves",
+    "monstrous_world:pumpkin_leaves",
+    "monstrous_world:active_darkened_leaves",
+    "monstrous_world:sanguine_leaves",
+    "monstrous_world:dark_thatch_slab"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "monstrous_world:custom/chainsaw",
+  "textures": {
+    "0": "monstrous_world:block/corinthian_bronze_block",
+    "1": "monstrous_world:block/robot_texture",
+    "2": "monstrous_world:block/tungsten_block",
+    "missing": "monstrous_world:block/",
+    "particle": "monstrous_world:item/chainsaw"
+  }
+}

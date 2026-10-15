@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:shimmering_dark_ingot"
+    },
+    "title": {
+      "translate": "advancements.harnessing_darkness.title"
+    },
+    "description": {
+      "translate": "advancements.harnessing_darkness.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "harnessing_darkness_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:answering_the_call"
+}

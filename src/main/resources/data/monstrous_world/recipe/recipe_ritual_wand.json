@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    " b ",
+    "c  "
+  ],
+  "key": {
+    "a": {
+      "tag": "c:gems/quartz"
+    },
+    "b": {
+      "item": "monstrous_world:darkened_log"
+    },
+    "c": {
+      "item": "monstrous_world:quartz_dust"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:ritual_wand",
+    "count": 1
+  }
+}

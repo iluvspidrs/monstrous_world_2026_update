@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:mutant_eye",
+    "monstrous_world:fly_mutant",
+    "monstrous_world:sorcerer_npc",
+    "monstrous_world:mutant_serpent",
+    "monstrous_world:witch_1",
+    "monstrous_world:swampmonster_villager",
+    "monstrous_world:follower_werewolf",
+    "monstrous_world:human_werewolf",
+    "monstrous_world:vampire_npc"
+  ]
+}

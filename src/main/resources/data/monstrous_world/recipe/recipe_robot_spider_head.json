@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "monstrous_world_items",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "eae"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "tag": "c:ingots/tin"
+    },
+    "c": {
+      "item": "monstrous_world:redstone_eye"
+    },
+    "d": {
+      "item": "monstrous_world:computer_chip"
+    },
+    "e": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:robot_spider_head",
+    "count": 1
+  }
+}

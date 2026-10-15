@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:eyes"
+    },
+    {
+      "item": "monstrous_world:eyes"
+    },
+    {
+      "item": "monstrous_world:eyes"
+    },
+    {
+      "item": "monstrous_world:eyes"
+    },
+    {
+      "item": "monstrous_world:sample_jar"
+    },
+    {
+      "item": "monstrous_world:eyes"
+    },
+    {
+      "item": "monstrous_world:eyes"
+    },
+    {
+      "item": "monstrous_world:eyes"
+    },
+    {
+      "item": "monstrous_world:eyes"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:jar_of_eyes",
+    "count": 1
+  }
+}

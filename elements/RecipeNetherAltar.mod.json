@@ -1,0 +1,33 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "Blocks.BLACKSTONE",
+      "CUSTOM:BlockOfNetherGems",
+      "CUSTOM:NetherGem"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:NetherGem",
+      "CUSTOM:BlockOfNetherGems",
+      "CUSTOM:NetherGem",
+      "",
+      "Blocks.BLACKSTONE",
+      "",
+      "Blocks.BLACKSTONE",
+      "Blocks.BLACKSTONE",
+      "Blocks.BLACKSTONE"
+    ],
+    "recipeReturnStack": "CUSTOM:NetherAltar",
+    "name": "recipe_nether_altar",
+    "namespace": "mod"
+  }
+}

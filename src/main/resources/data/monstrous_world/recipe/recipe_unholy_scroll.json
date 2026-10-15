@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "ghi"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:bottle_of_weak_blood"
+    },
+    "b": {
+      "item": "minecraft:black_dye"
+    },
+    "c": {
+      "item": "monstrous_world:soulflower"
+    },
+    "d": {
+      "tag": "c:gems/sardonyx"
+    },
+    "e": {
+      "item": "monstrous_world:charm_of_deception"
+    },
+    "f": {
+      "tag": "c:gems/black_onyx"
+    },
+    "g": {
+      "item": "monstrous_world:infernal_fabric"
+    },
+    "h": {
+      "item": "minecraft:paper"
+    },
+    "i": {
+      "item": "monstrous_world:dark_essence_dust"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:unholy_scroll",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:laptop",
+    "monstrous_world:troll_anvil",
+    "monstrous_world:confectionery_table",
+    "monstrous_world:morbid_work_table",
+    "monstrous_world:hunters_guild_mission_board",
+    "monstrous_world:goblin_oven",
+    "monstrous_world:hunters_guild_application_block",
+    "monstrous_world:charm_altar",
+    "monstrous_world:troll_forge_tungsten",
+    "monstrous_world:soul_crucible",
+    "monstrous_world:troll_forge_copper",
+    "monstrous_world:test_tube_mixer",
+    "monstrous_world:simple_cauldron",
+    "monstrous_world:blood_focus",
+    "monstrous_world:soaking_basin",
+    "monstrous_world:nether_altar",
+    "monstrous_world:advanced_cauldron",
+    "monstrous_world:goblin_workstation"
+  ]
+}

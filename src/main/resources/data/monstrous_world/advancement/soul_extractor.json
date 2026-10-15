@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:infernal_shovel"
+    },
+    "title": {
+      "translate": "advancements.soul_extractor.title"
+    },
+    "description": {
+      "translate": "advancements.soul_extractor.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "soul_extractor_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:an_infernal_tome"
+}

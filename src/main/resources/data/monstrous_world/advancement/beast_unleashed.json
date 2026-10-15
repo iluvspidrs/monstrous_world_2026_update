@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:alpha_claw"
+    },
+    "title": {
+      "translate": "advancements.beast_unleashed.title"
+    },
+    "description": {
+      "translate": "advancements.beast_unleashed.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "beast_unleashed_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:bitten"
+}

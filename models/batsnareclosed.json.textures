@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "snare_texture",
+        "1": "swampmonster_blood"
+      }
+    }
+  }
+}

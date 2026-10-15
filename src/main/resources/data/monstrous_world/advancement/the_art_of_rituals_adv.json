@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:the_art_of_rituals"
+    },
+    "title": {
+      "translate": "advancements.the_art_of_rituals_adv.title"
+    },
+    "description": {
+      "translate": "advancements.the_art_of_rituals_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_art_of_rituals_adv_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:beginning_magic"
+}

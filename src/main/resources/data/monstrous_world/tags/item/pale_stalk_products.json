@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:pale_stalk_fence",
+    "monstrous_world:pale_stalk_stripped_wood",
+    "monstrous_world:pale_stalk_leaves",
+    "monstrous_world:pale_stalk_wood",
+    "monstrous_world:pale_stalk_stairs",
+    "monstrous_world:pale_stalk_stripped_log",
+    "monstrous_world:pale_stalk_door",
+    "monstrous_world:pale_stalk_log",
+    "monstrous_world:pale_stalk_trapdoor",
+    "monstrous_world:pale_stalk_pressure_plate",
+    "monstrous_world:pale_stalk_barricade",
+    "monstrous_world:pale_stalk_fence_gate",
+    "monstrous_world:pale_stalk_button",
+    "monstrous_world:pale_stalk_slab",
+    "monstrous_world:pale_stalk_planks",
+    "monstrous_world:pale_stalk_sapling"
+  ]
+}

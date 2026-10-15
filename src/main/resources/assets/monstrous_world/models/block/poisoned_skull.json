@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/poisonedskull",
+  "textures": {
+    "all": "monstrous_world:block/poisoned_skull_texture",
+    "particle": "monstrous_world:block/poisoned_skull_texture",
+    "0": "monstrous_world:block/poisoned_skull_texture"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "evilaltartop",
+        "1": "minecraft:blackstone",
+        "2": "altarcloth",
+        "missing": ""
+      }
+    }
+  }
+}

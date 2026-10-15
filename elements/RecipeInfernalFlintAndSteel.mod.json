@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:InfernalIronIngot",
+      "Items.FLINT"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "",
+      "CUSTOM:InfernalIronIngot",
+      "",
+      "",
+      "",
+      "Items.FLINT"
+    ],
+    "recipeReturnStack": "Items.FLINT_AND_STEEL",
+    "name": "recipe_infernal_flint_and_steel",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:pumpkin_boat",
+    "monstrous_world:ghostly_boat",
+    "monstrous_world:sanguinus_boat",
+    "monstrous_world:murkwood_boat",
+    "monstrous_world:deathly_boat",
+    "monstrous_world:evil_boat",
+    "monstrous_world:pale_stalk_boat"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#c:is_dry",
+  "features": "monstrous_world:awakened_patch_2",
+  "step": "surface_structures"
+}

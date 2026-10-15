@@ -1,0 +1,16 @@
+{
+  "_fv": 89,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      "CUSTOM:AdvancedCauldron"
+    ],
+    "information": [
+      "The Advanced Cauldron is limited to use by Witches and Warlocks of at least Level 5.",
+      "",
+      "Information on use is found in the Tome of Witchery, and in recipes obtained by opening Dropped Notebooks, which are found throughout the world on the ground.",
+      "",
+      "JEI recipes for magical powders are disabled to prevent cheating or use by the wrong faction."
+    ]
+  }
+}

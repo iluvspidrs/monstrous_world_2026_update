@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:hunter_mission_for_goblin"
+    },
+    "title": {
+      "translate": "advancements.your_first_mission.title"
+    },
+    "description": {
+      "translate": "advancements.your_first_mission.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "your_first_mission_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:vital_equipment"
+}

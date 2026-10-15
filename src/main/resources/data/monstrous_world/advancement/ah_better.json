@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:stabilizer_flask"
+    },
+    "title": {
+      "translate": "advancements.ah_better.title"
+    },
+    "description": {
+      "translate": "advancements.ah_better.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ah_better_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:this_will_only_hurt_a_little"
+}

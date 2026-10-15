@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:cotton_candy_villager"
+    },
+    "title": {
+      "translate": "advancements.the_worlds_best_cotton_candy.title"
+    },
+    "description": {
+      "translate": "advancements.the_worlds_best_cotton_candy.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_worlds_best_cotton_candy_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:free_candy"
+}

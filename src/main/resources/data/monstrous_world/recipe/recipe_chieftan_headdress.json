@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "a a",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:swamp_crystal_shard"
+    },
+    "b": {
+      "item": "monstrous_world:hungry_tree_heart"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:chieftan_headdress_helmet",
+    "count": 1
+  }
+}

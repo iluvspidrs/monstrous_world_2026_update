@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "monstrous_world_tools",
+    "unlockingItems": [
+      "Blocks.CARPET#0",
+      "CUSTOM:AHintOfInsanity"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Blocks.CARPET#0",
+      "",
+      "Blocks.CARPET#0",
+      "Blocks.CARPET#0",
+      "CUSTOM:AHintOfInsanity",
+      "Blocks.CARPET#0",
+      "Blocks.CARPET#0",
+      "Blocks.CARPET#0",
+      "Blocks.CARPET#0"
+    ],
+    "recipeReturnStack": "CUSTOM:LabCoat.body",
+    "name": "lab_coat_recipe",
+    "namespace": "mod"
+  }
+}

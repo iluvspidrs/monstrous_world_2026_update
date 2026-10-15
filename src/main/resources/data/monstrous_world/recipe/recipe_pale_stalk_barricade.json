@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "monstrous_world:pale_stalk_slab"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:pale_stalk_barricade",
+    "count": 4
+  }
+}

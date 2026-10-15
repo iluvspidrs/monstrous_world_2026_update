@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:lab_coat_chestplate"
+    },
+    "title": {
+      "translate": "advancements.splatter_protection.title"
+    },
+    "description": {
+      "translate": "advancements.splatter_protection.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "splatter_protection_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:your_first_experiment"
+}

@@ -1,0 +1,37 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Sugar Rush",
+    "icon": "corruption_resistance",
+    "color": {
+      "value": -52,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "equipmentSlot": "any",
+        "attribute": "ATTACK_SPEED",
+        "amount": 1.0,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "equipmentSlot": "any",
+        "attribute": "JUMP_STRENGTH",
+        "amount": 1.2,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "equipmentSlot": "any",
+        "attribute": "MOVEMENT_SPEED",
+        "amount": 1.2,
+        "operation": "ADD_VALUE"
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "monstrous_world:block/pale_stalk_planks",
+    "particle": "monstrous_world:block/pale_stalk_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,202 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 170,
+    "height": 240,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "societypamphletpage1.png",
+          "use1Xscale": false,
+          "displayCondition": "SocietyPamphletPage1Condition",
+          "x": 69,
+          "y": 17,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_forward_button",
+          "image": "forward_button.png",
+          "hoveredImage": "forward_button_hover.png",
+          "onClick": "SocietyPamphletPageForward",
+          "displayCondition": "SocietyPamphletForwardButtonShowCondition",
+          "x": 261,
+          "y": 188,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_back_button",
+          "image": "back_button.png",
+          "hoveredImage": "back_button_hover.png",
+          "onClick": "SocietyPamphletPageBackward",
+          "displayCondition": "SocietyPamphletBackwardButtonShowCondition",
+          "x": 139,
+          "y": 188,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "societypamphletpage2.png",
+          "use1Xscale": false,
+          "displayCondition": "SocietyPamphletPage2Condition",
+          "x": 69,
+          "y": 17,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "societypamphletpage3.png",
+          "use1Xscale": false,
+          "displayCondition": "SocietyPamphletPage3Condition",
+          "x": 69,
+          "y": 17,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "societypamphletpage4.png",
+          "use1Xscale": false,
+          "displayCondition": "SocietyPamphletPage4Condition",
+          "x": 69,
+          "y": 17,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "societypamphletpage5.png",
+          "use1Xscale": false,
+          "displayCondition": "SocietyPamphletPage5Condition",
+          "x": 69,
+          "y": 17,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "societypamphletpage6.png",
+          "use1Xscale": false,
+          "displayCondition": "SocietyPamphletPage6Condition",
+          "x": 69,
+          "y": 17,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "societypamphletpage7.png",
+          "use1Xscale": false,
+          "displayCondition": "SocietyPamphletPage7Condition",
+          "x": 69,
+          "y": 17,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "societypamphletpage8.png",
+          "use1Xscale": false,
+          "displayCondition": "SocietyPamphletPage8Condition",
+          "x": 69,
+          "y": 17,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "societypamphletpage9.png",
+          "use1Xscale": false,
+          "displayCondition": "SocietyPamphletPage9Condition",
+          "x": 69,
+          "y": 17,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "societypamphletpage10.png",
+          "use1Xscale": false,
+          "displayCondition": "SocietyPamphletPage10Condition",
+          "x": 69,
+          "y": 17,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "societypamphletpage11.png",
+          "use1Xscale": false,
+          "displayCondition": "SocietyPamphletPage11Condition",
+          "x": 69,
+          "y": 17,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "societypamphletpage12.png",
+          "use1Xscale": false,
+          "displayCondition": "SocietyPamphletPage12Condition",
+          "x": 69,
+          "y": 17,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "societypamphletpage13.png",
+          "use1Xscale": false,
+          "displayCondition": "SocietyPamphletPage13Condition",
+          "x": 69,
+          "y": 17,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "societypamphletpage14.png",
+          "use1Xscale": false,
+          "displayCondition": "SocietyPamphletPage14Condition",
+          "x": 69,
+          "y": 17,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

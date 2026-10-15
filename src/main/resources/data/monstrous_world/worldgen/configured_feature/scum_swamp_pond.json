@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:spring_feature",
+  "config": {
+    "state": {
+      "Name": "minecraft:water"
+    },
+    "valid_blocks": "#minecraft:mineable/shovel"
+  }
+}

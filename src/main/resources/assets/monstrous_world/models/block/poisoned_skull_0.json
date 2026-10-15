@@ -1,0 +1,11 @@
+{
+  "parent": "monstrous_world:custom/poisonedskullseeded",
+  "textures": {
+    "all": "monstrous_world:block/poisoned_skull_texture",
+    "particle": "monstrous_world:block/poisoned_skull_texture",
+    "0": "monstrous_world:block/poisoned_skull_texture",
+    "1": "monstrous_world:block/mysterious_seed_in_skull",
+    "2": "monstrous_world:block/bark_large"
+  },
+  "render_type": "cutout"
+}

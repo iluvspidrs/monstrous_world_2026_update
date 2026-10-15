@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:tome_of_wealth"
+    },
+    "title": {
+      "translate": "advancements.stay_for_a_spell.title"
+    },
+    "description": {
+      "translate": "advancements.stay_for_a_spell.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "stay_for_a_spell_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:reluctant_trading"
+}

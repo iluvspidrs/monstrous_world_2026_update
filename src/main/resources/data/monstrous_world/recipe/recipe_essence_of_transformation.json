@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:essence_of_deception"
+    },
+    {
+      "item": "monstrous_world:dark_essence_dust"
+    },
+    {
+      "item": "monstrous_world:essence_of_enchantment"
+    },
+    {
+      "item": "monstrous_world:dark_essence_dust"
+    },
+    {
+      "item": "monstrous_world:essence_of_deception"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:essence_of_transformation",
+    "count": 4
+  }
+}

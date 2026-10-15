@@ -1,0 +1,22 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 16,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:BlockOfTin",
+      "TAG:c:storage_blocks/tin"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": "TAG:c:storage_blocks/tin",
+    "stoneCuttingReturnStack": "CUSTOM:TinTrapdoor",
+    "name": "stonecutter_tin_trapdoor",
+    "namespace": "mod"
+  }
+}

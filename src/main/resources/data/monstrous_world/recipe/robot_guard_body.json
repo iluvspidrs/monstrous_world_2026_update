@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:block_of_darkened_iron"
+    },
+    "b": {
+      "item": "monstrous_world:tin_rod"
+    },
+    "c": {
+      "item": "monstrous_world:darkened_iron_ingot"
+    },
+    "d": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:guard_robot_body",
+    "count": 1
+  }
+}

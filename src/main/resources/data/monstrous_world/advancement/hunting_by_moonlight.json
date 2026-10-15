@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:werewolf_claw"
+    },
+    "title": {
+      "translate": "advancements.hunting_by_moonlight.title"
+    },
+    "description": {
+      "translate": "advancements.hunting_by_moonlight.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hunting_by_moonlight_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:ninja_hunter"
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:modified_bronze_pickaxe_clear",
+    "monstrous_world:modified_bronze_pickaxe_nether",
+    "monstrous_world:modified_bronze_pickaxe_blue_agate",
+    "monstrous_world:modified_bronze_pickaxe_green_agate",
+    "monstrous_world:modified_bronze_pickaxe_rose"
+  ]
+}

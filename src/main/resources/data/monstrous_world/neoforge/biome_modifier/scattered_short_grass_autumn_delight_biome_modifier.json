@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "monstrous_world:autumn_delight",
+  "features": "monstrous_world:scattered_short_grass_autumn_delight",
+  "step": "surface_structures"
+}

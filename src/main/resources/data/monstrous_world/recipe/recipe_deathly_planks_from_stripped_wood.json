@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "monstrous_world:stripped_deathly_wood"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:deathly_wood_planks",
+    "count": 4
+  }
+}

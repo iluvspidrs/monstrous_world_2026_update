@@ -1,0 +1,11 @@
+{
+  "parent": "monstrous_world:custom/flaskwithliquid",
+  "textures": {
+    "all": "monstrous_world:block/glass_translucent",
+    "particle": "monstrous_world:block/glass_translucent",
+    "0": "monstrous_world:block/glass_translucent",
+    "1": "monstrous_world:block/stabilizerfluid",
+    "missing": "monstrous_world:block/"
+  },
+  "render_type": "translucent"
+}

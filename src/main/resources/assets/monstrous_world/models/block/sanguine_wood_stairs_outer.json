@@ -1,0 +1,10 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "monstrous_world:block/sanguine_planks",
+    "bottom": "monstrous_world:block/sanguine_planks",
+    "top": "monstrous_world:block/sanguine_planks",
+    "side": "monstrous_world:block/sanguine_planks"
+  },
+  "render_type": "solid"
+}

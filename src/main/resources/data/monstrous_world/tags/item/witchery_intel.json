@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:chickenify_powder_recipe",
+    "monstrous_world:undeath_cure_powder_recipe",
+    "monstrous_world:pumpkin_powder_recipe",
+    "monstrous_world:a_guide_to_magickal_plants",
+    "monstrous_world:spirit_powder_recipe",
+    "monstrous_world:werewolf_cure_powder_recipe",
+    "monstrous_world:vanishing_powder_recipe",
+    "monstrous_world:bookish_powder_recipe",
+    "monstrous_world:obstruction_powder_recipe",
+    "monstrous_world:midas_curse_powder_recipe",
+    "monstrous_world:sinking_powder_recipe",
+    "monstrous_world:flight_powder_recipe",
+    "monstrous_world:frogify_powder_recipe",
+    "monstrous_world:paralysis_powder_recipe",
+    "monstrous_world:explosion_powder_recipe",
+    "monstrous_world:tome_of_witchery",
+    "monstrous_world:vampire_cure_powder_recipe"
+  ]
+}

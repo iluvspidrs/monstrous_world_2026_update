@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 4,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "monstrous_world:agate_ore_replaceables"
+        },
+        "state": {
+          "Name": "monstrous_world:odd_green_gravel"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:trick_or_treat_bag"
+    },
+    "title": {
+      "translate": "advancements.risky_click.title"
+    },
+    "description": {
+      "translate": "advancements.risky_click.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "risky_click_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:monstrous_world"
+}

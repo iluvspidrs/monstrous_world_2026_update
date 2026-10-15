@@ -1,0 +1,15 @@
+{
+  "type": "monstrous_world:hunters_warning_demon_seed_feature",
+  "config": {
+    "structure": "monstrous_world:hunters_warning_demon_seed",
+    "ignored_blocks": [
+      "minecraft:structure_block",
+      "minecraft:jigsaw"
+    ],
+    "offset": [
+      0,
+      -1,
+      0
+    ]
+  }
+}

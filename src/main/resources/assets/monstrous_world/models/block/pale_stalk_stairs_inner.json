@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "monstrous_world:block/pale_stalk_planks",
+    "bottom": "monstrous_world:block/pale_stalk_planks",
+    "top": "monstrous_world:block/pale_stalk_planks",
+    "side": "monstrous_world:block/pale_stalk_planks"
+  },
+  "render_type": "solid"
+}

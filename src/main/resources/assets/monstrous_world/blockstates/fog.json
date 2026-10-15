@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "monstrous_world:block/fog"
+    },
+    "type=top": {
+      "model": "monstrous_world:block/fog_top"
+    },
+    "type=double": {
+      "model": "monstrous_world:block/fog_full"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:ElectrumNugget"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:ElectrumNugget",
+      "CUSTOM:ElectrumNugget",
+      "CUSTOM:ElectrumNugget",
+      "CUSTOM:ElectrumNugget",
+      "CUSTOM:ElectrumNugget",
+      "CUSTOM:ElectrumNugget",
+      "CUSTOM:ElectrumNugget",
+      "CUSTOM:ElectrumNugget",
+      "CUSTOM:ElectrumNugget"
+    ],
+    "recipeReturnStack": "CUSTOM:ElectrumIngot",
+    "name": "recipe_electrum_ingot",
+    "namespace": "mod"
+  }
+}

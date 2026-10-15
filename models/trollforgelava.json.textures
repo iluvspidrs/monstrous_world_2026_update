@@ -1,0 +1,31 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "cast_iron_block",
+        "3": "minecraft:copper_block",
+        "5": "minecraft:lava_still",
+        "missing": ""
+      },
+      "name": "default"
+    },
+    "upgraded": {
+      "map": {
+        "2": "cast_iron_block",
+        "3": "block_of_raw_tungsten",
+        "5": "minecraft:lava_still",
+        "missing": ""
+      },
+      "name": "upgraded"
+    },
+    "upgraded_blaze": {
+      "map": {
+        "2": "cast_iron_block",
+        "3": "block_of_raw_tungsten",
+        "5": "blaze_lava",
+        "missing": ""
+      },
+      "name": "upgraded_blaze"
+    }
+  }
+}

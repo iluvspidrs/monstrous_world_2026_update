@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "monstrous_world:block/pumpkin_tree_leaves",
+    "particle": "monstrous_world:block/pumpkin_tree_leaves"
+  }
+}

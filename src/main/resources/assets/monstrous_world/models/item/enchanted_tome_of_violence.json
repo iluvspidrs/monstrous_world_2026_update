@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "monstrous_world:item/tome_of_violence"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "monstrous_world:enchanted_tome_of_violence_unlocked": 0
+      },
+      "model": "monstrous_world:item/enchanted_tome_of_violence_0"
+    },
+    {
+      "predicate": {
+        "monstrous_world:enchanted_tome_of_violence_unlocked": 1
+      },
+      "model": "monstrous_world:item/enchanted_tome_of_violence_1"
+    }
+  ]
+}

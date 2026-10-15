@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "transparent_awakened_soul_sand",
+        "missing": "transparent_awakened_soul_sand"
+      },
+      "name": "default"
+    }
+  }
+}

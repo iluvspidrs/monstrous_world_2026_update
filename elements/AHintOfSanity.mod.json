@@ -1,0 +1,14 @@
+{
+  "_fv": 89,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      "CUSTOM:HintOfSanity"
+    ],
+    "information": [
+      "A Hint of Sanity is a golden dust created by combining a Golden Apple with a Hint of Insanity. This purifies the dust, which is used in some recipes.",
+      "",
+      "Cookies made with this dust can cure the insanity and paranoia inflicted by Dreadful Watchers."
+    ]
+  }
+}

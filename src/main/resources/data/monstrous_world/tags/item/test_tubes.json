@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:dreadful_watcher_dna_sample",
+    "monstrous_world:darkness_sample",
+    "monstrous_world:redstone_sample",
+    "monstrous_world:fly_dna_sample",
+    "monstrous_world:illager_dna_sample",
+    "monstrous_world:spider_dna_sample",
+    "monstrous_world:serpent_dna_sample",
+    "monstrous_world:undead_tissue_sample",
+    "monstrous_world:glowstone_sample"
+  ]
+}

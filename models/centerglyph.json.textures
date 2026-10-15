@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "22": "centerglyph"
+      },
+      "name": "default"
+    }
+  }
+}

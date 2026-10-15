@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:SoulInfusedGlass",
+      "CUSTOM:DeathlyWoodSlab"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "CUSTOM:DeathlyWoodSlab",
+      "",
+      "CUSTOM:SoulInfusedGlass",
+      "",
+      "CUSTOM:SoulInfusedGlass",
+      "CUSTOM:SoulInfusedGlass",
+      "CUSTOM:SoulInfusedGlass",
+      "CUSTOM:SoulInfusedGlass"
+    ],
+    "recipeReturnStack": "CUSTOM:SampleJar",
+    "name": "recipe_sample_jar",
+    "namespace": "mod"
+  }
+}

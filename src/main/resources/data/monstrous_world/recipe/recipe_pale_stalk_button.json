@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:pale_stalk_planks"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:pale_stalk_button",
+    "count": 1
+  }
+}

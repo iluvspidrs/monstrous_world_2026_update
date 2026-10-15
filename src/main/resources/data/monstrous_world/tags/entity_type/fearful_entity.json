@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:goblin_villager",
+    "monstrous_world:goblin_follower",
+    "wandering_trader",
+    "monstrous_world:mutant_eye",
+    "monstrous_world:fly_mutant",
+    "monstrous_world:swampmonster_chieftan",
+    "villager",
+    "monstrous_world:mutant_serpent",
+    "monstrous_world:witch_1",
+    "monstrous_world:swampmonster_villager"
+  ]
+}

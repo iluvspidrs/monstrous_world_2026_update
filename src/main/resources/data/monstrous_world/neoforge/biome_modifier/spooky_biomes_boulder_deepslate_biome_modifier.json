@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "monstrous_world:murky_madness",
+    "monstrous_world:deathly_forest",
+    "monstrous_world:crimson_dread",
+    "monstrous_world:forsaken_lands",
+    "monstrous_world:autumn_delight",
+    "monstrous_world:pumpkin_hollow"
+  ],
+  "features": "monstrous_world:spooky_biomes_boulder_deepslate",
+  "step": "surface_structures"
+}

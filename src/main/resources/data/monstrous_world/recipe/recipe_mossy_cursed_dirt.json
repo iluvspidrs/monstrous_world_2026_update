@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:vine"
+    },
+    "b": {
+      "item": "monstrous_world:cursed_dirt_decoration"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:mossy_cursed_dirt_decoration",
+    "count": 2
+  }
+}

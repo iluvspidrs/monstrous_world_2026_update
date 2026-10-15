@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "red_onyx_block",
+        "1": "moonstone_block",
+        "2": "black_onyx_block",
+        "missing": ""
+      }
+    }
+  }
+}

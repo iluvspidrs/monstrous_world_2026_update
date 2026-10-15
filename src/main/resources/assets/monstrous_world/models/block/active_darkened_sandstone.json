@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/activecorruptedsandstonebottom",
+    "up": "monstrous_world:block/activedarkenedsandstonetop",
+    "north": "monstrous_world:block/activedarkenedsandstoneside",
+    "east": "monstrous_world:block/activedarkenedsandstoneside",
+    "south": "monstrous_world:block/activedarkenedsandstoneside",
+    "west": "monstrous_world:block/activedarkenedsandstoneside",
+    "particle": "monstrous_world:block/activecorruptedsandstonebottom"
+  },
+  "render_type": "solid"
+}

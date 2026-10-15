@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:captive_infernal_light"
+    },
+    "title": {
+      "translate": "advancements.pure_wickedness.title"
+    },
+    "description": {
+      "translate": "advancements.pure_wickedness.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pure_wickedness_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:a_wicked_altar"
+}

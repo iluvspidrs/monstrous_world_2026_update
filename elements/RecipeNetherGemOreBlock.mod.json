@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:NetherGem"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:NetherGem",
+      "CUSTOM:NetherGem",
+      "CUSTOM:NetherGem",
+      "CUSTOM:NetherGem",
+      "CUSTOM:NetherGem",
+      "CUSTOM:NetherGem",
+      "CUSTOM:NetherGem",
+      "CUSTOM:NetherGem",
+      "CUSTOM:NetherGem"
+    ],
+    "recipeReturnStack": "CUSTOM:BlockOfNetherGems",
+    "name": "recipe_nether_gem_ore_block",
+    "namespace": "mod"
+  }
+}

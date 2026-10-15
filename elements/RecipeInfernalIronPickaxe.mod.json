@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:InfernalIronIngot",
+      "CUSTOM:NetherGem"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:InfernalIronIngot",
+      "CUSTOM:NetherGem",
+      "CUSTOM:InfernalIronIngot",
+      "",
+      "Items.STICK",
+      "",
+      "",
+      "Items.STICK",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:InfernalIronPickaxe",
+    "name": "recipe_infernal_iron_pickaxe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "monstrous_world:abandoned_cart_feature",
+  "config": {
+    "structure": "monstrous_world:abandoned_cart",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:air",
+    "offset": [
+      -3,
+      -1,
+      -3
+    ]
+  }
+}

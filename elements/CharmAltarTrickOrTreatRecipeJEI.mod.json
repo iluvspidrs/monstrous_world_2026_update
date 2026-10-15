@@ -1,0 +1,23 @@
+{
+  "_fv": 89,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "charm_altar_recipe_type",
+    "ingredients": [
+      "CUSTOM:CaptiveSpirit",
+      "CUSTOM:MagicallyTreatedLeather",
+      "Items.STRING",
+      "CUSTOM:IncantationBook"
+    ],
+    "integers": [],
+    "strings": [],
+    "recipetype": "CharmAltarRecipeType",
+    "results": [
+      "CUSTOM:TrickOrTreatBag"
+    ],
+    "resultCounts": [
+      3
+    ],
+    "count": 0
+  }
+}

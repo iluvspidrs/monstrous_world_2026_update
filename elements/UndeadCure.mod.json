@@ -1,0 +1,27 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Undead Cure",
+    "icon": "curing",
+    "color": {
+      "value": -3179259,
+      "falpha": 0.0
+    },
+    "onAddedSound": "",
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "equipmentSlot": "any",
+        "attribute": "ATTACK_DAMAGE",
+        "amount": 1.0,
+        "operation": "ADD_VALUE"
+      }
+    ],
+    "onActiveTick": "UndeadCureActiveTickCondition"
+  }
+}

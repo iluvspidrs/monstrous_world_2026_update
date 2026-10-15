@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "monstrous_world:deathly_forest",
+    "monstrous_world:foggy_expanse"
+  ],
+  "features": "monstrous_world:deathcatcher_single",
+  "step": "surface_structures"
+}

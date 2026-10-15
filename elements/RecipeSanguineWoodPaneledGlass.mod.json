@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 5,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:DarkenedGlass",
+      "CUSTOM:SanguineWoodPlanks"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:SanguineWoodPlanks",
+      "CUSTOM:DarkenedGlass",
+      "CUSTOM:SanguineWoodPlanks",
+      "CUSTOM:DarkenedGlass",
+      "CUSTOM:DarkenedGlass",
+      "CUSTOM:DarkenedGlass",
+      "CUSTOM:SanguineWoodPlanks",
+      "CUSTOM:DarkenedGlass",
+      "CUSTOM:SanguineWoodPlanks"
+    ],
+    "recipeReturnStack": "CUSTOM:SanguineWoodPaneledGlass",
+    "name": "recipe_sanguine_wood_paneled_glass",
+    "namespace": "mod"
+  }
+}

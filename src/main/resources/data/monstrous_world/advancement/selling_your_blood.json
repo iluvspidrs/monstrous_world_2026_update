@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:bottle_of_blood"
+    },
+    "title": {
+      "translate": "advancements.selling_your_blood.title"
+    },
+    "description": {
+      "translate": "advancements.selling_your_blood.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "selling_your_blood_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:unfriendly_faces"
+}

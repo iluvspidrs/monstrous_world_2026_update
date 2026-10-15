@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/darkened_cobblestone",
+    "up": "monstrous_world:block/darkened_cobblestone",
+    "north": "monstrous_world:block/darkened_cobblestone",
+    "east": "monstrous_world:block/darkened_cobblestone",
+    "south": "monstrous_world:block/darkened_cobblestone",
+    "west": "monstrous_world:block/darkened_cobblestone",
+    "particle": "monstrous_world:block/darkened_cobblestone"
+  },
+  "render_type": "solid"
+}

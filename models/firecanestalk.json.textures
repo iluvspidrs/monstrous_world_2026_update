@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "minecraft:lava_still",
+        "2": "firecane_surface"
+      },
+      "name": "default"
+    }
+  }
+}

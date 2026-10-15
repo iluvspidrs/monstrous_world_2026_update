@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/pumpkin_planks",
+    "up": "monstrous_world:block/pumpkin_planks",
+    "north": "monstrous_world:block/pumpkin_planks",
+    "east": "monstrous_world:block/pumpkin_planks",
+    "south": "monstrous_world:block/pumpkin_planks",
+    "west": "monstrous_world:block/pumpkin_planks",
+    "particle": "monstrous_world:block/pumpkin_planks"
+  },
+  "render_type": "solid"
+}

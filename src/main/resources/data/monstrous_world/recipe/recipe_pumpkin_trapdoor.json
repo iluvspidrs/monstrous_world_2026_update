@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:pumpkin_planks"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:pumpkin_trapdoor",
+    "count": 2
+  }
+}

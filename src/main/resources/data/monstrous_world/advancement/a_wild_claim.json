@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:territory_marker"
+    },
+    "title": {
+      "translate": "advancements.a_wild_claim.title"
+    },
+    "description": {
+      "translate": "advancements.a_wild_claim.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_wild_claim_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:a_full_alpha"
+}

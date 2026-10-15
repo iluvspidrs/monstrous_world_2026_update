@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "surface": "floor",
+    "xz_radius": {
+      "type": "uniform",
+      "min_inclusive": 4,
+      "max_inclusive": 7
+    },
+    "vertical_range": 3,
+    "vegetation_feature": {
+      "feature": "monstrous_world:fog_single",
+      "placement": []
+    },
+    "vegetation_chance": 0.9,
+    "ground_state": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:rooted_dirt"
+      }
+    },
+    "replaceable": "#lush_ground_replaceable",
+    "depth": 3,
+    "extra_bottom_block_chance": 0,
+    "extra_edge_column_chance": 0.7
+  }
+}

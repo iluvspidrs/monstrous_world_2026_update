@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "monstrous_world:blocks/darkened_planks_door",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "monstrous_world:darkened_planks_door",
+          "conditions": [
+            {
+              "block": "monstrous_world:darkened_planks_door",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

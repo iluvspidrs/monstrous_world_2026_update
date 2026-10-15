@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:infected_goon",
+    "monstrous_world:hunter_npc",
+    "monstrous_world:troll_npc",
+    "monstrous_world:pumpkin_golem",
+    "monstrous_world:helper_spirit",
+    "monstrous_world:swampmonster_chieftan",
+    "monstrous_world:witch_1",
+    "monstrous_world:darkened_blossom",
+    "monstrous_world:cured_vampire",
+    "monstrous_world:follower_werewolf",
+    "monstrous_world:goblin_villager",
+    "monstrous_world:goblin_follower",
+    "monstrous_world:hunter_patrol_npc",
+    "monstrous_world:servant_pumpkin",
+    "wandering_trader",
+    "monstrous_world:servant_skeleton",
+    "monstrous_world:sorcerer_npc",
+    "villager",
+    "pillager",
+    "monstrous_world:aggressive_guard",
+    "monstrous_world:swampmonster_villager",
+    "monstrous_world:society_goon",
+    "monstrous_world:human_werewolf"
+  ]
+}

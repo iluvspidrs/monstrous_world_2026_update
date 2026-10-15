@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:bookish_powder"
+    },
+    "title": {
+      "translate": "advancements.a_book_lovers_gift.title"
+    },
+    "description": {
+      "translate": "advancements.a_book_lovers_gift.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_book_lovers_gift_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:a_furry_alarm_clock"
+}

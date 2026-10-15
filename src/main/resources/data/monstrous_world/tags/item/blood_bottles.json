@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:bottle_of_blood",
+    "monstrous_world:bottle_of_fly_mutant_blood",
+    "monstrous_world:bottle_of_troll_blood",
+    "monstrous_world:bottle_of_goblin_blood",
+    "monstrous_world:bottle_of_serpent_mutant_blood",
+    "monstrous_world:bottle_of_swampmonster_blood",
+    "monstrous_world:bottle_of_werewolf_blood",
+    "monstrous_world:bottle_of_eye_mutant_blood",
+    "monstrous_world:bottle_of_weak_blood"
+  ]
+}

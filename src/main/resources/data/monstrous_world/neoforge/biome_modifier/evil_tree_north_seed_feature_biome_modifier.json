@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#c:is_forest",
+  "features": "monstrous_world:evil_tree_north_seed_feature",
+  "step": "surface_structures"
+}

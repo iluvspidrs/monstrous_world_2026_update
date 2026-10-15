@@ -1,0 +1,38 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "monstrous_world_tools",
+    "unlockingItems": [
+      "CUSTOM:Moonstone",
+      "CUSTOM:BlockOfMoonstone",
+      "CUSTOM:BlackOnyx",
+      "CUSTOM:Sardonyx",
+      "CUSTOM:BlockOfSardoynx",
+      "TAG:c:gems/black_onyx",
+      "TAG:c:storage_blocks/moonstone",
+      "TAG:c:storage_blocks/sardonyx"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "TAG:c:gems/black_onyx",
+      "",
+      "TAG:c:gems/black_onyx",
+      "TAG:c:gems/black_onyx",
+      "TAG:c:storage_blocks/moonstone",
+      "TAG:c:gems/black_onyx",
+      "",
+      "TAG:c:storage_blocks/sardonyx",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:BloodFocus",
+    "name": "recipe_blood_focus",
+    "namespace": "mod"
+  }
+}

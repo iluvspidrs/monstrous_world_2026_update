@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/carpet",
+  "textures": {
+    "all": "monstrous_world:block/infused_wool",
+    "particle": "monstrous_world:block/infused_wool",
+    "0": "monstrous_world:block/infused_wool"
+  },
+  "render_type": "solid"
+}

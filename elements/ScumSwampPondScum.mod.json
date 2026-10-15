@@ -1,0 +1,12 @@
+{
+  "_fv": 89,
+  "_type": "feature",
+  "definition": {
+    "skipPlacement": false,
+    "generationStep": "SURFACE_STRUCTURES",
+    "restrictionBiomes": [
+      "CUSTOM:ScumSwamp"
+    ],
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"1\" y=\"46\"><value name=\"feature\"><block type=\"feature_random_patch\"><field name=\"tries\">128</field><field name=\"xzSpread\">9</field><field name=\"ySpread\">0</field><value name=\"feature\"><block type=\"feature_simple_block\"><field name=\"schedule_tick\">FALSE</field><value name=\"block\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">CUSTOM:PondScum</field></block></value></block></value></block></value><next><block type=\"placement_rarity\"><field name=\"rarity\">1</field><next><block type=\"placement_in_square\"><next><block type=\"placement_count\"><value name=\"count\"><block type=\"int_provider_constant\"><field name=\"value\">25</field></block></value><next><block type=\"placement_heightmap\"><field name=\"heightmap\">WORLD_SURFACE_WG</field><next><block type=\"placement_block_predicate_filter\"><value name=\"condition\"><block type=\"block_predicate_matching_fluids\"><field name=\"x\">0</field><field name=\"y\">-1</field><field name=\"z\">0</field><field name=\"fluid\">WATER</field></block></value><next><block type=\"placement_block_predicate_filter\"><value name=\"condition\"><block type=\"block_predicate_is_air\"></block></value><next><block type=\"placement_biome_filter\"></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block><block type=\"placement_fixed\" x=\"933\" y=\"413\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"1\"></mutation><field name=\"x0\">0</field><field name=\"y0\">0</field><field name=\"z0\">0</field></block></xml>"
+  }
+}

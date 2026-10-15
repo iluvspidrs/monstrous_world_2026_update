@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "monstrous_world:darkened_sand"
+    },
+    {
+      "item": "monstrous_world:darkened_sand"
+    },
+    {
+      "item": "monstrous_world:darkened_sand"
+    },
+    {
+      "item": "monstrous_world:darkened_sand"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:darkened_sandstone",
+    "count": 4
+  }
+}

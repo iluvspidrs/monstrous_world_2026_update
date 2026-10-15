@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:vampire_ash"
+    },
+    "title": {
+      "translate": "advancements.vampire_slayer.title"
+    },
+    "description": {
+      "translate": "advancements.vampire_slayer.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "vampire_slayer_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:the_stakes_are_high"
+}

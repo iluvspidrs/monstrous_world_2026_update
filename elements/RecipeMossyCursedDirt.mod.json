@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:CursedDirtDecoration",
+      "Blocks.VINE"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "Blocks.VINE",
+      "",
+      "",
+      "CUSTOM:CursedDirtDecoration",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:MossyCursedDirtDecoration",
+    "name": "recipe_mossy_cursed_dirt",
+    "namespace": "mod"
+  }
+}

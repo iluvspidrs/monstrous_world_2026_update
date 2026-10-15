@@ -1,0 +1,22 @@
+package net.mcreator.monstrousworld.procedures;
+
+import net.minecraft.world.entity.Entity;
+
+import net.mcreator.monstrousworld.network.MonstrousWorldModVariables;
+
+public class HunterLevel1ConditionProcedure {
+	public static boolean execute(Entity entity) {
+		if (entity == null)
+			return false;
+		if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).HuntersGuild == true) {
+			if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).FactionLevel == 1) {
+				if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterType == 0) {
+					return true;
+				}
+				return false;
+			}
+			return false;
+		}
+		return false;
+	}
+}

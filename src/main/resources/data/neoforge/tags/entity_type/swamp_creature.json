@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "frog",
+    "monstrous_world:murkanus_worm",
+    "monstrous_world:hungry_tree",
+    "monstrous_world:deathbloom_entity",
+    "monstrous_world:swampmonster_chieftan",
+    "slime",
+    "monstrous_world:feral_swampmonster",
+    "bogged",
+    "monstrous_world:swamp_light",
+    "monstrous_world:swampmonster_villager",
+    "witch",
+    "monstrous_world:eyelet"
+  ]
+}

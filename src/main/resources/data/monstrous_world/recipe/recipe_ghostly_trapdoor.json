@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:ghostly_planks"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:ghostly_trapdoor",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:infernal_iron_ore",
+    "monstrous_world:nether_gem_ore"
+  ]
+}

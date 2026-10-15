@@ -1,0 +1,39 @@
+{
+  "name": "monstrous_world:lab_entrance",
+  "fallback": "monstrous_world:lab_wall",
+  "elements": [
+    {
+      "weight": 33,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "monstrous_world:lab_entrance_1",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 33,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "monstrous_world:lab_entrance_2",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 34,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "monstrous_world:mutant_dorm",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

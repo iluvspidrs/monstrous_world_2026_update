@@ -1,0 +1,225 @@
+{
+  "_fv": 89,
+  "_type": "structure",
+  "definition": {
+    "structure": "witch_village_plains_center",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      "Blocks.STRUCTURE_BLOCK"
+    ],
+    "spacing": 62,
+    "separation": 61,
+    "restrictionBiomes": [
+      "#c:is_plains"
+    ],
+    "terrainAdaptation": "beard_box",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 4,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": [
+      {
+        "poolName": "grounddeco",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 25,
+            "structure": "hay_bale",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 25,
+            "structure": "hay_bale_tall",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 25,
+            "structure": "wide_pumpkin",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 25,
+            "structure": "tall_pumpkin",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "treedeco",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "green_skull_lamp",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "green_wither_skull_lamp",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "path",
+        "fallbackPool": "monstrous_world:witch_village_plains_end",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "witch_village_plains_path_long",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "witch_village_plains_path_short",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "smallplot",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "altar_space",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "cauldron_plot",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "plot",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 33,
+            "structure": "witch_village_plains_house1",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 33,
+            "structure": "witch_village_plains_house2",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 34,
+            "structure": "witch_village_plains_yard",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "edge",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "lunar_edge",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "slime_edge",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "long_mixed_edge_1",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "long_mixed_edge_2",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "long_mixed_edge_3",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "long_mixed_edge_4",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "long_mixed_edge_5",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "long_mixed_edge_6",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "long_mixed_edge_7",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "grass_edge",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "denizen",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "witchnpc",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "end",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "witch_village_plains_path_end2",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      }
+    ]
+  }
+}

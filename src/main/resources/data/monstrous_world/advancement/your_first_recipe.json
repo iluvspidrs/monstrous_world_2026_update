@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:obstruction_powder_recipe"
+    },
+    "title": {
+      "translate": "advancements.your_first_recipe.title"
+    },
+    "description": {
+      "translate": "advancements.your_first_recipe.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "your_first_recipe_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:cultivator"
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:StrippedDeathlyLog"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:StrippedDeathlyLog",
+      "CUSTOM:StrippedDeathlyLog",
+      "",
+      "CUSTOM:StrippedDeathlyLog",
+      "CUSTOM:StrippedDeathlyLog",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:StrippedDeathlyWood",
+    "name": "recipe_stripped_deathly_wood",
+    "namespace": "mod"
+  }
+}

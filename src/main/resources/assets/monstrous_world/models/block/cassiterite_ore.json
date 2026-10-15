@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/cassiterite_ore",
+    "up": "monstrous_world:block/cassiterite_ore",
+    "north": "monstrous_world:block/cassiterite_ore",
+    "east": "monstrous_world:block/cassiterite_ore",
+    "south": "monstrous_world:block/cassiterite_ore",
+    "west": "monstrous_world:block/cassiterite_ore",
+    "particle": "monstrous_world:block/cassiterite_ore"
+  },
+  "render_type": "solid"
+}

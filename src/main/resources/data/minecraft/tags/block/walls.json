@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:dark_green_bricks_wall",
+    "monstrous_world:darkened_cobblestone_wall",
+    "monstrous_world:dark_red_bricks_wall",
+    "monstrous_world:dark_blue_bricks_wall",
+    "monstrous_world:darkened_stone_bricks_wall",
+    "monstrous_world:dark_orange_bricks_wall",
+    "monstrous_world:darkened_stone_tiles_wall",
+    "monstrous_world:dark_purple_bricks_wall",
+    "monstrous_world:dark_yellow_bricks_wall",
+    "monstrous_world:darkened_sandstone_wall"
+  ]
+}

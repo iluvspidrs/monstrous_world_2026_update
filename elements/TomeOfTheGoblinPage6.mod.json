@@ -1,0 +1,165 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 273,
+    "height": 171,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_forward_button",
+          "image": "forward_button.png",
+          "hoveredImage": "forward_button_hover.png",
+          "onClick": "TomeOfTheGoblinPageForward",
+          "x": 339,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "goblintomepage6.png",
+          "use1Xscale": false,
+          "x": 78,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_click_on_items_for_info",
+          "text": {
+            "fixedValue": "Click Items for Info"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 233,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_more_info_invisible",
+          "image": "more_info_invisible.png",
+          "hoveredImage": "more_info_hover.png",
+          "onClick": "OpenClearQuartz",
+          "x": 297,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_clear_quartz",
+          "text": {
+            "fixedValue": "Clear Quartz"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 294,
+          "y": 60,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glass",
+          "text": {
+            "fixedValue": "Glass"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 251,
+          "y": 60,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_spirit_dust",
+          "text": {
+            "fixedValue": "Spirit Dust"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 251,
+          "y": 103,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_darkened_wood_planks",
+          "text": {
+            "fixedValue": "Darkened Wood Planks"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 293,
+          "y": 102,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_more_info_invisible1",
+          "image": "more_info_invisible.png",
+          "hoveredImage": "more_info_hover.png",
+          "onClick": "OpenSpiritEssence",
+          "x": 255,
+          "y": 106,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_more_info_invisible2",
+          "image": "more_info_invisible.png",
+          "hoveredImage": "more_info_hover.png",
+          "onClick": "OpenDarkenedLog",
+          "x": 298,
+          "y": 107,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_back_button",
+          "image": "back_button.png",
+          "hoveredImage": "back_button_hover.png",
+          "onClick": "TomeOfTheGoblinPageBackward",
+          "x": 78,
+          "y": 197,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

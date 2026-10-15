@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:sanguine_wood_planks",
+    "monstrous_world:sanguine_wood_fence",
+    "monstrous_world:sanguine_wood_fence_gate",
+    "monstrous_world:sanguine_button",
+    "monstrous_world:sanguine_wood_pressure_plate",
+    "monstrous_world:sanguine_wood",
+    "monstrous_world:sanguine_wood_paneled_glass",
+    "monstrous_world:sanguine_barricade",
+    "monstrous_world:sanguine_wood_slab",
+    "monstrous_world:sanguine_wood_trapdoor",
+    "monstrous_world:stripped_sanguine_wood",
+    "monstrous_world:sanguine_wood_stairs",
+    "monstrous_world:sanguine_wood_glass_pane",
+    "monstrous_world:stripped_sanguine_log",
+    "monstrous_world:sanguine_log",
+    "monstrous_world:sanguine_wood_door"
+  ]
+}

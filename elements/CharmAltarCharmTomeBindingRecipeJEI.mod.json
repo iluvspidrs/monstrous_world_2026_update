@@ -1,0 +1,23 @@
+{
+  "_fv": 89,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "charm_altar_recipe_type",
+    "ingredients": [
+      "CUSTOM:AnointmentOil",
+      "Items.BOOK",
+      "Items.FEATHER",
+      "CUSTOM:DarkInk"
+    ],
+    "integers": [],
+    "strings": [],
+    "recipetype": "CharmAltarRecipeType",
+    "results": [
+      "CUSTOM:TomeOfBinding"
+    ],
+    "resultCounts": [
+      1
+    ],
+    "count": 0
+  }
+}

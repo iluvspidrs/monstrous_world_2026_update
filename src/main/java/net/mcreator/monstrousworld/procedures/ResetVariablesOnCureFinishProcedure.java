@@ -1,0 +1,94 @@
+package net.mcreator.monstrousworld.procedures;
+
+import net.neoforged.neoforge.event.entity.living.LivingEntityUseItemEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.bus.api.Event;
+
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.tags.ItemTags;
+import net.minecraft.resources.ResourceLocation;
+
+import net.mcreator.monstrousworld.network.MonstrousWorldModVariables;
+import net.mcreator.monstrousworld.init.MonstrousWorldModMobEffects;
+
+import javax.annotation.Nullable;
+
+@EventBusSubscriber
+public class ResetVariablesOnCureFinishProcedure {
+	@SubscribeEvent
+	public static void onUseItemFinish(LivingEntityUseItemEvent.Finish event) {
+		if (event.getEntity() != null) {
+			execute(event, event.getEntity().level(), event.getEntity(), event.getItem());
+		}
+	}
+
+	public static void execute(LevelAccessor world, Entity entity, ItemStack itemstack) {
+		execute(null, world, entity, itemstack);
+	}
+
+	private static void execute(@Nullable Event event, LevelAccessor world, Entity entity, ItemStack itemstack) {
+		if (entity == null)
+			return;
+		if (!world.isClientSide()) {
+			if (itemstack.is(ItemTags.create(ResourceLocation.parse("c:drinks/honey"))) || itemstack.is(ItemTags.create(ResourceLocation.parse("c:buckets/milk")))) {
+				if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).DarknessTimer >= 1) {
+					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+						_entity.addEffect(new MobEffectInstance(MonstrousWorldModMobEffects.MYSTERIOUS_DARKNESS, (int) entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).DarknessTimer, 0));
+				}
+				if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).Reputation <= -25) {
+					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+						_entity.addEffect(new MobEffectInstance(MonstrousWorldModMobEffects.BAD_REPUTATION, 24000, 0, true, false));
+				}
+				if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).WerewolfEffect >= 1) {
+					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+						_entity.addEffect(new MobEffectInstance(MonstrousWorldModMobEffects.WEREWOLF_EFFECT, (int) entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).WerewolfEffect, 0, true, false));
+				}
+				if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).WerewolfInfectionTimer >= 1) {
+					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+						_entity.addEffect(new MobEffectInstance(MonstrousWorldModMobEffects.WEREWOLF_INFECTION, (int) entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).WerewolfInfectionTimer, 0, true, false));
+				}
+				if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).LunarPullTimer >= 1) {
+					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+						_entity.addEffect(new MobEffectInstance(MonstrousWorldModMobEffects.LUNAR_PULL, (int) entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).LunarPullTimer, 0));
+				}
+				if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).TransformCooldown >= 1) {
+					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+						_entity.addEffect(new MobEffectInstance(MonstrousWorldModMobEffects.TRANSFORM_COOLDOWN, (int) entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).TransformCooldown, 0, true, false));
+				}
+				if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).VampireInfection >= 1) {
+					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+						_entity.addEffect(new MobEffectInstance(MonstrousWorldModMobEffects.VAMPIRE_INFECTION_EFFECT, (int) entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).VampireInfection, 0, true, false));
+				}
+				if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterType == 6 || entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterClass == 8) {
+					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+						_entity.addEffect(new MobEffectInstance(MonstrousWorldModMobEffects.VAMPIRISM, 24000, 0, true, false));
+				}
+				if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).ZombieInfection >= 1) {
+					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+						_entity.addEffect(new MobEffectInstance(MonstrousWorldModMobEffects.ZOMBIE_INFECTION_EFFECT, (int) entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).ZombieInfection, 0, true, false));
+				}
+				if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterClass == 1) {
+					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+						_entity.addEffect(new MobEffectInstance(MonstrousWorldModMobEffects.WITCH_EFFECT, 24000, 0, true, false));
+				}
+				if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterClass == 2) {
+					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+						_entity.addEffect(new MobEffectInstance(MonstrousWorldModMobEffects.GOBLIN_EFFECT, 24000, 0, true, false));
+				}
+				if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterClass == 6) {
+					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+						_entity.addEffect(new MobEffectInstance(MonstrousWorldModMobEffects.MURKANUS_MARTH, (int) entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MurkanusMarth, 0, false, false));
+				}
+				if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).Trident_Countdown >= 1) {
+					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+						_entity.addEffect(new MobEffectInstance(MonstrousWorldModMobEffects.TRIDENT_COOLDOWN, (int) entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).Trident_Countdown, 0, true, false));
+				}
+			}
+		}
+	}
+}

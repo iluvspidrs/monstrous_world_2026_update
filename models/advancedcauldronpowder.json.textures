@@ -1,0 +1,92 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "darkened_log_side",
+        "1": "darkened_crystal",
+        "2": "minecraft:black_concrete_powder"
+      },
+      "name": "default"
+    },
+    "red": {
+      "map": {
+        "0": "darkened_log_side",
+        "1": "darkened_crystal",
+        "2": "minecraft:red_concrete_powder"
+      },
+      "name": "red"
+    },
+    "orange": {
+      "map": {
+        "0": "darkened_log_side",
+        "1": "darkened_crystal",
+        "2": "minecraft:orange_concrete_powder"
+      },
+      "name": "orange"
+    },
+    "yellow": {
+      "map": {
+        "0": "darkened_log_side",
+        "1": "darkened_crystal",
+        "2": "minecraft:yellow_concrete_powder"
+      },
+      "name": "yellow"
+    },
+    "green": {
+      "map": {
+        "0": "darkened_log_side",
+        "1": "darkened_crystal",
+        "2": "minecraft:green_concrete_powder"
+      },
+      "name": "green"
+    },
+    "blue": {
+      "map": {
+        "0": "darkened_log_side",
+        "1": "darkened_crystal",
+        "2": "minecraft:blue_concrete_powder"
+      },
+      "name": "blue"
+    },
+    "purple": {
+      "map": {
+        "0": "darkened_log_side",
+        "1": "darkened_crystal",
+        "2": "minecraft:purple_concrete_powder"
+      },
+      "name": "purple"
+    },
+    "gray": {
+      "map": {
+        "0": "darkened_log_side",
+        "1": "darkened_crystal",
+        "2": "minecraft:gray_concrete_powder"
+      },
+      "name": "gray"
+    },
+    "white": {
+      "map": {
+        "0": "darkened_log_side",
+        "1": "darkened_crystal",
+        "2": "minecraft:white_concrete_powder"
+      },
+      "name": "white"
+    },
+    "light_blue": {
+      "map": {
+        "0": "darkened_log_side",
+        "1": "darkened_crystal",
+        "2": "minecraft:light_blue_concrete_powder"
+      },
+      "name": "light_blue"
+    },
+    "basin_purified": {
+      "map": {
+        "0": "minecraft:exposed_copper",
+        "1": "minecraft:cracked_deepslate_tiles",
+        "2": "minecraft:white_concrete_powder"
+      },
+      "name": "basin_purified"
+    }
+  }
+}

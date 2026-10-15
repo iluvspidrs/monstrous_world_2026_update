@@ -1,0 +1,16 @@
+{
+  "_fv": 89,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      "CUSTOM:SimpleCauldron"
+    ],
+    "information": [
+      "The Simple Cauldron is a workstation limited to the Witch/Warlock faction.",
+      "",
+      "Recipes can be found throughout the world as Dropped Notebooks, which yield a random brewing recipe upon right-clicking. ",
+      "",
+      "For these reasons, using Simple Cauldron recipes through JEI is disabled to prevent cheating."
+    ]
+  }
+}

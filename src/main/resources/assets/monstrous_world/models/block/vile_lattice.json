@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "monstrous_world:block/vile_lattice",
+    "particle": "monstrous_world:block/vile_lattice"
+  },
+  "render_type": "cutout"
+}

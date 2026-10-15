@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:quartz_dust"
+    },
+    "b": {
+      "item": "monstrous_world:spirit_dust"
+    },
+    "c": {
+      "item": "monstrous_world:darkened_wood_ash"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:basic_chalk",
+    "count": 1
+  }
+}

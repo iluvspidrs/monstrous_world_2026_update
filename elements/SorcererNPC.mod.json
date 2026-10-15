@@ -1,0 +1,279 @@
+{
+  "_fv": 89,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Sorcerer NPC",
+    "mobLabel": "",
+    "mobModelName": "Biped",
+    "mobModelTexture": "npc1.png",
+    "transparentModelCondition": {
+      "fixedValue": false
+    },
+    "isShakingCondition": {
+      "fixedValue": false
+    },
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "modelLayers": [
+      {
+        "model": "Default",
+        "texture": "npc1.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "SorcererSkin1Condition"
+      },
+      {
+        "model": "Default",
+        "texture": "npc2.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "SorcererSkin2Condition"
+      },
+      {
+        "model": "Default",
+        "texture": "npc3.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "SorcererSkin3Condition"
+      },
+      {
+        "model": "Default",
+        "texture": "npc4.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "SorcererSkin4Condition"
+      },
+      {
+        "model": "Default",
+        "texture": "npc5.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "SorcererSkin5Condition"
+      },
+      {
+        "model": "Default",
+        "texture": "npc6.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "SorcererSkin6Condition"
+      },
+      {
+        "model": "Default",
+        "texture": "npc7.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "SorcererSkin7Condition"
+      },
+      {
+        "model": "Default",
+        "texture": "npc8.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "SorcererSkin8Condition"
+      },
+      {
+        "model": "Default",
+        "texture": "npc9.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "SorcererSkin9Condition"
+      },
+      {
+        "model": "Default",
+        "texture": "npc1_vampire.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "SorcererSkin1VampireCondition"
+      },
+      {
+        "model": "Default",
+        "texture": "npc2_vampire.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "SorcererSkin2VampireCondition"
+      },
+      {
+        "model": "Default",
+        "texture": "npc3_vampire.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "SorcererSkin3VampireCondition"
+      },
+      {
+        "model": "Default",
+        "texture": "npc4_vampire.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "SorcererSkin4VampireCondition"
+      },
+      {
+        "model": "Default",
+        "texture": "npc5_vampire.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "SorcererSkin5VampireCondition"
+      },
+      {
+        "model": "Default",
+        "texture": "npc6_vampire.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "SorcererSkin6VampireCondition"
+      },
+      {
+        "model": "Default",
+        "texture": "npc7_vampire.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "SorcererSkin7VampireCondition"
+      },
+      {
+        "model": "Default",
+        "texture": "npc8_vampire.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "SorcererSkin8VampireCondition"
+      },
+      {
+        "model": "Default",
+        "texture": "npc9_vampire.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": "SorcererSkin9VampireCondition"
+      }
+    ],
+    "animations": [],
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -10092442,
+      "falpha": 0.0
+    },
+    "spawnEggTexture": "",
+    "creativeTabs": [
+      "MISC"
+    ],
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": "",
+    "equipmentOffHand": "",
+    "equipmentHelmet": "",
+    "equipmentBody": "CUSTOM:Sorcerer.body",
+    "equipmentLeggings": "",
+    "equipmentBoots": "",
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 3,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.25,
+    "stepHeight": 0.6,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
+    "followRange": 16,
+    "health": 30,
+    "xpAmount": 0,
+    "waterMob": false,
+    "breatheUnderwater": {
+      "fixedValue": false
+    },
+    "pushedByFluids": {
+      "fixedValue": true
+    },
+    "flyingMob": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 99,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
+    "mobDrop": "",
+    "livingSound": "",
+    "hurtSound": "entity.generic.hurt",
+    "deathSound": "entity.generic.death",
+    "stepSound": "",
+    "raidCelebrationSound": "",
+    "entityDataEntries": [
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "Trade",
+        "type": "integer",
+        "value": 0
+      },
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "Skin",
+        "type": "integer",
+        "value": 0
+      },
+      {
+        "name": "Vampire",
+        "type": "logic",
+        "value": false
+      }
+    ],
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">CUSTOM:SocietyGoon</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">CUSTOM:AggressiveGuard</field><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"watch_closest_entity\"><field name=\"entity\">EntityPlayerMP</field><field name=\"radius\">6</field><field name=\"condition\">null,null</field><next><block type=\"watch_closest_entity\"><field name=\"entity\">CUSTOM:SorcererNPC</field><field name=\"radius\">6</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": false,
+    "tameable": false,
+    "breedTriggerItems": [],
+    "ranged": true,
+    "rangedAttackItem": "",
+    "rangedItemType": "LevitationChargeProjectile",
+    "rangedAttackInterval": 60,
+    "rangedAttackRadius": 16.0,
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 20,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 4,
+    "maxNumberOfMobsPerGroup": 4,
+    "restrictionBiomes": [],
+    "spawnInDungeons": false,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
+    "sensitiveToVibration": false,
+    "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 7.0
+    }
+  }
+}

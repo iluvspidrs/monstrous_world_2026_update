@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/quickmud",
+    "up": "monstrous_world:block/quickmud",
+    "north": "monstrous_world:block/quickmud",
+    "east": "monstrous_world:block/quickmud",
+    "south": "monstrous_world:block/quickmud",
+    "west": "monstrous_world:block/quickmud",
+    "particle": "monstrous_world:block/quickmud"
+  },
+  "render_type": "solid"
+}

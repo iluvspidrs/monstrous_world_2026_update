@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:grungy_stone",
+    "monstrous_world:captured_swamp_light",
+    "minecraft:tadpole_bucket",
+    "monstrous_world:evil_tree_planks",
+    "monstrous_world:emissive_green_skull_lamp_poisoned",
+    "minecraft:verdant_froglight",
+    "monstrous_world:mossy_grungy_stone",
+    "monstrous_world:green_light_bulb_item",
+    "monstrous_world:emissive_blue_skull_lamp_poisoned",
+    "monstrous_world:evil_tree_log",
+    "monstrous_world:emissive_white_skull_lamp_poisoned",
+    "monstrous_world:emissive_red_skull_lamp_poisoned",
+    "monstrous_world:emissive_purple_skull_lamp_poisoned",
+    "minecraft:cod",
+    "minecraft:green_terracotta",
+    "monstrous_world:emissive_orange_skull_lamp_poisoned",
+    "minecraft:clay",
+    "monstrous_world:dark_stone_path",
+    "monstrous_world:swamp_light_item",
+    "minecraft:salmon",
+    "monstrous_world:pale_stalk_sapling"
+  ]
+}

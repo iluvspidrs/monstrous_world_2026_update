@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:spruce_slab"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:spruce_barricade",
+    "count": 4
+  }
+}

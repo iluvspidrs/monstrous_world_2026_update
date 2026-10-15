@@ -1,0 +1,25 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "pumpkinwide2",
+        "1": "stem"
+      }
+    },
+    "white": {
+      "name": "white",
+      "map": {
+        "0": "white_pumpkin_wide",
+        "1": "stem"
+      }
+    },
+    "green": {
+      "name": "green",
+      "map": {
+        "0": "greenpumpkinwide2",
+        "1": "minecraft:podzol_top"
+      }
+    }
+  }
+}

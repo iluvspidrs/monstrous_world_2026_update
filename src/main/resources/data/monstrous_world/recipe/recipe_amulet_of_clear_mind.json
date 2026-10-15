@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:purified_silver"
+    },
+    "b": {
+      "item": "monstrous_world:clear_quartz_shard"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:amulet_of_clear_mind",
+    "count": 1
+  }
+}

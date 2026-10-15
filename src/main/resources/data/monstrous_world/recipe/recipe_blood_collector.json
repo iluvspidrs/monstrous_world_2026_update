@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bbb",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:evil_tree_planks"
+    },
+    "b": {
+      "item": "monstrous_world:darkened_glass"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:blood_collector",
+    "count": 1
+  }
+}

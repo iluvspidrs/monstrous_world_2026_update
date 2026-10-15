@@ -1,0 +1,513 @@
+{
+  "_fv": 85,
+  "_type": "blockstates",
+  "definition": {
+    "block": "RobotTableSection",
+    "blockstateList": [
+      {
+        "texture": "tin_tabletop_head",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "tin_block",
+        "renderType": 2,
+        "customModelName": "robottablebasic:head",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 5.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 5.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 7.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "tin_tabletop_body_arms",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "tin_block",
+        "renderType": 2,
+        "customModelName": "robottablebasic:body",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 5.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 5.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 7.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "tin_tabletop_legs",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "tin_block",
+        "renderType": 2,
+        "customModelName": "robottablebasic:legs",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 5.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 5.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 7.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "tin_tabletop_head",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "tin_block",
+        "renderType": 2,
+        "customModelName": "robottablewithspiderhead:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 5.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 5.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 7.0,
+            "Mz": 16.0,
+            "subtract": false
+          },
+          {
+            "mx": 4.0,
+            "my": 7.0,
+            "mz": 5.0,
+            "Mx": 12.0,
+            "My": 15.0,
+            "Mz": 12.0,
+            "subtract": false
+          },
+          {
+            "mx": 4.0,
+            "my": 7.0,
+            "mz": 4.0,
+            "Mx": 12.0,
+            "My": 15.0,
+            "Mz": 5.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "tin_tabletop_body_arms",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "tin_block",
+        "renderType": 2,
+        "customModelName": "robottablespiderbody:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 5.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 5.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 7.0,
+            "Mz": 16.0,
+            "subtract": false
+          },
+          {
+            "mx": 5.0,
+            "my": 7.0,
+            "mz": 0.0,
+            "Mx": 11.0,
+            "My": 13.0,
+            "Mz": 4.0,
+            "subtract": false
+          },
+          {
+            "mx": 3.0,
+            "my": 7.0,
+            "mz": 4.0,
+            "Mx": 13.0,
+            "My": 15.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "tin_tabletop_legs",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "tin_block",
+        "renderType": 2,
+        "customModelName": "robottablespiderlegs:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 5.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 5.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 7.0,
+            "Mz": 16.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 7.0,
+            "mz": 1.0,
+            "Mx": 16.0,
+            "My": 9.0,
+            "Mz": 3.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 9.0,
+            "mz": 2.0,
+            "Mx": 16.0,
+            "My": 11.0,
+            "Mz": 4.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 7.0,
+            "mz": 5.0,
+            "Mx": 16.0,
+            "My": 9.0,
+            "Mz": 7.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 9.0,
+            "mz": 6.0,
+            "Mx": 16.0,
+            "My": 11.0,
+            "Mz": 8.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 7.0,
+            "mz": 9.0,
+            "Mx": 16.0,
+            "My": 9.0,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 9.0,
+            "mz": 10.0,
+            "Mx": 16.0,
+            "My": 11.0,
+            "Mz": 12.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 7.0,
+            "mz": 13.0,
+            "Mx": 16.0,
+            "My": 9.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 9.0,
+            "mz": 14.0,
+            "Mx": 16.0,
+            "My": 11.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "tin_tabletop_head",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "tin_block",
+        "renderType": 2,
+        "customModelName": "robottablewithguardhead:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 5.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 5.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 7.0,
+            "Mz": 16.0,
+            "subtract": false
+          },
+          {
+            "mx": 4.0,
+            "my": 7.0,
+            "mz": 2.0,
+            "Mx": 12.0,
+            "My": 15.0,
+            "Mz": 5.0,
+            "subtract": false
+          },
+          {
+            "mx": 3.0,
+            "my": 7.0,
+            "mz": 5.0,
+            "Mx": 13.0,
+            "My": 16.0,
+            "Mz": 13.0,
+            "subtract": false
+          },
+          {
+            "mx": 1.0,
+            "my": 11.0,
+            "mz": 9.0,
+            "Mx": 3.0,
+            "My": 13.0,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 13.0,
+            "my": 11.0,
+            "mz": 9.0,
+            "Mx": 15.0,
+            "My": 13.0,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 15.0,
+            "my": 10.0,
+            "mz": 8.0,
+            "Mx": 16.0,
+            "My": 14.0,
+            "Mz": 12.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 10.0,
+            "mz": 8.0,
+            "Mx": 1.0,
+            "My": 14.0,
+            "Mz": 12.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "tin_tabletop_body_arms",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "tin_block",
+        "renderType": 2,
+        "customModelName": "robottablewithtorso:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 5.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 5.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 7.0,
+            "Mz": 16.0,
+            "subtract": false
+          },
+          {
+            "mx": -1.0,
+            "my": 7.0,
+            "mz": -1.0,
+            "Mx": 2.0,
+            "My": 13.0,
+            "Mz": 16.0,
+            "subtract": false
+          },
+          {
+            "mx": 13.0,
+            "my": 7.0,
+            "mz": -1.0,
+            "Mx": 16.0,
+            "My": 13.0,
+            "Mz": 16.0,
+            "subtract": false
+          },
+          {
+            "mx": 2.0,
+            "my": 7.0,
+            "mz": -1.0,
+            "Mx": 13.0,
+            "My": 15.0,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 2.0,
+            "my": 7.0,
+            "mz": 11.0,
+            "Mx": 13.0,
+            "My": 13.0,
+            "Mz": 17.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "tin_tabletop_legs",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "tin_block",
+        "renderType": 2,
+        "customModelName": "robottablewithguardlegs:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 5.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 5.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 7.0,
+            "Mz": 16.0,
+            "subtract": false
+          },
+          {
+            "mx": 2.0,
+            "my": 7.0,
+            "mz": 0.0,
+            "Mx": 7.0,
+            "My": 13.0,
+            "Mz": 16.0,
+            "subtract": false
+          },
+          {
+            "mx": 9.0,
+            "my": 7.0,
+            "mz": 0.0,
+            "Mx": 14.0,
+            "My": 13.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "monstrous_world:sanguine_wood_planks"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:sanguine_button",
+    "count": 4
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/dark_green_bricks",
+    "up": "monstrous_world:block/dark_green_bricks",
+    "north": "monstrous_world:block/dark_green_bricks",
+    "east": "monstrous_world:block/dark_green_bricks",
+    "south": "monstrous_world:block/dark_green_bricks",
+    "west": "monstrous_world:block/dark_green_bricks",
+    "particle": "monstrous_world:block/dark_green_bricks"
+  },
+  "render_type": "solid"
+}

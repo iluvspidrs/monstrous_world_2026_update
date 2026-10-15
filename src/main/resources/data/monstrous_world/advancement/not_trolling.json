@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:corinthian_bronze_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.not_trolling.title"
+    },
+    "description": {
+      "translate": "advancements.not_trolling.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "not_trolling_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:modding_is_fun"
+}

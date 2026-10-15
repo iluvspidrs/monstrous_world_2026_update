@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:cure_flask_uncooked",
+    "monstrous_world:stablizer_flask_uncooked",
+    "monstrous_world:cure_serum_flask",
+    "monstrous_world:stabilizer_flask",
+    "monstrous_world:strange_flask_uncooked",
+    "monstrous_world:strange_serum_flask_2",
+    "monstrous_world:strange_flask_uncooked_2",
+    "monstrous_world:strange_serum_flask_3",
+    "monstrous_world:strange_flask_uncooked_3",
+    "monstrous_world:strange_serum_flask"
+  ]
+}

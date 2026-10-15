@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "monstrous_world:block/birch_barricade"
+    },
+    "facing=east": {
+      "model": "monstrous_world:block/birch_barricade",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "monstrous_world:block/birch_barricade",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "monstrous_world:block/birch_barricade",
+      "y": 270
+    }
+  }
+}

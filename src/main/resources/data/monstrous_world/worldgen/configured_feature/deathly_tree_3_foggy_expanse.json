@@ -1,0 +1,12 @@
+{
+  "type": "monstrous_world:structure_feature",
+  "config": {
+    "structure": "monstrous_world:twisted_deathly_tree",
+    "ignored_blocks": "minecraft:air",
+    "offset": [
+      0,
+      -2,
+      0
+    ]
+  }
+}

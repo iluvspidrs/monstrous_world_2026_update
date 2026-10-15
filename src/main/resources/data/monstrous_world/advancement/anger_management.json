@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:bracelet_of_control"
+    },
+    "title": {
+      "translate": "advancements.anger_management.title"
+    },
+    "description": {
+      "translate": "advancements.anger_management.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "anger_management_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:beast_unleashed"
+}

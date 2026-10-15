@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/placedbone",
+  "textures": {
+    "all": "monstrous_world:block/bonetexture",
+    "particle": "monstrous_world:block/bonetexture",
+    "1": "monstrous_world:block/bonetexture"
+  },
+  "render_type": "solid"
+}

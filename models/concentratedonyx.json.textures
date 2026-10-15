@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "red": {
+      "name": "red",
+      "map": {
+        "0": "red_onyx_block"
+      }
+    },
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "black_onyx_block"
+      }
+    }
+  }
+}

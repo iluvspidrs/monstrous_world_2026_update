@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:hunter_mission_swamp_item",
+    "monstrous_world:hunters_guild_flyer_item",
+    "monstrous_world:hunter_mission_feral_goblins_item",
+    "monstrous_world:hunters_guild_field_guide_item",
+    "monstrous_world:hunter_mission_werewolf_item"
+  ]
+}

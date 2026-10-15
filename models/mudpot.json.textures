@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "evilaltartop",
+        "1": "pale_stalk_planks",
+        "2": "overgrown_mud_bricks",
+        "4": "strangeserumfluiduncooked",
+        "missing": ""
+      }
+    }
+  }
+}

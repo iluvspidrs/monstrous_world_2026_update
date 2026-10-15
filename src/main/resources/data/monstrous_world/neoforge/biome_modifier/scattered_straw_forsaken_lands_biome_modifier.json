@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "monstrous_world:forsaken_lands",
+    "monstrous_world:pumpkin_hollow"
+  ],
+  "features": "monstrous_world:scattered_straw_forsaken_lands",
+  "step": "surface_structures"
+}

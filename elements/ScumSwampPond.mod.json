@@ -1,0 +1,12 @@
+{
+  "_fv": 89,
+  "_type": "feature",
+  "definition": {
+    "skipPlacement": false,
+    "generationStep": "SURFACE_STRUCTURES",
+    "restrictionBiomes": [
+      "CUSTOM:ScumSwamp"
+    ],
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"160\" y=\"54\"><value name=\"feature\"><block type=\"feature_spring\"><field name=\"state\">WATER</field><field name=\"requires_block_below\">TRUE</field><field name=\"rock_count\">4</field><field name=\"hole_count\">1</field><value name=\"valid_blocks\"><block type=\"block_holderset_tag\"><field name=\"tag\">minecraft:mineable/shovel</field></block></value></block></value><next><block type=\"placement_rarity\"><field name=\"rarity\">1</field><next><block type=\"placement_in_square\"><next><block type=\"placement_count\"><value name=\"count\"><block type=\"int_provider_constant\"><field name=\"value\">1</field></block></value><next><block type=\"placement_heightmap\"><field name=\"heightmap\">OCEAN_FLOOR_WG</field><next><block type=\"placement_biome_filter\"></block></next></block></next></block></next></block></next></block></next></block></xml>"
+  }
+}

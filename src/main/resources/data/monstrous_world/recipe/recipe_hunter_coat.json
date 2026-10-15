@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bab",
+    "bab"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:silver_treated_tanned_leather"
+    },
+    "b": {
+      "item": "monstrous_world:tanned_leather"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:hunter_chestplate",
+    "count": 1
+  }
+}

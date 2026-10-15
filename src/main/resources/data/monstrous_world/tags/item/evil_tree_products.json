@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:evil_tree_slab",
+    "monstrous_world:evil_tree_planks",
+    "monstrous_world:evil_tree_leaves",
+    "monstrous_world:evil_tree_button",
+    "monstrous_world:evil_tree_door",
+    "monstrous_world:evil_tree_mouth_right",
+    "monstrous_world:evil_tree_fence_gate",
+    "monstrous_world:evil_tree_trapdoor",
+    "monstrous_world:evil_wood_glass_pane",
+    "monstrous_world:evil_tree_log_unbreakable",
+    "monstrous_world:evil_tree_eye",
+    "monstrous_world:evil_tree_log",
+    "monstrous_world:mossy_evil_tree_log_unbreakable",
+    "monstrous_world:evil_tree_stairs",
+    "monstrous_world:evil_tree_stripped_log",
+    "monstrous_world:evil_tree_stripped_wood",
+    "monstrous_world:mossy_evil_tree_log",
+    "monstrous_world:evil_tree_hollow",
+    "monstrous_world:evil_barricade",
+    "monstrous_world:evil_tree_pressure_plate",
+    "monstrous_world:evil_tree_mouth_left",
+    "monstrous_world:evil_tree_fence",
+    "monstrous_world:evil_tree_wood",
+    "monstrous_world:evil_tree_mouth_center"
+  ]
+}

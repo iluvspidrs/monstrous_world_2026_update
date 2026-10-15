@@ -1,0 +1,60 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 247,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "OpenMagickalCatalyst",
+          "width": 84,
+          "height": 20,
+          "x": 104,
+          "y": 75,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "OpenMonstrousPlants",
+          "width": 44,
+          "height": 20,
+          "x": 115,
+          "y": 102,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "explosionpowdertext.png",
+          "use1Xscale": false,
+          "x": 76,
+          "y": 16,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

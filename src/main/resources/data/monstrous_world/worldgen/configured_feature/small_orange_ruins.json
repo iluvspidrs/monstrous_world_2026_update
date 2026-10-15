@@ -1,0 +1,12 @@
+{
+  "type": "monstrous_world:structure_feature",
+  "config": {
+    "structure": "monstrous_world:small_orange_ruins",
+    "ignored_blocks": "minecraft:air",
+    "offset": [
+      -1,
+      0,
+      -1
+    ]
+  }
+}

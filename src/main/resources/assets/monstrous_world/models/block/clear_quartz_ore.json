@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monstrous_world:block/quartz_ore",
+    "up": "monstrous_world:block/quartz_ore",
+    "north": "monstrous_world:block/quartz_ore",
+    "east": "monstrous_world:block/quartz_ore",
+    "south": "monstrous_world:block/quartz_ore",
+    "west": "monstrous_world:block/quartz_ore",
+    "particle": "monstrous_world:block/quartz_ore"
+  },
+  "render_type": "solid"
+}

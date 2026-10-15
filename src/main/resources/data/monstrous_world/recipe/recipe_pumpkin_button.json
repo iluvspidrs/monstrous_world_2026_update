@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "monstrous_world:pumpkin_planks"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:pumpkin_button",
+    "count": 1
+  }
+}

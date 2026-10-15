@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "monstrous_world_items",
+  "category": "misc",
+  "pattern": [
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:guard_robot_arm"
+    },
+    "b": {
+      "item": "monstrous_world:guard_robot_body"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:robot_guard_body_and_arms",
+    "count": 1
+  }
+}

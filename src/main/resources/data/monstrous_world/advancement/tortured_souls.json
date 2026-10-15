@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:soul_crucible"
+    },
+    "title": {
+      "translate": "advancements.tortured_souls.title"
+    },
+    "description": {
+      "translate": "advancements.tortured_souls.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tortured_souls_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:nobody_has_to_know"
+}

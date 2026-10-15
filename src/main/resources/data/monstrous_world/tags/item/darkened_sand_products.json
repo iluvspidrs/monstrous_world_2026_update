@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:darkened_glass",
+    "monstrous_world:murkwood_paneled_glass",
+    "monstrous_world:murkwood_glass_pane",
+    "monstrous_world:darkened_glass_pane",
+    "monstrous_world:sanguine_wood_paneled_glass",
+    "monstrous_world:pumpkin_wood_glass_pane",
+    "monstrous_world:evil_wood_glass_pane",
+    "monstrous_world:ghostly_wood_paneled_glass",
+    "monstrous_world:ghostly_wood_glass_pane",
+    "monstrous_world:deathly_wood_glass_pane",
+    "monstrous_world:active_darkened_sand",
+    "monstrous_world:darkened_wood_paneled_glass",
+    "monstrous_world:deathly_wood_paneled_glass",
+    "monstrous_world:darkened_sand",
+    "monstrous_world:darkened_wood_glass_pane",
+    "monstrous_world:sanguine_wood_glass_pane",
+    "monstrous_world:evil_wood_paneled_glass",
+    "monstrous_world:pumpkin_wood_paneled_glass"
+  ]
+}

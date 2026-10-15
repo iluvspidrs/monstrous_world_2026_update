@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/simplecauldronempty",
+  "textures": {
+    "all": "monstrous_world:block/darkened_iron_block",
+    "particle": "monstrous_world:block/darkened_iron_block",
+    "0": "monstrous_world:block/darkened_iron_block"
+  },
+  "render_type": "translucent"
+}

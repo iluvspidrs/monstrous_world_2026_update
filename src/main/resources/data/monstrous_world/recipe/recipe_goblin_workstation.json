@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "cec"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_ingot"
+    },
+    "b": {
+      "item": "minecraft:gold_nugget"
+    },
+    "c": {
+      "item": "monstrous_world:evil_tree_planks"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    },
+    "e": {
+      "tag": "c:gems/clear_quartz"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:goblin_workstation",
+    "count": 1
+  }
+}

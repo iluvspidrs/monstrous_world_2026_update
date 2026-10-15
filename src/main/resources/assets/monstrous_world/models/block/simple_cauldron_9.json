@@ -1,0 +1,11 @@
+{
+  "parent": "monstrous_world:custom/simplecauldrongreen",
+  "textures": {
+    "all": "monstrous_world:block/darkened_iron_block",
+    "particle": "monstrous_world:block/darkened_iron_block",
+    "0": "monstrous_world:block/darkened_iron_block",
+    "1": "monstrous_world:block/",
+    "2": "monstrous_world:block/black_brew"
+  },
+  "render_type": "translucent"
+}

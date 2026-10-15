@@ -1,0 +1,151 @@
+{
+  "_fv": 89,
+  "_type": "structure",
+  "definition": {
+    "structure": "swampmonster_village_chieftain_house",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      "Blocks.STRUCTURE_BLOCK"
+    ],
+    "spacing": 43,
+    "separation": 42,
+    "restrictionBiomes": [
+      "#c:is_swamp"
+    ],
+    "terrainAdaptation": "beard_box",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 4,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": [
+      {
+        "poolName": "walkway",
+        "fallbackPool": "monstrous_world:swampmonster_village_end",
+        "poolParts": [
+          {
+            "weight": 66,
+            "structure": "swampmonster_village_walkway",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 34,
+            "structure": "swampmonster_village_walkway_center",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "deco",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "swamp_slime_plant",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "vile_lattice",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "skull_lamp_green",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "wither_skull_lamp_green",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "swamp_light",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "chieftain",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 100,
+            "structure": "swampmonster_chieftan",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "house",
+        "fallbackPool": "monstrous_world:swampmonster_village_house_end",
+        "poolParts": [
+          {
+            "weight": 25,
+            "structure": "swampmonster_village_house_3",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 25,
+            "structure": "swampmonster_village_house_4",
+            "projection": "rigid",
+            "ignoredBlocks": [
+              "Blocks.WOOL#0"
+            ]
+          },
+          {
+            "weight": 25,
+            "structure": "swampmonster_village_house_5",
+            "projection": "rigid",
+            "ignoredBlocks": [
+              "Blocks.WOOL#0"
+            ]
+          },
+          {
+            "weight": 25,
+            "structure": "swampmonster_village_house_6",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "house_end",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "swampmonster_village_house_end",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "end",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "swampmonster_village_end",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:acid_gun_popcorn_upgrade"
+    },
+    {
+      "item": "monstrous_world:acid_gun_tool"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:popcorn_gun_tool",
+    "count": 1
+  }
+}

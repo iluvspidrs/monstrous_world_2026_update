@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:electrum_block"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:electrum_ingot",
+    "count": 9
+  }
+}

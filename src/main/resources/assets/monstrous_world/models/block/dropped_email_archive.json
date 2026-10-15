@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/droppedpaper",
+  "textures": {
+    "all": "monstrous_world:block/email_archive_item",
+    "particle": "monstrous_world:block/email_archive_item",
+    "0": "monstrous_world:block/email_archive_item"
+  },
+  "render_type": "cutout"
+}

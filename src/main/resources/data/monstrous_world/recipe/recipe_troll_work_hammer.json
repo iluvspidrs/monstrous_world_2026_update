@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " aa",
+    "ab ",
+    "a b"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/cast_iron"
+    },
+    "b": {
+      "item": "monstrous_world:darkened_log"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:troll_work_hammer",
+    "count": 1
+  }
+}

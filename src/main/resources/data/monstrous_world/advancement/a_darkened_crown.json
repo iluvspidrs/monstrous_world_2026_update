@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:darkened_helmet"
+    },
+    "title": {
+      "translate": "advancements.a_darkened_crown.title"
+    },
+    "description": {
+      "translate": "advancements.a_darkened_crown.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "a_darkened_crown_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:power_corrupts"
+}

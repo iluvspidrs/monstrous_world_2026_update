@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "monstrous_world_tools",
+    "unlockingItems": [
+      "CUSTOM:DarkenedIronIngot"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "CUSTOM:DarkenedIronIngot",
+      "",
+      "CUSTOM:DarkenedIronIngot",
+      "CUSTOM:DarkenedIronIngot",
+      "CUSTOM:DarkenedIronIngot",
+      "CUSTOM:DarkenedIronIngot"
+    ],
+    "recipeReturnStack": "CUSTOM:SimpleCauldron",
+    "name": "simple_cauldron_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:DarkenedIronIngot",
+      "CUSTOM:BlockOfDarkenedIron",
+      "Blocks.REDSTONE_BLOCK",
+      "CUSTOM:TinRod"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:BlockOfDarkenedIron",
+      "CUSTOM:TinRod",
+      "CUSTOM:BlockOfDarkenedIron",
+      "CUSTOM:DarkenedIronIngot",
+      "Blocks.REDSTONE_BLOCK",
+      "CUSTOM:DarkenedIronIngot",
+      "CUSTOM:BlockOfDarkenedIron",
+      "CUSTOM:DarkenedIronIngot",
+      "CUSTOM:BlockOfDarkenedIron"
+    ],
+    "recipeReturnStack": "CUSTOM:GuardRobotBody",
+    "name": "robot_guard_body",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:tribal_brand"
+    },
+    "title": {
+      "translate": "advancements.growing_your_tribe.title"
+    },
+    "description": {
+      "translate": "advancements.growing_your_tribe.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "growing_your_tribe_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:a_mark_of_conquest"
+}

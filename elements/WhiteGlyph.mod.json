@@ -1,0 +1,823 @@
+{
+  "_fv": 89,
+  "_type": "block",
+  "definition": {
+    "texture": "white_glyph_1",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "chalkglyph:default",
+    "rotationMode": 1,
+    "enablePitch": false,
+    "emissiveRendering": false,
+    "displayFluidOverlay": false,
+    "states": [
+      {
+        "texture": "white_glyph_2",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "chalkglyph:white_2",
+        "particleTexture": "minecraft:white_concrete_powder",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.1,
+            "mz": 1.5,
+            "Mx": 15.0,
+            "My": 0.15,
+            "Mz": 14.5,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 20,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 1
+          }
+        ]
+      },
+      {
+        "texture": "white_glyph_3",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "chalkglyph:white_3",
+        "particleTexture": "minecraft:white_concrete_powder",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.1,
+            "mz": 1.5,
+            "Mx": 15.0,
+            "My": 0.15,
+            "Mz": 14.5,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 20,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 2
+          }
+        ]
+      },
+      {
+        "texture": "red_glyph_1",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "chalkglyph:red_1",
+        "particleTexture": "minecraft:red_concrete_powder",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.1,
+            "mz": 1.5,
+            "Mx": 15.0,
+            "My": 0.15,
+            "Mz": 14.5,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 20,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 3
+          }
+        ]
+      },
+      {
+        "texture": "red_glyph_2",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "chalkglyph:red_2",
+        "particleTexture": "minecraft:red_concrete_powder",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.1,
+            "mz": 1.5,
+            "Mx": 15.0,
+            "My": 0.15,
+            "Mz": 14.5,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 20,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 4
+          }
+        ]
+      },
+      {
+        "texture": "red_glyph_3",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "chalkglyph:red_3",
+        "particleTexture": "minecraft:red_concrete_powder",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.1,
+            "mz": 1.5,
+            "Mx": 15.0,
+            "My": 0.15,
+            "Mz": 14.5,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 20,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 5
+          }
+        ]
+      },
+      {
+        "texture": "orange_glyph_1",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "chalkglyph:orange_1",
+        "particleTexture": "minecraft:orange_concrete_powder",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.1,
+            "mz": 1.5,
+            "Mx": 15.0,
+            "My": 0.15,
+            "Mz": 14.5,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 20,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 6
+          }
+        ]
+      },
+      {
+        "texture": "orange_glyph_2",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "chalkglyph:orange_2",
+        "particleTexture": "minecraft:orange_concrete_powder",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.1,
+            "mz": 1.5,
+            "Mx": 15.0,
+            "My": 0.15,
+            "Mz": 14.5,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 20,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 7
+          }
+        ]
+      },
+      {
+        "texture": "orange_glyph_3",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "chalkglyph:orange_3",
+        "particleTexture": "minecraft:orange_concrete_powder",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.1,
+            "mz": 1.5,
+            "Mx": 15.0,
+            "My": 0.15,
+            "Mz": 14.5,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 20,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 8
+          }
+        ]
+      },
+      {
+        "texture": "gold_glyph_1",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "chalkglyph:gold_1",
+        "particleTexture": "minecraft:yellow_concrete_powder",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.1,
+            "mz": 1.5,
+            "Mx": 15.0,
+            "My": 0.15,
+            "Mz": 14.5,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 20,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 9
+          }
+        ]
+      },
+      {
+        "texture": "gold_glyph_2",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "chalkglyph:gold_2",
+        "particleTexture": "minecraft:yellow_concrete_powder",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.1,
+            "mz": 1.5,
+            "Mx": 15.0,
+            "My": 0.15,
+            "Mz": 14.5,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 20,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 10
+          }
+        ]
+      },
+      {
+        "texture": "gold_glyph_3",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "chalkglyph:gold_3",
+        "particleTexture": "minecraft:yellow_concrete_powder",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.1,
+            "mz": 1.5,
+            "Mx": 15.0,
+            "My": 0.15,
+            "Mz": 14.5,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 20,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 11
+          }
+        ]
+      },
+      {
+        "texture": "green_glyph_1",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "chalkglyph:green_1",
+        "particleTexture": "minecraft:green_concrete_powder",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.1,
+            "mz": 1.5,
+            "Mx": 15.0,
+            "My": 0.15,
+            "Mz": 14.5,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 20,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 12
+          }
+        ]
+      },
+      {
+        "texture": "green_glyph_2",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "chalkglyph:green_2",
+        "particleTexture": "minecraft:green_concrete_powder",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.1,
+            "mz": 1.5,
+            "Mx": 15.0,
+            "My": 0.15,
+            "Mz": 14.5,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 20,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 13
+          }
+        ]
+      },
+      {
+        "texture": "green_glyph_3",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "chalkglyph:green_3",
+        "particleTexture": "minecraft:green_concrete_powder",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.1,
+            "mz": 1.5,
+            "Mx": 15.0,
+            "My": 0.15,
+            "Mz": 14.5,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 20,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 14
+          }
+        ]
+      },
+      {
+        "texture": "blue_glyph_1",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "chalkglyph:blue_1",
+        "particleTexture": "minecraft:cyan_concrete_powder",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.1,
+            "mz": 1.5,
+            "Mx": 15.0,
+            "My": 0.15,
+            "Mz": 14.5,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 20,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 15
+          }
+        ]
+      },
+      {
+        "texture": "blue_glyph_2",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "chalkglyph:blue_2",
+        "particleTexture": "minecraft:cyan_concrete_powder",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.1,
+            "mz": 1.5,
+            "Mx": 15.0,
+            "My": 0.15,
+            "Mz": 14.5,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 20,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 16
+          }
+        ]
+      },
+      {
+        "texture": "blue_glyph_3",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "chalkglyph:blue_3",
+        "particleTexture": "minecraft:cyan_concrete_powder",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.1,
+            "mz": 1.5,
+            "Mx": 15.0,
+            "My": 0.15,
+            "Mz": 14.5,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 20,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 17
+          }
+        ]
+      },
+      {
+        "texture": "violet_glyph_1",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "chalkglyph:purple_1",
+        "particleTexture": "minecraft:purple_concrete_powder",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.1,
+            "mz": 1.5,
+            "Mx": 15.0,
+            "My": 0.15,
+            "Mz": 14.5,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 20,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 18
+          }
+        ]
+      },
+      {
+        "texture": "violet_glyph_2",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "chalkglyph:purple_2",
+        "particleTexture": "minecraft:purple_concrete_powder",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.1,
+            "mz": 1.5,
+            "Mx": 15.0,
+            "My": 0.15,
+            "Mz": 14.5,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 20,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 19
+          }
+        ]
+      },
+      {
+        "texture": "violet_glyph_3",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "chalkglyph:purple_3",
+        "particleTexture": "minecraft:purple_concrete_powder",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.0,
+            "my": 0.1,
+            "mz": 1.5,
+            "Mx": 15.0,
+            "My": 0.15,
+            "Mz": 14.5,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 20,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 20
+          }
+        ]
+      }
+    ],
+    "animations": [],
+    "itemTexture": "",
+    "particleTexture": "",
+    "blockSetType": "OAK",
+    "pottedPlant": "",
+    "leavesParticleChance": 0.0,
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": true,
+    "connectedSides": false,
+    "transparencyType": "CUTOUT_MIPPED",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 1.0,
+        "my": 0.1,
+        "mz": 1.5,
+        "Mx": 15.0,
+        "My": 0.15,
+        "Mz": 14.5,
+        "subtract": false
+      }
+    ],
+    "customProperties": [
+      {
+        "min": 0,
+        "max": 20,
+        "name": "CUSTOM:blockstate",
+        "type": "integer",
+        "value": 0
+      }
+    ],
+    "name": "Glyph",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hardness": 0.1,
+    "resistance": 1.0,
+    "hasGravity": false,
+    "isWaterloggable": false,
+    "hasBlockItem": false,
+    "maxStackSize": 64,
+    "rarity": "COMMON",
+    "immuneToFire": false,
+    "creativeTabs": [],
+    "destroyTool": "Not specified",
+    "customDrop": "Blocks.AIR",
+    "dropAmount": 1,
+    "xpAmountMin": 0,
+    "xpAmountMax": 0,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": false,
+    "hasCustomOpacity": false,
+    "lightOpacity": 0,
+    "tickRate": 0,
+    "tickRandomly": false,
+    "isReplaceable": true,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "DEFAULT",
+    "noteBlockInstrument": "harp",
+    "creativePickItem": "",
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "strippingResult": "",
+    "ignitedByLava": false,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
+    "soundOnStep": "EMPTY",
+    "isCustomSoundType": true,
+    "breakSound": "block.sand.break",
+    "fallSound": "block.sand.fall",
+    "hitSound": "block.sand.hit",
+    "placeSound": "entity.villager.work_cartographer",
+    "stepSound": "block.sand.step",
+    "luminance": {
+      "fixedValue": 0.0
+    },
+    "unbreakable": false,
+    "vanillaToolTier": "NONE",
+    "isBonemealable": false,
+    "sensitiveToVibration": false,
+    "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 7.0
+    },
+    "hasInventory": false,
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 99,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "generateFeature": false,
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      "TAG:stone_ore_replaceables"
+    ],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

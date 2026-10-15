@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:dagger_of_trickery"
+    },
+    "title": {
+      "translate": "advancements.no_harm_done.title"
+    },
+    "description": {
+      "translate": "advancements.no_harm_done.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "no_harm_done_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:good_relations"
+}

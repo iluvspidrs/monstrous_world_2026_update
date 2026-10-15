@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:infernal_light",
+    "monstrous_world:evil_darkness_spirit",
+    "ghast",
+    "monstrous_world:demon_npc",
+    "monstrous_world:feral_vampire",
+    "monstrous_world:spiritof_the_depths",
+    "blaze",
+    "monstrous_world:maniac",
+    "monstrous_world:vampire_npc",
+    "monstrous_world:evil_levitating_spirit"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "Blocks.ORANGE_GLAZED_TERRACOTTA",
+      "CUSTOM:CursedConfectionery",
+      "CUSTOM:CursedCandy",
+      "CUSTOM:GhostlyButton",
+      "CUSTOM:CottonCandyHuman",
+      "CUSTOM:CottonCandyMagical"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:CursedCandy",
+      "Blocks.ORANGE_GLAZED_TERRACOTTA",
+      "CUSTOM:CursedConfectionery",
+      "CUSTOM:CottonCandyHuman",
+      "CUSTOM:BottleOfAcid",
+      "CUSTOM:CottonCandyMagical",
+      "Blocks.ORANGE_GLAZED_TERRACOTTA",
+      "CUSTOM:GhostlyButton",
+      "Blocks.ORANGE_GLAZED_TERRACOTTA"
+    ],
+    "recipeReturnStack": "CUSTOM:AcidGunTool",
+    "name": "recipe_acid_gun",
+    "namespace": "mod"
+  }
+}

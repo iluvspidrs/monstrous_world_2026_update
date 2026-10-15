@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:infused_wool"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:vampire_cloak_chestplate",
+    "count": 1
+  }
+}

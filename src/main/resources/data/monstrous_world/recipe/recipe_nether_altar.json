@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c ",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "monstrous_world:nether_gem"
+    },
+    "b": {
+      "item": "monstrous_world:block_of_nether_gems"
+    },
+    "c": {
+      "item": "minecraft:blackstone"
+    }
+  },
+  "result": {
+    "id": "monstrous_world:nether_altar",
+    "count": 1
+  }
+}

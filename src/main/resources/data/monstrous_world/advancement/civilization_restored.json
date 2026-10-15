@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:swamp_light_item"
+    },
+    "title": {
+      "translate": "advancements.civilization_restored.title"
+    },
+    "description": {
+      "translate": "advancements.civilization_restored.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "civilization_restored_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:backwards_evolution"
+}

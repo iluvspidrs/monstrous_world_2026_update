@@ -1,0 +1,10 @@
+{
+  "parent": "monstrous_world:custom/squaregravestone",
+  "textures": {
+    "all": "monstrous_world:block/mossy_dark_shingles",
+    "particle": "monstrous_world:block/mossy_dark_shingles",
+    "0": "monstrous_world:block/dark_shingles",
+    "1": "monstrous_world:block/corrupted_candle_wax"
+  },
+  "render_type": "solid"
+}

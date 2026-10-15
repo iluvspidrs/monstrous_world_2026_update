@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:block_of_moonstone",
+    "monstrous_world:modified_iron_sword_moonstone",
+    "monstrous_world:modified_shining_sword_moonstone",
+    "monstrous_world:modified_diamond_sword_moonstone",
+    "monstrous_world:moonstone",
+    "monstrous_world:purified_moonstone",
+    "monstrous_world:modified_bronze_sword_moonstone",
+    "monstrous_world:modified_diamond_axe_moonstone",
+    "monstrous_world:silver_dagger_moonstone",
+    "monstrous_world:modified_corinthian_bronze_sword_moonstone",
+    "monstrous_world:modified_bronze_axe_moonstone",
+    "monstrous_world:modified_iron_axe_moonstone",
+    "monstrous_world:modified_netherite_axe_moonstone",
+    "monstrous_world:modified_shining_netherite_axe_moonstone",
+    "monstrous_world:modified_netherite_sword_moonstone",
+    "monstrous_world:charm_of_nocturnal_guard",
+    "monstrous_world:modified_corinthian_bronze_axe_moonstone",
+    "monstrous_world:swamp_crystal_spear_moonstone"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "monstrous_world:block/placed_bone"
+    },
+    "facing=east": {
+      "model": "monstrous_world:block/placed_bone",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "monstrous_world:block/placed_bone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "monstrous_world:block/placed_bone",
+      "y": 270
+    }
+  }
+}

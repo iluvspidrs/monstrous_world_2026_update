@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:StrippedMurkwoodLog"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:StrippedMurkwoodLog",
+      "CUSTOM:StrippedMurkwoodLog",
+      "",
+      "CUSTOM:StrippedMurkwoodLog",
+      "CUSTOM:StrippedMurkwoodLog",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:StrippedMurkwoodWood",
+    "name": "recipe_stripped_murkwood_wood",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:lunar_pearl"
+    },
+    "title": {
+      "translate": "advancements.imitation_full_moon.title"
+    },
+    "description": {
+      "translate": "advancements.imitation_full_moon.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "imitation_full_moon_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:beast_unleashed"
+}

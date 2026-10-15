@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "monstrous_world:stripped_murkwood_log"
+    }
+  ],
+  "result": {
+    "id": "monstrous_world:murkwood_planks",
+    "count": 4
+  }
+}

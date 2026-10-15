@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:amulet_of_reserve"
+    },
+    "title": {
+      "translate": "advancements.your_first_amulet.title"
+    },
+    "description": {
+      "translate": "advancements.your_first_amulet.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "your_first_amulet_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:blood_focus_adv"
+}

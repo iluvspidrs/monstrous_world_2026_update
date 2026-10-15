@@ -1,0 +1,28 @@
+{
+  "name": "monstrous_world:lab_corridor",
+  "fallback": "monstrous_world:lab_end",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "monstrous_world:lab_corridor_big",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "monstrous_world:lab_corridor_big_2",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

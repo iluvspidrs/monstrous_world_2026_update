@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "monstrous_world:murky_madness",
+  "features": "monstrous_world:scattered_slime_blossoms",
+  "step": "surface_structures"
+}

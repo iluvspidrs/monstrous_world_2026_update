@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "tin_tabletop_body_arms",
+        "1": "evilbarkside",
+        "2": "robot_texture"
+      },
+      "name": "default"
+    }
+  }
+}

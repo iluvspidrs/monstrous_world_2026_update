@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:cotton_candy_magical"
+    },
+    "title": {
+      "translate": "advancements.all_the_flavors.title"
+    },
+    "description": {
+      "translate": "advancements.all_the_flavors.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "all_the_flavors_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:the_worlds_best_cotton_candy"
+}
