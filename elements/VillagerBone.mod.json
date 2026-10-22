@@ -6,43 +6,8 @@
     "texture": "villagerbone",
     "customModelName": "Normal",
     "guiTexture": "",
-    "customProperties": {
-      "unlocked": "InsaneSoulPropertyValueProvider"
-    },
-    "states": [
-      {
-        "renderType": 0,
-        "texture": "locked_item",
-        "customModelName": "Normal",
-        "stateMap": [
-          {
-            "property": {
-              "min": -1.7976931348623157E308,
-              "max": 1.7976931348623157E308,
-              "name": "CUSTOM:unlocked",
-              "type": "number"
-            },
-            "value": 0.0
-          }
-        ]
-      },
-      {
-        "renderType": 0,
-        "texture": "villagerbone",
-        "customModelName": "Normal",
-        "stateMap": [
-          {
-            "property": {
-              "min": -1.7976931348623157E308,
-              "max": 1.7976931348623157E308,
-              "name": "CUSTOM:unlocked",
-              "type": "number"
-            },
-            "value": 1.0
-          }
-        ]
-      }
-    ],
+    "customProperties": {},
+    "states": [],
     "animations": [],
     "name": "Villager Bone",
     "rarity": "COMMON",

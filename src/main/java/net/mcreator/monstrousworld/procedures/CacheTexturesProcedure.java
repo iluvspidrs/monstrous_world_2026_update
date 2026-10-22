@@ -102,5 +102,7 @@ public class CacheTexturesProcedure {
 		MonstrousWorldModVariables.PlayerDemonParts = ResourceLocation.fromNamespaceAndPath("monstrous_world", "textures/entities/demonskin.png");
 		MonstrousWorldModVariables.DummyBowTexture = ResourceLocation.fromNamespaceAndPath("monstrous_world", "textures/entities/skeleton_with_bow.png");
 		MonstrousWorldModVariables.ClownNoseTexture = ResourceLocation.fromNamespaceAndPath("monstrous_world", "textures/entities/clown_nose.png");
+		MonstrousWorldModVariables.player_dark_armor_overlay = ResourceLocation.fromNamespaceAndPath("monstrous_world", "textures/entities/darkened_armor.png");
+		MonstrousWorldModVariables.player_dark_armor_arm = ResourceLocation.fromNamespaceAndPath("monstrous_world", "textures/entities/player_darkened_armor_arm.png");
 	}
 }

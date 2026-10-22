@@ -32,7 +32,7 @@ public class OpenLoreBinder8Menu extends AbstractContainerMenu implements Monstr
 	public final Map<String, Object> menuState = new HashMap<>() {
 		@Override
 		public Object put(String key, Object value) {
-			if (!this.containsKey(key) && this.size() >= 17)
+			if (!this.containsKey(key) && this.size() >= 30)
 				return null;
 			return super.put(key, value);
 		}
@@ -52,7 +52,7 @@ public class OpenLoreBinder8Menu extends AbstractContainerMenu implements Monstr
 		super(MonstrousWorldModMenus.OPEN_LORE_BINDER_8.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
-		this.internal = new ItemStackHandler(6);
+		this.internal = new ItemStackHandler(12);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -169,6 +169,96 @@ public class OpenLoreBinder8Menu extends AbstractContainerMenu implements Monstr
 				return false;
 			}
 		}));
+		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 293, 76) {
+			private final int slot = 6;
+			private int x = OpenLoreBinder8Menu.this.x;
+			private int y = OpenLoreBinder8Menu.this.y;
+
+			@Override
+			public boolean mayPickup(Player entity) {
+				return false;
+			}
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return false;
+			}
+		}));
+		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 320, 76) {
+			private final int slot = 7;
+			private int x = OpenLoreBinder8Menu.this.x;
+			private int y = OpenLoreBinder8Menu.this.y;
+
+			@Override
+			public boolean mayPickup(Player entity) {
+				return false;
+			}
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return false;
+			}
+		}));
+		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 347, 76) {
+			private final int slot = 8;
+			private int x = OpenLoreBinder8Menu.this.x;
+			private int y = OpenLoreBinder8Menu.this.y;
+
+			@Override
+			public boolean mayPickup(Player entity) {
+				return false;
+			}
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return false;
+			}
+		}));
+		this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 266, 103) {
+			private final int slot = 9;
+			private int x = OpenLoreBinder8Menu.this.x;
+			private int y = OpenLoreBinder8Menu.this.y;
+
+			@Override
+			public boolean mayPickup(Player entity) {
+				return false;
+			}
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return false;
+			}
+		}));
+		this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 293, 103) {
+			private final int slot = 10;
+			private int x = OpenLoreBinder8Menu.this.x;
+			private int y = OpenLoreBinder8Menu.this.y;
+
+			@Override
+			public boolean mayPickup(Player entity) {
+				return false;
+			}
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return false;
+			}
+		}));
+		this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 320, 103) {
+			private final int slot = 11;
+			private int x = OpenLoreBinder8Menu.this.x;
+			private int y = OpenLoreBinder8Menu.this.y;
+
+			@Override
+			public boolean mayPickup(Player entity) {
+				return false;
+			}
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return false;
+			}
+		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
 				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 12 + 8 + sj * 18, -26 + 84 + si * 18));
@@ -196,16 +286,16 @@ public class OpenLoreBinder8Menu extends AbstractContainerMenu implements Monstr
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 6) {
-				if (!this.moveItemStackTo(itemstack1, 6, this.slots.size(), true))
+			if (index < 12) {
+				if (!this.moveItemStackTo(itemstack1, 12, this.slots.size(), true))
 					return ItemStack.EMPTY;
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 6, false)) {
-				if (index < 6 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 6 + 27, this.slots.size(), true))
+			} else if (!this.moveItemStackTo(itemstack1, 0, 12, false)) {
+				if (index < 12 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 12 + 27, this.slots.size(), true))
 						return ItemStack.EMPTY;
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 6, 6 + 27, false))
+					if (!this.moveItemStackTo(itemstack1, 12, 12 + 27, false))
 						return ItemStack.EMPTY;
 				}
 				return ItemStack.EMPTY;
@@ -298,6 +388,18 @@ public class OpenLoreBinder8Menu extends AbstractContainerMenu implements Monstr
 						continue;
 					if (j == 5)
 						continue;
+					if (j == 6)
+						continue;
+					if (j == 7)
+						continue;
+					if (j == 8)
+						continue;
+					if (j == 9)
+						continue;
+					if (j == 10)
+						continue;
+					if (j == 11)
+						continue;
 					playerIn.drop(internal.getStackInSlot(j), false);
 					if (internal instanceof IItemHandlerModifiable ihm)
 						ihm.setStackInSlot(j, ItemStack.EMPTY);
@@ -313,6 +415,18 @@ public class OpenLoreBinder8Menu extends AbstractContainerMenu implements Monstr
 					if (i == 4)
 						continue;
 					if (i == 5)
+						continue;
+					if (i == 6)
+						continue;
+					if (i == 7)
+						continue;
+					if (i == 8)
+						continue;
+					if (i == 9)
+						continue;
+					if (i == 10)
+						continue;
+					if (i == 11)
 						continue;
 					playerIn.getInventory().placeItemBackInInventory(internal.getStackInSlot(i));
 					if (internal instanceof IItemHandlerModifiable ihm)

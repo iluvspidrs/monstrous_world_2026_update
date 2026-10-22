@@ -22,6 +22,7 @@ public class MonstrousWorldModModels {
 		event.registerLayerDefinition(ModelWitcheryBroom2.LAYER_LOCATION, ModelWitcheryBroom2::createBodyLayer);
 		event.registerLayerDefinition(ModelPlayerFlyWingsOffGround.LAYER_LOCATION, ModelPlayerFlyWingsOffGround::createBodyLayer);
 		event.registerLayerDefinition(ModelNPCGoblin.LAYER_LOCATION, ModelNPCGoblin::createBodyLayer);
+		event.registerLayerDefinition(ModelDarkenedArmorOverlay.LAYER_LOCATION, ModelDarkenedArmorOverlay::createBodyLayer);
 		event.registerLayerDefinition(ModelChannelerSpark.LAYER_LOCATION, ModelChannelerSpark::createBodyLayer);
 		event.registerLayerDefinition(ModelVampireCloakHood.LAYER_LOCATION, ModelVampireCloakHood::createBodyLayer);
 		event.registerLayerDefinition(ModelLabCoat.LAYER_LOCATION, ModelLabCoat::createBodyLayer);
@@ -33,6 +34,7 @@ public class MonstrousWorldModModels {
 		event.registerLayerDefinition(ModelSwampLight.LAYER_LOCATION, ModelSwampLight::createBodyLayer);
 		event.registerLayerDefinition(ModelGlowingBlockEntity.LAYER_LOCATION, ModelGlowingBlockEntity::createBodyLayer);
 		event.registerLayerDefinition(ModelCustomModel.LAYER_LOCATION, ModelCustomModel::createBodyLayer);
+		event.registerLayerDefinition(ModelDarkenedCape.LAYER_LOCATION, ModelDarkenedCape::createBodyLayer);
 		event.registerLayerDefinition(ModelNeutralSkeleton.LAYER_LOCATION, ModelNeutralSkeleton::createBodyLayer);
 		event.registerLayerDefinition(Modelmutationfour.LAYER_LOCATION, Modelmutationfour::createBodyLayer);
 		event.registerLayerDefinition(ModelMurkanusWorm.LAYER_LOCATION, ModelMurkanusWorm::createBodyLayer);

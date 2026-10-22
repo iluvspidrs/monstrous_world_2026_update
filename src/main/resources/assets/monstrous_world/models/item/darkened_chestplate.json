@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "monstrous_world:item/corrupted_chestplate_item"
-  }
-}

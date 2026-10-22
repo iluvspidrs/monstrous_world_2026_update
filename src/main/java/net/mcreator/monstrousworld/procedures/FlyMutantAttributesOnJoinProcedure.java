@@ -224,6 +224,9 @@ public class FlyMutantAttributesOnJoinProcedure {
 							_entity.getAttribute(Attributes.ATTACK_DAMAGE).addPermanentModifier(modifier);
 						}
 					}
+					if (entity instanceof LivingEntity _entity) {
+						_entity.getAttribute(Attributes.ATTACK_SPEED).removeModifier(ResourceLocation.parse("monstrous_world:werewolf_speed"));
+					}
 					if (world.dimensionType().moonPhase(world.dayTime()) == 0 && MonstrousWorldModVariables.TimeUntilNight <= 0) {
 						if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 							_entity.addEffect(new MobEffectInstance(MonstrousWorldModMobEffects.LUNAR_PULL, 100, 0));
@@ -261,6 +264,22 @@ public class FlyMutantAttributesOnJoinProcedure {
 							AttributeModifier modifier = new AttributeModifier(ResourceLocation.parse("monstrous_world:werewolf_jump_5"), 0.03, AttributeModifier.Operation.ADD_VALUE);
 							if (!_entity.getAttribute(Attributes.JUMP_STRENGTH).hasModifier(modifier.id())) {
 								_entity.getAttribute(Attributes.JUMP_STRENGTH).addPermanentModifier(modifier);
+							}
+						}
+					}
+					if (getEntityScore("werewolf_ability", entity) >= 4) {
+						if (entity instanceof LivingEntity _entity) {
+							AttributeModifier modifier = new AttributeModifier(ResourceLocation.parse("monstrous_world:werewolf_knockback"), 2, AttributeModifier.Operation.ADD_VALUE);
+							if (!_entity.getAttribute(Attributes.ATTACK_KNOCKBACK).hasModifier(modifier.id())) {
+								_entity.getAttribute(Attributes.ATTACK_KNOCKBACK).addPermanentModifier(modifier);
+							}
+						}
+					}
+					if (getEntityScore("werewolf_ability", entity) >= 6) {
+						if (entity instanceof LivingEntity _entity) {
+							AttributeModifier modifier = new AttributeModifier(ResourceLocation.parse("monstrous_world:werewolf_fall_damage"), 5, AttributeModifier.Operation.ADD_VALUE);
+							if (!_entity.getAttribute(Attributes.SAFE_FALL_DISTANCE).hasModifier(modifier.id())) {
+								_entity.getAttribute(Attributes.SAFE_FALL_DISTANCE).addPermanentModifier(modifier);
 							}
 						}
 					}
@@ -350,7 +369,7 @@ public class FlyMutantAttributesOnJoinProcedure {
 						}
 					}
 					if (entity instanceof LivingEntity _entity) {
-						AttributeModifier modifier = new AttributeModifier(ResourceLocation.parse("monstrous_world:darkness_armor"), 10, AttributeModifier.Operation.ADD_VALUE);
+						AttributeModifier modifier = new AttributeModifier(ResourceLocation.parse("monstrous_world:darkness_armor"), 15, AttributeModifier.Operation.ADD_VALUE);
 						if (!_entity.getAttribute(Attributes.ARMOR).hasModifier(modifier.id())) {
 							_entity.getAttribute(Attributes.ARMOR).addPermanentModifier(modifier);
 						}
@@ -562,6 +581,22 @@ public class FlyMutantAttributesOnJoinProcedure {
 					if (world.dimensionType().moonPhase(world.dayTime()) == 0 && MonstrousWorldModVariables.TimeUntilNight <= 0) {
 						if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 							_entity.addEffect(new MobEffectInstance(MonstrousWorldModMobEffects.LUNAR_PULL, 100, 0));
+					}
+					if (getEntityScore("werewolf_ability", entity) >= 4) {
+						if (entity instanceof LivingEntity _entity) {
+							AttributeModifier modifier = new AttributeModifier(ResourceLocation.parse("monstrous_world:werewolf_knockback"), 2, AttributeModifier.Operation.ADD_VALUE);
+							if (!_entity.getAttribute(Attributes.ATTACK_KNOCKBACK).hasModifier(modifier.id())) {
+								_entity.getAttribute(Attributes.ATTACK_KNOCKBACK).addPermanentModifier(modifier);
+							}
+						}
+					}
+					if (getEntityScore("werewolf_ability", entity) >= 6) {
+						if (entity instanceof LivingEntity _entity) {
+							AttributeModifier modifier = new AttributeModifier(ResourceLocation.parse("monstrous_world:werewolf_fall_damage"), 5, AttributeModifier.Operation.ADD_VALUE);
+							if (!_entity.getAttribute(Attributes.SAFE_FALL_DISTANCE).hasModifier(modifier.id())) {
+								_entity.getAttribute(Attributes.SAFE_FALL_DISTANCE).addPermanentModifier(modifier);
+							}
+						}
 					}
 				}
 				if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).HuntersGuild == true && entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).FactionLevel == 6) {

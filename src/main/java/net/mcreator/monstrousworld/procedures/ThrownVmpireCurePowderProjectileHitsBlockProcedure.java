@@ -158,6 +158,10 @@ public class ThrownVmpireCurePowderProjectileHitsBlockProcedure {
 				final Vec3 _center = new Vec3(x, y, z);
 				for (Entity entityiterator : world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(7 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList()) {
 					if (entityiterator instanceof Player || entityiterator instanceof ServerPlayer) {
+						if (entityiterator.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterClass == 8) {
+							if (entityiterator instanceof Player _player && !_player.level().isClientSide())
+								_player.displayClientMessage(Component.literal("This powder can't cure Vampires turned by the Darkness. You must use a Mysterious Container or a special Ultimate Tome..."), false);
+						}
 						if (entityiterator.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).VampireInfection >= 1) {
 							{
 								MonstrousWorldModVariables.PlayerVariables _vars = entityiterator.getData(MonstrousWorldModVariables.PLAYER_VARIABLES);

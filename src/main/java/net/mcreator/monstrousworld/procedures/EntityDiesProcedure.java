@@ -73,36 +73,38 @@ public class EntityDiesProcedure {
 		if (entity == null || sourceentity == null)
 			return;
 		if (!world.isClientSide()) {
-			for (int _i1 = 0; _i1 < (int) entity.getPersistentData().getDouble("IronBolts"); _i1++) {
-				if (world instanceof ServerLevel _level) {
-					ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX() + 0.5), (entity.getY() + 1), (entity.getZ() + 0.5), new ItemStack(MonstrousWorldModItems.IRON_BOLT.get()));
-					entityToSpawn.setPickUpDelay(10);
-					_level.addFreshEntity(entityToSpawn);
+			if (!world.getEntitiesOfClass(Player.class, new AABB(Vec3.ZERO, Vec3.ZERO).move(new Vec3(x, y, z)).inflate(64 / 2d), e -> true).isEmpty()) {
+				for (int _i1 = 0; _i1 < (int) entity.getPersistentData().getDouble("IronBolts"); _i1++) {
+					if (world instanceof ServerLevel _level) {
+						ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX() + 0.5), (entity.getY() + 1), (entity.getZ() + 0.5), new ItemStack(MonstrousWorldModItems.IRON_BOLT.get()));
+						entityToSpawn.setPickUpDelay(10);
+						_level.addFreshEntity(entityToSpawn);
+					}
 				}
-			}
-			for (int _i1 = 0; _i1 < (int) entity.getPersistentData().getDouble("SilverBolts"); _i1++) {
-				if (world instanceof ServerLevel _level) {
-					ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX() + 0.5), (entity.getY() + 1), (entity.getZ() + 0.5), new ItemStack(MonstrousWorldModItems.SILVER_BOLT.get()));
-					entityToSpawn.setPickUpDelay(10);
-					_level.addFreshEntity(entityToSpawn);
+				for (int _i1 = 0; _i1 < (int) entity.getPersistentData().getDouble("SilverBolts"); _i1++) {
+					if (world instanceof ServerLevel _level) {
+						ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX() + 0.5), (entity.getY() + 1), (entity.getZ() + 0.5), new ItemStack(MonstrousWorldModItems.SILVER_BOLT.get()));
+						entityToSpawn.setPickUpDelay(10);
+						_level.addFreshEntity(entityToSpawn);
+					}
 				}
-			}
-			for (int _i1 = 0; _i1 < (int) entity.getPersistentData().getDouble("IronKnives"); _i1++) {
-				if (world instanceof ServerLevel _level) {
-					ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX() + 0.5), (entity.getY() + 1), (entity.getZ() + 0.5), new ItemStack(MonstrousWorldModItems.IRON_THROWING_KNIFE.get()));
-					entityToSpawn.setPickUpDelay(10);
-					_level.addFreshEntity(entityToSpawn);
+				for (int _i1 = 0; _i1 < (int) entity.getPersistentData().getDouble("IronKnives"); _i1++) {
+					if (world instanceof ServerLevel _level) {
+						ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX() + 0.5), (entity.getY() + 1), (entity.getZ() + 0.5), new ItemStack(MonstrousWorldModItems.IRON_THROWING_KNIFE.get()));
+						entityToSpawn.setPickUpDelay(10);
+						_level.addFreshEntity(entityToSpawn);
+					}
 				}
-			}
-			for (int _i1 = 0; _i1 < (int) entity.getPersistentData().getDouble("Silver Knives"); _i1++) {
-				if (world instanceof ServerLevel _level) {
-					ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX() + 0.5), (entity.getY() + 1), (entity.getZ() + 0.5), new ItemStack(MonstrousWorldModItems.SILVER_THROWING_KNIFE.get()));
-					entityToSpawn.setPickUpDelay(10);
-					_level.addFreshEntity(entityToSpawn);
+				for (int _i1 = 0; _i1 < (int) entity.getPersistentData().getDouble("Silver Knives"); _i1++) {
+					if (world instanceof ServerLevel _level) {
+						ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX() + 0.5), (entity.getY() + 1), (entity.getZ() + 0.5), new ItemStack(MonstrousWorldModItems.SILVER_THROWING_KNIFE.get()));
+						entityToSpawn.setPickUpDelay(10);
+						_level.addFreshEntity(entityToSpawn);
+					}
 				}
 			}
 			if (entity instanceof Villager) {
-				if (entity instanceof LivingEntity _livEnt22 && _livEnt22.hasEffect(MonstrousWorldModMobEffects.UNHOLY_DAMAGE)) {
+				if (entity instanceof LivingEntity _livEnt23 && _livEnt23.hasEffect(MonstrousWorldModMobEffects.UNHOLY_DAMAGE)) {
 					if (world instanceof ServerLevel _level) {
 						ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX() + 0.5), (entity.getY() + 1), (entity.getZ() + 0.5), new ItemStack(MonstrousWorldModItems.VILLAGER_BONE.get()));
 						entityToSpawn.setPickUpDelay(10);
@@ -140,7 +142,7 @@ public class EntityDiesProcedure {
 					}
 				}
 			}
-			if (entity instanceof FeralSwampmonsterEntity || entity instanceof LivingEntity _livEnt40 && _livEnt40.hasEffect(MonstrousWorldModMobEffects.MURKANUS_MARTH)) {
+			if (entity instanceof FeralSwampmonsterEntity || entity instanceof LivingEntity _livEnt41 && _livEnt41.hasEffect(MonstrousWorldModMobEffects.MURKANUS_MARTH)) {
 				if (sourceentity instanceof IronBoltProjectileEntity) {
 					if (world instanceof ServerLevel _level) {
 						ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX() + 0.5), (entity.getY() + 1), (entity.getZ() + 0.5), new ItemStack(MonstrousWorldModItems.SWAMPMONSTER_FIN.get()));
@@ -150,8 +152,8 @@ public class EntityDiesProcedure {
 				}
 			}
 			if (sourceentity instanceof Player || sourceentity instanceof ServerPlayer) {
-				if (sourceentity instanceof LivingEntity _livEnt48 && _livEnt48.hasEffect(MonstrousWorldModMobEffects.MURKANUS_MARTH)) {
-					if (entity.getType().is(TagKey.create(Registries.ENTITY_TYPE, ResourceLocation.parse("neoforge:has_brain"))) && entity instanceof LivingEntity _livEnt50 && _livEnt50.hasEffect(MonstrousWorldModMobEffects.SINKING)) {
+				if (sourceentity instanceof LivingEntity _livEnt49 && _livEnt49.hasEffect(MonstrousWorldModMobEffects.MURKANUS_MARTH)) {
+					if (entity.getType().is(TagKey.create(Registries.ENTITY_TYPE, ResourceLocation.parse("neoforge:has_brain"))) && entity instanceof LivingEntity _livEnt51 && _livEnt51.hasEffect(MonstrousWorldModMobEffects.SINKING)) {
 						if (sourceentity instanceof Player _player)
 							_player.getFoodData().setFoodLevel(20);
 						if (sourceentity instanceof Player _player)
@@ -193,7 +195,7 @@ public class EntityDiesProcedure {
 				}
 			}
 			if (entity instanceof FeralWerewolfEntity || entity instanceof DireWerewolfEntity) {
-				if (entity.getPersistentData().getDouble("Silver Knives") >= 1 && entity instanceof LivingEntity _livEnt67 && _livEnt67.hasEffect(MonstrousWorldModMobEffects.HOLY_DAMAGE)) {
+				if (entity.getPersistentData().getDouble("Silver Knives") >= 1 && entity instanceof LivingEntity _livEnt68 && _livEnt68.hasEffect(MonstrousWorldModMobEffects.HOLY_DAMAGE)) {
 					if (world instanceof ServerLevel _level) {
 						ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX() + 0.5), (entity.getY() + 1), (entity.getZ() + 0.5), new ItemStack(MonstrousWorldModItems.WEREWOLF_CLAW.get()));
 						entityToSpawn.setPickUpDelay(10);
@@ -218,7 +220,7 @@ public class EntityDiesProcedure {
 			}
 			if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterType == 5) {
 				if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).BeastForm == true) {
-					if (entity.getPersistentData().getDouble("Silver Knives") >= 1 && entity instanceof LivingEntity _livEnt84 && _livEnt84.hasEffect(MonstrousWorldModMobEffects.HOLY_DAMAGE)) {
+					if (entity.getPersistentData().getDouble("Silver Knives") >= 1 && entity instanceof LivingEntity _livEnt85 && _livEnt85.hasEffect(MonstrousWorldModMobEffects.HOLY_DAMAGE)) {
 						if (world instanceof ServerLevel _level) {
 							ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX() + 0.5), (entity.getY() + 1), (entity.getZ() + 0.5), new ItemStack(MonstrousWorldModItems.WEREWOLF_CLAW.get()));
 							entityToSpawn.setPickUpDelay(10);
@@ -282,7 +284,7 @@ public class EntityDiesProcedure {
 					}
 				}
 				if (entity.getPersistentData().getBoolean("SwampPoisoned") == true) {
-					if (entity instanceof LivingEntity _livEnt125 && _livEnt125.hasEffect(MobEffects.POISON)) {
+					if (entity instanceof LivingEntity _livEnt126 && _livEnt126.hasEffect(MobEffects.POISON)) {
 						if (world instanceof ServerLevel _level) {
 							ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX() + 0.5), (entity.getY() + 1), (entity.getZ() + 0.5), new ItemStack(MonstrousWorldModBlocks.POISONED_SKULL.get()));
 							entityToSpawn.setPickUpDelay(10);

@@ -75,6 +75,9 @@ public class Witch1RightclickedOnEntityProcedure {
 												}
 												if (sourceentity instanceof Player _player && !_player.level().isClientSide())
 													_player.displayClientMessage(Component.literal("\"Here, take this guidebook! It'll get you started on Witchery!\""), false);
+											} else {
+												if (sourceentity instanceof Player _player && !_player.level().isClientSide())
+													_player.displayClientMessage(Component.literal("\"Follow the guide we gave you, and you'll know what to do.\""), false);
 											}
 										});
 									} else {

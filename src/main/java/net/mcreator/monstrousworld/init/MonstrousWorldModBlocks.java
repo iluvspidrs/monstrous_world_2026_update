@@ -555,6 +555,14 @@ public class MonstrousWorldModBlocks {
 	public static final DeferredBlock<Block> TANGLED_TERROR;
 	public static final DeferredBlock<Block> ANCIENT_SHRINE_TO_ARTEMIS;
 	public static final DeferredBlock<Block> DROPPED_ARCHAEOLOGICAL_NOTE;
+	public static final DeferredBlock<Block> DROPPED_LUNAR_SCROLL;
+	public static final DeferredBlock<Block> DROPPED_TO_KEEP_ARMOR;
+	public static final DeferredBlock<Block> DROPPED_FOR_GREATER_KNOCKBACK;
+	public static final DeferredBlock<Block> DROPPED_TO_STUN_PREY;
+	public static final DeferredBlock<Block> DROPPED_TO_REDUCE_FALL_DAMAGE;
+	public static final DeferredBlock<Block> DROPPED_FOR_HANDLING_ITEMS;
+	public static final DeferredBlock<Block> TALL_YELLOW_PUMPKIN_BLOCK;
+	public static final DeferredBlock<Block> WIDE_YELLOW_PUMPKIN_B_LOCK;
 	static {
 		DARK_SEED = REGISTRY.register("dark_seed", DarkSeedBlock::new);
 		DARKENED_STONE = REGISTRY.register("darkened_stone", DarkenedStoneBlock::new);
@@ -1094,6 +1102,14 @@ public class MonstrousWorldModBlocks {
 		TANGLED_TERROR = REGISTRY.register("tangled_terror", TangledTerrorBlock::new);
 		ANCIENT_SHRINE_TO_ARTEMIS = REGISTRY.register("ancient_shrine_to_artemis", AncientShrineToArtemisBlock::new);
 		DROPPED_ARCHAEOLOGICAL_NOTE = REGISTRY.register("dropped_archaeological_note", DroppedArchaeologicalNoteBlock::new);
+		DROPPED_LUNAR_SCROLL = REGISTRY.register("dropped_lunar_scroll", DroppedLunarScrollBlock::new);
+		DROPPED_TO_KEEP_ARMOR = REGISTRY.register("dropped_to_keep_armor", DroppedToKeepArmorBlock::new);
+		DROPPED_FOR_GREATER_KNOCKBACK = REGISTRY.register("dropped_for_greater_knockback", DroppedForGreaterKnockbackBlock::new);
+		DROPPED_TO_STUN_PREY = REGISTRY.register("dropped_to_stun_prey", DroppedToStunPreyBlock::new);
+		DROPPED_TO_REDUCE_FALL_DAMAGE = REGISTRY.register("dropped_to_reduce_fall_damage", DroppedToReduceFallDamageBlock::new);
+		DROPPED_FOR_HANDLING_ITEMS = REGISTRY.register("dropped_for_handling_items", DroppedForHandlingItemsBlock::new);
+		TALL_YELLOW_PUMPKIN_BLOCK = REGISTRY.register("tall_yellow_pumpkin_block", TallYellowPumpkinBlockBlock::new);
+		WIDE_YELLOW_PUMPKIN_B_LOCK = REGISTRY.register("wide_yellow_pumpkin_b_lock", WideYellowPumpkinBLockBlock::new);
 	}
 
 	// Start of user code block custom blocks

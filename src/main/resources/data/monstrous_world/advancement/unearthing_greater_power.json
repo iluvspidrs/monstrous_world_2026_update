@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:bone_brand_of_digging"
+    },
+    "title": {
+      "translate": "advancements.unearthing_greater_power.title"
+    },
+    "description": {
+      "translate": "advancements.unearthing_greater_power.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unearthing_greater_power_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:the_ancient_hunt"
+}

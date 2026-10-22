@@ -5,7 +5,9 @@
     "monstrous_world:red_light_bulb_item",
     "monstrous_world:orange_light_bulb_item",
     "monstrous_world:purple_light_bulb_item",
+    "monstrous_world:caged_light_item",
     "monstrous_world:white_light_bulb_item",
+    "monstrous_world:swamp_light_item",
     "monstrous_world:green_light_bulb_item"
   ]
 }

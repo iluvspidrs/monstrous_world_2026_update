@@ -264,62 +264,6 @@ public class BeastFormOnKeyPressedProcedure {
 								_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.wolf.growl")), SoundSource.NEUTRAL, 1, 1, false);
 							}
 						}
-						if (world instanceof ServerLevel _level) {
-							ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).copy()));
-							entityToSpawn.setPickUpDelay(10);
-							_level.addFreshEntity(entityToSpawn);
-						}
-						if (world instanceof ServerLevel _level) {
-							ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).copy()));
-							entityToSpawn.setPickUpDelay(10);
-							_level.addFreshEntity(entityToSpawn);
-						}
-						if (world instanceof ServerLevel _level) {
-							ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).copy()));
-							entityToSpawn.setPickUpDelay(10);
-							_level.addFreshEntity(entityToSpawn);
-						}
-						if (world instanceof ServerLevel _level) {
-							ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).copy()));
-							entityToSpawn.setPickUpDelay(10);
-							_level.addFreshEntity(entityToSpawn);
-						}
-						{
-							Entity _entity = entity;
-							if (_entity instanceof Player _player) {
-								_player.getInventory().armor.set(0, new ItemStack(Blocks.AIR));
-								_player.getInventory().setChanged();
-							} else if (_entity instanceof LivingEntity _living) {
-								_living.setItemSlot(EquipmentSlot.FEET, new ItemStack(Blocks.AIR));
-							}
-						}
-						{
-							Entity _entity = entity;
-							if (_entity instanceof Player _player) {
-								_player.getInventory().armor.set(1, new ItemStack(Blocks.AIR));
-								_player.getInventory().setChanged();
-							} else if (_entity instanceof LivingEntity _living) {
-								_living.setItemSlot(EquipmentSlot.LEGS, new ItemStack(Blocks.AIR));
-							}
-						}
-						{
-							Entity _entity = entity;
-							if (_entity instanceof Player _player) {
-								_player.getInventory().armor.set(2, new ItemStack(Blocks.AIR));
-								_player.getInventory().setChanged();
-							} else if (_entity instanceof LivingEntity _living) {
-								_living.setItemSlot(EquipmentSlot.CHEST, new ItemStack(Blocks.AIR));
-							}
-						}
-						{
-							Entity _entity = entity;
-							if (_entity instanceof Player _player) {
-								_player.getInventory().armor.set(3, new ItemStack(Blocks.AIR));
-								_player.getInventory().setChanged();
-							} else if (_entity instanceof LivingEntity _living) {
-								_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(Blocks.AIR));
-							}
-						}
 					});
 				}
 				if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).FactionLevel == 4 || entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).FactionLevel == 5) {
@@ -340,7 +284,7 @@ public class BeastFormOnKeyPressedProcedure {
 						if (entity instanceof LivingEntity _entity)
 							_entity.removeEffect(MonstrousWorldModMobEffects.WEBBED);
 					}
-					if (entity instanceof LivingEntity _livEnt86 && _livEnt86.hasEffect(MonstrousWorldModMobEffects.HYPNOSIS)) {
+					if (entity instanceof LivingEntity _livEnt70 && _livEnt70.hasEffect(MonstrousWorldModMobEffects.HYPNOSIS)) {
 						if (entity instanceof LivingEntity _entity)
 							_entity.removeEffect(MonstrousWorldModMobEffects.HYPNOSIS);
 						if (entity instanceof LivingEntity _entity)
@@ -370,7 +314,7 @@ public class BeastFormOnKeyPressedProcedure {
 							}
 						}
 					}
-					if (entity instanceof LivingEntity _livEnt98 && _livEnt98.hasEffect(MonstrousWorldModMobEffects.ENCHANTED) || entity instanceof LivingEntity _livEnt99 && _livEnt99.hasEffect(MonstrousWorldModMobEffects.CRAZED)) {
+					if (entity instanceof LivingEntity _livEnt82 && _livEnt82.hasEffect(MonstrousWorldModMobEffects.ENCHANTED) || entity instanceof LivingEntity _livEnt83 && _livEnt83.hasEffect(MonstrousWorldModMobEffects.CRAZED)) {
 						if (entity instanceof LivingEntity _entity)
 							_entity.removeEffect(MonstrousWorldModMobEffects.ENCHANTED);
 						if (entity instanceof LivingEntity _entity)
@@ -397,62 +341,6 @@ public class BeastFormOnKeyPressedProcedure {
 								_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.wolf.growl")), SoundSource.NEUTRAL, 1, 1);
 							} else {
 								_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.wolf.growl")), SoundSource.NEUTRAL, 1, 1, false);
-							}
-						}
-						if (world instanceof ServerLevel _level) {
-							ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).copy()));
-							entityToSpawn.setPickUpDelay(10);
-							_level.addFreshEntity(entityToSpawn);
-						}
-						if (world instanceof ServerLevel _level) {
-							ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).copy()));
-							entityToSpawn.setPickUpDelay(10);
-							_level.addFreshEntity(entityToSpawn);
-						}
-						if (world instanceof ServerLevel _level) {
-							ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).copy()));
-							entityToSpawn.setPickUpDelay(10);
-							_level.addFreshEntity(entityToSpawn);
-						}
-						if (world instanceof ServerLevel _level) {
-							ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).copy()));
-							entityToSpawn.setPickUpDelay(10);
-							_level.addFreshEntity(entityToSpawn);
-						}
-						{
-							Entity _entity = entity;
-							if (_entity instanceof Player _player) {
-								_player.getInventory().armor.set(0, new ItemStack(Blocks.AIR));
-								_player.getInventory().setChanged();
-							} else if (_entity instanceof LivingEntity _living) {
-								_living.setItemSlot(EquipmentSlot.FEET, new ItemStack(Blocks.AIR));
-							}
-						}
-						{
-							Entity _entity = entity;
-							if (_entity instanceof Player _player) {
-								_player.getInventory().armor.set(1, new ItemStack(Blocks.AIR));
-								_player.getInventory().setChanged();
-							} else if (_entity instanceof LivingEntity _living) {
-								_living.setItemSlot(EquipmentSlot.LEGS, new ItemStack(Blocks.AIR));
-							}
-						}
-						{
-							Entity _entity = entity;
-							if (_entity instanceof Player _player) {
-								_player.getInventory().armor.set(2, new ItemStack(Blocks.AIR));
-								_player.getInventory().setChanged();
-							} else if (_entity instanceof LivingEntity _living) {
-								_living.setItemSlot(EquipmentSlot.CHEST, new ItemStack(Blocks.AIR));
-							}
-						}
-						{
-							Entity _entity = entity;
-							if (_entity instanceof Player _player) {
-								_player.getInventory().armor.set(3, new ItemStack(Blocks.AIR));
-								_player.getInventory().setChanged();
-							} else if (_entity instanceof LivingEntity _living) {
-								_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(Blocks.AIR));
 							}
 						}
 					});
@@ -475,7 +363,7 @@ public class BeastFormOnKeyPressedProcedure {
 						if (entity instanceof LivingEntity _entity)
 							_entity.removeEffect(MonstrousWorldModMobEffects.WEBBED);
 					}
-					if (entity instanceof LivingEntity _livEnt129 && _livEnt129.hasEffect(MonstrousWorldModMobEffects.HYPNOSIS)) {
+					if (entity instanceof LivingEntity _livEnt97 && _livEnt97.hasEffect(MonstrousWorldModMobEffects.HYPNOSIS)) {
 						if (entity instanceof LivingEntity _entity)
 							_entity.removeEffect(MonstrousWorldModMobEffects.HYPNOSIS);
 						if (entity instanceof LivingEntity _entity)
@@ -505,7 +393,7 @@ public class BeastFormOnKeyPressedProcedure {
 							}
 						}
 					}
-					if (entity instanceof LivingEntity _livEnt141 && _livEnt141.hasEffect(MonstrousWorldModMobEffects.ENCHANTED) || entity instanceof LivingEntity _livEnt142 && _livEnt142.hasEffect(MonstrousWorldModMobEffects.CRAZED)) {
+					if (entity instanceof LivingEntity _livEnt109 && _livEnt109.hasEffect(MonstrousWorldModMobEffects.ENCHANTED) || entity instanceof LivingEntity _livEnt110 && _livEnt110.hasEffect(MonstrousWorldModMobEffects.CRAZED)) {
 						if (entity instanceof LivingEntity _entity)
 							_entity.removeEffect(MonstrousWorldModMobEffects.ENCHANTED);
 						if (entity instanceof LivingEntity _entity)
@@ -534,69 +422,13 @@ public class BeastFormOnKeyPressedProcedure {
 								_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.wolf.growl")), SoundSource.NEUTRAL, 1, 1, false);
 							}
 						}
-						if (world instanceof ServerLevel _level) {
-							ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).copy()));
-							entityToSpawn.setPickUpDelay(10);
-							_level.addFreshEntity(entityToSpawn);
-						}
-						if (world instanceof ServerLevel _level) {
-							ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).copy()));
-							entityToSpawn.setPickUpDelay(10);
-							_level.addFreshEntity(entityToSpawn);
-						}
-						if (world instanceof ServerLevel _level) {
-							ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).copy()));
-							entityToSpawn.setPickUpDelay(10);
-							_level.addFreshEntity(entityToSpawn);
-						}
-						if (world instanceof ServerLevel _level) {
-							ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).copy()));
-							entityToSpawn.setPickUpDelay(10);
-							_level.addFreshEntity(entityToSpawn);
-						}
-						{
-							Entity _entity = entity;
-							if (_entity instanceof Player _player) {
-								_player.getInventory().armor.set(0, new ItemStack(Blocks.AIR));
-								_player.getInventory().setChanged();
-							} else if (_entity instanceof LivingEntity _living) {
-								_living.setItemSlot(EquipmentSlot.FEET, new ItemStack(Blocks.AIR));
-							}
-						}
-						{
-							Entity _entity = entity;
-							if (_entity instanceof Player _player) {
-								_player.getInventory().armor.set(1, new ItemStack(Blocks.AIR));
-								_player.getInventory().setChanged();
-							} else if (_entity instanceof LivingEntity _living) {
-								_living.setItemSlot(EquipmentSlot.LEGS, new ItemStack(Blocks.AIR));
-							}
-						}
-						{
-							Entity _entity = entity;
-							if (_entity instanceof Player _player) {
-								_player.getInventory().armor.set(2, new ItemStack(Blocks.AIR));
-								_player.getInventory().setChanged();
-							} else if (_entity instanceof LivingEntity _living) {
-								_living.setItemSlot(EquipmentSlot.CHEST, new ItemStack(Blocks.AIR));
-							}
-						}
-						{
-							Entity _entity = entity;
-							if (_entity instanceof Player _player) {
-								_player.getInventory().armor.set(3, new ItemStack(Blocks.AIR));
-								_player.getInventory().setChanged();
-							} else if (_entity instanceof LivingEntity _living) {
-								_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(Blocks.AIR));
-							}
-						}
 					});
 				}
 			}
 			if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterClass == 7
 					&& (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MonstrousWorldModMobEffects.TRANSFORM_COOLDOWN) ? _livEnt.getEffect(MonstrousWorldModMobEffects.TRANSFORM_COOLDOWN).getDuration() : 0) >= 1
 					&& (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MonstrousWorldModMobEffects.LUNAR_PULL) ? _livEnt.getEffect(MonstrousWorldModMobEffects.LUNAR_PULL).getDuration() : 0) == 0) {
-				if (world.dimensionType().moonPhase(world.dayTime()) != 0 || world instanceof Level _lvl167 && _lvl167.isDay()) {
+				if (world.dimensionType().moonPhase(world.dayTime()) != 0 || world instanceof Level _lvl119 && _lvl119.isDay()) {
 					if (entity instanceof Player _player && !_player.level().isClientSide())
 						_player.displayClientMessage(Component.literal("You are too tired to shift again right now..."), false);
 				}
@@ -628,8 +460,8 @@ public class BeastFormOnKeyPressedProcedure {
 		if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterClass == 11) {
 			if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).FactionLevel == 6) {
 				if (entity.getPersistentData().getDouble("KeybindCooldown") == 0 && entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).Balloon == false) {
-					entity.getPersistentData().putDouble("KeybindCooldown", 200);
 					MonstrousWorldMod.queueServerWork(1, () -> {
+						entity.getPersistentData().putDouble("KeybindCooldown", 200);
 						if (entity instanceof Player _player && !_player.level().isClientSide())
 							_player.displayClientMessage(Component.literal("Press [C] to float upward"), true);
 						if (entity instanceof ServerPlayer _player) {

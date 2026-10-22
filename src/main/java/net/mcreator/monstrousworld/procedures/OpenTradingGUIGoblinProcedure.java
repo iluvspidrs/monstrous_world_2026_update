@@ -151,6 +151,9 @@ public class OpenTradingGUIGoblinProcedure {
 												entityToSpawn.setPickUpDelay(10);
 												_level.addFreshEntity(entityToSpawn);
 											}
+										} else {
+											if (sourceentity instanceof Player _player && !_player.level().isClientSide())
+												_player.displayClientMessage(Component.literal("\"Follow the guide we gave you, and you'll know what to do.\""), false);
 										}
 									}
 									if (sourceentity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).HuntersGuild == true) {

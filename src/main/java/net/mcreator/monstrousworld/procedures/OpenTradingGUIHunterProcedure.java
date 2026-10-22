@@ -259,6 +259,11 @@ public class OpenTradingGUIHunterProcedure {
 																if (sourceentity instanceof Player _player && !_player.level().isClientSide())
 																	_player.displayClientMessage(Component.literal("\"You'll need this guide to survive this job!\""), false);
 															}
+														} else {
+															if (sourceentity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).FactionLevel < 6) {
+																if (sourceentity instanceof Player _player && !_player.level().isClientSide())
+																	_player.displayClientMessage(Component.literal("\"Follow the guide we gave you, and you'll know what to do.\""), false);
+															}
 														}
 													}
 													if (sourceentity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).HuntersGuild == false || sourceentity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterType >= 1) {

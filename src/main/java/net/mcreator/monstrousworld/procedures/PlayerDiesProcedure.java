@@ -196,18 +196,6 @@ public class PlayerDiesProcedure {
 						ItemStack _stktoremove = new ItemStack(MonstrousWorldModItems.DARKENED_HELMET.get());
 						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 					}
-					if (entity instanceof Player _player) {
-						ItemStack _stktoremove = new ItemStack(MonstrousWorldModItems.DARKENED_CHESTPLATE.get());
-						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
-					}
-					if (entity instanceof Player _player) {
-						ItemStack _stktoremove = new ItemStack(MonstrousWorldModItems.DARKENED_LEGGINGS.get());
-						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
-					}
-					if (entity instanceof Player _player) {
-						ItemStack _stktoremove = new ItemStack(MonstrousWorldModItems.DARKENED_BOOTS.get());
-						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
-					}
 				}
 			}
 		}

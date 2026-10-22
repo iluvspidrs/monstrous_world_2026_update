@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:bone_brand_of_handling"
+    },
+    "title": {
+      "translate": "advancements.the_ultimate_werewolf.title"
+    },
+    "description": {
+      "translate": "advancements.the_ultimate_werewolf.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_ultimate_werewolf_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:unearthing_greater_power"
+}

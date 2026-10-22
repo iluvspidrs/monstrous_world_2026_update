@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Unearthing Greater Power",
+    "achievementDescription": "Use your first Bone Brand to gain a new ability",
+    "achievementIcon": "CUSTOM:BoneBrandOfDigging",
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": "CUSTOM:TheAncientHunt",
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"161\" y=\"75\"><next><shadow type=\"custom_trigger\"></shadow></next></block></xml>"
+  }
+}

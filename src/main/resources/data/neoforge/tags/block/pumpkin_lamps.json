@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "monstrous_world:hanging_pumpkin_lantern",
     "monstrous_world:wide_pumpkin_lantern",
     "monstrous_world:tall_pumpkin_lantern"
   ]

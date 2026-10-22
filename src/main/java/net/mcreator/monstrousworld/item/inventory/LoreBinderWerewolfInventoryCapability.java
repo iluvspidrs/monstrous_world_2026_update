@@ -27,7 +27,7 @@ public class LoreBinderWerewolfInventoryCapability extends ComponentItemHandler 
 	}
 
 	public LoreBinderWerewolfInventoryCapability(MutableDataComponentHolder parent) {
-		super(parent, DataComponents.CONTAINER, 6);
+		super(parent, DataComponents.CONTAINER, 12);
 	}
 
 	@Override

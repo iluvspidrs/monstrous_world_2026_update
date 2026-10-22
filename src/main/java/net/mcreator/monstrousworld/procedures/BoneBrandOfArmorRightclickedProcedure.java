@@ -20,16 +20,16 @@ public class BoneBrandOfArmorRightclickedProcedure {
 		if (entity == null)
 			return;
 		if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterType == 5 || entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterClass == 7) {
-			if (getEntityScore("werewolf_armor", entity) == 0) {
+			if (getEntityScore("werewolf_ability", entity) == 2) {
 				if (world.isClientSide())
 					Minecraft.getInstance().gameRenderer.displayItemActivation(itemstack);
 				{
 					Entity _ent = entity;
 					Scoreboard _sc = _ent.level().getScoreboard();
-					Objective _so = _sc.getObjective("werewolf_armor");
+					Objective _so = _sc.getObjective("werewolf_ability");
 					if (_so == null)
-						_so = _sc.addObjective("werewolf_armor", ObjectiveCriteria.DUMMY, Component.literal("werewolf_armor"), ObjectiveCriteria.RenderType.INTEGER, true, null);
-					_sc.getOrCreatePlayerScore(ScoreHolder.forNameOnly(_ent.getScoreboardName()), _so).set(1);
+						_so = _sc.addObjective("werewolf_ability", ObjectiveCriteria.DUMMY, Component.literal("werewolf_ability"), ObjectiveCriteria.RenderType.INTEGER, true, null);
+					_sc.getOrCreatePlayerScore(ScoreHolder.forNameOnly(_ent.getScoreboardName()), _so).set(3);
 				}
 				if (entity instanceof LivingEntity _entity) {
 					ItemStack _setstack5 = ItemStack.EMPTY.copy();
@@ -37,6 +37,14 @@ public class BoneBrandOfArmorRightclickedProcedure {
 					_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack5);
 					if (_entity instanceof Player _player)
 						_player.getInventory().setChanged();
+				}
+			} else if (getEntityScore("werewolf_ability", entity) > 2) {
+				if (entity instanceof Player _player && !_player.level().isClientSide())
+					_player.displayClientMessage(Component.literal("You already have this ability"), false);
+			} else {
+				if (getEntityScore("werewolf_ability", entity) < 2) {
+					if (entity instanceof Player _player && !_player.level().isClientSide())
+						_player.displayClientMessage(Component.literal("You must complete other tasks on the Ancient Altar before using this brand"), false);
 				}
 			}
 		}

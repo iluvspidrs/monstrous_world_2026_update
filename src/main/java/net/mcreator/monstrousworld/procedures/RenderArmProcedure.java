@@ -98,6 +98,22 @@ public class RenderArmProcedure {
 				if (event instanceof ICancellableEvent _cancellable) {
 					_cancellable.setCanceled(true);
 				}
+			} else {
+				if (event instanceof ICancellableEvent _cancellable) {
+					_cancellable.setCanceled(true);
+				}
+				{
+					ResourceLocation texture = MonstrousWorldModVariables.player_dark_armor_arm;
+					ModelPart part = armRenderEvent.getArm() == HumanoidArm.LEFT ? ((PlayerModel) entityModel).leftArm : ((PlayerModel) entityModel).rightArm;
+					boolean partVisible = part.visible;
+					part.resetPose();
+					part.visible = true;
+					part.zRot = 0.1f;
+					part.xRot = -0.005f;
+					part.y = 2;
+					part.render(poseStack, armRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)), armRenderEvent.getPackedLight(), OverlayTexture.NO_OVERLAY);
+					part.visible = partVisible;
+				}
 			}
 		}
 		if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterClass == 2) {

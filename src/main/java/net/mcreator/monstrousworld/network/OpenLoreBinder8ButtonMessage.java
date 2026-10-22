@@ -15,11 +15,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.RegistryFriendlyByteBuf;
 import net.minecraft.core.SectionPos;
 
-import net.mcreator.monstrousworld.procedures.BinderOpenTomeOfTheMoonRightclickedProcedure;
-import net.mcreator.monstrousworld.procedures.BinderOpenAHuntersWarningWerewolfProcedure;
-import net.mcreator.monstrousworld.procedures.BinderOpenAGoodAlphaRightclickedProcedure;
-import net.mcreator.monstrousworld.procedures.BinderOpenAClawedJournalProcedure;
-import net.mcreator.monstrousworld.procedures.AddLoreToBinderPage8Procedure;
+import net.mcreator.monstrousworld.procedures.*;
 import net.mcreator.monstrousworld.MonstrousWorldMod;
 
 @EventBusSubscriber
@@ -68,6 +64,34 @@ public record OpenLoreBinder8ButtonMessage(int buttonID, int x, int y, int z) im
 			BinderOpenAClawedJournalProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 4) {
+
+			BinderOpenToDigFasterProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 5) {
+
+			BinderOpenToKeepArmorProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 6) {
+
+			BinderOpenForGreaterKnockbckProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 7) {
+
+			BinderOpenToStunPreyProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 8) {
+
+			BinderOpenToReduceFallDamageProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 9) {
+
+			BinderOpenForHandlingItemsProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 10) {
+
+			BinderOpenArchaeologicalNoteProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 11) {
 
 			AddLoreToBinderPage8Procedure.execute(entity);
 		}

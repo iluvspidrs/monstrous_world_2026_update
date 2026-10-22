@@ -82,39 +82,6 @@ public class HungerAggressionLevel6Procedure {
 							_level.sendParticles(ParticleTypes.LARGE_SMOKE, (entity.getX()), (entity.getY()), (entity.getZ()), 1, 1, 1, 1, 0);
 						if (world instanceof ServerLevel _level)
 							_level.sendParticles(ParticleTypes.FALLING_OBSIDIAN_TEAR, (entity.getX()), (entity.getY()), (entity.getZ()), 1, 1, 1, 1, 0);
-						if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.DARKENED_BOOTS.get()) {
-							{
-								Entity _entity = entity;
-								if (_entity instanceof Player _player) {
-									_player.getInventory().armor.set(0, ItemStack.EMPTY);
-									_player.getInventory().setChanged();
-								} else if (_entity instanceof LivingEntity _living) {
-									_living.setItemSlot(EquipmentSlot.FEET, ItemStack.EMPTY);
-								}
-							}
-						}
-						if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.DARKENED_LEGGINGS.get()) {
-							{
-								Entity _entity = entity;
-								if (_entity instanceof Player _player) {
-									_player.getInventory().armor.set(1, ItemStack.EMPTY);
-									_player.getInventory().setChanged();
-								} else if (_entity instanceof LivingEntity _living) {
-									_living.setItemSlot(EquipmentSlot.LEGS, ItemStack.EMPTY);
-								}
-							}
-						}
-						if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.DARKENED_CHESTPLATE.get()) {
-							{
-								Entity _entity = entity;
-								if (_entity instanceof Player _player) {
-									_player.getInventory().armor.set(2, ItemStack.EMPTY);
-									_player.getInventory().setChanged();
-								} else if (_entity instanceof LivingEntity _living) {
-									_living.setItemSlot(EquipmentSlot.CHEST, ItemStack.EMPTY);
-								}
-							}
-						}
 						if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.DARKENED_HELMET.get()) {
 							{
 								Entity _entity = entity;
@@ -126,7 +93,7 @@ public class HungerAggressionLevel6Procedure {
 								}
 							}
 						}
-						if (!(entity instanceof LivingEntity _livEnt35 && _livEnt35.hasEffect(MonstrousWorldModMobEffects.BLACKOUT))) {
+						if (!(entity instanceof LivingEntity _livEnt23 && _livEnt23.hasEffect(MonstrousWorldModMobEffects.BLACKOUT))) {
 							if (NearestGoon != null) {
 								if (NearestGoon instanceof SocietyGoonEntity) {
 									if (!(NearestGoon.getPersistentData().getBoolean("vampire") == true)) {

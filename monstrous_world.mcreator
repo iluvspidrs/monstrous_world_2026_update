@@ -51995,15 +51995,12 @@
       "name": "Darkened",
       "type": "armor",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "darkened",
       "metadata": {
         "files": [
-          "src/main/resources/assets/monstrous_world/models/item/darkened_chestplate.json",
-          "src/main/resources/assets/monstrous_world/models/item/darkened_boots.json",
           "src/main/resources/assets/monstrous_world/models/item/darkened_helmet.json",
-          "src/main/java/net/mcreator/monstrousworld/item/DarkenedItem.java",
-          "src/main/resources/assets/monstrous_world/models/item/darkened_leggings.json"
+          "src/main/java/net/mcreator/monstrousworld/item/DarkenedItem.java"
         ]
       },
       "path": "~/Factions/Faction 9 Darkness Wielder/Items/Armor"
@@ -61633,10 +61630,8 @@
       "registry_name": "villager_bone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/monstrous_world/models/item/villager_bone_0.json",
           "src/main/java/net/mcreator/monstrousworld/item/VillagerBoneItem.java",
-          "src/main/resources/assets/monstrous_world/models/item/villager_bone.json",
-          "src/main/resources/assets/monstrous_world/models/item/villager_bone_1.json"
+          "src/main/resources/assets/monstrous_world/models/item/villager_bone.json"
         ]
       },
       "path": "~/Factions/Faction 10 Demon/Items"
@@ -87806,38 +87801,6 @@
       "path": "~/Effects/FactionEffects"
     },
     {
-      "name": "TrueEvilTruce",
-      "type": "potioneffect",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "true_evil_truce",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/monstrousworld/potion/TrueEvilTruceMobEffect.java"
-        ]
-      },
-      "path": "~/Effects/HiddenEffects"
-    },
-    {
-      "name": "TrueEvilTruceEffectExpires",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "true_evil_truce_effect_expires",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "files": [
-          "src/main/java/net/mcreator/monstrousworld/procedures/TrueEvilTruceEffectExpiresProcedure.java"
-        ]
-      },
-      "path": "~/Effects/HiddenEffects"
-    },
-    {
       "name": "TridentCooldown",
       "type": "potioneffect",
       "compiles": true,
@@ -110293,8 +110256,6 @@
       "registry_name": "human_bone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/monstrous_world/models/item/human_bone_0.json",
-          "src/main/resources/assets/monstrous_world/models/item/human_bone_1.json",
           "src/main/java/net/mcreator/monstrousworld/item/HumanBoneItem.java",
           "src/main/resources/assets/monstrous_world/models/item/human_bone.json"
         ]
@@ -110850,6 +110811,1546 @@
         ]
       },
       "path": "~/Biomes/FoggyExpanse"
+    },
+    {
+      "name": "ToDigFasterScrollRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_dig_faster_scroll_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/ToDigFasterScrollRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Factions/Faction 7 Werewolf/Guides/ToDigFaster"
+    },
+    {
+      "name": "ToDigFasterScroll",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_dig_faster_scroll",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/monstrous_world/models/item/to_dig_faster_scroll.json",
+          "src/main/java/net/mcreator/monstrousworld/item/ToDigFasterScrollItem.java"
+        ]
+      },
+      "path": "~/Factions/Faction 7 Werewolf/Guides/ToDigFaster"
+    },
+    {
+      "name": "PickUpScrolls",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pick_up_scrolls",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/PickUpScrollsProcedure.java"
+        ]
+      },
+      "path": "~/Factions/Faction 7 Werewolf/Mechanics"
+    },
+    {
+      "name": "DroppedLunarScroll",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dropped_lunar_scroll",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/monstrous_world/models/block/dropped_lunar_scroll.json",
+          "src/main/resources/assets/monstrous_world/blockstates/dropped_lunar_scroll.json",
+          "src/main/java/net/mcreator/monstrousworld/block/DroppedLunarScrollBlock.java",
+          "src/main/resources/data/monstrous_world/loot_table/blocks/dropped_lunar_scroll.json",
+          "src/main/resources/assets/monstrous_world/models/item/dropped_lunar_scroll.json"
+        ]
+      },
+      "path": "~/Blocks/DroppedNotes"
+    },
+    {
+      "name": "BinderOpenToDigFaster",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "binder_open_to_dig_faster",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/BinderOpenToDigFasterProcedure.java"
+        ]
+      },
+      "path": "~/GUI/LoreBinder/OpenDocumentsFromBinder"
+    },
+    {
+      "name": "TheAncientHunt",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_ancient_hunt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/monstrous_world/advancement/the_ancient_hunt.json"
+        ]
+      },
+      "path": "~/Advancements/Werewolf"
+    },
+    {
+      "name": "ToKeepArmor",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_keep_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/item/ToKeepArmorItem.java",
+          "src/main/resources/assets/monstrous_world/models/item/to_keep_armor.json"
+        ]
+      },
+      "path": "~/Factions/Faction 7 Werewolf/Guides/ToKeepArmor"
+    },
+    {
+      "name": "BoneBrandOfArmor",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_brand_of_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/monstrous_world/models/item/bone_brand_of_armor.json",
+          "src/main/java/net/mcreator/monstrousworld/item/BoneBrandOfArmorItem.java"
+        ]
+      },
+      "path": "~/Factions/Faction 7 Werewolf/Items"
+    },
+    {
+      "name": "ToKeepArmorGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_keep_armor_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/world/inventory/ToKeepArmorGUIMenu.java",
+          "src/main/java/net/mcreator/monstrousworld/network/ToKeepArmorGUIButtonMessage.java",
+          "src/main/java/net/mcreator/monstrousworld/client/gui/ToKeepArmorGUIScreen.java"
+        ]
+      },
+      "path": "~/Factions/Faction 7 Werewolf/Guides/ToKeepArmor"
+    },
+    {
+      "name": "ToKeepArmorRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_keep_armor_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/ToKeepArmorRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Factions/Faction 7 Werewolf/Guides/ToKeepArmor"
+    },
+    {
+      "name": "DroppedToKeepArmor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dropped_to_keep_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/monstrous_world/blockstates/dropped_to_keep_armor.json",
+          "src/main/resources/assets/monstrous_world/models/block/dropped_to_keep_armor.json",
+          "src/main/resources/data/monstrous_world/loot_table/blocks/dropped_to_keep_armor.json",
+          "src/main/resources/assets/monstrous_world/models/item/dropped_to_keep_armor.json",
+          "src/main/java/net/mcreator/monstrousworld/block/DroppedToKeepArmorBlock.java"
+        ]
+      },
+      "path": "~/Blocks/DroppedNotes"
+    },
+    {
+      "name": "BinderOpenToKeepArmor",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "binder_open_to_keep_armor",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/BinderOpenToKeepArmorProcedure.java"
+        ]
+      },
+      "path": "~/GUI/LoreBinder/OpenDocumentsFromBinder"
+    },
+    {
+      "name": "BoneBrandOfStunning",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_brand_of_stunning",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/monstrous_world/models/item/bone_brand_of_stunning.json",
+          "src/main/java/net/mcreator/monstrousworld/item/BoneBrandOfStunningItem.java"
+        ]
+      },
+      "path": "~/Factions/Faction 7 Werewolf/Items"
+    },
+    {
+      "name": "BoneBrandOfStunningRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_brand_of_stunning_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/BoneBrandOfStunningRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Factions/Faction 7 Werewolf/Items"
+    },
+    {
+      "name": "ForGreaterKnockbackGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "for_greater_knockback_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/client/gui/ForGreaterKnockbackGUIScreen.java",
+          "src/main/java/net/mcreator/monstrousworld/network/ForGreaterKnockbackGUIButtonMessage.java",
+          "src/main/java/net/mcreator/monstrousworld/world/inventory/ForGreaterKnockbackGUIMenu.java"
+        ]
+      },
+      "path": "~/Factions/Faction 7 Werewolf/Guides/ForGreaterKnockback"
+    },
+    {
+      "name": "ForGreaterKnockbackRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "for_greater_knockback_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/ForGreaterKnockbackRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Factions/Faction 7 Werewolf/Guides/ForGreaterKnockback"
+    },
+    {
+      "name": "ForGreaterKnockback",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "for_greater_knockback",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/item/ForGreaterKnockbackItem.java",
+          "src/main/resources/assets/monstrous_world/models/item/for_greater_knockback.json"
+        ]
+      },
+      "path": "~/Factions/Faction 7 Werewolf/Guides/ForGreaterKnockback"
+    },
+    {
+      "name": "DroppedForGreaterKnockback",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dropped_for_greater_knockback",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/monstrous_world/blockstates/dropped_for_greater_knockback.json",
+          "src/main/resources/assets/monstrous_world/models/block/dropped_for_greater_knockback.json",
+          "src/main/resources/data/monstrous_world/loot_table/blocks/dropped_for_greater_knockback.json",
+          "src/main/java/net/mcreator/monstrousworld/block/DroppedForGreaterKnockbackBlock.java",
+          "src/main/resources/assets/monstrous_world/models/item/dropped_for_greater_knockback.json"
+        ]
+      },
+      "path": "~/Blocks/DroppedNotes"
+    },
+    {
+      "name": "BinderOpenForGreaterKnockbck",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "binder_open_for_greater_knockbck",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/BinderOpenForGreaterKnockbckProcedure.java"
+        ]
+      },
+      "path": "~/GUI/LoreBinder/OpenDocumentsFromBinder"
+    },
+    {
+      "name": "ToStunPreyGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_stun_prey_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/world/inventory/ToStunPreyGUIMenu.java",
+          "src/main/java/net/mcreator/monstrousworld/client/gui/ToStunPreyGUIScreen.java",
+          "src/main/java/net/mcreator/monstrousworld/network/ToStunPreyGUIButtonMessage.java"
+        ]
+      },
+      "path": "~/Factions/Faction 7 Werewolf/Guides/ToStunPrey"
+    },
+    {
+      "name": "ToStunPreyRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_stun_prey_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/ToStunPreyRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Factions/Faction 7 Werewolf/Guides/ToStunPrey"
+    },
+    {
+      "name": "ToStunPrey",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_stun_prey",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/item/ToStunPreyItem.java",
+          "src/main/resources/assets/monstrous_world/models/item/to_stun_prey.json"
+        ]
+      },
+      "path": "~/Factions/Faction 7 Werewolf/Guides/ToStunPrey"
+    },
+    {
+      "name": "DroppedToStunPrey",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dropped_to_stun_prey",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/monstrous_world/loot_table/blocks/dropped_to_stun_prey.json",
+          "src/main/resources/assets/monstrous_world/models/item/dropped_to_stun_prey.json",
+          "src/main/resources/assets/monstrous_world/models/block/dropped_to_stun_prey.json",
+          "src/main/java/net/mcreator/monstrousworld/block/DroppedToStunPreyBlock.java",
+          "src/main/resources/assets/monstrous_world/blockstates/dropped_to_stun_prey.json"
+        ]
+      },
+      "path": "~/Blocks/DroppedNotes"
+    },
+    {
+      "name": "BinderOpenToStunPrey",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "binder_open_to_stun_prey",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/BinderOpenToStunPreyProcedure.java"
+        ]
+      },
+      "path": "~/GUI/LoreBinder/OpenDocumentsFromBinder"
+    },
+    {
+      "name": "FoggyExpansePumpkinTraps",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foggy_expanse_pumpkin_traps",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/monstrous_world/neoforge/biome_modifier/foggy_expanse_pumpkin_traps_biome_modifier.json",
+          "src/main/resources/data/monstrous_world/worldgen/configured_feature/foggy_expanse_pumpkin_traps.json",
+          "src/main/resources/data/monstrous_world/worldgen/placed_feature/foggy_expanse_pumpkin_traps.json"
+        ]
+      },
+      "path": "~/Biomes/FoggyExpanse"
+    },
+    {
+      "name": "BoneBrandOfFeatherFalling",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_brand_of_feather_falling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/monstrous_world/models/item/bone_brand_of_feather_falling.json",
+          "src/main/java/net/mcreator/monstrousworld/item/BoneBrandOfFeatherFallingItem.java"
+        ]
+      },
+      "path": "~/Factions/Faction 7 Werewolf/Items"
+    },
+    {
+      "name": "ToReduceFallDamage",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_reduce_fall_damage",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/monstrous_world/models/item/to_reduce_fall_damage.json",
+          "src/main/java/net/mcreator/monstrousworld/item/ToReduceFallDamageItem.java"
+        ]
+      },
+      "path": "~/Factions/Faction 7 Werewolf/Guides/ToReduceFallDamage"
+    },
+    {
+      "name": "ToReduceFallDamageGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_reduce_fall_damage_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/network/ToReduceFallDamageGUIButtonMessage.java",
+          "src/main/java/net/mcreator/monstrousworld/client/gui/ToReduceFallDamageGUIScreen.java",
+          "src/main/java/net/mcreator/monstrousworld/world/inventory/ToReduceFallDamageGUIMenu.java"
+        ]
+      },
+      "path": "~/Factions/Faction 7 Werewolf/Guides/ToReduceFallDamage"
+    },
+    {
+      "name": "ToReduceFallDamageRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_reduce_fall_damage_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/ToReduceFallDamageRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Factions/Faction 7 Werewolf/Guides/ToReduceFallDamage"
+    },
+    {
+      "name": "ForHandlingItems",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "for_handling_items",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/item/ForHandlingItemsItem.java",
+          "src/main/resources/assets/monstrous_world/models/item/for_handling_items.json"
+        ]
+      },
+      "path": "~/Factions/Faction 7 Werewolf/Guides/ForHandlingItems"
+    },
+    {
+      "name": "ForHandlingItemsGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "for_handling_items_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/client/gui/ForHandlingItemsGUIScreen.java",
+          "src/main/java/net/mcreator/monstrousworld/world/inventory/ForHandlingItemsGUIMenu.java",
+          "src/main/java/net/mcreator/monstrousworld/network/ForHandlingItemsGUIButtonMessage.java"
+        ]
+      },
+      "path": "~/Factions/Faction 7 Werewolf/Guides/ForHandlingItems"
+    },
+    {
+      "name": "ForHandlingItemsRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "for_handling_items_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/ForHandlingItemsRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Factions/Faction 7 Werewolf/Guides/ForHandlingItems"
+    },
+    {
+      "name": "DroppedToReduceFallDamage",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dropped_to_reduce_fall_damage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/monstrous_world/loot_table/blocks/dropped_to_reduce_fall_damage.json",
+          "src/main/resources/assets/monstrous_world/models/item/dropped_to_reduce_fall_damage.json",
+          "src/main/java/net/mcreator/monstrousworld/block/DroppedToReduceFallDamageBlock.java",
+          "src/main/resources/assets/monstrous_world/blockstates/dropped_to_reduce_fall_damage.json",
+          "src/main/resources/assets/monstrous_world/models/block/dropped_to_reduce_fall_damage.json"
+        ]
+      },
+      "path": "~/Blocks/DroppedNotes"
+    },
+    {
+      "name": "DroppedForHandlingItems",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dropped_for_handling_items",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/block/DroppedForHandlingItemsBlock.java",
+          "src/main/resources/assets/monstrous_world/models/item/dropped_for_handling_items.json",
+          "src/main/resources/data/monstrous_world/loot_table/blocks/dropped_for_handling_items.json",
+          "src/main/resources/assets/monstrous_world/models/block/dropped_for_handling_items.json",
+          "src/main/resources/assets/monstrous_world/blockstates/dropped_for_handling_items.json"
+        ]
+      },
+      "path": "~/Blocks/DroppedNotes"
+    },
+    {
+      "name": "BinderOpenToReduceFallDamage",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "binder_open_to_reduce_fall_damage",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/BinderOpenToReduceFallDamageProcedure.java"
+        ]
+      },
+      "path": "~/GUI/LoreBinder/OpenDocumentsFromBinder"
+    },
+    {
+      "name": "BinderOpenForHandlingItems",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "binder_open_for_handling_items",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/BinderOpenForHandlingItemsProcedure.java"
+        ]
+      },
+      "path": "~/GUI/LoreBinder/OpenDocumentsFromBinder"
+    },
+    {
+      "name": "BoneBrandOfFeatherFallingRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_brand_of_feather_falling_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/BoneBrandOfFeatherFallingRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Factions/Faction 7 Werewolf/Items"
+    },
+    {
+      "name": "TallYellowPumpkinBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tall_yellow_pumpkin_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/monstrous_world/loot_table/blocks/tall_yellow_pumpkin_block.json",
+          "src/main/resources/assets/monstrous_world/models/item/tall_yellow_pumpkin_block.json",
+          "src/main/java/net/mcreator/monstrousworld/block/TallYellowPumpkinBlockBlock.java",
+          "src/main/resources/assets/monstrous_world/blockstates/tall_yellow_pumpkin_block.json",
+          "src/main/resources/assets/monstrous_world/models/block/tall_yellow_pumpkin_block.json"
+        ]
+      },
+      "path": "~/Blocks/Decorative"
+    },
+    {
+      "name": "WideYellowPumpkinBLock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wide_yellow_pumpkin_b_lock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/monstrous_world/loot_table/blocks/wide_yellow_pumpkin_b_lock.json",
+          "src/main/resources/assets/monstrous_world/models/item/wide_yellow_pumpkin_b_lock.json",
+          "src/main/resources/assets/monstrous_world/blockstates/wide_yellow_pumpkin_b_lock.json",
+          "src/main/resources/assets/monstrous_world/models/block/wide_yellow_pumpkin_b_lock.json",
+          "src/main/java/net/mcreator/monstrousworld/block/WideYellowPumpkinBLockBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Decorative"
+    },
+    {
+      "name": "PHYellowWidePumpkinSingle",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ph_yellow_wide_pumpkin_single",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/monstrous_world/worldgen/configured_feature/ph_yellow_wide_pumpkin_single.json",
+          "src/main/resources/data/monstrous_world/neoforge/biome_modifier/ph_yellow_wide_pumpkin_single_biome_modifier.json",
+          "src/main/resources/data/monstrous_world/worldgen/placed_feature/ph_yellow_wide_pumpkin_single.json"
+        ]
+      },
+      "path": "~/Biomes/PumpkinHollow"
+    },
+    {
+      "name": "PHYellowTallPumpkinSingle",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ph_yellow_tall_pumpkin_single",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/monstrous_world/worldgen/placed_feature/ph_yellow_tall_pumpkin_single.json",
+          "src/main/resources/data/monstrous_world/neoforge/biome_modifier/ph_yellow_tall_pumpkin_single_biome_modifier.json",
+          "src/main/resources/data/monstrous_world/worldgen/configured_feature/ph_yellow_tall_pumpkin_single.json"
+        ]
+      },
+      "path": "~/Biomes/PumpkinHollow"
+    },
+    {
+      "name": "ScatteredYellowPumpkinsFoggyExpanse",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scattered_yellow_pumpkins_foggy_expanse",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/monstrous_world/worldgen/configured_feature/scattered_yellow_pumpkins_foggy_expanse.json",
+          "src/main/resources/data/monstrous_world/worldgen/placed_feature/scattered_yellow_pumpkins_foggy_expanse.json",
+          "src/main/resources/data/monstrous_world/neoforge/biome_modifier/scattered_yellow_pumpkins_foggy_expanse_biome_modifier.json"
+        ]
+      },
+      "path": "~/Biomes/FoggyExpanse"
+    },
+    {
+      "name": "ScatteredWideYellowPumpkinsFoggyExpanse",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scattered_wide_yellow_pumpkins_foggy_expanse",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/monstrous_world/neoforge/biome_modifier/scattered_wide_yellow_pumpkins_foggy_expanse_biome_modifier.json",
+          "src/main/resources/data/monstrous_world/worldgen/placed_feature/scattered_wide_yellow_pumpkins_foggy_expanse.json",
+          "src/main/resources/data/monstrous_world/worldgen/configured_feature/scattered_wide_yellow_pumpkins_foggy_expanse.json"
+        ]
+      },
+      "path": "~/Biomes/FoggyExpanse"
+    },
+    {
+      "name": "StunPrey",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stun_prey",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/StunPreyProcedure.java"
+        ]
+      },
+      "path": "~/Factions/Faction 7 Werewolf/Mechanics"
+    },
+    {
+      "name": "SetMonsterType1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_monster_type_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/SetMonsterType1Procedure.java"
+        ]
+      },
+      "path": "~/Commands/CommandProcedures"
+    },
+    {
+      "name": "SetMonsterType",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_monster_type",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/command/SetMonsterTypeCommand.java"
+        ]
+      },
+      "path": "~/Commands/CommandProcedures"
+    },
+    {
+      "name": "SetMonsterClass",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_monster_class",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/command/SetMonsterClassCommand.java"
+        ]
+      },
+      "path": "~/Commands/CommandProcedures"
+    },
+    {
+      "name": "SetMonsterClass1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_monster_class_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/SetMonsterClass1Procedure.java"
+        ]
+      },
+      "path": "~/Commands/CommandProcedures"
+    },
+    {
+      "name": "RemoveManiacFaction",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remove_maniac_faction",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/RemoveManiacFactionProcedure.java"
+        ]
+      },
+      "path": "~/Commands/CommandProcedures"
+    },
+    {
+      "name": "RemoveEvilClownFaction",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remove_evil_clown_faction",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/RemoveEvilClownFactionProcedure.java"
+        ]
+      },
+      "path": "~/Commands/CommandProcedures"
+    },
+    {
+      "name": "RemoveDemonFaction",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remove_demon_faction",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/RemoveDemonFactionProcedure.java"
+        ]
+      },
+      "path": "~/Commands/CommandProcedures"
+    },
+    {
+      "name": "RemoveDarknessWielderFaction",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remove_darkness_wielder_faction",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/RemoveDarknessWielderFactionProcedure.java"
+        ]
+      },
+      "path": "~/Commands/CommandProcedures"
+    },
+    {
+      "name": "RemoveVampireFaction",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remove_vampire_faction",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/RemoveVampireFactionProcedure.java"
+        ]
+      },
+      "path": "~/Commands/CommandProcedures"
+    },
+    {
+      "name": "RemoveWerewolfFaction",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remove_werewolf_faction",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/RemoveWerewolfFactionProcedure.java"
+        ]
+      },
+      "path": "~/Commands/CommandProcedures"
+    },
+    {
+      "name": "RemoveSwampmonsterFaction",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remove_swampmonster_faction",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/RemoveSwampmonsterFactionProcedure.java"
+        ]
+      },
+      "path": "~/Commands/CommandProcedures"
+    },
+    {
+      "name": "RemoveMadScientistFaction",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remove_mad_scientist_faction",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/RemoveMadScientistFactionProcedure.java"
+        ]
+      },
+      "path": "~/Commands/CommandProcedures"
+    },
+    {
+      "name": "RemoveSorcererFaction",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remove_sorcerer_faction",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/RemoveSorcererFactionProcedure.java"
+        ]
+      },
+      "path": "~/Commands/CommandProcedures"
+    },
+    {
+      "name": "RemoveTrollFaction",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remove_troll_faction",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/RemoveTrollFactionProcedure.java"
+        ]
+      },
+      "path": "~/Commands/CommandProcedures"
+    },
+    {
+      "name": "RemoveGoblinFaction",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remove_goblin_faction",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/RemoveGoblinFactionProcedure.java"
+        ]
+      },
+      "path": "~/Commands/CommandProcedures"
+    },
+    {
+      "name": "RemoveWitchFaction",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remove_witch_faction",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/RemoveWitchFactionProcedure.java"
+        ]
+      },
+      "path": "~/Commands/CommandProcedures"
+    },
+    {
+      "name": "SetHunterClass",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_hunter_class",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/command/SetHunterClassCommand.java"
+        ]
+      },
+      "path": "~/Commands/CommandProcedures"
+    },
+    {
+      "name": "SetHunterClass1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_hunter_class_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/SetHunterClass1Procedure.java"
+        ]
+      },
+      "path": "~/Commands/CommandProcedures"
+    },
+    {
+      "name": "SetFactionLevel",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_faction_level",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/command/SetFactionLevelCommand.java"
+        ]
+      },
+      "path": "~/Commands/CommandProcedures"
+    },
+    {
+      "name": "SetFactionLevel1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_faction_level_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/SetFactionLevel1Procedure.java"
+        ]
+      },
+      "path": "~/Commands/CommandProcedures"
+    },
+    {
+      "name": "UnearthingGreaterPower",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unearthing_greater_power",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/monstrous_world/advancement/unearthing_greater_power.json"
+        ]
+      },
+      "path": "~/Advancements/Werewolf"
+    },
+    {
+      "name": "TheUltimateWerewolf",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_ultimate_werewolf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/monstrous_world/advancement/the_ultimate_werewolf.json"
+        ]
+      },
+      "path": "~/Advancements/Werewolf"
+    },
+    {
+      "name": "PlayerDarkenedArmor",
+      "type": "humanoidmodel",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_darkened_armor",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Rendering/Models"
+    },
+    {
+      "name": "PlayerDarkenedCape",
+      "type": "humanoidmodel",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_darkened_cape",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Rendering/Models"
+    },
+    {
+      "name": "MysteriousDarknessEffectStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mysterious_darkness_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/monstrousworld/procedures/MysteriousDarknessEffectStartedappliedProcedure.java"
+        ]
+      },
+      "path": "~/Effects"
     }
   ],
   "variable_elements": [
@@ -111752,6 +113253,30 @@
       "type": "texturelocation",
       "scope": "global",
       "value": "null"
+    },
+    {
+      "name": "player_dark_armor_overlay",
+      "type": "texturelocation",
+      "scope": "global",
+      "value": "null"
+    },
+    {
+      "name": "player_dark_armor",
+      "type": "model",
+      "scope": "global",
+      "value": "null"
+    },
+    {
+      "name": "player_dark_cape",
+      "type": "model",
+      "scope": "global",
+      "value": "null"
+    },
+    {
+      "name": "player_dark_armor_arm",
+      "type": "texturelocation",
+      "scope": "global",
+      "value": "null"
     }
   ],
   "sound_elements": [
@@ -112295,7 +113820,8 @@
     ],
     "BLOCKS:neoforge:pumpkin_lamps": [
       "CUSTOM:WidePumpkinLantern",
-      "CUSTOM:TallPumpkinLantern"
+      "CUSTOM:TallPumpkinLantern",
+      "CUSTOM:HangingPumpkinLantern"
     ],
     "ENTITIES:mod:tamed_creature": [
       "CUSTOM:SpiderRobotActive",
@@ -113386,7 +114912,6 @@
       "CUSTOM:CreatureSoul",
       "CUSTOM:InfernalFabric",
       "CUSTOM:CharmOfDeception",
-      "CUSTOM:VillagerBone",
       "CUSTOM:Infernal.body",
       "CUSTOM:Infernal.legs",
       "CUSTOM:Pitchfork",
@@ -114262,7 +115787,14 @@
       "CUSTOM:EmissiveGreenSkullLampPoisoned",
       "CUSTOM:EmissiveBlueSkullLampPoisoned",
       "CUSTOM:EmissivePurpleSkullLampPoisoned",
-      "CUSTOM:SwampLantern"
+      "CUSTOM:SwampLantern",
+      "CUSTOM:TallGreenPumpkinBlock",
+      "CUSTOM:WideGreenPumpkinBLock",
+      "CUSTOM:GlowingPumpkinSapling",
+      "CUSTOM:TallYellowPumpkinBlock",
+      "CUSTOM:WideYellowPumpkinBLock",
+      "CUSTOM:PaleStalkSapling",
+      "CUSTOM:TangledTerror"
     ],
     "ITEMS:mod:powders": [
       "CUSTOM:ObstructionPowder",
@@ -114664,7 +116196,9 @@
       "CUSTOM:OrangeLightBulbItem",
       "CUSTOM:RedLightBulbItem",
       "CUSTOM:PurpleLightBulbItem",
-      "CUSTOM:WhiteLightBulbItem"
+      "CUSTOM:WhiteLightBulbItem",
+      "CUSTOM:CagedLightItem",
+      "CUSTOM:SwampLightItem"
     ],
     "ITEMS:mod:charms": [
       "CUSTOM:CharmOfSpeed",
@@ -115270,7 +116804,9 @@
       "CUSTOM:MurkwoodSapling",
       "CUSTOM:RedAutumnSapling",
       "CUSTOM:OrangeAutumnSapling",
-      "CUSTOM:YellowAutumnSapling"
+      "CUSTOM:YellowAutumnSapling",
+      "CUSTOM:PaleStalkSapling",
+      "CUSTOM:GlowingPumpkinSapling"
     ],
     "ITEMS:mod:prevents_trading": [
       "CUSTOM:Bloodletter",
@@ -117943,13 +119479,13 @@
       "~EvilDarknessSpirit@CUSTOM:EvilDarknessSpirit"
     ],
     "ITEMS:minecraft:head_armor": [
+      "~Darkened@CUSTOM:Darkened.helmet",
       "~BunnyMask@CUSTOM:BunnyMask.helmet",
       "~SkullMask@CUSTOM:SkullMask.helmet",
       "~HockeyMask@CUSTOM:HockeyMask.helmet",
       "~ShiningNetherite@CUSTOM:ShiningNetherite.helmet",
       "~CorinthianBronze@CUSTOM:CorinthianBronze.helmet",
       "~Bronze@CUSTOM:Bronze.helmet",
-      "~Darkened@CUSTOM:Darkened.helmet",
       "~Hunter@CUSTOM:Hunter.helmet",
       "~ChieftanHeaddress@CUSTOM:ChieftanHeaddress.helmet",
       "~SwampCrystal@CUSTOM:SwampCrystal.helmet",
@@ -117963,7 +119499,6 @@
       "~ShiningNetherite@CUSTOM:ShiningNetherite.body",
       "~CorinthianBronze@CUSTOM:CorinthianBronze.body",
       "~Bronze@CUSTOM:Bronze.body",
-      "~Darkened@CUSTOM:Darkened.body",
       "~Hunter@CUSTOM:Hunter.body",
       "~SwampCrystal@CUSTOM:SwampCrystal.body",
       "~VampireCloak@CUSTOM:VampireCloak.body",
@@ -117974,7 +119509,6 @@
       "~ShiningNetherite@CUSTOM:ShiningNetherite.boots",
       "~CorinthianBronze@CUSTOM:CorinthianBronze.boots",
       "~Bronze@CUSTOM:Bronze.boots",
-      "~Darkened@CUSTOM:Darkened.boots",
       "~HunterMalachite@CUSTOM:HunterMalachite.boots",
       "~Hunter@CUSTOM:Hunter.boots",
       "~SwampCrystal@CUSTOM:SwampCrystal.boots",
@@ -118076,7 +119610,6 @@
       "~ShiningNetherite@CUSTOM:ShiningNetherite.legs",
       "~CorinthianBronze@CUSTOM:CorinthianBronze.legs",
       "~Bronze@CUSTOM:Bronze.legs",
-      "~Darkened@CUSTOM:Darkened.legs",
       "~Hunter@CUSTOM:Hunter.legs",
       "~SwampCrystal@CUSTOM:SwampCrystal.legs"
     ],
@@ -118228,36 +119761,36 @@
     ],
     "BIOMES:minecraft:has_structure/mineshaft": [
       "~FoggyExpanse@CUSTOM:FoggyExpanse",
+      "~DeathlyForest@CUSTOM:DeathlyForest",
       "~PumpkinHollow@CUSTOM:PumpkinHollow",
       "~ScumSwamp@CUSTOM:ScumSwamp",
       "~AutumnDelight@CUSTOM:AutumnDelight",
       "~ForsakenLands@CUSTOM:ForsakenLands",
       "~MurkyMadness@CUSTOM:MurkyMadness",
-      "~CrimsonDread@CUSTOM:CrimsonDread",
-      "~DeathlyForest@CUSTOM:DeathlyForest"
+      "~CrimsonDread@CUSTOM:CrimsonDread"
     ],
     "BIOMES:minecraft:has_structure/stronghold": [
       "~FoggyExpanse@CUSTOM:FoggyExpanse",
+      "~DeathlyForest@CUSTOM:DeathlyForest",
       "~PumpkinHollow@CUSTOM:PumpkinHollow",
       "~ScumSwamp@CUSTOM:ScumSwamp",
       "~AutumnDelight@CUSTOM:AutumnDelight",
       "~ForsakenLands@CUSTOM:ForsakenLands",
       "~MurkyMadness@CUSTOM:MurkyMadness",
-      "~CrimsonDread@CUSTOM:CrimsonDread",
-      "~DeathlyForest@CUSTOM:DeathlyForest"
+      "~CrimsonDread@CUSTOM:CrimsonDread"
     ],
     "BIOMES:minecraft:has_structure/pillager_outpost": [
       "~FoggyExpanse@CUSTOM:FoggyExpanse",
+      "~DeathlyForest@CUSTOM:DeathlyForest",
       "~AutumnDelight@CUSTOM:AutumnDelight",
       "~MurkyMadness@CUSTOM:MurkyMadness",
-      "~CrimsonDread@CUSTOM:CrimsonDread",
-      "~DeathlyForest@CUSTOM:DeathlyForest"
+      "~CrimsonDread@CUSTOM:CrimsonDread"
     ],
     "BIOMES:minecraft:has_structure/ruined_portal_standard": [
+      "~DeathlyForest@CUSTOM:DeathlyForest",
       "~PumpkinHollow@CUSTOM:PumpkinHollow",
       "~AutumnDelight@CUSTOM:AutumnDelight",
-      "~ForsakenLands@CUSTOM:ForsakenLands",
-      "~DeathlyForest@CUSTOM:DeathlyForest"
+      "~ForsakenLands@CUSTOM:ForsakenLands"
     ],
     "BIOMES:minecraft:has_structure/swamp_hut": [
       "~ScumSwamp@CUSTOM:ScumSwamp",
@@ -118362,6 +119895,25 @@
       "EntityZoglin",
       "EntityZombie",
       "EntityZombieVillager"
+    ],
+    "ENTITIES:neoforge:villager": [
+      "EntityWanderingTrader",
+      "EntityVillager",
+      "EntityPillager",
+      "EntityIllusionIllager",
+      "EntityVindicator",
+      "EntityEvoker",
+      "EntityWitch"
+    ],
+    "ENTITIES:neoforge:drops_human_bone": [
+      "CUSTOM:HunterNPC",
+      "CUSTOM:HunterPatrolNPC",
+      "CUSTOM:SocietyGoon",
+      "CUSTOM:AggressiveGuard",
+      "CUSTOM:Witch1",
+      "CUSTOM:SorcererNPC",
+      "CUSTOM:DarkMarketVendor",
+      "CUSTOM:MadScientistNPC"
     ],
     "BIOMES:minecraft:has_structure/ruined_portal_desert": [
       "~FoggyExpanse@CUSTOM:FoggyExpanse"
@@ -119222,7 +120774,7 @@
       "item.monstrous_world.undeath_cure_powder_recipe.description_0": "Witchery Intel",
       "item.monstrous_world.paralysis_powder_recipe": "Paralysis Powder Recipe",
       "item.monstrous_world.paralysis_powder_recipe.description_0": "Witchery Intel",
-      "item.monstrous_world.vampire_cure_powder.description_0": "Throwable",
+      "item.monstrous_world.vampire_cure_powder.description_0": "Throw at feet to use on self",
       "item.monstrous_world.vampire_cure_powder": "Vampire Cure Powder",
       "item.monstrous_world.undeath_cure_powder": "Undeath Cure Powder",
       "item.monstrous_world.undeath_cure_powder.description_0": "Throwable",
@@ -120508,10 +122060,7 @@
       "block.monstrous_world.dark_mist": "Dark Mist",
       "entity.monstrous_world.large_possessing_entity": "Large Possessing Entity",
       "item.monstrous_world.large_possessing_entity_spawn_egg": "Large Possessing Entity Spawn Egg",
-      "item.monstrous_world.darkened_chestplate": "Darkened Chestplate",
-      "item.monstrous_world.darkened_leggings": "Darkened Leggings",
       "item.monstrous_world.darkened_helmet": "Darkened Crown",
-      "item.monstrous_world.darkened_boots": "Darkened Boots",
       "entity.monstrous_world.servant_pumpkin": "Servant Pumpkin",
       "item.monstrous_world.servant_pumpkin_spawn_egg": "Servant Pumpkin Spawn Egg",
       "item.monstrous_world.pumpkin_golem_spawn_egg": "Pumpkin Golem Spawn Egg",
@@ -122024,7 +123573,6 @@
       "effect.monstrous_world.vampirism_entity": "Vampirism",
       "effect.monstrous_world.witch_effect": "Witch Effect",
       "effect.monstrous_world.goblin_effect": "Goblin Effect",
-      "effect.monstrous_world.true_evil_truce": "True Evil Truce",
       "effect.monstrous_world.trident_cooldown": "Trident Cooldown",
       "effect.monstrous_world.entity_hunger": "Entity Hunger",
       "effect.monstrous_world.eye_effect": "Eye Effect",
@@ -122895,7 +124443,57 @@
       "item.monstrous_world.archaeological_note": "Archaeological Note",
       "block.monstrous_world.dropped_archaeological_note": "Dropped Archaeological Note",
       "gui.monstrous_world.to_dig_faster_gui.button_empty": "",
-      "gui.monstrous_world.to_dig_faster_gui.button_empty1": ""
+      "gui.monstrous_world.to_dig_faster_gui.button_empty1": "",
+      "item.monstrous_world.to_dig_faster_scroll": "To Dig Faster",
+      "item.monstrous_world.to_dig_faster_scroll.description_0": "Werewolf Intel",
+      "block.monstrous_world.dropped_lunar_scroll": "Dropped Lunar Scroll Digging",
+      "gui.monstrous_world.open_lore_binder_8.button_empty4": "",
+      "advancements.the_ancient_hunt.descr": "Discover an ancient shrine and begin a new journey...",
+      "advancements.the_ancient_hunt.title": "The Ancient Hunt",
+      "item.monstrous_world.to_keep_armor": "To Keep Armor",
+      "item.monstrous_world.to_keep_armor.description_0": "Werewolf Intel",
+      "item.monstrous_world.bone_brand_of_armor": "Bone Brand of Armor",
+      "item.monstrous_world.bone_brand_of_armor.description_0": "Grants Werewolves the ability to keep armor in beast form",
+      "gui.monstrous_world.to_keep_armor_gui.button_empty1": "",
+      "gui.monstrous_world.to_keep_armor_gui.button_empty": "",
+      "block.monstrous_world.dropped_to_keep_armor": "Dropped Lunar Scroll Armor",
+      "gui.monstrous_world.open_lore_binder_8.button_empty5": "",
+      "item.monstrous_world.bone_brand_of_stunning": "Bone Brand of Stunning",
+      "item.monstrous_world.bone_brand_of_stunning.description_0": "Grants Werewolves the ability to stun prey",
+      "gui.monstrous_world.for_greater_knockback_gui.button_empty": "",
+      "gui.monstrous_world.for_greater_knockback_gui.button_empty1": "",
+      "item.monstrous_world.for_greater_knockback.description_0": "Werewolf Intel",
+      "item.monstrous_world.for_greater_knockback": "For Greater Knockback",
+      "block.monstrous_world.dropped_for_greater_knockback": "Dropped Lunar Scroll Knockback",
+      "gui.monstrous_world.open_lore_binder_8.button_empty6": "",
+      "gui.monstrous_world.to_stun_prey_gui.button_empty": "",
+      "gui.monstrous_world.to_stun_prey_gui.button_empty1": "",
+      "item.monstrous_world.to_stun_prey.description_0": "Werewolf Intel",
+      "item.monstrous_world.to_stun_prey": "To Stun Prey",
+      "block.monstrous_world.dropped_to_stun_prey": "Dropped Lunar Scroll Stunning",
+      "gui.monstrous_world.open_lore_binder_8.button_empty7": "",
+      "item.monstrous_world.bone_brand_of_feather_falling.description_0": "Grants Werewolves reduced fall damage",
+      "item.monstrous_world.bone_brand_of_feather_falling": "Bone Brand of Feather Falling",
+      "item.monstrous_world.to_reduce_fall_damage.description_0": "Werewolf Intel",
+      "item.monstrous_world.to_reduce_fall_damage": "To Reduce Fall Damage",
+      "gui.monstrous_world.to_reduce_fall_damage_gui.button_empty1": "",
+      "gui.monstrous_world.to_reduce_fall_damage_gui.button_empty": "",
+      "item.monstrous_world.for_handling_items.description_0": "Werewolf Intel",
+      "item.monstrous_world.for_handling_items": "For Handling Items",
+      "gui.monstrous_world.for_handling_items_gui.button_empty1": "",
+      "gui.monstrous_world.for_handling_items_gui.button_empty": "",
+      "block.monstrous_world.dropped_to_reduce_fall_damage": "Dropped Lunar Scroll Feather Falling",
+      "block.monstrous_world.dropped_for_handling_items": "Dropped Lunar Scroll Handling",
+      "block.monstrous_world.tall_yellow_pumpkin_block": "Tall Yellow Pumpkin",
+      "block.monstrous_world.wide_yellow_pumpkin_b_lock": "Wide Yellow Pumpkin",
+      "gui.monstrous_world.open_lore_binder_8.button_empty8": "",
+      "gui.monstrous_world.open_lore_binder_8.button_empty9": "",
+      "item.monstrous_world.vampire_cure_powder.description_1": "§4Does not cure Vampires turned directly by the Darkness",
+      "advancements.unearthing_greater_power.title": "Unearthing Greater Power",
+      "advancements.unearthing_greater_power.descr": "Use your first Bone Brand to gain a new ability",
+      "advancements.the_ultimate_werewolf.title": "The Ultimate Werewolf",
+      "advancements.the_ultimate_werewolf.descr": "Gain every special Werewolf ability from the Ancient Altar",
+      "gui.monstrous_world.open_lore_binder_8.button_empty10": ""
     }
   },
   "metadata": {
@@ -123741,6 +125339,26 @@
                   },
                   {
                     "name": "ToDigFaster",
+                    "children": []
+                  },
+                  {
+                    "name": "ToKeepArmor",
+                    "children": []
+                  },
+                  {
+                    "name": "ForGreaterKnockback",
+                    "children": []
+                  },
+                  {
+                    "name": "ToStunPrey",
+                    "children": []
+                  },
+                  {
+                    "name": "ToReduceFallDamage",
+                    "children": []
+                  },
+                  {
+                    "name": "ForHandlingItems",
                     "children": []
                   }
                 ]
@@ -124796,7 +126414,7 @@
   "workspaceSettings": {
     "modid": "monstrous_world",
     "modName": "Monstrous World",
-    "version": "1.0.3",
+    "version": "1.0.4a",
     "description": "A mysterious darkness is infecting the world, converting humans and villagers into horror movie staples. Can you adapt and uncover the source of the darkness ",
     "author": "holly, MCreator",
     "websiteURL": "https://mcreator.net",

@@ -10,8 +10,12 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.InteractionHand;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.Minecraft;
+import net.minecraft.advancements.AdvancementProgress;
+import net.minecraft.advancements.AdvancementHolder;
 
 import net.mcreator.monstrousworld.network.MonstrousWorldModVariables;
 
@@ -20,16 +24,16 @@ public class BoneBrandOfDiggingRightclickedProcedure {
 		if (entity == null)
 			return;
 		if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterType == 5 || entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterClass == 7) {
-			if (getEntityScore("werewolf_digging", entity) == 0) {
+			if (getEntityScore("werewolf_ability", entity) == 1) {
 				if (world.isClientSide())
 					Minecraft.getInstance().gameRenderer.displayItemActivation(itemstack);
 				{
 					Entity _ent = entity;
 					Scoreboard _sc = _ent.level().getScoreboard();
-					Objective _so = _sc.getObjective("werewolf_digging");
+					Objective _so = _sc.getObjective("werewolf_ability");
 					if (_so == null)
-						_so = _sc.addObjective("werewolf_digging", ObjectiveCriteria.DUMMY, Component.literal("werewolf_digging"), ObjectiveCriteria.RenderType.INTEGER, true, null);
-					_sc.getOrCreatePlayerScore(ScoreHolder.forNameOnly(_ent.getScoreboardName()), _so).set(1);
+						_so = _sc.addObjective("werewolf_ability", ObjectiveCriteria.DUMMY, Component.literal("werewolf_ability"), ObjectiveCriteria.RenderType.INTEGER, true, null);
+					_sc.getOrCreatePlayerScore(ScoreHolder.forNameOnly(_ent.getScoreboardName()), _so).set(2);
 				}
 				if (entity instanceof LivingEntity _entity) {
 					ItemStack _setstack5 = ItemStack.EMPTY.copy();
@@ -38,6 +42,21 @@ public class BoneBrandOfDiggingRightclickedProcedure {
 					if (_entity instanceof Player _player)
 						_player.getInventory().setChanged();
 				}
+				if (entity instanceof ServerPlayer _player) {
+					AdvancementHolder _adv = _player.server.getAdvancements().get(ResourceLocation.parse("monstrous_world:unearthing_greater_power"));
+					if (_adv != null) {
+						AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+						if (!_ap.isDone()) {
+							for (String criteria : _ap.getRemainingCriteria())
+								_player.getAdvancements().award(_adv, criteria);
+						}
+					}
+				}
+				if (entity instanceof Player _player && !_player.level().isClientSide())
+					_player.displayClientMessage(Component.literal("You can now dig faster while in beast form!"), false);
+			} else {
+				if (entity instanceof Player _player && !_player.level().isClientSide())
+					_player.displayClientMessage(Component.literal("You either must complete other tasks on the Ancient Altar or you already have this ability"), false);
 			}
 		}
 	}

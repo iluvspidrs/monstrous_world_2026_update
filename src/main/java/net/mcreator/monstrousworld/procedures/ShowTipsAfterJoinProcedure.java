@@ -488,19 +488,19 @@ public class ShowTipsAfterJoinProcedure {
 						if (entity instanceof Player _player && !_player.level().isClientSide())
 							_player.displayClientMessage(Component.literal("\u00A76\u00A7lWerewolf Tip: \u00A7f\u00A7rThe Lunar Pearl forces a Werewolf into beast form when used"), false);
 					}
-					if (entity.getPersistentData().getDouble("Werewolf_Tip") == 8) {
+					if (entity.getPersistentData().getDouble("Werewolf_Tip") == 9) {
 						if (entity instanceof Player _player && !_player.level().isClientSide())
 							_player.displayClientMessage(Component.literal("\u00A76\u00A7lWerewolf Tip: \u00A7f\u00A7rWerewolves can suffer Holy Damage from being hit by silver weapons"), false);
 					}
-					if (entity.getPersistentData().getDouble("Werewolf_Tip") == 9) {
+					if (entity.getPersistentData().getDouble("Werewolf_Tip") == 10) {
 						if (entity instanceof Player _player && !_player.level().isClientSide())
 							_player.displayClientMessage(Component.literal("\u00A76\u00A7lWerewolf Tip: \u00A7f\u00A7rThe Moon Clock can help you track the moon phase"), false);
 					}
-					if (entity.getPersistentData().getDouble("Werewolf_Tip") == 10) {
+					if (entity.getPersistentData().getDouble("Werewolf_Tip") == 11) {
 						if (entity instanceof Player _player && !_player.level().isClientSide())
 							_player.displayClientMessage(Component.literal("\u00A76\u00A7lWerewolf Tip: \u00A7f\u00A7rHelpful items for Werewolves can be found in Trick or Treat bags"), false);
 					}
-					if (entity.getPersistentData().getDouble("Werewolf_Tip") == 11) {
+					if (entity.getPersistentData().getDouble("Werewolf_Tip") == 12) {
 						if (entity instanceof Player _player && !_player.level().isClientSide())
 							_player.displayClientMessage(Component.literal("\u00A76\u00A7lWerewolf Tip: \u00A7f\u00A7rWerewolves are immune to Enchantment and Hypnosis while in beast form"), false);
 					}
@@ -607,6 +607,30 @@ public class ShowTipsAfterJoinProcedure {
 					if (entity.getPersistentData().getDouble("Witch_Tip") == 12) {
 						if (entity instanceof Player _player && !_player.level().isClientSide())
 							_player.displayClientMessage(Component.literal("\u00A7a\u00A7lWitch Tip: \u00A7f\u00A7rCat Familiars are stubborn, but might follow you if you're holding raw salmon or cod."), false);
+					}
+					if (entity.getPersistentData().getDouble("Darkness_Tip") == 1) {
+						if (entity instanceof Player _player && !_player.level().isClientSide())
+							_player.displayClientMessage(Component.literal("\u00A75\u00A7lDarkness Wielder Tip: \u00A7f\u00A7rYou may hear a voice every so often which tells you how to progress..."), false);
+					}
+					if (entity.getPersistentData().getDouble("Darkness_Tip") == 2) {
+						if (entity instanceof Player _player && !_player.level().isClientSide())
+							_player.displayClientMessage(Component.literal("\u00A75\u00A7lDarkness Wielder Tip: \u00A7f\u00A7rGetting attacked while standing on regular pumpkins can raise valuable servants..."), false);
+					}
+					if (entity.getPersistentData().getDouble("Darkness_Tip") == 3) {
+						if (entity instanceof Player _player && !_player.level().isClientSide())
+							_player.displayClientMessage(Component.literal("\u00A75\u00A7lDarkness Wielder Tip: \u00A7f\u00A7rNo guidebook exists for your faction, but helpful lore may wait in a cluster of Pumpkin Leaves and Logs..."), false);
+					}
+					if (entity.getPersistentData().getDouble("Darkness_Tip") == 4) {
+						if (entity instanceof Player _player && !_player.level().isClientSide())
+							_player.displayClientMessage(Component.literal("\u00A75\u00A7lDarkness Wielder Tip: \u00A7f\u00A7rThe dark voice within will help you progress and grow more powerful..."), false);
+					}
+					if (entity.getPersistentData().getDouble("Darkness_Tip") == 5) {
+						if (entity instanceof Player _player && !_player.level().isClientSide())
+							_player.displayClientMessage(Component.literal("\u00A75\u00A7lDarkness Wielder Tip: \u00A7f\u00A7rOnly an extra powerful Tome of Exorcism can remove your faction..."), false);
+					}
+					if (entity.getPersistentData().getDouble("Darkness_Tip") == 6) {
+						if (entity instanceof Player _player && !_player.level().isClientSide())
+							_player.displayClientMessage(Component.literal("\u00A75\u00A7lDarkness Wielder Tip: \u00A7f\u00A7rWhile you can't do much at Level 1, progressing may unlock incredible power..."), false);
 					}
 				}
 			}

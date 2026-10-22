@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "monstrous_world:hunter_npc",
+    "monstrous_world:hunter_patrol_npc",
+    "monstrous_world:dark_market_vendor",
+    "monstrous_world:sorcerer_npc",
+    "monstrous_world:witch_1",
+    "monstrous_world:aggressive_guard",
+    "monstrous_world:society_goon",
+    "monstrous_world:mad_scientist_npc"
+  ]
+}

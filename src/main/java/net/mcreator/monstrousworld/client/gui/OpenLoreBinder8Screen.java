@@ -29,6 +29,13 @@ public class OpenLoreBinder8Screen extends AbstractContainerScreen<OpenLoreBinde
 	private Button button_empty1;
 	private Button button_empty2;
 	private Button button_empty3;
+	private Button button_empty4;
+	private Button button_empty5;
+	private Button button_empty6;
+	private Button button_empty7;
+	private Button button_empty8;
+	private Button button_empty9;
+	private Button button_empty10;
 	private ImageButton imagebutton_add_button;
 	private static final ResourceLocation BACKGROUND = ResourceLocation.parse("monstrous_world:textures/screens/open_lore_binder_8.png");
 	private static final ResourceLocation IMAGE_0 = ResourceLocation.parse("monstrous_world:textures/screens/border_slot.png");
@@ -123,13 +130,76 @@ public class OpenLoreBinder8Screen extends AbstractContainerScreen<OpenLoreBinde
 			}
 		}, this.font);
 		this.addRenderableWidget(button_empty3);
+		button_empty4 = new PlainTextButton(this.leftPos + 292, this.topPos + 75, 18, 20, Component.translatable("gui.monstrous_world.open_lore_binder_8.button_empty4"), e -> {
+			int x = OpenLoreBinder8Screen.this.x;
+			int y = OpenLoreBinder8Screen.this.y;
+			if (true) {
+				PacketDistributor.sendToServer(new OpenLoreBinder8ButtonMessage(4, x, y, z));
+				OpenLoreBinder8ButtonMessage.handleButtonAction(entity, 4, x, y, z);
+			}
+		}, this.font);
+		this.addRenderableWidget(button_empty4);
+		button_empty5 = new PlainTextButton(this.leftPos + 319, this.topPos + 75, 18, 20, Component.translatable("gui.monstrous_world.open_lore_binder_8.button_empty5"), e -> {
+			int x = OpenLoreBinder8Screen.this.x;
+			int y = OpenLoreBinder8Screen.this.y;
+			if (true) {
+				PacketDistributor.sendToServer(new OpenLoreBinder8ButtonMessage(5, x, y, z));
+				OpenLoreBinder8ButtonMessage.handleButtonAction(entity, 5, x, y, z);
+			}
+		}, this.font);
+		this.addRenderableWidget(button_empty5);
+		button_empty6 = new PlainTextButton(this.leftPos + 346, this.topPos + 75, 18, 20, Component.translatable("gui.monstrous_world.open_lore_binder_8.button_empty6"), e -> {
+			int x = OpenLoreBinder8Screen.this.x;
+			int y = OpenLoreBinder8Screen.this.y;
+			if (true) {
+				PacketDistributor.sendToServer(new OpenLoreBinder8ButtonMessage(6, x, y, z));
+				OpenLoreBinder8ButtonMessage.handleButtonAction(entity, 6, x, y, z);
+			}
+		}, this.font);
+		this.addRenderableWidget(button_empty6);
+		button_empty7 = new PlainTextButton(this.leftPos + 265, this.topPos + 102, 18, 20, Component.translatable("gui.monstrous_world.open_lore_binder_8.button_empty7"), e -> {
+			int x = OpenLoreBinder8Screen.this.x;
+			int y = OpenLoreBinder8Screen.this.y;
+			if (true) {
+				PacketDistributor.sendToServer(new OpenLoreBinder8ButtonMessage(7, x, y, z));
+				OpenLoreBinder8ButtonMessage.handleButtonAction(entity, 7, x, y, z);
+			}
+		}, this.font);
+		this.addRenderableWidget(button_empty7);
+		button_empty8 = new PlainTextButton(this.leftPos + 292, this.topPos + 102, 18, 20, Component.translatable("gui.monstrous_world.open_lore_binder_8.button_empty8"), e -> {
+			int x = OpenLoreBinder8Screen.this.x;
+			int y = OpenLoreBinder8Screen.this.y;
+			if (true) {
+				PacketDistributor.sendToServer(new OpenLoreBinder8ButtonMessage(8, x, y, z));
+				OpenLoreBinder8ButtonMessage.handleButtonAction(entity, 8, x, y, z);
+			}
+		}, this.font);
+		this.addRenderableWidget(button_empty8);
+		button_empty9 = new PlainTextButton(this.leftPos + 319, this.topPos + 102, 18, 20, Component.translatable("gui.monstrous_world.open_lore_binder_8.button_empty9"), e -> {
+			int x = OpenLoreBinder8Screen.this.x;
+			int y = OpenLoreBinder8Screen.this.y;
+			if (true) {
+				PacketDistributor.sendToServer(new OpenLoreBinder8ButtonMessage(9, x, y, z));
+				OpenLoreBinder8ButtonMessage.handleButtonAction(entity, 9, x, y, z);
+			}
+		}, this.font);
+		this.addRenderableWidget(button_empty9);
+		button_empty10 = new PlainTextButton(this.leftPos + 265, this.topPos + 75, 18, 20, Component.translatable("gui.monstrous_world.open_lore_binder_8.button_empty10"), e -> {
+			int x = OpenLoreBinder8Screen.this.x;
+			int y = OpenLoreBinder8Screen.this.y;
+			if (true) {
+				PacketDistributor.sendToServer(new OpenLoreBinder8ButtonMessage(10, x, y, z));
+				OpenLoreBinder8ButtonMessage.handleButtonAction(entity, 10, x, y, z);
+			}
+		}, this.font);
+		this.addRenderableWidget(button_empty10);
 		imagebutton_add_button = new ImageButton(this.leftPos + 202, this.topPos + 93, 18, 10,
 				new WidgetSprites(ResourceLocation.parse("monstrous_world:textures/screens/add_button.png"), ResourceLocation.parse("monstrous_world:textures/screens/add_button_hover.png")), e -> {
 					int x = OpenLoreBinder8Screen.this.x;
 					int y = OpenLoreBinder8Screen.this.y;
 					if (true) {
-						PacketDistributor.sendToServer(new OpenLoreBinder8ButtonMessage(4, x, y, z));
-						OpenLoreBinder8ButtonMessage.handleButtonAction(entity, 4, x, y, z);
+						PacketDistributor.sendToServer(new OpenLoreBinder8ButtonMessage(11, x, y, z));
+						OpenLoreBinder8ButtonMessage.handleButtonAction(entity, 11, x, y, z);
 					}
 				}) {
 			@Override

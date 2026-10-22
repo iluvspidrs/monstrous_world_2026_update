@@ -20,11 +20,13 @@ import net.minecraft.world.entity.TamableAnimal;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.tags.TagKey;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 import net.minecraft.advancements.AdvancementProgress;
@@ -33,11 +35,7 @@ import net.minecraft.advancements.AdvancementHolder;
 import net.mcreator.monstrousworld.network.MonstrousWorldModVariables;
 import net.mcreator.monstrousworld.init.MonstrousWorldModMobEffects;
 import net.mcreator.monstrousworld.init.MonstrousWorldModItems;
-import net.mcreator.monstrousworld.entity.SocietyGoonEntity;
-import net.mcreator.monstrousworld.entity.InfectedGoonEntity;
-import net.mcreator.monstrousworld.entity.FollowerWerewolfEntity;
-import net.mcreator.monstrousworld.entity.DireWerewolfEntity;
-import net.mcreator.monstrousworld.entity.AggressiveGuardEntity;
+import net.mcreator.monstrousworld.entity.*;
 
 import javax.annotation.Nullable;
 
@@ -62,6 +60,80 @@ public class WerewolfHuntsProcedure {
 		if (!world.isClientSide()) {
 			if (entity instanceof LivingEntity && sourceentity instanceof ServerPlayer) {
 				if ((sourceentity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MonstrousWorldModMobEffects.LUNAR_PULL) ? _livEnt.getEffect(MonstrousWorldModMobEffects.LUNAR_PULL).getDuration() : 0) >= 1) {
+					if (entity instanceof VengefulPumpkinEntity) {
+						if (getEntityScore("vengeful_pumpkin", sourceentity) >= 1 && getEntityScore("vengeful_pumpkin", sourceentity) <= 30) {
+							{
+								Entity _ent = sourceentity;
+								Scoreboard _sc = _ent.level().getScoreboard();
+								Objective _so = _sc.getObjective("vengeful_pumpkin");
+								if (_so == null)
+									_so = _sc.addObjective("vengeful_pumpkin", ObjectiveCriteria.DUMMY, Component.literal("vengeful_pumpkin"), ObjectiveCriteria.RenderType.INTEGER, true, null);
+								_sc.getOrCreatePlayerScore(ScoreHolder.forNameOnly(_ent.getScoreboardName()), _so).set(getEntityScore("vengeful_pumpkin", sourceentity) + 1);
+							}
+							if (getEntityScore("vengeful_pumpkin", sourceentity) >= 31) {
+								if (sourceentity instanceof Player _player && !_player.level().isClientSide())
+									_player.displayClientMessage(Component.literal("You have killed enough Vengeful Pumpkins. Return to the Altar..."), false);
+							}
+						}
+					}
+					if (entity.getType().is(TagKey.create(Registries.ENTITY_TYPE, ResourceLocation.parse("neoforge:villager")))) {
+						if (!(entity.getPersistentData().getBoolean("vampire") == true)) {
+							if (getEntityScore("werewolf_ability", sourceentity) >= 1) {
+								if (world instanceof ServerLevel _level) {
+									ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), new ItemStack(MonstrousWorldModItems.VILLAGER_BONE.get()));
+									entityToSpawn.setPickUpDelay(10);
+									_level.addFreshEntity(entityToSpawn);
+								}
+							}
+						}
+					}
+					if (entity.getType().is(TagKey.create(Registries.ENTITY_TYPE, ResourceLocation.parse("neoforge:drops_human_bone")))) {
+						if (!(entity.getPersistentData().getBoolean("vampire") == true)) {
+							if (getEntityScore("werewolf_ability", sourceentity) >= 1) {
+								if (world instanceof ServerLevel _level) {
+									ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), new ItemStack(MonstrousWorldModItems.HUMAN_BONE.get()));
+									entityToSpawn.setPickUpDelay(10);
+									_level.addFreshEntity(entityToSpawn);
+								}
+							}
+						}
+					}
+					if (entity instanceof FeralGoblinEntity) {
+						if (getEntityScore("werewolf_ability", sourceentity) >= 1) {
+							if (world instanceof ServerLevel _level) {
+								ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), new ItemStack(MonstrousWorldModItems.GOBLIN_BONE.get()));
+								entityToSpawn.setPickUpDelay(10);
+								_level.addFreshEntity(entityToSpawn);
+							}
+						}
+					}
+					if (entity instanceof FeralMountainTrollEntity) {
+						if (getEntityScore("werewolf_ability", sourceentity) >= 1) {
+							if (world instanceof ServerLevel _level) {
+								ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), new ItemStack(MonstrousWorldModItems.TROLL_BONE.get()));
+								entityToSpawn.setPickUpDelay(10);
+								_level.addFreshEntity(entityToSpawn);
+							}
+						}
+					}
+					if (entity instanceof SwampmonsterVillagerEntity || entity instanceof SwampmonsterChieftanEntity || entity instanceof FeralSwampmonsterEntity) {
+						if (getEntityScore("werewolf_ability", sourceentity) >= 1) {
+							if (world instanceof ServerLevel _level) {
+								ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), new ItemStack(MonstrousWorldModItems.SWAMPMONSTER_BONE.get()));
+								entityToSpawn.setPickUpDelay(10);
+								_level.addFreshEntity(entityToSpawn);
+							}
+						}
+					}
+					if (entity.getPersistentData().getBoolean("vampire") == true || entity instanceof VampireNPCEntity) {
+						if (getEntityScore("werewolf_ability", sourceentity) >= 1) {
+							if (world instanceof ServerLevel _level) {
+								ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), new ItemStack(MonstrousWorldModItems.VAMPIRE_BONE.get()));
+								entityToSpawn.setPickUpDelay(10);
+								_level.addFreshEntity(entityToSpawn);
+							}
+						}
+					}
 					if ((sourceentity instanceof Player _plr ? _plr.getFoodData().getFoodLevel() : 0) < 20) {
 						if (sourceentity instanceof Player _player)
 							_player.getFoodData().setFoodLevel((sourceentity instanceof Player _plr ? _plr.getFoodData().getFoodLevel() : 0) + 2);

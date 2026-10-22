@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "monstrous_world:ancient_shrine_to_artemis"
+    },
+    "title": {
+      "translate": "advancements.the_ancient_hunt.title"
+    },
+    "description": {
+      "translate": "advancements.the_ancient_hunt.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_ancient_hunt_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "monstrous_world:every_werewolfs_guide"
+}

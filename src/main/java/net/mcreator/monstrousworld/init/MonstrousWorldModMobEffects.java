@@ -82,7 +82,6 @@ public class MonstrousWorldModMobEffects {
 	public static final DeferredHolder<MobEffect, MobEffect> VAMPIRISM_ENTITY = REGISTRY.register("vampirism_entity", VampirismEntityMobEffect::new);
 	public static final DeferredHolder<MobEffect, MobEffect> WITCH_EFFECT = REGISTRY.register("witch_effect", WitchEffectMobEffect::new);
 	public static final DeferredHolder<MobEffect, MobEffect> GOBLIN_EFFECT = REGISTRY.register("goblin_effect", GoblinEffectMobEffect::new);
-	public static final DeferredHolder<MobEffect, MobEffect> TRUE_EVIL_TRUCE = REGISTRY.register("true_evil_truce", TrueEvilTruceMobEffect::new);
 	public static final DeferredHolder<MobEffect, MobEffect> TRIDENT_COOLDOWN = REGISTRY.register("trident_cooldown", TridentCooldownMobEffect::new);
 	public static final DeferredHolder<MobEffect, MobEffect> ENTITY_HUNGER = REGISTRY.register("entity_hunger", EntityHungerMobEffect::new);
 	public static final DeferredHolder<MobEffect, MobEffect> EYE_EFFECT = REGISTRY.register("eye_effect", EyeEffectMobEffect::new);

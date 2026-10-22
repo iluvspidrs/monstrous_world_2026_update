@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "wandering_trader",
+    "vindicator",
+    "illusioner",
+    "villager",
+    "evoker",
+    "pillager",
+    "witch"
+  ]
+}

@@ -341,6 +341,11 @@ public class MonstrousWorldModScreens {
 		event.register(MonstrousWorldModMenus.ARCHAEOLOGICAL_NOTE_GUI.get(), ArchaeologicalNoteGUIScreen::new);
 		event.register(MonstrousWorldModMenus.TANGLED_TWIG_GUI.get(), TangledTwigGUIScreen::new);
 		event.register(MonstrousWorldModMenus.TO_DIG_FASTER_GUI.get(), ToDigFasterGUIScreen::new);
+		event.register(MonstrousWorldModMenus.TO_KEEP_ARMOR_GUI.get(), ToKeepArmorGUIScreen::new);
+		event.register(MonstrousWorldModMenus.FOR_GREATER_KNOCKBACK_GUI.get(), ForGreaterKnockbackGUIScreen::new);
+		event.register(MonstrousWorldModMenus.TO_STUN_PREY_GUI.get(), ToStunPreyGUIScreen::new);
+		event.register(MonstrousWorldModMenus.TO_REDUCE_FALL_DAMAGE_GUI.get(), ToReduceFallDamageGUIScreen::new);
+		event.register(MonstrousWorldModMenus.FOR_HANDLING_ITEMS_GUI.get(), ForHandlingItemsGUIScreen::new);
 	}
 
 	public interface ScreenAccessor {

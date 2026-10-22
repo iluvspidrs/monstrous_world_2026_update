@@ -4,11 +4,11 @@
   "definition": {
     "enableHelmet": true,
     "textureHelmet": "corhelmetitem",
-    "enableBody": true,
+    "enableBody": false,
     "textureBody": "corrupted_chestplate_item",
-    "enableLeggings": true,
+    "enableLeggings": false,
     "textureLeggings": "corrupted_leggings_item",
-    "enableBoots": true,
+    "enableBoots": false,
     "textureBoots": "corrupted_boots_item",
     "creativeTabs": [
       "CUSTOM:MonstrousWorldTools"

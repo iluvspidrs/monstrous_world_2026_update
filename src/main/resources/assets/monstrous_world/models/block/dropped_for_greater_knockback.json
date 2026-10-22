@@ -1,0 +1,9 @@
+{
+  "parent": "monstrous_world:custom/droppedpaper",
+  "textures": {
+    "all": "monstrous_world:block/lunar_scroll",
+    "particle": "monstrous_world:block/lunar_scroll",
+    "0": "monstrous_world:block/lunar_scroll"
+  },
+  "render_type": "cutout"
+}

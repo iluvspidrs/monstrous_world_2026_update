@@ -442,6 +442,9 @@ public class UltimateTomeOfExorcismRightclickedProcedure {
 					_entity.getAttribute(Attributes.ATTACK_KNOCKBACK).removeModifier(ResourceLocation.parse("monstrous_world:werewolf_knockback"));
 				}
 				if (entity instanceof LivingEntity _entity) {
+					_entity.getAttribute(Attributes.SAFE_FALL_DISTANCE).removeModifier(ResourceLocation.parse("monstrous_world:werewolf_fall_damage"));
+				}
+				if (entity instanceof LivingEntity _entity) {
 					_entity.getAttribute(Attributes.MOVEMENT_SPEED).removeModifier(ResourceLocation.parse("monstrous_world:feral_werewolf_speed"));
 				}
 				if (entity instanceof LivingEntity _entity) {
@@ -561,64 +564,28 @@ public class UltimateTomeOfExorcismRightclickedProcedure {
 				}
 				if (!((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("monstrous_world:hunter_gear"))))) {
 					if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("monstrous_world:faction_locked")))) {
-						if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.DARKENED_BOOTS.get()) {
-							{
-								Entity _entity = entity;
-								if (_entity instanceof Player _player) {
-									_player.getInventory().armor.set(0, ItemStack.EMPTY);
-									_player.getInventory().setChanged();
-								} else if (_entity instanceof LivingEntity _living) {
-									_living.setItemSlot(EquipmentSlot.FEET, ItemStack.EMPTY);
-								}
-							}
-						} else {
-							if (world instanceof ServerLevel _level) {
-								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).copy()));
-								entityToSpawn.setPickUpDelay(10);
-								_level.addFreshEntity(entityToSpawn);
-							}
+						if (world instanceof ServerLevel _level) {
+							ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).copy()));
+							entityToSpawn.setPickUpDelay(10);
+							_level.addFreshEntity(entityToSpawn);
 						}
 					}
 				}
 				if (!((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("monstrous_world:hunter_gear"))))) {
 					if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("monstrous_world:faction_locked")))) {
-						if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.DARKENED_LEGGINGS.get()) {
-							{
-								Entity _entity = entity;
-								if (_entity instanceof Player _player) {
-									_player.getInventory().armor.set(1, ItemStack.EMPTY);
-									_player.getInventory().setChanged();
-								} else if (_entity instanceof LivingEntity _living) {
-									_living.setItemSlot(EquipmentSlot.LEGS, ItemStack.EMPTY);
-								}
-							}
-						} else {
-							if (world instanceof ServerLevel _level) {
-								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).copy()));
-								entityToSpawn.setPickUpDelay(10);
-								_level.addFreshEntity(entityToSpawn);
-							}
+						if (world instanceof ServerLevel _level) {
+							ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).copy()));
+							entityToSpawn.setPickUpDelay(10);
+							_level.addFreshEntity(entityToSpawn);
 						}
 					}
 				}
 				if (!((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("monstrous_world:hunter_gear"))))) {
 					if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("monstrous_world:faction_locked")))) {
-						if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.DARKENED_CHESTPLATE.get()) {
-							{
-								Entity _entity = entity;
-								if (_entity instanceof Player _player) {
-									_player.getInventory().armor.set(2, ItemStack.EMPTY);
-									_player.getInventory().setChanged();
-								} else if (_entity instanceof LivingEntity _living) {
-									_living.setItemSlot(EquipmentSlot.CHEST, ItemStack.EMPTY);
-								}
-							}
-						} else {
-							if (world instanceof ServerLevel _level) {
-								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).copy()));
-								entityToSpawn.setPickUpDelay(10);
-								_level.addFreshEntity(entityToSpawn);
-							}
+						if (world instanceof ServerLevel _level) {
+							ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).copy()));
+							entityToSpawn.setPickUpDelay(10);
+							_level.addFreshEntity(entityToSpawn);
 						}
 					}
 				}

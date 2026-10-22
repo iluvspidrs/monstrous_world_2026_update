@@ -368,6 +368,11 @@ public class MonstrousWorldModMenus {
 	public static final DeferredHolder<MenuType<?>, MenuType<ArchaeologicalNoteGUIMenu>> ARCHAEOLOGICAL_NOTE_GUI = REGISTRY.register("archaeological_note_gui", () -> IMenuTypeExtension.create(ArchaeologicalNoteGUIMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<TangledTwigGUIMenu>> TANGLED_TWIG_GUI = REGISTRY.register("tangled_twig_gui", () -> IMenuTypeExtension.create(TangledTwigGUIMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<ToDigFasterGUIMenu>> TO_DIG_FASTER_GUI = REGISTRY.register("to_dig_faster_gui", () -> IMenuTypeExtension.create(ToDigFasterGUIMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<ToKeepArmorGUIMenu>> TO_KEEP_ARMOR_GUI = REGISTRY.register("to_keep_armor_gui", () -> IMenuTypeExtension.create(ToKeepArmorGUIMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<ForGreaterKnockbackGUIMenu>> FOR_GREATER_KNOCKBACK_GUI = REGISTRY.register("for_greater_knockback_gui", () -> IMenuTypeExtension.create(ForGreaterKnockbackGUIMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<ToStunPreyGUIMenu>> TO_STUN_PREY_GUI = REGISTRY.register("to_stun_prey_gui", () -> IMenuTypeExtension.create(ToStunPreyGUIMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<ToReduceFallDamageGUIMenu>> TO_REDUCE_FALL_DAMAGE_GUI = REGISTRY.register("to_reduce_fall_damage_gui", () -> IMenuTypeExtension.create(ToReduceFallDamageGUIMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<ForHandlingItemsGUIMenu>> FOR_HANDLING_ITEMS_GUI = REGISTRY.register("for_handling_items_gui", () -> IMenuTypeExtension.create(ForHandlingItemsGUIMenu::new));
 
 	public interface MenuAccessor {
 		Map<String, Object> getMenuState();

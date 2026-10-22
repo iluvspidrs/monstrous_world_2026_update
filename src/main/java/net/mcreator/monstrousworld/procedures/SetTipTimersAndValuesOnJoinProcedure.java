@@ -61,7 +61,7 @@ public class SetTipTimersAndValuesOnJoinProcedure {
 			entity.getPersistentData().putDouble("Swampmonster_Tip", 0);
 		}
 		if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterClass == 7 || entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterType == 5) {
-			entity.getPersistentData().putDouble("Werewolf_Tip", (Mth.nextInt(RandomSource.create(), 1, 11)));
+			entity.getPersistentData().putDouble("Werewolf_Tip", (Mth.nextInt(RandomSource.create(), 1, 12)));
 		} else {
 			entity.getPersistentData().putDouble("Werewolf_Tip", 0);
 		}
@@ -69,6 +69,11 @@ public class SetTipTimersAndValuesOnJoinProcedure {
 			entity.getPersistentData().putDouble("Vampire_Tip", (Mth.nextInt(RandomSource.create(), 1, 13)));
 		} else {
 			entity.getPersistentData().putDouble("Vampire_Tip", 0);
+		}
+		if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterClass == 9) {
+			entity.getPersistentData().putDouble("Darkness_Tip", (Mth.nextInt(RandomSource.create(), 1, 10)));
+		} else {
+			entity.getPersistentData().putDouble("Darkness_Tip", 0);
 		}
 		if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterClass == 0 && entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterType == 0) {
 			if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).HuntersGuild == true) {

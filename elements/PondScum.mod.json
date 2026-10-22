@@ -76,7 +76,7 @@
     "noteBlockInstrument": "harp",
     "creativePickItem": "",
     "offsetType": "NONE",
-    "aiPathNodeType": "OPEN",
+    "aiPathNodeType": "WATER",
     "strippingResult": "",
     "ignitedByLava": false,
     "flammability": 0,

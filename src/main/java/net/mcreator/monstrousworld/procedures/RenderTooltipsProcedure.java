@@ -56,7 +56,7 @@ public class RenderTooltipsProcedure {
 		}
 		if (itemstack.is(ItemTags.create(ResourceLocation.parse("monstrous_world:darkness_defense")))) {
 			if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).No_Defense == 1) {
-				tooltip.add(3, Component.literal("\u00A74Your curse prevents this from working"));
+				tooltip.add(1, Component.literal("\u00A74Your curse prevents this from working"));
 			}
 		}
 		if (itemstack.getItem() == Items.GLASS_BOTTLE) {

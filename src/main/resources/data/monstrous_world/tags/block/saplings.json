@@ -5,10 +5,12 @@
     "monstrous_world:pumpkin_sapling",
     "monstrous_world:deathly_sapling",
     "monstrous_world:murkwood_sapling",
+    "monstrous_world:glowing_pumpkin_sapling",
     "monstrous_world:yellow_autumn_sapling",
     "monstrous_world:ghostly_sapling",
     "monstrous_world:sanguine_sapling",
     "monstrous_world:red_autumn_sapling",
-    "monstrous_world:orange_autumn_sapling"
+    "monstrous_world:orange_autumn_sapling",
+    "monstrous_world:pale_stalk_sapling"
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "monstrous_world:block/dropped_for_greater_knockback"
+    },
+    "facing=east": {
+      "model": "monstrous_world:block/dropped_for_greater_knockback",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "monstrous_world:block/dropped_for_greater_knockback",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "monstrous_world:block/dropped_for_greater_knockback",
+      "y": 270
+    }
+  }
+}

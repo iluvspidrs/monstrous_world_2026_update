@@ -88,7 +88,7 @@ public class PondScumBlock extends Block implements SimpleWaterloggedBlock {
 
 	@Override
 	public PathType getBlockPathType(BlockState state, BlockGetter world, BlockPos pos, Mob entity) {
-		return PathType.OPEN;
+		return PathType.WATER;
 	}
 
 	@Override

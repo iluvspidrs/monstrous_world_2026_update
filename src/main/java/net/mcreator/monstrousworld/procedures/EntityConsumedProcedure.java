@@ -59,6 +59,9 @@ public class EntityConsumedProcedure {
 								_entity.addEffect(new MobEffectInstance(MonstrousWorldModMobEffects.BLACKOUT, 180, 0, true, false));
 						}
 					}
+				} else {
+					if (sourceentity instanceof Player _player && !_player.level().isClientSide())
+						_player.displayClientMessage(Component.literal("\u00A75The entity within is not yet hungry..."), false);
 				}
 			}
 		}

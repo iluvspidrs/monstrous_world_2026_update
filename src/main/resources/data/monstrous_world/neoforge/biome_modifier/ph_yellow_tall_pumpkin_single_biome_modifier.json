@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "monstrous_world:foggy_expanse",
+  "features": "monstrous_world:ph_yellow_tall_pumpkin_single",
+  "step": "vegetal_decoration"
+}

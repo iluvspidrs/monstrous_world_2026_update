@@ -31,7 +31,8 @@
     "attackSpeed": 1.6,
     "specialInformation": {
       "fixedValue": [
-        "Throwable"
+        "Throw at feet to use on self",
+        "§4Does not cure Vampires turned directly by the Darkness"
       ]
     },
     "glowCondition": {

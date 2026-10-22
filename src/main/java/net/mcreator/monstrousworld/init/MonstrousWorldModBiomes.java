@@ -97,9 +97,9 @@ public class MonstrousWorldModBiomes {
 
 	public static <T> Climate.ParameterList<T> modifyOverworldParameterPoints(Climate.ParameterList<T> originalList, Function<ResourceKey<Biome>, T> lookup) {
 		List<Pair<Climate.ParameterPoint, T>> parameters = new ArrayList<>(originalList.values());
-		parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.8f, -0.3f), Climate.Parameter.span(-0.3f, 0.5f), Climate.Parameter.span(-0.4f, 0.55f), Climate.Parameter.span(-1f, 1f), Climate.Parameter.point(0.0f),
+		parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.6f, -0.3f), Climate.Parameter.span(-0.3f, 0.5f), Climate.Parameter.span(-0.4f, 0.55f), Climate.Parameter.span(-0.35f, 1f), Climate.Parameter.point(0.0f),
 				Climate.Parameter.span(-1f, 0f), 0), lookup.apply(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("monstrous_world", "deathly_forest")))));
-		parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.8f, -0.3f), Climate.Parameter.span(-0.3f, 0.5f), Climate.Parameter.span(-0.4f, 0.55f), Climate.Parameter.span(-1f, 1f), Climate.Parameter.point(1.0f),
+		parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.6f, -0.3f), Climate.Parameter.span(-0.3f, 0.5f), Climate.Parameter.span(-0.4f, 0.55f), Climate.Parameter.span(-0.35f, 1f), Climate.Parameter.point(1.0f),
 				Climate.Parameter.span(-1f, 0f), 0), lookup.apply(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("monstrous_world", "deathly_forest")))));
 		parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.2f, 0.55f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.point(0.0f),
 				Climate.Parameter.span(-1f, 1f), 0), lookup.apply(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("monstrous_world", "crimson_dread")))));
@@ -125,10 +125,12 @@ public class MonstrousWorldModBiomes {
 				Climate.Parameter.span(-1f, 1f), 0), lookup.apply(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("monstrous_world", "pumpkin_hollow")))));
 		parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.2f, -0.08f), Climate.Parameter.span(-0.05f, 0.15f), Climate.Parameter.span(-0.1f, 0.3f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.point(1.0f),
 				Climate.Parameter.span(-1f, 1f), 0), lookup.apply(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("monstrous_world", "pumpkin_hollow")))));
-		parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.9f, 2f), Climate.Parameter.span(-1f, 1f), Climate.Parameter.span(-0.11f, 0.7f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.point(0.0f),
-				Climate.Parameter.span(-1f, 1f), 0), lookup.apply(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("monstrous_world", "foggy_expanse")))));
-		parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.9f, 2f), Climate.Parameter.span(-1f, 1f), Climate.Parameter.span(-0.11f, 0.7f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.point(1.0f),
-				Climate.Parameter.span(-1f, 1f), 0), lookup.apply(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("monstrous_world", "foggy_expanse")))));
+		parameters.add(new Pair<>(
+				new Climate.ParameterPoint(Climate.Parameter.span(-1f, -0.45f), Climate.Parameter.span(-1f, -0.35f), Climate.Parameter.span(0f, 1f), Climate.Parameter.span(-1f, 1f), Climate.Parameter.point(0.0f), Climate.Parameter.span(-1f, 1f), 0),
+				lookup.apply(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("monstrous_world", "foggy_expanse")))));
+		parameters.add(new Pair<>(
+				new Climate.ParameterPoint(Climate.Parameter.span(-1f, -0.45f), Climate.Parameter.span(-1f, -0.35f), Climate.Parameter.span(0f, 1f), Climate.Parameter.span(-1f, 1f), Climate.Parameter.point(1.0f), Climate.Parameter.span(-1f, 1f), 0),
+				lookup.apply(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("monstrous_world", "foggy_expanse")))));
 		return new Climate.ParameterList<>(parameters);
 	}
 

@@ -51,9 +51,10 @@ public class OpenTradingGUITrollProcedure {
 		if (!world.isClientSide()) {
 			if (sourceentity instanceof Player || sourceentity instanceof ServerPlayer) {
 				if (!((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.MONSTER_DETECTOR.get())
-						&& !((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.BLOODLETTER.get())) {
+						&& !((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.BLOODLETTER.get())
+						&& !((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.CURSED_CANDY.get())) {
 					if (sourceentity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).BeastForm == false) {
-						if (!(sourceentity instanceof LivingEntity _livEnt7 && _livEnt7.hasEffect(MonstrousWorldModMobEffects.MURKANUS_MARTH))) {
+						if (!(sourceentity instanceof LivingEntity _livEnt9 && _livEnt9.hasEffect(MonstrousWorldModMobEffects.MURKANUS_MARTH))) {
 							if (!sourceentity.isShiftKeyDown()) {
 								sourceentity.getPersistentData().putString("Interaction", (entity.getStringUUID()));
 								entity.getPersistentData().putString("Interaction", (sourceentity.getStringUUID()));
@@ -710,6 +711,9 @@ public class OpenTradingGUITrollProcedure {
 														entityToSpawn.setPickUpDelay(10);
 														_level.addFreshEntity(entityToSpawn);
 													}
+												} else {
+													if (sourceentity instanceof Player _player && !_player.level().isClientSide())
+														_player.displayClientMessage(Component.literal("\"Follow the guide we gave you, and you'll know what to do.\""), false);
 												}
 											}
 										}

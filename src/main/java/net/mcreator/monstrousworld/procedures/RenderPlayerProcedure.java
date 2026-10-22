@@ -10,6 +10,7 @@ import net.neoforged.api.distmarker.Dist;
 
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.Pose;
 import net.minecraft.world.entity.LivingEntity;
@@ -295,19 +296,112 @@ public class RenderPlayerProcedure {
 								renderEntity(playerRenderEvent, MonstrousWorldModVariables.PlayerHungerMode, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
 							}
 							poseStack.translate(1, (float) (y + 1), 1);
+						} else {
+							if ((entity instanceof LivingEntity _livingEntity60 && _livingEntity60.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity60.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+								{
+									capes.add(() -> {
+										Player player = (Player) entity;
+										float partialTicks = playerRenderEvent.getPartialTick();
+										MonstrousWorldModHumanoidModels.PLAYER_DARKENED_CAPE.crouching = player.isShiftKeyDown();
+										if (!player.isFallFlying() && player.isAlive()) {
+											double dx = player.xCloakO + (player.xCloak - player.xCloakO) * partialTicks - (player.xOld + (player.getX() - player.xOld) * partialTicks);
+											double dy = player.yCloakO + (player.yCloak - player.yCloakO) * partialTicks - (player.yOld + (player.getY() - player.yOld) * partialTicks);
+											double dz = player.zCloakO + (player.zCloak - player.zCloakO) * partialTicks - (player.zOld + (player.getZ() - player.zOld) * partialTicks);
+											float bodyYaw = player.yBodyRotO + (player.yBodyRot - player.yBodyRotO) * partialTicks;
+											double sin = Math.sin(bodyYaw * Math.PI / 180.0);
+											double cos = -Math.cos(bodyYaw * Math.PI / 180.0);
+											float xRot = (float) (dy * 10.0);
+											xRot = Math.max(xRot, -6.0F);
+											xRot = Math.min(xRot, 32.0F);
+											float yRot = (float) ((dx * sin + dz * cos) * 100.0F);
+											float zRot = (float) ((dx * cos - dz * sin) * 100.0F);
+											yRot = Math.max(yRot, 0.0F);
+											yRot = Math.min(yRot, 150.0F);
+											zRot = Math.max(zRot, -20.0F);
+											zRot = Math.min(zRot, 20.0F);
+											if (xRot < -5.0F)
+												xRot = -5.0F;
+											MonstrousWorldModHumanoidModels.PLAYER_DARKENED_CAPE.body.xRot = Math.min((float) Math.toRadians(6.0F + xRot / 2.0F + yRot / 2.0F) + MonstrousWorldModHumanoidModels.PLAYER_DARKENED_CAPE.body.xRot,
+													(float) 1.41);
+											MonstrousWorldModHumanoidModels.PLAYER_DARKENED_CAPE.body.yRot = 0.0F;
+											MonstrousWorldModHumanoidModels.PLAYER_DARKENED_CAPE.body.zRot = (float) Math.toRadians(zRot / 2.0F);
+										} else {
+											MonstrousWorldModHumanoidModels.PLAYER_DARKENED_CAPE.body.xRot = 0.0F;
+											MonstrousWorldModHumanoidModels.PLAYER_DARKENED_CAPE.body.yRot = 0.0F;
+											MonstrousWorldModHumanoidModels.PLAYER_DARKENED_CAPE.body.zRot = 0.0F;
+										}
+									});
+								}
+								{
+									ResourceLocation texture = MonstrousWorldModVariables.player_dark_armor_overlay;
+									renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.PLAYER_DARKENED_CAPE, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.armorCutoutNoCull(texture)));
+								}
+								{
+									ResourceLocation texture = MonstrousWorldModVariables.player_dark_armor_arm;
+									renderHumanoid(playerRenderEvent, (PlayerModel) entityModel, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.armorCutoutNoCull(texture)));
+								}
+							} else {
+								poseStack.pushPose();
+								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity64 && _livingEntity64.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity64.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity65 && _livingEntity65.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity65.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity66 && _livingEntity66.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity66.getAttribute(Attributes.SCALE).getValue() : 0));
+								{
+									capes.add(() -> {
+										Player player = (Player) entity;
+										float partialTicks = playerRenderEvent.getPartialTick();
+										MonstrousWorldModHumanoidModels.PLAYER_DARKENED_CAPE.crouching = player.isShiftKeyDown();
+										if (!player.isFallFlying() && player.isAlive()) {
+											double dx = player.xCloakO + (player.xCloak - player.xCloakO) * partialTicks - (player.xOld + (player.getX() - player.xOld) * partialTicks);
+											double dy = player.yCloakO + (player.yCloak - player.yCloakO) * partialTicks - (player.yOld + (player.getY() - player.yOld) * partialTicks);
+											double dz = player.zCloakO + (player.zCloak - player.zCloakO) * partialTicks - (player.zOld + (player.getZ() - player.zOld) * partialTicks);
+											float bodyYaw = player.yBodyRotO + (player.yBodyRot - player.yBodyRotO) * partialTicks;
+											double sin = Math.sin(bodyYaw * Math.PI / 180.0);
+											double cos = -Math.cos(bodyYaw * Math.PI / 180.0);
+											float xRot = (float) (dy * 10.0);
+											xRot = Math.max(xRot, -6.0F);
+											xRot = Math.min(xRot, 32.0F);
+											float yRot = (float) ((dx * sin + dz * cos) * 100.0F);
+											float zRot = (float) ((dx * cos - dz * sin) * 100.0F);
+											yRot = Math.max(yRot, 0.0F);
+											yRot = Math.min(yRot, 150.0F);
+											zRot = Math.max(zRot, -20.0F);
+											zRot = Math.min(zRot, 20.0F);
+											if (xRot < -5.0F)
+												xRot = -5.0F;
+											MonstrousWorldModHumanoidModels.PLAYER_DARKENED_CAPE.body.xRot = Math.min((float) Math.toRadians(6.0F + xRot / 2.0F + yRot / 2.0F) + MonstrousWorldModHumanoidModels.PLAYER_DARKENED_CAPE.body.xRot,
+													(float) 1.41);
+											MonstrousWorldModHumanoidModels.PLAYER_DARKENED_CAPE.body.yRot = 0.0F;
+											MonstrousWorldModHumanoidModels.PLAYER_DARKENED_CAPE.body.zRot = (float) Math.toRadians(zRot / 2.0F);
+										} else {
+											MonstrousWorldModHumanoidModels.PLAYER_DARKENED_CAPE.body.xRot = 0.0F;
+											MonstrousWorldModHumanoidModels.PLAYER_DARKENED_CAPE.body.yRot = 0.0F;
+											MonstrousWorldModHumanoidModels.PLAYER_DARKENED_CAPE.body.zRot = 0.0F;
+										}
+									});
+								}
+								{
+									ResourceLocation texture = MonstrousWorldModVariables.player_dark_armor_overlay;
+									renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.PLAYER_DARKENED_CAPE, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.armorCutoutNoCull(texture)));
+								}
+								{
+									ResourceLocation texture = MonstrousWorldModVariables.player_dark_armor_arm;
+									renderHumanoid(playerRenderEvent, (PlayerModel) entityModel, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.armorCutoutNoCull(texture)));
+								}
+								poseStack.popPose();
+							}
 						}
 					}
 					if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterType == 1) {
-						if ((entity instanceof LivingEntity _livingEntity60 && _livingEntity60.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity60.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+						if ((entity instanceof LivingEntity _livingEntity72 && _livingEntity72.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity72.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 							{
 								ResourceLocation texture = MonstrousWorldModVariables.PlayerFlyFace;
 								renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.PLAYER_FLY_FACE, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
 							}
 						} else {
 							poseStack.pushPose();
-							poseStack.scale((float) (entity instanceof LivingEntity _livingEntity62 && _livingEntity62.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity62.getAttribute(Attributes.SCALE).getValue() : 0),
-									(float) (entity instanceof LivingEntity _livingEntity63 && _livingEntity63.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity63.getAttribute(Attributes.SCALE).getValue() : 0),
-									(float) (entity instanceof LivingEntity _livingEntity64 && _livingEntity64.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity64.getAttribute(Attributes.SCALE).getValue() : 0));
+							poseStack.scale((float) (entity instanceof LivingEntity _livingEntity74 && _livingEntity74.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity74.getAttribute(Attributes.SCALE).getValue() : 0),
+									(float) (entity instanceof LivingEntity _livingEntity75 && _livingEntity75.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity75.getAttribute(Attributes.SCALE).getValue() : 0),
+									(float) (entity instanceof LivingEntity _livingEntity76 && _livingEntity76.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity76.getAttribute(Attributes.SCALE).getValue() : 0));
 							{
 								ResourceLocation texture = MonstrousWorldModVariables.PlayerFlyFace;
 								renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.PLAYER_FLY_FACE, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -315,16 +409,16 @@ public class RenderPlayerProcedure {
 							poseStack.popPose();
 						}
 						if (((PlayerModel) entityModel).slim) {
-							if ((entity instanceof LivingEntity _livingEntity69 && _livingEntity69.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity69.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+							if ((entity instanceof LivingEntity _livingEntity81 && _livingEntity81.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity81.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.PlayerFlyOverlaySlim;
 									renderHumanoid(playerRenderEvent, (PlayerModel) entityModel, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
 								}
 							} else {
 								poseStack.pushPose();
-								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity71 && _livingEntity71.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity71.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity72 && _livingEntity72.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity72.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity73 && _livingEntity73.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity73.getAttribute(Attributes.SCALE).getValue() : 0));
+								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity83 && _livingEntity83.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity83.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity84 && _livingEntity84.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity84.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity85 && _livingEntity85.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity85.getAttribute(Attributes.SCALE).getValue() : 0));
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.PlayerFlyOverlaySlim;
 									renderHumanoid(playerRenderEvent, (PlayerModel) entityModel, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -332,16 +426,16 @@ public class RenderPlayerProcedure {
 								poseStack.popPose();
 							}
 						} else {
-							if ((entity instanceof LivingEntity _livingEntity77 && _livingEntity77.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity77.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+							if ((entity instanceof LivingEntity _livingEntity89 && _livingEntity89.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity89.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.PlayerFlyOverlayWide;
 									renderHumanoid(playerRenderEvent, (PlayerModel) entityModel, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
 								}
 							} else {
 								poseStack.pushPose();
-								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity79 && _livingEntity79.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity79.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity80 && _livingEntity80.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity80.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity81 && _livingEntity81.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity81.getAttribute(Attributes.SCALE).getValue() : 0));
+								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity91 && _livingEntity91.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity91.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity92 && _livingEntity92.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity92.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity93 && _livingEntity93.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity93.getAttribute(Attributes.SCALE).getValue() : 0));
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.PlayerFlyOverlayWide;
 									renderHumanoid(playerRenderEvent, (PlayerModel) entityModel, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -350,16 +444,16 @@ public class RenderPlayerProcedure {
 							}
 						}
 						if (entity.onGround()) {
-							if ((entity instanceof LivingEntity _livingEntity86 && _livingEntity86.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity86.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+							if ((entity instanceof LivingEntity _livingEntity98 && _livingEntity98.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity98.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.PlayerFlyWings;
 									renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.FLY_WINGS_ON_GROUND, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityTranslucent(texture)));
 								}
 							} else {
 								poseStack.pushPose();
-								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity88 && _livingEntity88.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity88.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity89 && _livingEntity89.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity89.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity90 && _livingEntity90.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity90.getAttribute(Attributes.SCALE).getValue() : 0));
+								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity100 && _livingEntity100.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity100.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity101 && _livingEntity101.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity101.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity102 && _livingEntity102.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity102.getAttribute(Attributes.SCALE).getValue() : 0));
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.PlayerFlyWings;
 									renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.FLY_WINGS_ON_GROUND, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityTranslucent(texture)));
@@ -367,16 +461,16 @@ public class RenderPlayerProcedure {
 								poseStack.popPose();
 							}
 						} else {
-							if ((entity instanceof LivingEntity _livingEntity94 && _livingEntity94.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity94.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+							if ((entity instanceof LivingEntity _livingEntity106 && _livingEntity106.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity106.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.PlayerFlyWingsOffGround;
 									renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.FLY_WINGS_OFF_GROUND, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityTranslucent(texture)));
 								}
 							} else {
 								poseStack.pushPose();
-								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity96 && _livingEntity96.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity96.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity97 && _livingEntity97.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity97.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity98 && _livingEntity98.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity98.getAttribute(Attributes.SCALE).getValue() : 0));
+								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity108 && _livingEntity108.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity108.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity109 && _livingEntity109.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity109.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity110 && _livingEntity110.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity110.getAttribute(Attributes.SCALE).getValue() : 0));
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.PlayerFlyWingsOffGround;
 									renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.FLY_WINGS_OFF_GROUND, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityTranslucent(texture)));
@@ -386,16 +480,16 @@ public class RenderPlayerProcedure {
 						}
 					}
 					if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterType == 2) {
-						if ((entity instanceof LivingEntity _livingEntity102 && _livingEntity102.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity102.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+						if ((entity instanceof LivingEntity _livingEntity114 && _livingEntity114.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity114.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 							{
 								ResourceLocation texture = MonstrousWorldModVariables.PlayerEyeOverlay;
 								renderHumanoid(playerRenderEvent, (PlayerModel) entityModel, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
 							}
 						} else {
 							poseStack.pushPose();
-							poseStack.scale((float) (entity instanceof LivingEntity _livingEntity104 && _livingEntity104.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity104.getAttribute(Attributes.SCALE).getValue() : 0),
-									(float) (entity instanceof LivingEntity _livingEntity105 && _livingEntity105.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity105.getAttribute(Attributes.SCALE).getValue() : 0),
-									(float) (entity instanceof LivingEntity _livingEntity106 && _livingEntity106.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity106.getAttribute(Attributes.SCALE).getValue() : 0));
+							poseStack.scale((float) (entity instanceof LivingEntity _livingEntity116 && _livingEntity116.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity116.getAttribute(Attributes.SCALE).getValue() : 0),
+									(float) (entity instanceof LivingEntity _livingEntity117 && _livingEntity117.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity117.getAttribute(Attributes.SCALE).getValue() : 0),
+									(float) (entity instanceof LivingEntity _livingEntity118 && _livingEntity118.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity118.getAttribute(Attributes.SCALE).getValue() : 0));
 							{
 								ResourceLocation texture = MonstrousWorldModVariables.PlayerEyeOverlay;
 								renderHumanoid(playerRenderEvent, (PlayerModel) entityModel, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -406,16 +500,16 @@ public class RenderPlayerProcedure {
 					if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterType == 3) {
 						((PlayerModel) entityModel).leftLeg.visible = false;
 						((PlayerModel) entityModel).rightLeg.visible = false;
-						if ((entity instanceof LivingEntity _livingEntity112 && _livingEntity112.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity112.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+						if ((entity instanceof LivingEntity _livingEntity124 && _livingEntity124.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity124.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 							{
 								ResourceLocation texture = MonstrousWorldModVariables.PlayerSerpentBody;
 								renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.SERPENT_BODY, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
 							}
 						} else {
 							poseStack.pushPose();
-							poseStack.scale((float) (entity instanceof LivingEntity _livingEntity114 && _livingEntity114.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity114.getAttribute(Attributes.SCALE).getValue() : 0),
-									(float) (entity instanceof LivingEntity _livingEntity115 && _livingEntity115.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity115.getAttribute(Attributes.SCALE).getValue() : 0),
-									(float) (entity instanceof LivingEntity _livingEntity116 && _livingEntity116.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity116.getAttribute(Attributes.SCALE).getValue() : 0));
+							poseStack.scale((float) (entity instanceof LivingEntity _livingEntity126 && _livingEntity126.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity126.getAttribute(Attributes.SCALE).getValue() : 0),
+									(float) (entity instanceof LivingEntity _livingEntity127 && _livingEntity127.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity127.getAttribute(Attributes.SCALE).getValue() : 0),
+									(float) (entity instanceof LivingEntity _livingEntity128 && _livingEntity128.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity128.getAttribute(Attributes.SCALE).getValue() : 0));
 							{
 								ResourceLocation texture = MonstrousWorldModVariables.PlayerSerpentBody;
 								renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.SERPENT_BODY, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -423,16 +517,16 @@ public class RenderPlayerProcedure {
 							poseStack.popPose();
 						}
 						if (((PlayerModel) entityModel).slim) {
-							if ((entity instanceof LivingEntity _livingEntity121 && _livingEntity121.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity121.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+							if ((entity instanceof LivingEntity _livingEntity133 && _livingEntity133.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity133.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.PlayerSerpentOverlaySlim;
 									renderHumanoid(playerRenderEvent, (PlayerModel) entityModel, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
 								}
 							} else {
 								poseStack.pushPose();
-								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity123 && _livingEntity123.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity123.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity124 && _livingEntity124.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity124.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity125 && _livingEntity125.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity125.getAttribute(Attributes.SCALE).getValue() : 0));
+								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity135 && _livingEntity135.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity135.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity136 && _livingEntity136.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity136.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity137 && _livingEntity137.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity137.getAttribute(Attributes.SCALE).getValue() : 0));
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.PlayerSerpentOverlaySlim;
 									renderHumanoid(playerRenderEvent, (PlayerModel) entityModel, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -440,16 +534,16 @@ public class RenderPlayerProcedure {
 								poseStack.popPose();
 							}
 						} else {
-							if ((entity instanceof LivingEntity _livingEntity129 && _livingEntity129.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity129.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+							if ((entity instanceof LivingEntity _livingEntity141 && _livingEntity141.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity141.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.PlayerSerpentOverlayWide;
 									renderHumanoid(playerRenderEvent, (PlayerModel) entityModel, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
 								}
 							} else {
 								poseStack.pushPose();
-								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity131 && _livingEntity131.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity131.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity132 && _livingEntity132.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity132.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity133 && _livingEntity133.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity133.getAttribute(Attributes.SCALE).getValue() : 0));
+								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity143 && _livingEntity143.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity143.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity144 && _livingEntity144.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity144.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity145 && _livingEntity145.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity145.getAttribute(Attributes.SCALE).getValue() : 0));
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.PlayerSerpentOverlayWide;
 									renderHumanoid(playerRenderEvent, (PlayerModel) entityModel, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -460,16 +554,16 @@ public class RenderPlayerProcedure {
 					}
 					if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterType == 4) {
 						if (((PlayerModel) entityModel).slim) {
-							if ((entity instanceof LivingEntity _livingEntity138 && _livingEntity138.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity138.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+							if ((entity instanceof LivingEntity _livingEntity150 && _livingEntity150.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity150.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.PlayerZombieOverlaySlim;
 									renderHumanoid(playerRenderEvent, (PlayerModel) entityModel, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
 								}
 							} else {
 								poseStack.pushPose();
-								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity140 && _livingEntity140.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity140.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity141 && _livingEntity141.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity141.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity142 && _livingEntity142.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity142.getAttribute(Attributes.SCALE).getValue() : 0));
+								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity152 && _livingEntity152.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity152.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity153 && _livingEntity153.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity153.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity154 && _livingEntity154.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity154.getAttribute(Attributes.SCALE).getValue() : 0));
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.PlayerZombieOverlaySlim;
 									renderHumanoid(playerRenderEvent, (PlayerModel) entityModel, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -477,16 +571,16 @@ public class RenderPlayerProcedure {
 								poseStack.popPose();
 							}
 						} else {
-							if ((entity instanceof LivingEntity _livingEntity146 && _livingEntity146.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity146.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+							if ((entity instanceof LivingEntity _livingEntity158 && _livingEntity158.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity158.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.PlayerZombieOverlay;
 									renderHumanoid(playerRenderEvent, (PlayerModel) entityModel, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
 								}
 							} else {
 								poseStack.pushPose();
-								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity148 && _livingEntity148.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity148.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity149 && _livingEntity149.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity149.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity150 && _livingEntity150.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity150.getAttribute(Attributes.SCALE).getValue() : 0));
+								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity160 && _livingEntity160.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity160.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity161 && _livingEntity161.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity161.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity162 && _livingEntity162.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity162.getAttribute(Attributes.SCALE).getValue() : 0));
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.PlayerZombieOverlay;
 									renderHumanoid(playerRenderEvent, (PlayerModel) entityModel, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -495,16 +589,16 @@ public class RenderPlayerProcedure {
 							}
 						}
 						if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).BeastForm == true) {
-							if ((entity instanceof LivingEntity _livingEntity154 && _livingEntity154.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity154.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+							if ((entity instanceof LivingEntity _livingEntity166 && _livingEntity166.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity166.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.UndeadGlowEyes;
 									renderHumanoid(playerRenderEvent, (PlayerModel) entityModel, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.eyes(texture)));
 								}
 							} else {
 								poseStack.pushPose();
-								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity156 && _livingEntity156.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity156.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity157 && _livingEntity157.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity157.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity158 && _livingEntity158.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity158.getAttribute(Attributes.SCALE).getValue() : 0));
+								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity168 && _livingEntity168.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity168.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity169 && _livingEntity169.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity169.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity170 && _livingEntity170.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity170.getAttribute(Attributes.SCALE).getValue() : 0));
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.UndeadGlowEyes;
 									renderHumanoid(playerRenderEvent, (PlayerModel) entityModel, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.eyes(texture)));
@@ -515,7 +609,7 @@ public class RenderPlayerProcedure {
 					}
 					if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterClass == 2) {
 						if (((PlayerModel) entityModel).slim) {
-							if ((entity instanceof LivingEntity _livingEntity163 && _livingEntity163.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity163.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+							if ((entity instanceof LivingEntity _livingEntity175 && _livingEntity175.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity175.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.GoblinEarsPlayer;
 									renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.GOBLIN_EARS, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -526,9 +620,9 @@ public class RenderPlayerProcedure {
 								}
 							} else {
 								poseStack.pushPose();
-								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity166 && _livingEntity166.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity166.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity167 && _livingEntity167.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity167.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity168 && _livingEntity168.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity168.getAttribute(Attributes.SCALE).getValue() : 0));
+								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity178 && _livingEntity178.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity178.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity179 && _livingEntity179.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity179.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity180 && _livingEntity180.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity180.getAttribute(Attributes.SCALE).getValue() : 0));
 								poseStack.popPose();
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.GoblinEarsPlayer;
@@ -540,7 +634,7 @@ public class RenderPlayerProcedure {
 								}
 							}
 						} else {
-							if ((entity instanceof LivingEntity _livingEntity173 && _livingEntity173.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity173.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+							if ((entity instanceof LivingEntity _livingEntity185 && _livingEntity185.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity185.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.GoblinEarsPlayer;
 									renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.GOBLIN_EARS, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -551,9 +645,9 @@ public class RenderPlayerProcedure {
 								}
 							} else {
 								poseStack.pushPose();
-								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity176 && _livingEntity176.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity176.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity177 && _livingEntity177.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity177.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity178 && _livingEntity178.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity178.getAttribute(Attributes.SCALE).getValue() : 0));
+								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity188 && _livingEntity188.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity188.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity189 && _livingEntity189.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity189.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity190 && _livingEntity190.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity190.getAttribute(Attributes.SCALE).getValue() : 0));
 								poseStack.popPose();
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.GoblinEarsPlayer;
@@ -568,7 +662,7 @@ public class RenderPlayerProcedure {
 					}
 					if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterClass == 3) {
 						if (((PlayerModel) entityModel).slim) {
-							if ((entity instanceof LivingEntity _livingEntity184 && _livingEntity184.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity184.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+							if ((entity instanceof LivingEntity _livingEntity196 && _livingEntity196.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity196.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.PlayerTrollLayerWide;
 									renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.TROLL_FACE, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -579,9 +673,9 @@ public class RenderPlayerProcedure {
 								}
 							} else {
 								poseStack.pushPose();
-								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity187 && _livingEntity187.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity187.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity188 && _livingEntity188.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity188.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity189 && _livingEntity189.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity189.getAttribute(Attributes.SCALE).getValue() : 0));
+								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity199 && _livingEntity199.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity199.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity200 && _livingEntity200.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity200.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity201 && _livingEntity201.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity201.getAttribute(Attributes.SCALE).getValue() : 0));
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.PlayerTrollLayerWide;
 									renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.TROLL_FACE, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -593,7 +687,7 @@ public class RenderPlayerProcedure {
 								poseStack.popPose();
 							}
 						} else {
-							if ((entity instanceof LivingEntity _livingEntity194 && _livingEntity194.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity194.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+							if ((entity instanceof LivingEntity _livingEntity206 && _livingEntity206.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity206.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.PlayerTrollLayerWide;
 									renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.TROLL_FACE, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -604,9 +698,9 @@ public class RenderPlayerProcedure {
 								}
 							} else {
 								poseStack.pushPose();
-								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity197 && _livingEntity197.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity197.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity198 && _livingEntity198.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity198.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity199 && _livingEntity199.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity199.getAttribute(Attributes.SCALE).getValue() : 0));
+								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity209 && _livingEntity209.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity209.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity210 && _livingEntity210.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity210.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity211 && _livingEntity211.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity211.getAttribute(Attributes.SCALE).getValue() : 0));
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.PlayerTrollLayerWide;
 									renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.TROLL_FACE, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -621,8 +715,8 @@ public class RenderPlayerProcedure {
 					}
 					if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterClass == 6) {
 						if (((PlayerModel) entityModel).slim) {
-							if (!(entity instanceof LivingEntity _livEnt205 && _livEnt205.hasEffect(MonstrousWorldModMobEffects.MURKANUS_MARTH))) {
-								if ((entity instanceof LivingEntity _livingEntity206 && _livingEntity206.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity206.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+							if (!(entity instanceof LivingEntity _livEnt217 && _livEnt217.hasEffect(MonstrousWorldModMobEffects.MURKANUS_MARTH))) {
+								if ((entity instanceof LivingEntity _livingEntity218 && _livingEntity218.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity218.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 									{
 										ResourceLocation texture = MonstrousWorldModVariables.SwampmonsterPartsTexture;
 										renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.PLAYER_SWAMPMONSTER_PARTS, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -633,9 +727,9 @@ public class RenderPlayerProcedure {
 									}
 								} else {
 									poseStack.pushPose();
-									poseStack.scale((float) (entity instanceof LivingEntity _livingEntity209 && _livingEntity209.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity209.getAttribute(Attributes.SCALE).getValue() : 0),
-											(float) (entity instanceof LivingEntity _livingEntity210 && _livingEntity210.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity210.getAttribute(Attributes.SCALE).getValue() : 0),
-											(float) (entity instanceof LivingEntity _livingEntity211 && _livingEntity211.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity211.getAttribute(Attributes.SCALE).getValue() : 0));
+									poseStack.scale((float) (entity instanceof LivingEntity _livingEntity221 && _livingEntity221.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity221.getAttribute(Attributes.SCALE).getValue() : 0),
+											(float) (entity instanceof LivingEntity _livingEntity222 && _livingEntity222.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity222.getAttribute(Attributes.SCALE).getValue() : 0),
+											(float) (entity instanceof LivingEntity _livingEntity223 && _livingEntity223.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity223.getAttribute(Attributes.SCALE).getValue() : 0));
 									{
 										ResourceLocation texture = MonstrousWorldModVariables.SwampmonsterPartsTexture;
 										renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.PLAYER_SWAMPMONSTER_PARTS, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -647,7 +741,7 @@ public class RenderPlayerProcedure {
 									poseStack.popPose();
 								}
 							} else {
-								if ((entity instanceof LivingEntity _livingEntity216 && _livingEntity216.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity216.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+								if ((entity instanceof LivingEntity _livingEntity228 && _livingEntity228.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity228.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 									{
 										ResourceLocation texture = MonstrousWorldModVariables.SwampmonsterPartsTexture;
 										renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.PLAYER_SWAMPMONSTER_PARTS, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -662,9 +756,9 @@ public class RenderPlayerProcedure {
 									}
 								} else {
 									poseStack.pushPose();
-									poseStack.scale((float) (entity instanceof LivingEntity _livingEntity220 && _livingEntity220.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity220.getAttribute(Attributes.SCALE).getValue() : 0),
-											(float) (entity instanceof LivingEntity _livingEntity221 && _livingEntity221.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity221.getAttribute(Attributes.SCALE).getValue() : 0),
-											(float) (entity instanceof LivingEntity _livingEntity222 && _livingEntity222.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity222.getAttribute(Attributes.SCALE).getValue() : 0));
+									poseStack.scale((float) (entity instanceof LivingEntity _livingEntity232 && _livingEntity232.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity232.getAttribute(Attributes.SCALE).getValue() : 0),
+											(float) (entity instanceof LivingEntity _livingEntity233 && _livingEntity233.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity233.getAttribute(Attributes.SCALE).getValue() : 0),
+											(float) (entity instanceof LivingEntity _livingEntity234 && _livingEntity234.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity234.getAttribute(Attributes.SCALE).getValue() : 0));
 									{
 										ResourceLocation texture = MonstrousWorldModVariables.SwampmonsterPartsTexture;
 										renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.PLAYER_SWAMPMONSTER_PARTS, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -681,8 +775,8 @@ public class RenderPlayerProcedure {
 								}
 							}
 						} else {
-							if (!(entity instanceof LivingEntity _livEnt228 && _livEnt228.hasEffect(MonstrousWorldModMobEffects.MURKANUS_MARTH))) {
-								if ((entity instanceof LivingEntity _livingEntity229 && _livingEntity229.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity229.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+							if (!(entity instanceof LivingEntity _livEnt240 && _livEnt240.hasEffect(MonstrousWorldModMobEffects.MURKANUS_MARTH))) {
+								if ((entity instanceof LivingEntity _livingEntity241 && _livingEntity241.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity241.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 									{
 										ResourceLocation texture = MonstrousWorldModVariables.SwampmonsterPartsTexture;
 										renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.PLAYER_SWAMPMONSTER_PARTS, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -693,9 +787,9 @@ public class RenderPlayerProcedure {
 									}
 								} else {
 									poseStack.pushPose();
-									poseStack.scale((float) (entity instanceof LivingEntity _livingEntity232 && _livingEntity232.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity232.getAttribute(Attributes.SCALE).getValue() : 0),
-											(float) (entity instanceof LivingEntity _livingEntity233 && _livingEntity233.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity233.getAttribute(Attributes.SCALE).getValue() : 0),
-											(float) (entity instanceof LivingEntity _livingEntity234 && _livingEntity234.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity234.getAttribute(Attributes.SCALE).getValue() : 0));
+									poseStack.scale((float) (entity instanceof LivingEntity _livingEntity244 && _livingEntity244.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity244.getAttribute(Attributes.SCALE).getValue() : 0),
+											(float) (entity instanceof LivingEntity _livingEntity245 && _livingEntity245.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity245.getAttribute(Attributes.SCALE).getValue() : 0),
+											(float) (entity instanceof LivingEntity _livingEntity246 && _livingEntity246.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity246.getAttribute(Attributes.SCALE).getValue() : 0));
 									{
 										ResourceLocation texture = MonstrousWorldModVariables.SwampmonsterPartsTexture;
 										renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.PLAYER_SWAMPMONSTER_PARTS, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -707,7 +801,7 @@ public class RenderPlayerProcedure {
 									poseStack.popPose();
 								}
 							} else {
-								if ((entity instanceof LivingEntity _livingEntity239 && _livingEntity239.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity239.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+								if ((entity instanceof LivingEntity _livingEntity251 && _livingEntity251.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity251.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 									{
 										ResourceLocation texture = MonstrousWorldModVariables.SwampmonsterPartsTexture;
 										renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.PLAYER_SWAMPMONSTER_PARTS, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -722,9 +816,9 @@ public class RenderPlayerProcedure {
 									}
 								} else {
 									poseStack.pushPose();
-									poseStack.scale((float) (entity instanceof LivingEntity _livingEntity243 && _livingEntity243.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity243.getAttribute(Attributes.SCALE).getValue() : 0),
-											(float) (entity instanceof LivingEntity _livingEntity244 && _livingEntity244.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity244.getAttribute(Attributes.SCALE).getValue() : 0),
-											(float) (entity instanceof LivingEntity _livingEntity245 && _livingEntity245.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity245.getAttribute(Attributes.SCALE).getValue() : 0));
+									poseStack.scale((float) (entity instanceof LivingEntity _livingEntity255 && _livingEntity255.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity255.getAttribute(Attributes.SCALE).getValue() : 0),
+											(float) (entity instanceof LivingEntity _livingEntity256 && _livingEntity256.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity256.getAttribute(Attributes.SCALE).getValue() : 0),
+											(float) (entity instanceof LivingEntity _livingEntity257 && _livingEntity257.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity257.getAttribute(Attributes.SCALE).getValue() : 0));
 									{
 										ResourceLocation texture = MonstrousWorldModVariables.SwampmonsterPartsTexture;
 										renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.PLAYER_SWAMPMONSTER_PARTS, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -756,16 +850,16 @@ public class RenderPlayerProcedure {
 							((PlayerModel) entityModel).rightLeg.visible = false;
 							((PlayerModel) entityModel).rightPants.visible = false;
 							((PlayerModel) entityModel).rightSleeve.visible = false;
-							if ((entity instanceof LivingEntity _livingEntity263 && _livingEntity263.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity263.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+							if ((entity instanceof LivingEntity _livingEntity275 && _livingEntity275.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity275.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.WerewolfTexture;
 									renderEntity(playerRenderEvent, MonstrousWorldModVariables.WerewolfForm, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
 								}
 							} else {
 								poseStack.pushPose();
-								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity265 && _livingEntity265.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity265.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity266 && _livingEntity266.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity266.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity267 && _livingEntity267.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity267.getAttribute(Attributes.SCALE).getValue() : 0));
+								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity277 && _livingEntity277.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity277.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity278 && _livingEntity278.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity278.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity279 && _livingEntity279.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity279.getAttribute(Attributes.SCALE).getValue() : 0));
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.WerewolfTexture;
 									renderEntity(playerRenderEvent, MonstrousWorldModVariables.WerewolfForm, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -803,16 +897,16 @@ public class RenderPlayerProcedure {
 					if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterClass == 10) {
 						if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).Disguised == false) {
 							if (entity.onGround()) {
-								if ((entity instanceof LivingEntity _livingEntity287 && _livingEntity287.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity287.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+								if ((entity instanceof LivingEntity _livingEntity299 && _livingEntity299.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity299.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 									{
 										ResourceLocation texture = MonstrousWorldModVariables.PlayerDemonParts;
 										renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.PLAYER_DEMON_ON_GROUND, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
 									}
 								} else {
 									poseStack.pushPose();
-									poseStack.scale((float) (entity instanceof LivingEntity _livingEntity289 && _livingEntity289.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity289.getAttribute(Attributes.SCALE).getValue() : 0),
-											(float) (entity instanceof LivingEntity _livingEntity290 && _livingEntity290.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity290.getAttribute(Attributes.SCALE).getValue() : 0),
-											(float) (entity instanceof LivingEntity _livingEntity291 && _livingEntity291.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity291.getAttribute(Attributes.SCALE).getValue() : 0));
+									poseStack.scale((float) (entity instanceof LivingEntity _livingEntity301 && _livingEntity301.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity301.getAttribute(Attributes.SCALE).getValue() : 0),
+											(float) (entity instanceof LivingEntity _livingEntity302 && _livingEntity302.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity302.getAttribute(Attributes.SCALE).getValue() : 0),
+											(float) (entity instanceof LivingEntity _livingEntity303 && _livingEntity303.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity303.getAttribute(Attributes.SCALE).getValue() : 0));
 									{
 										ResourceLocation texture = MonstrousWorldModVariables.PlayerDemonParts;
 										renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.PLAYER_DEMON_ON_GROUND, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -820,16 +914,16 @@ public class RenderPlayerProcedure {
 									poseStack.popPose();
 								}
 							} else {
-								if ((entity instanceof LivingEntity _livingEntity295 && _livingEntity295.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity295.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+								if ((entity instanceof LivingEntity _livingEntity307 && _livingEntity307.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity307.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 									{
 										ResourceLocation texture = MonstrousWorldModVariables.PlayerDemonParts;
 										renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.PLAYER_DEMON_OFF_GROUND, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
 									}
 								} else {
 									poseStack.pushPose();
-									poseStack.scale((float) (entity instanceof LivingEntity _livingEntity297 && _livingEntity297.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity297.getAttribute(Attributes.SCALE).getValue() : 0),
-											(float) (entity instanceof LivingEntity _livingEntity298 && _livingEntity298.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity298.getAttribute(Attributes.SCALE).getValue() : 0),
-											(float) (entity instanceof LivingEntity _livingEntity299 && _livingEntity299.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity299.getAttribute(Attributes.SCALE).getValue() : 0));
+									poseStack.scale((float) (entity instanceof LivingEntity _livingEntity309 && _livingEntity309.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity309.getAttribute(Attributes.SCALE).getValue() : 0),
+											(float) (entity instanceof LivingEntity _livingEntity310 && _livingEntity310.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity310.getAttribute(Attributes.SCALE).getValue() : 0),
+											(float) (entity instanceof LivingEntity _livingEntity311 && _livingEntity311.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity311.getAttribute(Attributes.SCALE).getValue() : 0));
 									{
 										ResourceLocation texture = MonstrousWorldModVariables.PlayerDemonParts;
 										renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.PLAYER_DEMON_OFF_GROUND, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -838,16 +932,16 @@ public class RenderPlayerProcedure {
 								}
 							}
 							if (((PlayerModel) entityModel).slim) {
-								if ((entity instanceof LivingEntity _livingEntity304 && _livingEntity304.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity304.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+								if ((entity instanceof LivingEntity _livingEntity316 && _livingEntity316.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity316.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 									{
 										ResourceLocation texture = MonstrousWorldModVariables.PlayerDemonSkinSlim;
 										renderHumanoid(playerRenderEvent, (PlayerModel) entityModel, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
 									}
 								} else {
 									poseStack.pushPose();
-									poseStack.scale((float) (entity instanceof LivingEntity _livingEntity306 && _livingEntity306.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity306.getAttribute(Attributes.SCALE).getValue() : 0),
-											(float) (entity instanceof LivingEntity _livingEntity307 && _livingEntity307.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity307.getAttribute(Attributes.SCALE).getValue() : 0),
-											(float) (entity instanceof LivingEntity _livingEntity308 && _livingEntity308.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity308.getAttribute(Attributes.SCALE).getValue() : 0));
+									poseStack.scale((float) (entity instanceof LivingEntity _livingEntity318 && _livingEntity318.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity318.getAttribute(Attributes.SCALE).getValue() : 0),
+											(float) (entity instanceof LivingEntity _livingEntity319 && _livingEntity319.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity319.getAttribute(Attributes.SCALE).getValue() : 0),
+											(float) (entity instanceof LivingEntity _livingEntity320 && _livingEntity320.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity320.getAttribute(Attributes.SCALE).getValue() : 0));
 									{
 										ResourceLocation texture = MonstrousWorldModVariables.PlayerDemonSkinSlim;
 										renderHumanoid(playerRenderEvent, (PlayerModel) entityModel, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -855,16 +949,16 @@ public class RenderPlayerProcedure {
 									poseStack.popPose();
 								}
 							} else {
-								if ((entity instanceof LivingEntity _livingEntity312 && _livingEntity312.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity312.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+								if ((entity instanceof LivingEntity _livingEntity324 && _livingEntity324.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity324.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 									{
 										ResourceLocation texture = MonstrousWorldModVariables.PlayerDemonSkinWide;
 										renderHumanoid(playerRenderEvent, (PlayerModel) entityModel, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
 									}
 								} else {
 									poseStack.pushPose();
-									poseStack.scale((float) (entity instanceof LivingEntity _livingEntity314 && _livingEntity314.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity314.getAttribute(Attributes.SCALE).getValue() : 0),
-											(float) (entity instanceof LivingEntity _livingEntity315 && _livingEntity315.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity315.getAttribute(Attributes.SCALE).getValue() : 0),
-											(float) (entity instanceof LivingEntity _livingEntity316 && _livingEntity316.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity316.getAttribute(Attributes.SCALE).getValue() : 0));
+									poseStack.scale((float) (entity instanceof LivingEntity _livingEntity326 && _livingEntity326.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity326.getAttribute(Attributes.SCALE).getValue() : 0),
+											(float) (entity instanceof LivingEntity _livingEntity327 && _livingEntity327.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity327.getAttribute(Attributes.SCALE).getValue() : 0),
+											(float) (entity instanceof LivingEntity _livingEntity328 && _livingEntity328.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity328.getAttribute(Attributes.SCALE).getValue() : 0));
 									{
 										ResourceLocation texture = MonstrousWorldModVariables.PlayerDemonSkinWide;
 										renderHumanoid(playerRenderEvent, (PlayerModel) entityModel, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -876,7 +970,7 @@ public class RenderPlayerProcedure {
 					}
 					if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterClass == 11) {
 						if (!(entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).Balloon == true)) {
-							if ((entity instanceof LivingEntity _livingEntity320 && _livingEntity320.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity320.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+							if ((entity instanceof LivingEntity _livingEntity332 && _livingEntity332.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity332.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.PlayerClownSkin;
 									renderHumanoid(playerRenderEvent, (PlayerModel) entityModel, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -893,9 +987,9 @@ public class RenderPlayerProcedure {
 								}
 							} else {
 								poseStack.pushPose();
-								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity327 && _livingEntity327.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity327.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity328 && _livingEntity328.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity328.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity329 && _livingEntity329.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity329.getAttribute(Attributes.SCALE).getValue() : 0));
+								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity339 && _livingEntity339.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity339.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity340 && _livingEntity340.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity340.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity341 && _livingEntity341.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity341.getAttribute(Attributes.SCALE).getValue() : 0));
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.PlayerClownSkin;
 									renderHumanoid(playerRenderEvent, (PlayerModel) entityModel, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -907,9 +1001,9 @@ public class RenderPlayerProcedure {
 								poseStack.popPose();
 								if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getItem() == ItemStack.EMPTY.getItem()) {
 									poseStack.pushPose();
-									poseStack.scale((float) (entity instanceof LivingEntity _livingEntity337 && _livingEntity337.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity337.getAttribute(Attributes.SCALE).getValue() : 0),
-											(float) (entity instanceof LivingEntity _livingEntity338 && _livingEntity338.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity338.getAttribute(Attributes.SCALE).getValue() : 0),
-											(float) (entity instanceof LivingEntity _livingEntity339 && _livingEntity339.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity339.getAttribute(Attributes.SCALE).getValue() : 0));
+									poseStack.scale((float) (entity instanceof LivingEntity _livingEntity349 && _livingEntity349.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity349.getAttribute(Attributes.SCALE).getValue() : 0),
+											(float) (entity instanceof LivingEntity _livingEntity350 && _livingEntity350.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity350.getAttribute(Attributes.SCALE).getValue() : 0),
+											(float) (entity instanceof LivingEntity _livingEntity351 && _livingEntity351.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity351.getAttribute(Attributes.SCALE).getValue() : 0));
 									{
 										ResourceLocation texture = MonstrousWorldModVariables.PlayerClownHair;
 										renderHumanoid(playerRenderEvent, MonstrousWorldModHumanoidModels.CLOWN_HAIR, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -931,16 +1025,16 @@ public class RenderPlayerProcedure {
 							((PlayerModel) entityModel).rightLeg.visible = false;
 							((PlayerModel) entityModel).rightPants.visible = false;
 							((PlayerModel) entityModel).rightSleeve.visible = false;
-							if ((entity instanceof LivingEntity _livingEntity355 && _livingEntity355.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity355.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+							if ((entity instanceof LivingEntity _livingEntity367 && _livingEntity367.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity367.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.PlayerBalloonForm;
 									renderEntity(playerRenderEvent, MonstrousWorldModVariables.BalloonForm, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
 								}
 							} else {
 								poseStack.pushPose();
-								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity357 && _livingEntity357.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity357.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity358 && _livingEntity358.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity358.getAttribute(Attributes.SCALE).getValue() : 0),
-										(float) (entity instanceof LivingEntity _livingEntity359 && _livingEntity359.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity359.getAttribute(Attributes.SCALE).getValue() : 0));
+								poseStack.scale((float) (entity instanceof LivingEntity _livingEntity369 && _livingEntity369.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity369.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity370 && _livingEntity370.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity370.getAttribute(Attributes.SCALE).getValue() : 0),
+										(float) (entity instanceof LivingEntity _livingEntity371 && _livingEntity371.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity371.getAttribute(Attributes.SCALE).getValue() : 0));
 								{
 									ResourceLocation texture = MonstrousWorldModVariables.PlayerBalloonForm;
 									renderEntity(playerRenderEvent, MonstrousWorldModVariables.BalloonForm, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.entityCutout(texture)));
@@ -963,16 +1057,16 @@ public class RenderPlayerProcedure {
 					((PlayerModel) entityModel).rightLeg.visible = false;
 					((PlayerModel) entityModel).rightPants.visible = false;
 					((PlayerModel) entityModel).rightSleeve.visible = false;
-					if ((entity instanceof LivingEntity _livingEntity375 && _livingEntity375.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity375.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+					if ((entity instanceof LivingEntity _livingEntity387 && _livingEntity387.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity387.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 						{
 							ResourceLocation texture = MonstrousWorldModVariables.WrappedVictim;
 							renderEntity(playerRenderEvent, MonstrousWorldModVariables.WebbedVictim1, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.armorCutoutNoCull(texture)));
 						}
 					} else {
 						poseStack.pushPose();
-						poseStack.scale((float) (entity instanceof LivingEntity _livingEntity377 && _livingEntity377.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity377.getAttribute(Attributes.SCALE).getValue() : 0),
-								(float) (entity instanceof LivingEntity _livingEntity378 && _livingEntity378.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity378.getAttribute(Attributes.SCALE).getValue() : 0),
-								(float) (entity instanceof LivingEntity _livingEntity379 && _livingEntity379.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity379.getAttribute(Attributes.SCALE).getValue() : 0));
+						poseStack.scale((float) (entity instanceof LivingEntity _livingEntity389 && _livingEntity389.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity389.getAttribute(Attributes.SCALE).getValue() : 0),
+								(float) (entity instanceof LivingEntity _livingEntity390 && _livingEntity390.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity390.getAttribute(Attributes.SCALE).getValue() : 0),
+								(float) (entity instanceof LivingEntity _livingEntity391 && _livingEntity391.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity391.getAttribute(Attributes.SCALE).getValue() : 0));
 						{
 							ResourceLocation texture = MonstrousWorldModVariables.WrappedVictim;
 							renderEntity(playerRenderEvent, MonstrousWorldModVariables.WebbedVictim1, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.armorCutoutNoCull(texture)));
@@ -993,16 +1087,16 @@ public class RenderPlayerProcedure {
 					((PlayerModel) entityModel).rightLeg.visible = false;
 					((PlayerModel) entityModel).rightPants.visible = false;
 					((PlayerModel) entityModel).rightSleeve.visible = false;
-					if ((entity instanceof LivingEntity _livingEntity395 && _livingEntity395.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity395.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
+					if ((entity instanceof LivingEntity _livingEntity407 && _livingEntity407.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity407.getAttribute(Attributes.SCALE).getValue() : 0) == 1) {
 						{
 							ResourceLocation texture = MonstrousWorldModVariables.WrappedVictim;
 							renderEntity(playerRenderEvent, MonstrousWorldModVariables.WebbedVictim2, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.armorCutoutNoCull(texture)));
 						}
 					} else {
 						poseStack.pushPose();
-						poseStack.scale((float) (entity instanceof LivingEntity _livingEntity397 && _livingEntity397.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity397.getAttribute(Attributes.SCALE).getValue() : 0),
-								(float) (entity instanceof LivingEntity _livingEntity398 && _livingEntity398.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity398.getAttribute(Attributes.SCALE).getValue() : 0),
-								(float) (entity instanceof LivingEntity _livingEntity399 && _livingEntity399.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity399.getAttribute(Attributes.SCALE).getValue() : 0));
+						poseStack.scale((float) (entity instanceof LivingEntity _livingEntity409 && _livingEntity409.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity409.getAttribute(Attributes.SCALE).getValue() : 0),
+								(float) (entity instanceof LivingEntity _livingEntity410 && _livingEntity410.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity410.getAttribute(Attributes.SCALE).getValue() : 0),
+								(float) (entity instanceof LivingEntity _livingEntity411 && _livingEntity411.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity411.getAttribute(Attributes.SCALE).getValue() : 0));
 						{
 							ResourceLocation texture = MonstrousWorldModVariables.WrappedVictim;
 							renderEntity(playerRenderEvent, MonstrousWorldModVariables.WebbedVictim2, playerRenderEvent.getMultiBufferSource().getBuffer(RenderType.armorCutoutNoCull(texture)));

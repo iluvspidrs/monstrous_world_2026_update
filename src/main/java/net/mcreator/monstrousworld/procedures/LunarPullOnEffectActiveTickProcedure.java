@@ -30,6 +30,10 @@ public class LunarPullOnEffectActiveTickProcedure {
 			return;
 		if (!world.isClientSide()) {
 			if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterClass == 7 || entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterType == 5) {
+				if (getEntityScore("werewolf_ability", entity) >= 2) {
+					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+						_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 100, 2));
+				}
 				if (world.dimensionType().moonPhase(world.dayTime()) == 0 && world.dayTime() % 24000 >= 13000) {
 					if ((entity.level().dimension()) == Level.OVERWORLD) {
 						if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
@@ -227,5 +231,13 @@ public class LunarPullOnEffectActiveTickProcedure {
 				}
 			}
 		}
+	}
+
+	private static int getEntityScore(String score, Entity entity) {
+		Scoreboard scoreboard = entity.level().getScoreboard();
+		Objective scoreboardObjective = scoreboard.getObjective(score);
+		if (scoreboardObjective != null)
+			return scoreboard.getOrCreatePlayerScore(ScoreHolder.forNameOnly(entity.getScoreboardName()), scoreboardObjective).get();
+		return 0;
 	}
 }

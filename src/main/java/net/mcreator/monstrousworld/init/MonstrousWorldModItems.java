@@ -1039,9 +1039,6 @@ public class MonstrousWorldModItems {
 	public static final DeferredItem<Item> STRONG_DARK_CHARGE_ITEM;
 	public static final DeferredItem<Item> LARGE_POSSESSING_ENTITY_SPAWN_EGG;
 	public static final DeferredItem<Item> DARKENED_HELMET;
-	public static final DeferredItem<Item> DARKENED_CHESTPLATE;
-	public static final DeferredItem<Item> DARKENED_LEGGINGS;
-	public static final DeferredItem<Item> DARKENED_BOOTS;
 	public static final DeferredItem<Item> SERVANT_PUMPKIN_SPAWN_EGG;
 	public static final DeferredItem<Item> PUMPKIN_GOLEM_SPAWN_EGG;
 	public static final DeferredItem<Item> DARKENED_BLOSSOM_SPAWN_EGG;
@@ -1503,6 +1500,23 @@ public class MonstrousWorldModItems {
 	public static final DeferredItem<Item> BONE_BRAND_OF_KNOCKBACK;
 	public static final DeferredItem<Item> ARCHAEOLOGICAL_NOTE;
 	public static final DeferredItem<Item> DROPPED_ARCHAEOLOGICAL_NOTE;
+	public static final DeferredItem<Item> TO_DIG_FASTER_SCROLL;
+	public static final DeferredItem<Item> DROPPED_LUNAR_SCROLL;
+	public static final DeferredItem<Item> TO_KEEP_ARMOR;
+	public static final DeferredItem<Item> BONE_BRAND_OF_ARMOR;
+	public static final DeferredItem<Item> DROPPED_TO_KEEP_ARMOR;
+	public static final DeferredItem<Item> BONE_BRAND_OF_STUNNING;
+	public static final DeferredItem<Item> FOR_GREATER_KNOCKBACK;
+	public static final DeferredItem<Item> DROPPED_FOR_GREATER_KNOCKBACK;
+	public static final DeferredItem<Item> TO_STUN_PREY;
+	public static final DeferredItem<Item> DROPPED_TO_STUN_PREY;
+	public static final DeferredItem<Item> BONE_BRAND_OF_FEATHER_FALLING;
+	public static final DeferredItem<Item> TO_REDUCE_FALL_DAMAGE;
+	public static final DeferredItem<Item> FOR_HANDLING_ITEMS;
+	public static final DeferredItem<Item> DROPPED_TO_REDUCE_FALL_DAMAGE;
+	public static final DeferredItem<Item> DROPPED_FOR_HANDLING_ITEMS;
+	public static final DeferredItem<Item> TALL_YELLOW_PUMPKIN_BLOCK;
+	public static final DeferredItem<Item> WIDE_YELLOW_PUMPKIN_B_LOCK;
 	static {
 		DARK_SEED = block(MonstrousWorldModBlocks.DARK_SEED);
 		DARKENED_STONE = block(MonstrousWorldModBlocks.DARKENED_STONE);
@@ -2510,9 +2524,6 @@ public class MonstrousWorldModItems {
 		STRONG_DARK_CHARGE_ITEM = REGISTRY.register("strong_dark_charge_item", StrongDarkChargeItemItem::new);
 		LARGE_POSSESSING_ENTITY_SPAWN_EGG = REGISTRY.register("large_possessing_entity_spawn_egg", () -> new DeferredSpawnEggItem(MonstrousWorldModEntities.LARGE_POSSESSING_ENTITY, -13434829, -6750055, new Item.Properties()));
 		DARKENED_HELMET = REGISTRY.register("darkened_helmet", DarkenedItem.Helmet::new);
-		DARKENED_CHESTPLATE = REGISTRY.register("darkened_chestplate", DarkenedItem.Chestplate::new);
-		DARKENED_LEGGINGS = REGISTRY.register("darkened_leggings", DarkenedItem.Leggings::new);
-		DARKENED_BOOTS = REGISTRY.register("darkened_boots", DarkenedItem.Boots::new);
 		SERVANT_PUMPKIN_SPAWN_EGG = REGISTRY.register("servant_pumpkin_spawn_egg", () -> new DeferredSpawnEggItem(MonstrousWorldModEntities.SERVANT_PUMPKIN, -39424, -10092442, new Item.Properties()));
 		PUMPKIN_GOLEM_SPAWN_EGG = REGISTRY.register("pumpkin_golem_spawn_egg", () -> new DeferredSpawnEggItem(MonstrousWorldModEntities.PUMPKIN_GOLEM, -39424, -13159, new Item.Properties()));
 		DARKENED_BLOSSOM_SPAWN_EGG = REGISTRY.register("darkened_blossom_spawn_egg", () -> new DeferredSpawnEggItem(MonstrousWorldModEntities.DARKENED_BLOSSOM, -13434829, -10092442, new Item.Properties()));
@@ -2974,6 +2985,23 @@ public class MonstrousWorldModItems {
 		BONE_BRAND_OF_KNOCKBACK = REGISTRY.register("bone_brand_of_knockback", BoneBrandOfKnockbackItem::new);
 		ARCHAEOLOGICAL_NOTE = REGISTRY.register("archaeological_note", ArchaeologicalNoteItem::new);
 		DROPPED_ARCHAEOLOGICAL_NOTE = block(MonstrousWorldModBlocks.DROPPED_ARCHAEOLOGICAL_NOTE);
+		TO_DIG_FASTER_SCROLL = REGISTRY.register("to_dig_faster_scroll", ToDigFasterScrollItem::new);
+		DROPPED_LUNAR_SCROLL = block(MonstrousWorldModBlocks.DROPPED_LUNAR_SCROLL);
+		TO_KEEP_ARMOR = REGISTRY.register("to_keep_armor", ToKeepArmorItem::new);
+		BONE_BRAND_OF_ARMOR = REGISTRY.register("bone_brand_of_armor", BoneBrandOfArmorItem::new);
+		DROPPED_TO_KEEP_ARMOR = block(MonstrousWorldModBlocks.DROPPED_TO_KEEP_ARMOR);
+		BONE_BRAND_OF_STUNNING = REGISTRY.register("bone_brand_of_stunning", BoneBrandOfStunningItem::new);
+		FOR_GREATER_KNOCKBACK = REGISTRY.register("for_greater_knockback", ForGreaterKnockbackItem::new);
+		DROPPED_FOR_GREATER_KNOCKBACK = block(MonstrousWorldModBlocks.DROPPED_FOR_GREATER_KNOCKBACK);
+		TO_STUN_PREY = REGISTRY.register("to_stun_prey", ToStunPreyItem::new);
+		DROPPED_TO_STUN_PREY = block(MonstrousWorldModBlocks.DROPPED_TO_STUN_PREY);
+		BONE_BRAND_OF_FEATHER_FALLING = REGISTRY.register("bone_brand_of_feather_falling", BoneBrandOfFeatherFallingItem::new);
+		TO_REDUCE_FALL_DAMAGE = REGISTRY.register("to_reduce_fall_damage", ToReduceFallDamageItem::new);
+		FOR_HANDLING_ITEMS = REGISTRY.register("for_handling_items", ForHandlingItemsItem::new);
+		DROPPED_TO_REDUCE_FALL_DAMAGE = block(MonstrousWorldModBlocks.DROPPED_TO_REDUCE_FALL_DAMAGE);
+		DROPPED_FOR_HANDLING_ITEMS = block(MonstrousWorldModBlocks.DROPPED_FOR_HANDLING_ITEMS);
+		TALL_YELLOW_PUMPKIN_BLOCK = block(MonstrousWorldModBlocks.TALL_YELLOW_PUMPKIN_BLOCK);
+		WIDE_YELLOW_PUMPKIN_B_LOCK = block(MonstrousWorldModBlocks.WIDE_YELLOW_PUMPKIN_B_LOCK);
 	}
 
 	// Start of user code block custom items
@@ -3048,8 +3076,6 @@ public class MonstrousWorldModItems {
 				ItemProperties.register(INFERNAL_FABRIC.get(), ResourceLocation.parse("monstrous_world:infernal_fabric_unlocked"),
 						(itemStackToRender, clientWorld, entity, itemEntityId) -> (float) InsaneSoulPropertyValueProviderProcedure.execute(entity != null ? entity.level() : clientWorld));
 				ItemProperties.register(CHARM_OF_DECEPTION.get(), ResourceLocation.parse("monstrous_world:charm_of_deception_unlocked"),
-						(itemStackToRender, clientWorld, entity, itemEntityId) -> (float) InsaneSoulPropertyValueProviderProcedure.execute(entity != null ? entity.level() : clientWorld));
-				ItemProperties.register(VILLAGER_BONE.get(), ResourceLocation.parse("monstrous_world:villager_bone_unlocked"),
 						(itemStackToRender, clientWorld, entity, itemEntityId) -> (float) InsaneSoulPropertyValueProviderProcedure.execute(entity != null ? entity.level() : clientWorld));
 				ItemProperties.register(INFERNAL_SWORD.get(), ResourceLocation.parse("monstrous_world:infernal_sword_unlocked"),
 						(itemStackToRender, clientWorld, entity, itemEntityId) -> (float) InsaneSoulPropertyValueProviderProcedure.execute(entity != null ? entity.level() : clientWorld));
@@ -3134,8 +3160,6 @@ public class MonstrousWorldModItems {
 				ItemProperties.register(PURE_FEAR.get(), ResourceLocation.parse("monstrous_world:pure_fear_unlocked"),
 						(itemStackToRender, clientWorld, entity, itemEntityId) -> (float) InsaneSoulPropertyValueProviderProcedure.execute(entity != null ? entity.level() : clientWorld));
 				ItemProperties.register(NOTE_ON_MANIACS.get(), ResourceLocation.parse("monstrous_world:note_on_maniacs_unlocked"),
-						(itemStackToRender, clientWorld, entity, itemEntityId) -> (float) InsaneSoulPropertyValueProviderProcedure.execute(entity != null ? entity.level() : clientWorld));
-				ItemProperties.register(HUMAN_BONE.get(), ResourceLocation.parse("monstrous_world:human_bone_unlocked"),
 						(itemStackToRender, clientWorld, entity, itemEntityId) -> (float) InsaneSoulPropertyValueProviderProcedure.execute(entity != null ? entity.level() : clientWorld));
 			});
 		}

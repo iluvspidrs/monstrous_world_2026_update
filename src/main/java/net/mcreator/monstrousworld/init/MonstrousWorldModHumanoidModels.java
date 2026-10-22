@@ -33,6 +33,8 @@ public class MonstrousWorldModHumanoidModels {
 	public static PlayerModel PLAYER_DEMON_OFF_GROUND;
 	public static PlayerModel PLAYER_BALLOON_FORM;
 	public static PlayerModel CLOWN_NOSE;
+	public static PlayerModel PLAYER_DARKENED_ARMOR;
+	public static PlayerModel PLAYER_DARKENED_CAPE;
 
 	@SubscribeEvent
 	public static void initModels(EntityRenderersEvent.AddLayers event) {
@@ -204,6 +206,24 @@ public class MonstrousWorldModHumanoidModels {
 						Map.entry("left_pants", new ModelPart(Collections.emptyList(), Collections.emptyMap())), Map.entry("right_pants", new ModelPart(Collections.emptyList(), Collections.emptyMap())),
 						Map.entry("jacket", new ModelPart(Collections.emptyList(), Collections.emptyMap())), Map.entry("cloak", new ModelPart(Collections.emptyList(), Collections.emptyMap())),
 						Map.entry("ear", new ModelPart(Collections.emptyList(), Collections.emptyMap())))),
+				false);
+		ModelDarkenedArmorOverlay player_darkened_armor_temp = new ModelDarkenedArmorOverlay(Minecraft.getInstance().getEntityModels().bakeLayer(ModelDarkenedArmorOverlay.LAYER_LOCATION));
+		PLAYER_DARKENED_ARMOR = new PlayerModel(new ModelPart(Collections.emptyList(),
+				Map.ofEntries(Map.entry("hat", new ModelPart(Collections.emptyList(), Collections.emptyMap())), Map.entry("head", player_darkened_armor_temp.Head), Map.entry("body", player_darkened_armor_temp.Body),
+						Map.entry("left_arm", player_darkened_armor_temp.LeftArm), Map.entry("right_arm", player_darkened_armor_temp.RightArm), Map.entry("left_leg", player_darkened_armor_temp.LeftLeg),
+						Map.entry("right_leg", player_darkened_armor_temp.RightLeg), Map.entry("left_sleeve", new ModelPart(Collections.emptyList(), Collections.emptyMap())),
+						Map.entry("right_sleeve", new ModelPart(Collections.emptyList(), Collections.emptyMap())), Map.entry("left_pants", new ModelPart(Collections.emptyList(), Collections.emptyMap())),
+						Map.entry("right_pants", new ModelPart(Collections.emptyList(), Collections.emptyMap())), Map.entry("jacket", new ModelPart(Collections.emptyList(), Collections.emptyMap())),
+						Map.entry("cloak", new ModelPart(Collections.emptyList(), Collections.emptyMap())), Map.entry("ear", new ModelPart(Collections.emptyList(), Collections.emptyMap())))),
+				false);
+		ModelDarkenedCape player_darkened_cape_temp = new ModelDarkenedCape(Minecraft.getInstance().getEntityModels().bakeLayer(ModelDarkenedCape.LAYER_LOCATION));
+		PLAYER_DARKENED_CAPE = new PlayerModel(new ModelPart(Collections.emptyList(),
+				Map.ofEntries(Map.entry("hat", new ModelPart(Collections.emptyList(), Collections.emptyMap())), Map.entry("head", player_darkened_cape_temp.Head), Map.entry("body", player_darkened_cape_temp.Body),
+						Map.entry("left_arm", player_darkened_cape_temp.LeftArm), Map.entry("right_arm", player_darkened_cape_temp.RightArm), Map.entry("left_leg", player_darkened_cape_temp.LeftLeg),
+						Map.entry("right_leg", player_darkened_cape_temp.RightLeg), Map.entry("left_sleeve", new ModelPart(Collections.emptyList(), Collections.emptyMap())),
+						Map.entry("right_sleeve", new ModelPart(Collections.emptyList(), Collections.emptyMap())), Map.entry("left_pants", new ModelPart(Collections.emptyList(), Collections.emptyMap())),
+						Map.entry("right_pants", new ModelPart(Collections.emptyList(), Collections.emptyMap())), Map.entry("jacket", new ModelPart(Collections.emptyList(), Collections.emptyMap())),
+						Map.entry("cloak", new ModelPart(Collections.emptyList(), Collections.emptyMap())), Map.entry("ear", new ModelPart(Collections.emptyList(), Collections.emptyMap())))),
 				false);
 	}
 }

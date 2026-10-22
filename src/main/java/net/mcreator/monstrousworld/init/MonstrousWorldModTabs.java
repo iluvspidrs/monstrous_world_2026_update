@@ -432,6 +432,8 @@ public class MonstrousWorldModTabs {
 				tabData.accept(MonstrousWorldModBlocks.ODD_DARKENED_STONE.get().asItem());
 				tabData.accept(MonstrousWorldModBlocks.TANGLED_TERROR.get().asItem());
 				tabData.accept(MonstrousWorldModBlocks.ANCIENT_SHRINE_TO_ARTEMIS.get().asItem());
+				tabData.accept(MonstrousWorldModBlocks.TALL_YELLOW_PUMPKIN_BLOCK.get().asItem());
+				tabData.accept(MonstrousWorldModBlocks.WIDE_YELLOW_PUMPKIN_B_LOCK.get().asItem());
 			}).withSearchBar().build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MONSTROUS_WORLD_ITEMS = REGISTRY.register("monstrous_world_items",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.monstrous_world.monstrous_world_items")).icon(() -> new ItemStack(MonstrousWorldModItems.VAMPIRE_ASH.get())).displayItems((parameters, tabData) -> {
@@ -771,6 +773,9 @@ public class MonstrousWorldModTabs {
 				tabData.accept(MonstrousWorldModItems.BONE_BRAND_OF_DIGGING.get());
 				tabData.accept(MonstrousWorldModItems.BONE_BRAND_OF_HANDLING.get());
 				tabData.accept(MonstrousWorldModItems.BONE_BRAND_OF_KNOCKBACK.get());
+				tabData.accept(MonstrousWorldModItems.BONE_BRAND_OF_ARMOR.get());
+				tabData.accept(MonstrousWorldModItems.BONE_BRAND_OF_STUNNING.get());
+				tabData.accept(MonstrousWorldModItems.BONE_BRAND_OF_FEATHER_FALLING.get());
 			}).withSearchBar().withTabsBefore(MONSTROUS_WORLD_BLOCKS.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MONSTROUS_WORLD_TOOLS = REGISTRY.register("monstrous_world_tools",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.monstrous_world.monstrous_world_tools")).icon(() -> new ItemStack(MonstrousWorldModItems.SWAMP_CRYSTAL_DAGGER.get())).displayItems((parameters, tabData) -> {
@@ -1061,9 +1066,6 @@ public class MonstrousWorldModTabs {
 				tabData.accept(MonstrousWorldModItems.GOLDEN_TRIDENT.get());
 				tabData.accept(MonstrousWorldModItems.DARKENED_TRIDENT.get());
 				tabData.accept(MonstrousWorldModItems.DARKENED_HELMET.get());
-				tabData.accept(MonstrousWorldModItems.DARKENED_CHESTPLATE.get());
-				tabData.accept(MonstrousWorldModItems.DARKENED_LEGGINGS.get());
-				tabData.accept(MonstrousWorldModItems.DARKENED_BOOTS.get());
 				tabData.accept(MonstrousWorldModItems.BRONZE_HELMET.get());
 				tabData.accept(MonstrousWorldModItems.BRONZE_CHESTPLATE.get());
 				tabData.accept(MonstrousWorldModItems.BRONZE_LEGGINGS.get());
@@ -1208,6 +1210,12 @@ public class MonstrousWorldModTabs {
 				tabData.accept(MonstrousWorldModItems.PUMPION_COTTAGE_WELCOME_ITEM.get());
 				tabData.accept(MonstrousWorldModItems.GLOWING_PUMPKIN_TREES_NOTE_ITEM.get());
 				tabData.accept(MonstrousWorldModItems.ARCHAEOLOGICAL_NOTE.get());
+				tabData.accept(MonstrousWorldModItems.TO_DIG_FASTER_SCROLL.get());
+				tabData.accept(MonstrousWorldModItems.TO_KEEP_ARMOR.get());
+				tabData.accept(MonstrousWorldModItems.FOR_GREATER_KNOCKBACK.get());
+				tabData.accept(MonstrousWorldModItems.TO_STUN_PREY.get());
+				tabData.accept(MonstrousWorldModItems.TO_REDUCE_FALL_DAMAGE.get());
+				tabData.accept(MonstrousWorldModItems.FOR_HANDLING_ITEMS.get());
 			}).withSearchBar().withTabsBefore(MONSTROUS_WORLD_TOOLS.getId()).build());
 
 	@SubscribeEvent

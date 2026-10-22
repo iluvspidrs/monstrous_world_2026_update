@@ -131,6 +131,10 @@ public class MonstrousWorldModVariables {
 	public static ResourceLocation feral_swampmonster_player_wide = null;
 	public static ResourceLocation feral_swampmonster_player_slim = null;
 	public static ResourceLocation player_moss_overlay = null;
+	public static ResourceLocation player_dark_armor_overlay = null;
+	public static EntityModel player_dark_armor = null;
+	public static EntityModel player_dark_cape = null;
+	public static ResourceLocation player_dark_armor_arm = null;
 
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {

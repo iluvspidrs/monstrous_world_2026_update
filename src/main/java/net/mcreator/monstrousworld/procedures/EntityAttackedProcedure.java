@@ -291,21 +291,6 @@ public class EntityAttackedProcedure {
 									if (!((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.CHARM_OF_POSSESSION_IMMUNITY.get())
 											&& !((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.CHARM_OF_POSSESSION_IMMUNITY.get())) {
 										if (world instanceof ServerLevel _level) {
-											ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).copy()));
-											entityToSpawn.setPickUpDelay(10);
-											_level.addFreshEntity(entityToSpawn);
-										}
-										if (world instanceof ServerLevel _level) {
-											ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).copy()));
-											entityToSpawn.setPickUpDelay(10);
-											_level.addFreshEntity(entityToSpawn);
-										}
-										if (world instanceof ServerLevel _level) {
-											ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).copy()));
-											entityToSpawn.setPickUpDelay(10);
-											_level.addFreshEntity(entityToSpawn);
-										}
-										if (world instanceof ServerLevel _level) {
 											ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).copy()));
 											entityToSpawn.setPickUpDelay(10);
 											_level.addFreshEntity(entityToSpawn);
@@ -437,7 +422,7 @@ public class EntityAttackedProcedure {
 											}
 										}
 										if (entity instanceof LivingEntity _entity) {
-											AttributeModifier modifier = new AttributeModifier(ResourceLocation.parse("monstrous_world:darkness_armor"), 10, AttributeModifier.Operation.ADD_VALUE);
+											AttributeModifier modifier = new AttributeModifier(ResourceLocation.parse("monstrous_world:darkness_armor"), 15, AttributeModifier.Operation.ADD_VALUE);
 											if (!_entity.getAttribute(Attributes.ARMOR).hasModifier(modifier.id())) {
 												_entity.getAttribute(Attributes.ARMOR).addPermanentModifier(modifier);
 											}
@@ -516,21 +501,6 @@ public class EntityAttackedProcedure {
 												}
 											}
 										} else {
-											if (world instanceof ServerLevel _level) {
-												ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).copy()));
-												entityToSpawn.setPickUpDelay(10);
-												_level.addFreshEntity(entityToSpawn);
-											}
-											if (world instanceof ServerLevel _level) {
-												ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).copy()));
-												entityToSpawn.setPickUpDelay(10);
-												_level.addFreshEntity(entityToSpawn);
-											}
-											if (world instanceof ServerLevel _level) {
-												ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).copy()));
-												entityToSpawn.setPickUpDelay(10);
-												_level.addFreshEntity(entityToSpawn);
-											}
 											if (world instanceof ServerLevel _level) {
 												ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).copy()));
 												entityToSpawn.setPickUpDelay(10);
@@ -635,7 +605,7 @@ public class EntityAttackedProcedure {
 												}
 											}
 											if (entity instanceof LivingEntity _entity) {
-												AttributeModifier modifier = new AttributeModifier(ResourceLocation.parse("monstrous_world:darkness_armor"), 10, AttributeModifier.Operation.ADD_VALUE);
+												AttributeModifier modifier = new AttributeModifier(ResourceLocation.parse("monstrous_world:darkness_armor"), 15, AttributeModifier.Operation.ADD_VALUE);
 												if (!_entity.getAttribute(Attributes.ARMOR).hasModifier(modifier.id())) {
 													_entity.getAttribute(Attributes.ARMOR).addPermanentModifier(modifier);
 												}
@@ -690,7 +660,7 @@ public class EntityAttackedProcedure {
 			if (entity instanceof Player || entity instanceof ServerPlayer) {
 				if ((sourceentity.getDisplayName().getString()).contains("Zombie") || (sourceentity.getDisplayName().getString()).contains("Husk") || (sourceentity.getDisplayName().getString()).contains("Drowned")
 						|| sourceentity.getType().is(TagKey.create(Registries.ENTITY_TYPE, ResourceLocation.parse("c:zombies")))) {
-					if (!(entity instanceof LivingEntity _livEnt259 && _livEnt259.hasEffect(MonstrousWorldModMobEffects.ZOMBIE_INFECTION_EFFECT)) && entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterInfectable == true
+					if (!(entity instanceof LivingEntity _livEnt241 && _livEnt241.hasEffect(MonstrousWorldModMobEffects.ZOMBIE_INFECTION_EFFECT)) && entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterInfectable == true
 							&& Math.random() <= entity.getPersistentData().getDouble("Infectability") && Math.random() < (double) MonstrousWorldConfigConfiguration.ZOMBIE_INFECTION_CHANCE.get()) {
 						{
 							MonstrousWorldModVariables.PlayerVariables _vars = entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES);

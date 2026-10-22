@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "monstrous_world:block/dropped_to_reduce_fall_damage"
+    },
+    "facing=east": {
+      "model": "monstrous_world:block/dropped_to_reduce_fall_damage",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "monstrous_world:block/dropped_to_reduce_fall_damage",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "monstrous_world:block/dropped_to_reduce_fall_damage",
+      "y": 270
+    }
+  }
+}

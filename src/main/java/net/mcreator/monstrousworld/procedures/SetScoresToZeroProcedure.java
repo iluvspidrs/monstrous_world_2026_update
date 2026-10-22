@@ -744,6 +744,14 @@ public class SetScoresToZeroProcedure {
 			{
 				Entity _ent = entity;
 				Scoreboard _sc = _ent.level().getScoreboard();
+				Objective _so = _sc.getObjective("werewolf_ability");
+				if (_so == null)
+					_so = _sc.addObjective("werewolf_ability", ObjectiveCriteria.DUMMY, Component.literal("werewolf_ability"), ObjectiveCriteria.RenderType.INTEGER, true, null);
+				_sc.getOrCreatePlayerScore(ScoreHolder.forNameOnly(_ent.getScoreboardName()), _so).set(0);
+			}
+			{
+				Entity _ent = entity;
+				Scoreboard _sc = _ent.level().getScoreboard();
 				Objective _so = _sc.getObjective("society_infected");
 				if (_so == null)
 					_so = _sc.addObjective("society_infected", ObjectiveCriteria.DUMMY, Component.literal("society_infected"), ObjectiveCriteria.RenderType.INTEGER, true, null);
@@ -1075,6 +1083,30 @@ public class SetScoresToZeroProcedure {
 				Objective _so = _sc.getObjective("has_illager_sample");
 				if (_so == null)
 					_so = _sc.addObjective("has_illager_sample", ObjectiveCriteria.DUMMY, Component.literal("has_illager_sample"), ObjectiveCriteria.RenderType.INTEGER, true, null);
+				_sc.getOrCreatePlayerScore(ScoreHolder.forNameOnly(_ent.getScoreboardName()), _so).set(0);
+			}
+			{
+				Entity _ent = entity;
+				Scoreboard _sc = _ent.level().getScoreboard();
+				Objective _so = _sc.getObjective("werewolf_ability");
+				if (_so == null)
+					_so = _sc.addObjective("werewolf_ability", ObjectiveCriteria.DUMMY, Component.literal("werewolf_ability"), ObjectiveCriteria.RenderType.INTEGER, true, null);
+				_sc.getOrCreatePlayerScore(ScoreHolder.forNameOnly(_ent.getScoreboardName()), _so).set(0);
+			}
+			{
+				Entity _ent = entity;
+				Scoreboard _sc = _ent.level().getScoreboard();
+				Objective _so = _sc.getObjective("vengeful_pumpkins");
+				if (_so == null)
+					_so = _sc.addObjective("vengeful_pumpkins", ObjectiveCriteria.DUMMY, Component.literal("vengeful_pumpkins"), ObjectiveCriteria.RenderType.INTEGER, true, null);
+				_sc.getOrCreatePlayerScore(ScoreHolder.forNameOnly(_ent.getScoreboardName()), _so).set(0);
+			}
+			{
+				Entity _ent = entity;
+				Scoreboard _sc = _ent.level().getScoreboard();
+				Objective _so = _sc.getObjective("vengeful_pumpkin");
+				if (_so == null)
+					_so = _sc.addObjective("vengeful_pumpkin", ObjectiveCriteria.DUMMY, Component.literal("vengeful_pumpkin"), ObjectiveCriteria.RenderType.INTEGER, true, null);
 				_sc.getOrCreatePlayerScore(ScoreHolder.forNameOnly(_ent.getScoreboardName()), _so).set(0);
 			}
 		}

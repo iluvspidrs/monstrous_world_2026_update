@@ -173,6 +173,12 @@
       "map": {
         "0": "archaeological_note"
       }
+    },
+    "lunar_scroll": {
+      "name": "lunar_scroll",
+      "map": {
+        "0": "lunar_scroll"
+      }
     }
   }
 }

@@ -10,7 +10,6 @@ import net.minecraft.world.phys.AABB;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.enchantment.Enchantments;
-import net.minecraft.world.item.component.CustomData;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.monster.Stray;
@@ -27,7 +26,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 import net.minecraft.commands.arguments.EntityAnchorArgument;
@@ -177,75 +175,10 @@ public class EquipmentOngoingEffectsProcedure {
 				}
 			}
 			if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).Possession == 3) {
-				if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).Dark_Message_Timer > -18000
-						&& (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MonstrousWorldModMobEffects.BLACKOUT) ? _livEnt.getEffect(MonstrousWorldModMobEffects.BLACKOUT).getDuration() : 0) == 0) {
-					if (!((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.DARKENED_BOOTS.get())) {
-						{
-							Entity _entity = entity;
-							if (_entity instanceof Player _player) {
-								_player.getInventory().armor.set(0, new ItemStack(MonstrousWorldModItems.DARKENED_BOOTS.get()));
-								_player.getInventory().setChanged();
-							} else if (_entity instanceof LivingEntity _living) {
-								_living.setItemSlot(EquipmentSlot.FEET, new ItemStack(MonstrousWorldModItems.DARKENED_BOOTS.get()));
-							}
-						}
-						(entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).enchant(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.BINDING_CURSE), 1);
-						{
-							final String _tagName = "enchantment_glint_override";
-							final boolean _tagValue = false;
-							CustomData.update(DataComponents.CUSTOM_DATA, (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY), tag -> tag.putBoolean(_tagName, _tagValue));
-						}
-					}
-					if (!((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.DARKENED_LEGGINGS.get())) {
-						{
-							Entity _entity = entity;
-							if (_entity instanceof Player _player) {
-								_player.getInventory().armor.set(1, new ItemStack(MonstrousWorldModItems.DARKENED_LEGGINGS.get()));
-								_player.getInventory().setChanged();
-							} else if (_entity instanceof LivingEntity _living) {
-								_living.setItemSlot(EquipmentSlot.LEGS, new ItemStack(MonstrousWorldModItems.DARKENED_LEGGINGS.get()));
-							}
-						}
-						(entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).enchant(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.BINDING_CURSE), 1);
-						{
-							final String _tagName = "enchantment_glint_override";
-							final boolean _tagValue = false;
-							CustomData.update(DataComponents.CUSTOM_DATA, (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY), tag -> tag.putBoolean(_tagName, _tagValue));
-						}
-					}
-					if (!((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.DARKENED_CHESTPLATE.get())) {
-						{
-							Entity _entity = entity;
-							if (_entity instanceof Player _player) {
-								_player.getInventory().armor.set(2, new ItemStack(MonstrousWorldModItems.DARKENED_CHESTPLATE.get()));
-								_player.getInventory().setChanged();
-							} else if (_entity instanceof LivingEntity _living) {
-								_living.setItemSlot(EquipmentSlot.CHEST, new ItemStack(MonstrousWorldModItems.DARKENED_CHESTPLATE.get()));
-							}
-						}
-						(entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).enchant(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.BINDING_CURSE), 1);
-						{
-							final String _tagName = "enchantment_glint_override";
-							final boolean _tagValue = false;
-							CustomData.update(DataComponents.CUSTOM_DATA, (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY), tag -> tag.putBoolean(_tagName, _tagValue));
-						}
-					}
-					if (!((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.DARKENED_HELMET.get())) {
-						{
-							Entity _entity = entity;
-							if (_entity instanceof Player _player) {
-								_player.getInventory().armor.set(3, new ItemStack(MonstrousWorldModItems.DARKENED_HELMET.get()));
-								_player.getInventory().setChanged();
-							} else if (_entity instanceof LivingEntity _living) {
-								_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(MonstrousWorldModItems.DARKENED_HELMET.get()));
-							}
-						}
+				if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.DARKENED_HELMET.get()) {
+					if (!((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY)
+							.getEnchantmentLevel(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.BINDING_CURSE)) != 0)) {
 						(entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).enchant(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.BINDING_CURSE), 1);
-						{
-							final String _tagName = "enchantment_glint_override";
-							final boolean _tagValue = false;
-							CustomData.update(DataComponents.CUSTOM_DATA, (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY), tag -> tag.putBoolean(_tagName, _tagValue));
-						}
 					}
 				}
 				if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("monstrous_world:hunter_gear")))

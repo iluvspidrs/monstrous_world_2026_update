@@ -6,11 +6,13 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.ai.goal.AvoidEntityGoal;
+import net.minecraft.world.entity.Pose;
 import net.minecraft.world.entity.player.Player;
 
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.entity.EntityJoinLevelEvent;
+import net.neoforged.neoforge.event.entity.player.CanContinueSleepingEvent;
 
 @EventBusSubscriber(modid = "monstrous_world")
 public class AddAvoidTrueEvilGoalProcedure {
@@ -36,22 +38,34 @@ public class AddAvoidTrueEvilGoalProcedure {
             return;
         }
 
-        mob.goalSelector.addGoal(
-                2,
-                new AvoidEntityGoal<Player>(
-                        mob,
-                        Player.class,
-                        AvoidTrueEvilGoalProcedure.AVOID_PLAYER_CONDITION,
-                        12.0F,
-                        1.0D,
-                        0.8D,
-                        player -> true
-                )
+        mob.goalSelector.addGoal(2, new AvoidEntityGoal<Player> (mob, Player.class, AvoidTrueEvilGoalProcedure.AVOID_PLAYER_CONDITION, 12.0F, 1.0D, 0.8D, player -> true) {
+
+				@Override
+					public boolean canUse() {
+
+						if (mob.isSleeping()) {
+							return false;
+						}
+
+						return super.canUse();
+						
+					}
+
+					@Override
+					public boolean canContinueToUse() {
+
+						if (mob.isSleeping()) {
+							return false;
+						}
+
+						return super.canContinueToUse();
+						
+					}
+
+                	
+                }
         );
 
-        System.out.println(
-                "[Monstrous_World] Added True Evil avoidance goal to "
-                        + mob.getType()
-        );
+        System.out.println("[Monstrous_World] Added True Evil avoidance goal to " + mob.getType());
     }
 }

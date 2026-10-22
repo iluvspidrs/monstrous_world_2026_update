@@ -34,6 +34,8 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.InteractionHand;
+import net.minecraft.util.RandomSource;
+import net.minecraft.util.Mth;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerPlayer;
@@ -353,8 +355,13 @@ public class RitualLycanCureProcedure {
 													if (entityiterator instanceof LivingEntity _entity) {
 														_entity.getAttribute(Attributes.ATTACK_KNOCKBACK).removeModifier(ResourceLocation.parse("monstrous_world:werewolf_knockback"));
 													}
+													if (entityiterator instanceof LivingEntity _entity) {
+														_entity.getAttribute(Attributes.SAFE_FALL_DISTANCE).removeModifier(ResourceLocation.parse("monstrous_world:werewolf_fall_damage"));
+													}
 													if (entityiterator instanceof LivingEntity _entity)
 														_entity.removeEffect(MonstrousWorldModMobEffects.WEREWOLF_EFFECT);
+													if (entityiterator instanceof LivingEntity _entity)
+														_entity.removeEffect(MonstrousWorldModMobEffects.LUNAR_PULL);
 													if (entityiterator instanceof LivingEntity _entity)
 														_entity.setHealth((entityiterator instanceof LivingEntity _livEnt ? _livEnt.getMaxHealth() : -1) + 1);
 													entityiterator.hurt(new DamageSource(world.holderOrThrow(DamageTypes.GENERIC)), 1);
@@ -449,28 +456,32 @@ public class RitualLycanCureProcedure {
 															}
 														}
 													}
-													if (Math.random() < 0.1) {
+													entity.getPersistentData().putDouble("cure_type", (Mth.nextInt(RandomSource.create(), 1, 10)));
+													if (entity.getPersistentData().getDouble("cure_type") == 1) {
 														if (world instanceof ServerLevel _level) {
 															Entity entityToSpawn = EntityType.VILLAGER.spawn(_level, BlockPos.containing(entityiterator.getX(), entityiterator.getY(), entityiterator.getZ()), MobSpawnType.MOB_SUMMONED);
 															if (entityToSpawn != null) {
 																entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 															}
 														}
-													} else if (Math.random() < 0.2) {
+													}
+													if (entity.getPersistentData().getDouble("cure_type") == 2) {
 														if (world instanceof ServerLevel _level) {
 															Entity entityToSpawn = EntityType.PILLAGER.spawn(_level, BlockPos.containing(entityiterator.getX(), entityiterator.getY(), entityiterator.getZ()), MobSpawnType.MOB_SUMMONED);
 															if (entityToSpawn != null) {
 																entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 															}
 														}
-													} else if (Math.random() < 0.3) {
+													}
+													if (entity.getPersistentData().getDouble("cure_type") == 3) {
 														if (world instanceof ServerLevel _level) {
 															Entity entityToSpawn = EntityType.WANDERING_TRADER.spawn(_level, BlockPos.containing(entityiterator.getX(), entityiterator.getY(), entityiterator.getZ()), MobSpawnType.MOB_SUMMONED);
 															if (entityToSpawn != null) {
 																entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 															}
 														}
-													} else if (Math.random() < 0.4) {
+													}
+													if (entity.getPersistentData().getDouble("cure_type") == 4) {
 														if (world instanceof ServerLevel _level) {
 															Entity entityToSpawn = MonstrousWorldModEntities.WITCH_1.get().spawn(_level, BlockPos.containing(entityiterator.getX(), entityiterator.getY(), entityiterator.getZ()),
 																	MobSpawnType.MOB_SUMMONED);
@@ -478,7 +489,8 @@ public class RitualLycanCureProcedure {
 																entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 															}
 														}
-													} else if (Math.random() < 0.5) {
+													}
+													if (entity.getPersistentData().getDouble("cure_type") == 5) {
 														if (world instanceof ServerLevel _level) {
 															Entity entityToSpawn = MonstrousWorldModEntities.SORCERER_NPC.get().spawn(_level, BlockPos.containing(entityiterator.getX(), entityiterator.getY(), entityiterator.getZ()),
 																	MobSpawnType.MOB_SUMMONED);
@@ -486,7 +498,8 @@ public class RitualLycanCureProcedure {
 																entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 															}
 														}
-													} else if (Math.random() < 0.6) {
+													}
+													if (entity.getPersistentData().getDouble("cure_type") == 6) {
 														if (world instanceof ServerLevel _level) {
 															Entity entityToSpawn = MonstrousWorldModEntities.SOCIETY_GOON.get().spawn(_level, BlockPos.containing(entityiterator.getX(), entityiterator.getY(), entityiterator.getZ()),
 																	MobSpawnType.MOB_SUMMONED);
@@ -494,7 +507,8 @@ public class RitualLycanCureProcedure {
 																entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 															}
 														}
-													} else if (Math.random() < 0.7) {
+													}
+													if (entity.getPersistentData().getDouble("cure_type") == 7) {
 														if (world instanceof ServerLevel _level) {
 															Entity entityToSpawn = MonstrousWorldModEntities.MAD_SCIENTIST_NPC.get().spawn(_level, BlockPos.containing(entityiterator.getX(), entityiterator.getY(), entityiterator.getZ()),
 																	MobSpawnType.MOB_SUMMONED);
@@ -502,22 +516,25 @@ public class RitualLycanCureProcedure {
 																entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 															}
 														}
-													} else if (Math.random() < 0.8) {
+													}
+													if (entity.getPersistentData().getDouble("cure_type") == 8) {
 														if (world instanceof ServerLevel _level) {
-															Entity entityToSpawn = MonstrousWorldModEntities.HUNTER_NPC.get().spawn(_level, BlockPos.containing(entityiterator.getX(), entityiterator.getY(), entityiterator.getZ()),
+															Entity entityToSpawn = MonstrousWorldModEntities.HUNTER_PATROL_NPC.get().spawn(_level, BlockPos.containing(entityiterator.getX(), entityiterator.getY(), entityiterator.getZ()),
 																	MobSpawnType.MOB_SUMMONED);
 															if (entityToSpawn != null) {
 																entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 															}
 														}
-													} else if (Math.random() < 0.9) {
+													}
+													if (entity.getPersistentData().getDouble("cure_type") == 9) {
 														if (world instanceof ServerLevel _level) {
 															Entity entityToSpawn = EntityType.VILLAGER.spawn(_level, BlockPos.containing(entityiterator.getX(), entityiterator.getY(), entityiterator.getZ()), MobSpawnType.MOB_SUMMONED);
 															if (entityToSpawn != null) {
 																entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 															}
 														}
-													} else {
+													}
+													if (entity.getPersistentData().getDouble("cure_type") == 10) {
 														if (world instanceof ServerLevel _level) {
 															Entity entityToSpawn = EntityType.WITCH.spawn(_level, BlockPos.containing(entityiterator.getX(), entityiterator.getY(), entityiterator.getZ()), MobSpawnType.MOB_SUMMONED);
 															if (entityToSpawn != null) {
@@ -642,6 +659,9 @@ public class RitualLycanCureProcedure {
 														if (entityiterator instanceof LivingEntity _entity) {
 															_entity.getAttribute(Attributes.ATTACK_KNOCKBACK).removeModifier(ResourceLocation.parse("monstrous_world:werewolf_knockback"));
 														}
+														if (entityiterator instanceof LivingEntity _entity) {
+															_entity.getAttribute(Attributes.SAFE_FALL_DISTANCE).removeModifier(ResourceLocation.parse("monstrous_world:werewolf_fall_damage"));
+														}
 														if (entityiterator instanceof LivingEntity _entity)
 															_entity.removeEffect(MonstrousWorldModMobEffects.WEREWOLF_EFFECT);
 														if (entityiterator instanceof LivingEntity _entity)
@@ -729,28 +749,32 @@ public class RitualLycanCureProcedure {
 																}
 															}
 														}
-														if (Math.random() < 0.1) {
+														entity.getPersistentData().putDouble("cure_type", (Mth.nextInt(RandomSource.create(), 1, 10)));
+														if (entity.getPersistentData().getDouble("cure_type") == 1) {
 															if (world instanceof ServerLevel _level) {
 																Entity entityToSpawn = EntityType.VILLAGER.spawn(_level, BlockPos.containing(entityiterator.getX(), entityiterator.getY(), entityiterator.getZ()), MobSpawnType.MOB_SUMMONED);
 																if (entityToSpawn != null) {
 																	entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 																}
 															}
-														} else if (Math.random() < 0.2) {
+														}
+														if (entity.getPersistentData().getDouble("cure_type") == 2) {
 															if (world instanceof ServerLevel _level) {
 																Entity entityToSpawn = EntityType.PILLAGER.spawn(_level, BlockPos.containing(entityiterator.getX(), entityiterator.getY(), entityiterator.getZ()), MobSpawnType.MOB_SUMMONED);
 																if (entityToSpawn != null) {
 																	entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 																}
 															}
-														} else if (Math.random() < 0.3) {
+														}
+														if (entity.getPersistentData().getDouble("cure_type") == 3) {
 															if (world instanceof ServerLevel _level) {
 																Entity entityToSpawn = EntityType.WANDERING_TRADER.spawn(_level, BlockPos.containing(entityiterator.getX(), entityiterator.getY(), entityiterator.getZ()), MobSpawnType.MOB_SUMMONED);
 																if (entityToSpawn != null) {
 																	entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 																}
 															}
-														} else if (Math.random() < 0.4) {
+														}
+														if (entity.getPersistentData().getDouble("cure_type") == 4) {
 															if (world instanceof ServerLevel _level) {
 																Entity entityToSpawn = MonstrousWorldModEntities.WITCH_1.get().spawn(_level, BlockPos.containing(entityiterator.getX(), entityiterator.getY(), entityiterator.getZ()),
 																		MobSpawnType.MOB_SUMMONED);
@@ -758,7 +782,8 @@ public class RitualLycanCureProcedure {
 																	entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 																}
 															}
-														} else if (Math.random() < 0.5) {
+														}
+														if (entity.getPersistentData().getDouble("cure_type") == 5) {
 															if (world instanceof ServerLevel _level) {
 																Entity entityToSpawn = MonstrousWorldModEntities.SORCERER_NPC.get().spawn(_level, BlockPos.containing(entityiterator.getX(), entityiterator.getY(), entityiterator.getZ()),
 																		MobSpawnType.MOB_SUMMONED);
@@ -766,7 +791,8 @@ public class RitualLycanCureProcedure {
 																	entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 																}
 															}
-														} else if (Math.random() < 0.6) {
+														}
+														if (entity.getPersistentData().getDouble("cure_type") == 6) {
 															if (world instanceof ServerLevel _level) {
 																Entity entityToSpawn = MonstrousWorldModEntities.SOCIETY_GOON.get().spawn(_level, BlockPos.containing(entityiterator.getX(), entityiterator.getY(), entityiterator.getZ()),
 																		MobSpawnType.MOB_SUMMONED);
@@ -774,7 +800,8 @@ public class RitualLycanCureProcedure {
 																	entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 																}
 															}
-														} else if (Math.random() < 0.7) {
+														}
+														if (entity.getPersistentData().getDouble("cure_type") == 7) {
 															if (world instanceof ServerLevel _level) {
 																Entity entityToSpawn = MonstrousWorldModEntities.MAD_SCIENTIST_NPC.get().spawn(_level, BlockPos.containing(entityiterator.getX(), entityiterator.getY(), entityiterator.getZ()),
 																		MobSpawnType.MOB_SUMMONED);
@@ -782,22 +809,25 @@ public class RitualLycanCureProcedure {
 																	entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 																}
 															}
-														} else if (Math.random() < 0.8) {
+														}
+														if (entity.getPersistentData().getDouble("cure_type") == 8) {
 															if (world instanceof ServerLevel _level) {
-																Entity entityToSpawn = MonstrousWorldModEntities.HUNTER_NPC.get().spawn(_level, BlockPos.containing(entityiterator.getX(), entityiterator.getY(), entityiterator.getZ()),
+																Entity entityToSpawn = MonstrousWorldModEntities.HUNTER_PATROL_NPC.get().spawn(_level, BlockPos.containing(entityiterator.getX(), entityiterator.getY(), entityiterator.getZ()),
 																		MobSpawnType.MOB_SUMMONED);
 																if (entityToSpawn != null) {
 																	entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 																}
 															}
-														} else if (Math.random() < 0.9) {
+														}
+														if (entity.getPersistentData().getDouble("cure_type") == 9) {
 															if (world instanceof ServerLevel _level) {
 																Entity entityToSpawn = EntityType.VILLAGER.spawn(_level, BlockPos.containing(entityiterator.getX(), entityiterator.getY(), entityiterator.getZ()), MobSpawnType.MOB_SUMMONED);
 																if (entityToSpawn != null) {
 																	entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 																}
 															}
-														} else {
+														}
+														if (entity.getPersistentData().getDouble("cure_type") == 10) {
 															if (world instanceof ServerLevel _level) {
 																Entity entityToSpawn = EntityType.WITCH.spawn(_level, BlockPos.containing(entityiterator.getX(), entityiterator.getY(), entityiterator.getZ()), MobSpawnType.MOB_SUMMONED);
 																if (entityToSpawn != null) {

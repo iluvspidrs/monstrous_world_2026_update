@@ -43,8 +43,8 @@ public class PlaceLorePapersProcedure {
 		if (!world.isClientSide()) {
 			if ((entity.level().clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(5)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getDirection()) == Direction.UP) {
 				if (world.getBlockState(BlockPos.containing(x, y, z)).isFaceSturdy(world, BlockPos.containing(x, y, z), Direction.UP)) {
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.EMAIL_ARCHIVE.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_EMAIL_ARCHIVE.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.FOR_HANDLING_ITEMS.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_FOR_HANDLING_ITEMS.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack11 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -55,8 +55,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.MUSEUM_CLOSED.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_MUSEUM_CLOSED.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.TO_REDUCE_FALL_DAMAGE.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_TO_REDUCE_FALL_DAMAGE.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack19 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -67,8 +67,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.FARMERS_LOG.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_FARMERS_LOG.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.TO_KEEP_ARMOR.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_TO_KEEP_ARMOR.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack27 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -79,8 +79,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.A_TORN_JOURNAL.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_A_TORN_JOURNAL.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.TO_KEEP_ARMOR.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_LUNAR_SCROLL.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack35 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -91,8 +91,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.DROPPED_CURE_SERUM_NOTE.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_CURE_SERUM_NOTE_BLOCK.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.EMAIL_ARCHIVE.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_EMAIL_ARCHIVE.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack43 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -103,8 +103,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.A_NOTE_ON_SPIRITS.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_NOTE_ON_SPIRITS.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.MUSEUM_CLOSED.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_MUSEUM_CLOSED.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack51 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -115,8 +115,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.A_NOTE_ON_LAB_ACCIDENTS.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_NOTE_ON_LAB_ACCIDENTS.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.FARMERS_LOG.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_FARMERS_LOG.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack59 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -127,8 +127,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.A_NOTE_ON_STABILIZING_SERUM.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_STABILIZING_SERUM_NOTE_BLOCK.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.A_TORN_JOURNAL.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_A_TORN_JOURNAL.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack67 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -139,8 +139,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.SOCIETY_DIRECTIVE.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_SOCIETY_DIRECTIVE_BLOCK.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.DROPPED_CURE_SERUM_NOTE.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_CURE_SERUM_NOTE_BLOCK.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack75 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -151,8 +151,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.FRESH_COOKIES.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_FRESH_COOKIES.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.A_NOTE_ON_SPIRITS.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_NOTE_ON_SPIRITS.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack83 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -163,8 +163,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.A_RECOVERED_JOURNAL.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_RECOVERED_JOURNAL.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.A_NOTE_ON_LAB_ACCIDENTS.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_NOTE_ON_LAB_ACCIDENTS.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack91 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -175,8 +175,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.LETTER_FROM_AGATHA.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_LETTER_FROM_AGATHA.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.A_NOTE_ON_STABILIZING_SERUM.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_STABILIZING_SERUM_NOTE_BLOCK.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack99 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -187,8 +187,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.LETTER_FROM_COUNTESS.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_LETTER_FROM_COUNTESS.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.SOCIETY_DIRECTIVE.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_SOCIETY_DIRECTIVE_BLOCK.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack107 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -199,8 +199,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.EXPLORER_LOG_PART_1.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_EXPLORERS_LOG_1.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.FRESH_COOKIES.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_FRESH_COOKIES.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack115 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -211,8 +211,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.EXPLORER_LOG_PART_2.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_EXPLORERS_LOG_2.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.A_RECOVERED_JOURNAL.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_RECOVERED_JOURNAL.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack123 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -223,8 +223,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.AN_UNUSUAL_INFECTION.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_UNUSUAL_INFECTION.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.LETTER_FROM_AGATHA.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_LETTER_FROM_AGATHA.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack131 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -235,8 +235,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.MYSTERY_CONTAINER.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_MYSTERY_CONTAINER.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.LETTER_FROM_COUNTESS.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_LETTER_FROM_COUNTESS.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack139 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -247,8 +247,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.SOCIETY_PAMPHLET.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_SOCIETY_PAMPHLET.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.EXPLORER_LOG_PART_1.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_EXPLORERS_LOG_1.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack147 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -259,8 +259,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.HUNTERS_GUILD_CURE_SERUM_NOTE_ITEM.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_HUNTERS_GUILD_CURE_SERUM_N_OTE.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.EXPLORER_LOG_PART_2.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_EXPLORERS_LOG_2.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack155 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -271,8 +271,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.THE_VILE_RAIDERS.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_VILE_RAIDERS.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.AN_UNUSUAL_INFECTION.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_UNUSUAL_INFECTION.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack163 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -283,8 +283,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.THE_WARRIORS_ARENA.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_WARRIORS_ARENA.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.MYSTERY_CONTAINER.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_MYSTERY_CONTAINER.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack171 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -295,8 +295,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.QUOTA.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_QUOTA.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.SOCIETY_PAMPHLET.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_SOCIETY_PAMPHLET.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack179 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -307,8 +307,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.SACRIFICE.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_SACRIFICE.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.HUNTERS_GUILD_CURE_SERUM_NOTE_ITEM.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_HUNTERS_GUILD_CURE_SERUM_N_OTE.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack187 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -319,8 +319,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.NOTE_ON_PIGLINS.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_NOTE_ON_PIGLINS.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.THE_VILE_RAIDERS.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_VILE_RAIDERS.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack195 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -331,8 +331,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.NOTE_ON_MANIACS.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_NOTE_ON_MANIACS.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.THE_WARRIORS_ARENA.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_WARRIORS_ARENA.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack203 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -343,8 +343,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.TOME_OF_LIGHT_NOTE.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_TOME_OF_LIGHT.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.QUOTA.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_QUOTA.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack211 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -355,8 +355,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.A_GOOD_ALPHA_ITEM.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_A_GOOD_ALPHA.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.SACRIFICE.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_SACRIFICE.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack219 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -367,8 +367,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.THE_EYELET_NOTE.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_EYELET_NOTE.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.NOTE_ON_PIGLINS.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_NOTE_ON_PIGLINS.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack227 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -379,8 +379,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.INTERROGATION.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_INTERROGATION_NOTE.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.NOTE_ON_MANIACS.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_NOTE_ON_MANIACS.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack235 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -391,8 +391,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.MURKANUS_MARTH_NOTE.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_MURKANUS_MARTH_NOTE.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.TOME_OF_LIGHT_NOTE.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_TOME_OF_LIGHT.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack243 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -403,8 +403,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.SLUG_SOUP_RECIPE.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_SLUG_SOUP_NOTE.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.A_GOOD_ALPHA_ITEM.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_A_GOOD_ALPHA.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack251 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -415,8 +415,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.CATERPILLAR_STEW_RECIPE.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_CATERPILLAR_STEW_NOTE.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.THE_EYELET_NOTE.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_EYELET_NOTE.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack259 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -427,8 +427,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.MURKY_MEDLEY_RECIPE.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_MURKY_MEDLEY_NOTE.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.INTERROGATION.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_INTERROGATION_NOTE.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack267 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -439,8 +439,8 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.GLOWING_PUMPKIN_TREES_NOTE_ITEM.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_GLOWING_PUMPKIN_SAPLING_NOTE.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.MURKANUS_MARTH_NOTE.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_MURKANUS_MARTH_NOTE.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack275 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
@@ -451,13 +451,61 @@ public class PlaceLorePapersProcedure {
 							}
 						}
 					}
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.ARCHAEOLOGICAL_NOTE.get()) {
-						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_ARCHAEOLOGICAL_NOTE.get().defaultBlockState(), 3);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.SLUG_SOUP_RECIPE.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_SLUG_SOUP_NOTE.get().defaultBlockState(), 3);
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
 								ItemStack _setstack283 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
 								_setstack283.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
 								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack283);
+								if (_entity instanceof Player _player)
+									_player.getInventory().setChanged();
+							}
+						}
+					}
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.CATERPILLAR_STEW_RECIPE.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_CATERPILLAR_STEW_NOTE.get().defaultBlockState(), 3);
+						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
+							if (entity instanceof LivingEntity _entity) {
+								ItemStack _setstack291 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack291.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack291);
+								if (_entity instanceof Player _player)
+									_player.getInventory().setChanged();
+							}
+						}
+					}
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.MURKY_MEDLEY_RECIPE.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_MURKY_MEDLEY_NOTE.get().defaultBlockState(), 3);
+						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
+							if (entity instanceof LivingEntity _entity) {
+								ItemStack _setstack299 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack299.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack299);
+								if (_entity instanceof Player _player)
+									_player.getInventory().setChanged();
+							}
+						}
+					}
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.GLOWING_PUMPKIN_TREES_NOTE_ITEM.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_GLOWING_PUMPKIN_SAPLING_NOTE.get().defaultBlockState(), 3);
+						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
+							if (entity instanceof LivingEntity _entity) {
+								ItemStack _setstack307 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack307.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack307);
+								if (_entity instanceof Player _player)
+									_player.getInventory().setChanged();
+							}
+						}
+					}
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.ARCHAEOLOGICAL_NOTE.get()) {
+						world.setBlock(BlockPos.containing(x, y + 1, z), MonstrousWorldModBlocks.DROPPED_ARCHAEOLOGICAL_NOTE.get().defaultBlockState(), 3);
+						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
+							if (entity instanceof LivingEntity _entity) {
+								ItemStack _setstack315 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack315.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack315);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -484,9 +532,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack295 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack295.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack295);
+								ItemStack _setstack327 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack327.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack327);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -511,9 +559,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack305 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack305.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack305);
+								ItemStack _setstack337 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack337.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack337);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -538,9 +586,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack315 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack315.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack315);
+								ItemStack _setstack347 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack347.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack347);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -564,9 +612,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack323 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack323.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack323);
+								ItemStack _setstack355 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack355.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack355);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -593,9 +641,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack335 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack335.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack335);
+								ItemStack _setstack367 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack367.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack367);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -620,9 +668,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack345 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack345.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack345);
+								ItemStack _setstack377 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack377.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack377);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -647,9 +695,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack355 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack355.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack355);
+								ItemStack _setstack387 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack387.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack387);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -673,9 +721,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack363 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack363.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack363);
+								ItemStack _setstack395 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack395.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack395);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -702,9 +750,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack375 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack375.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack375);
+								ItemStack _setstack407 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack407.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack407);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -729,9 +777,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack385 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack385.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack385);
+								ItemStack _setstack417 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack417.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack417);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -756,9 +804,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack395 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack395.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack395);
+								ItemStack _setstack427 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack427.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack427);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -782,9 +830,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack403 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack403.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack403);
+								ItemStack _setstack435 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack435.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack435);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -811,9 +859,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack415 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack415.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack415);
+								ItemStack _setstack447 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack447.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack447);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -838,9 +886,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack425 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack425.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack425);
+								ItemStack _setstack457 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack457.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack457);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -865,9 +913,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack435 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack435.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack435);
+								ItemStack _setstack467 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack467.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack467);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -891,9 +939,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack443 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack443.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack443);
+								ItemStack _setstack475 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack475.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack475);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -920,9 +968,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack455 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack455.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack455);
+								ItemStack _setstack487 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack487.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack487);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -947,9 +995,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack465 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack465.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack465);
+								ItemStack _setstack497 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack497.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack497);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -974,9 +1022,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack475 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack475.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack475);
+								ItemStack _setstack507 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack507.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack507);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1000,9 +1048,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack483 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack483.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack483);
+								ItemStack _setstack515 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack515.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack515);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1029,9 +1077,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack495 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack495.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack495);
+								ItemStack _setstack527 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack527.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack527);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1056,9 +1104,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack505 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack505.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack505);
+								ItemStack _setstack537 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack537.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack537);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1083,9 +1131,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack515 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack515.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack515);
+								ItemStack _setstack547 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack547.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack547);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1109,9 +1157,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack523 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack523.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack523);
+								ItemStack _setstack555 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack555.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack555);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1138,9 +1186,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack535 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack535.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack535);
+								ItemStack _setstack567 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack567.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack567);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1165,9 +1213,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack545 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack545.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack545);
+								ItemStack _setstack577 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack577.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack577);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1192,9 +1240,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack555 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack555.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack555);
+								ItemStack _setstack587 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack587.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack587);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1218,9 +1266,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack563 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack563.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack563);
+								ItemStack _setstack595 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack595.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack595);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1247,9 +1295,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack575 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack575.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack575);
+								ItemStack _setstack607 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack607.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack607);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1274,9 +1322,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack585 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack585.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack585);
+								ItemStack _setstack617 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack617.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack617);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1301,9 +1349,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack595 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack595.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack595);
+								ItemStack _setstack627 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack627.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack627);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1327,9 +1375,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack603 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack603.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack603);
+								ItemStack _setstack635 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack635.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack635);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1356,9 +1404,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack615 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack615.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack615);
+								ItemStack _setstack647 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack647.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack647);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1383,9 +1431,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack625 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack625.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack625);
+								ItemStack _setstack657 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack657.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack657);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1410,9 +1458,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack635 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack635.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack635);
+								ItemStack _setstack667 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack667.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack667);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1436,9 +1484,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack643 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack643.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack643);
+								ItemStack _setstack675 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack675.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack675);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1465,9 +1513,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack655 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack655.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack655);
+								ItemStack _setstack687 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack687.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack687);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1492,9 +1540,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack665 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack665.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack665);
+								ItemStack _setstack697 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack697.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack697);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1519,9 +1567,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack675 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack675.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack675);
+								ItemStack _setstack707 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack707.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack707);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1545,9 +1593,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack683 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack683.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack683);
+								ItemStack _setstack715 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack715.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack715);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1574,9 +1622,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack695 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack695.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack695);
+								ItemStack _setstack727 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack727.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack727);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1601,9 +1649,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack705 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack705.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack705);
+								ItemStack _setstack737 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack737.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack737);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1628,9 +1676,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack715 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack715.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack715);
+								ItemStack _setstack747 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack747.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack747);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1654,9 +1702,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack723 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack723.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack723);
+								ItemStack _setstack755 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack755.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack755);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1683,9 +1731,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack735 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack735.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack735);
+								ItemStack _setstack767 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack767.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack767);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1710,9 +1758,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack745 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack745.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack745);
+								ItemStack _setstack777 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack777.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack777);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1737,9 +1785,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack755 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack755.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack755);
+								ItemStack _setstack787 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack787.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack787);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1763,9 +1811,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack763 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack763.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack763);
+								ItemStack _setstack795 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack795.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack795);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1792,9 +1840,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack775 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack775.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack775);
+								ItemStack _setstack807 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack807.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack807);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1819,9 +1867,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack785 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack785.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack785);
+								ItemStack _setstack817 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack817.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack817);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1846,9 +1894,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack795 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack795.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack795);
+								ItemStack _setstack827 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack827.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack827);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}
@@ -1872,9 +1920,9 @@ public class PlaceLorePapersProcedure {
 						}
 						if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 							if (entity instanceof LivingEntity _entity) {
-								ItemStack _setstack803 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-								_setstack803.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack803);
+								ItemStack _setstack835 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+								_setstack835.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+								_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack835);
 								if (_entity instanceof Player _player)
 									_player.getInventory().setChanged();
 							}

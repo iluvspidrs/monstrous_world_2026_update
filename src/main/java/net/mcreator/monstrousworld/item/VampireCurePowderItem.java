@@ -26,6 +26,7 @@ public class VampireCurePowderItem extends Item {
 	public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, context, list, flag);
 		list.add(Component.translatable("item.monstrous_world.vampire_cure_powder.description_0"));
+		list.add(Component.translatable("item.monstrous_world.vampire_cure_powder.description_1"));
 	}
 
 	@Override

@@ -20,6 +20,13 @@
         "0": "greenpumpkinwide2",
         "1": "minecraft:podzol_top"
       }
+    },
+    "yellow": {
+      "name": "yellow",
+      "map": {
+        "0": "yellow_pumpkinwide2",
+        "1": "minecraft:podzol_top"
+      }
     }
   }
 }

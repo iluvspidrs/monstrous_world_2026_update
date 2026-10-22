@@ -7,6 +7,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
 
+import net.mcreator.monstrousworld.network.MonstrousWorldModVariables;
 import net.mcreator.monstrousworld.init.MonstrousWorldModItems;
 import net.mcreator.monstrousworld.entity.SilverBoltVanishingProjectileEntity;
 import net.mcreator.monstrousworld.entity.SilverBoltSinkingProjectileEntity;
@@ -25,8 +26,10 @@ public class FeralMountainTrollEntityIsHurtProcedure {
 						if (!(sourceentity instanceof SilverBoltVanishingProjectileEntity)) {
 							if (!(sourceentity instanceof SilverBoltProjectileEntity)) {
 								if (!((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.CHAINSAW_WEAPON.get())) {
-									if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-										_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 200, 5, false, false));
+									if (!(sourceentity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).BeastForm == true)) {
+										if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+											_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 200, 5, false, false));
+									}
 								}
 							}
 						}

@@ -15,19 +15,20 @@ import net.mcreator.monstrousworld.configuration.MonstrousWorldConfigConfigurati
 
 public class FeralVampireNaturalEntitySpawningConditionProcedure {
 	public static boolean execute(LevelAccessor world, double x, double y, double z) {
-		if (!(!world.getEntitiesOfClass(FeralVampireEntity.class, new AABB(Vec3.ZERO, Vec3.ZERO).move(new Vec3(x, y, z)).inflate(250 / 2d), e -> true).isEmpty())) {
+		if (!(!world.getEntitiesOfClass(FeralVampireEntity.class, new AABB(Vec3.ZERO, Vec3.ZERO).move(new Vec3(x, y, z)).inflate(100 / 2d), e -> true).isEmpty())) {
 			if (!world.getBiome(BlockPos.containing(x, y, z)).is(TagKey.create(Registries.BIOME, ResourceLocation.parse("monstrous_world:is_spooky")))) {
-				if (Mth.nextDouble(RandomSource.create(), 0, 100) < (double) MonstrousWorldConfigConfiguration.VAMPIRE_SPAWN_CHANCE.get()) {
+				if (Mth.nextDouble(RandomSource.create(), 0, 100) <= (double) MonstrousWorldConfigConfiguration.VAMPIRE_SPAWN_CHANCE.get()) {
 					return true;
 				}
 				return false;
 			}
 			if (world.getBiome(BlockPos.containing(x, y, z)).is(TagKey.create(Registries.BIOME, ResourceLocation.parse("monstrous_world:is_spooky")))) {
-				if (Mth.nextDouble(RandomSource.create(), 0, 100) < (double) MonstrousWorldConfigConfiguration.FERAL_VAMPIRE_SPAWN_CHANCE_SPOOKY.get()) {
+				if (Mth.nextDouble(RandomSource.create(), 0, 100) <= (double) MonstrousWorldConfigConfiguration.FERAL_VAMPIRE_SPAWN_CHANCE_SPOOKY.get()) {
 					return true;
 				}
 				return false;
 			}
+			return false;
 		}
 		return false;
 	}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "monstrous_world:block/dropped_to_stun_prey"
+    },
+    "facing=east": {
+      "model": "monstrous_world:block/dropped_to_stun_prey",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "monstrous_world:block/dropped_to_stun_prey",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "monstrous_world:block/dropped_to_stun_prey",
+      "y": 270
+    }
+  }
+}

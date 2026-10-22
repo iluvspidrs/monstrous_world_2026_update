@@ -28,7 +28,7 @@ public class PumpkinEssenceRightclickedOnBlockProcedure {
 			return;
 		if (!world.isClientSide()) {
 			if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == Blocks.PUMPKIN) {
-				entity.getPersistentData().putDouble("pumpkin_type", (Mth.nextInt(RandomSource.create(), 1, 6)));
+				entity.getPersistentData().putDouble("pumpkin_type", (Mth.nextInt(RandomSource.create(), 1, 8)));
 				if (entity instanceof LivingEntity _entity)
 					_entity.swing(InteractionHand.MAIN_HAND, true);
 				if (entity instanceof LivingEntity _entity) {
@@ -141,6 +141,38 @@ public class PumpkinEssenceRightclickedOnBlockProcedure {
 						world.setBlock(_bp, _bs, 3);
 					}
 				}
+				if (entity.getPersistentData().getDouble("pumpkin_type") == 7) {
+					{
+						BlockPos _bp = BlockPos.containing(x, y, z);
+						BlockState _bs = MonstrousWorldModBlocks.TALL_YELLOW_PUMPKIN_BLOCK.get().defaultBlockState();
+						BlockState _bso = world.getBlockState(_bp);
+						for (Property<?> _propertyOld : _bso.getProperties()) {
+							Property _propertyNew = _bs.getBlock().getStateDefinition().getProperty(_propertyOld.getName());
+							if (_propertyNew != null && _bs.getValue(_propertyNew) != null)
+								try {
+									_bs = _bs.setValue(_propertyNew, _bso.getValue(_propertyOld));
+								} catch (Exception e) {
+								}
+						}
+						world.setBlock(_bp, _bs, 3);
+					}
+				}
+				if (entity.getPersistentData().getDouble("pumpkin_type") == 8) {
+					{
+						BlockPos _bp = BlockPos.containing(x, y, z);
+						BlockState _bs = MonstrousWorldModBlocks.WIDE_YELLOW_PUMPKIN_B_LOCK.get().defaultBlockState();
+						BlockState _bso = world.getBlockState(_bp);
+						for (Property<?> _propertyOld : _bso.getProperties()) {
+							Property _propertyNew = _bs.getBlock().getStateDefinition().getProperty(_propertyOld.getName());
+							if (_propertyNew != null && _bs.getValue(_propertyNew) != null)
+								try {
+									_bs = _bs.setValue(_propertyNew, _bso.getValue(_propertyOld));
+								} catch (Exception e) {
+								}
+						}
+						world.setBlock(_bp, _bs, 3);
+					}
+				}
 			}
 			if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == MonstrousWorldModBlocks.PUMPKIN_TRAP.get()) {
 				if (entity instanceof ServerPlayer _player) {
@@ -156,13 +188,13 @@ public class PumpkinEssenceRightclickedOnBlockProcedure {
 				if (entity instanceof LivingEntity _entity)
 					_entity.swing(InteractionHand.MAIN_HAND, true);
 				if (entity instanceof LivingEntity _entity) {
-					ItemStack _setstack30 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-					_setstack30.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-					_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack30);
+					ItemStack _setstack34 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+					_setstack34.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+					_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack34);
 					if (_entity instanceof Player _player)
 						_player.getInventory().setChanged();
 				}
-				entity.getPersistentData().putDouble("pumpkin_type", (Mth.nextInt(RandomSource.create(), 1, 6)));
+				entity.getPersistentData().putDouble("pumpkin_type", (Mth.nextInt(RandomSource.create(), 1, 8)));
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {
 						_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.fungus.place")), SoundSource.NEUTRAL, 1, 1);
@@ -266,14 +298,46 @@ public class PumpkinEssenceRightclickedOnBlockProcedure {
 						world.setBlock(_bp, _bs, 3);
 					}
 				}
+				if (entity.getPersistentData().getDouble("pumpkin_type") == 7) {
+					{
+						BlockPos _bp = BlockPos.containing(x, y, z);
+						BlockState _bs = MonstrousWorldModBlocks.TALL_YELLOW_PUMPKIN_BLOCK.get().defaultBlockState();
+						BlockState _bso = world.getBlockState(_bp);
+						for (Property<?> _propertyOld : _bso.getProperties()) {
+							Property _propertyNew = _bs.getBlock().getStateDefinition().getProperty(_propertyOld.getName());
+							if (_propertyNew != null && _bs.getValue(_propertyNew) != null)
+								try {
+									_bs = _bs.setValue(_propertyNew, _bso.getValue(_propertyOld));
+								} catch (Exception e) {
+								}
+						}
+						world.setBlock(_bp, _bs, 3);
+					}
+				}
+				if (entity.getPersistentData().getDouble("pumpkin_type") == 8) {
+					{
+						BlockPos _bp = BlockPos.containing(x, y, z);
+						BlockState _bs = MonstrousWorldModBlocks.WIDE_YELLOW_PUMPKIN_B_LOCK.get().defaultBlockState();
+						BlockState _bso = world.getBlockState(_bp);
+						for (Property<?> _propertyOld : _bso.getProperties()) {
+							Property _propertyNew = _bs.getBlock().getStateDefinition().getProperty(_propertyOld.getName());
+							if (_propertyNew != null && _bs.getValue(_propertyNew) != null)
+								try {
+									_bs = _bs.setValue(_propertyNew, _bso.getValue(_propertyOld));
+								} catch (Exception e) {
+								}
+						}
+						world.setBlock(_bp, _bs, 3);
+					}
+				}
 			}
 			if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == Blocks.JACK_O_LANTERN) {
 				if (entity instanceof LivingEntity _entity)
 					_entity.swing(InteractionHand.MAIN_HAND, true);
 				if (entity instanceof LivingEntity _entity) {
-					ItemStack _setstack52 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
-					_setstack52.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
-					_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack52);
+					ItemStack _setstack60 = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
+					_setstack60.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1);
+					_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack60);
 					if (_entity instanceof Player _player)
 						_player.getInventory().setChanged();
 				}

@@ -24,6 +24,7 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.world.InteractionHand;
 import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
 import net.minecraft.tags.ItemTags;
@@ -1178,30 +1179,40 @@ public class EmptyMysteriousContainerResetsInfectionProcedure {
 								}
 							}
 							if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("monstrous_world:swampmonster_only")))) {
-								if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-									_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 20, 0));
 								if (entity instanceof Player _player && !_player.level().isClientSide())
 									_player.displayClientMessage(Component.literal("This item is toxic to you..."), true);
-								if (entity instanceof Player _player_) {
-									if (!_player_.getMainHandItem().isEmpty() && _player_.getMainHandItem().getCount() > 0) {
-										_player_.drop(new ItemStack(_player_.getMainHandItem().getItem(), 1), true);
-										_player_.getMainHandItem().shrink(1);
-										_player_.getInventory().setChanged();
-									}
+								if (world instanceof ServerLevel _level) {
+									ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy()));
+									entityToSpawn.setPickUpDelay(10);
+									_level.addFreshEntity(entityToSpawn);
 								}
+								if (entity instanceof LivingEntity _entity) {
+									ItemStack _setstack251 = new ItemStack(Blocks.AIR).copy();
+									_setstack251.setCount(1);
+									_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack251);
+									if (_entity instanceof Player _player)
+										_player.getInventory().setChanged();
+								}
+								if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+									_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 20, 0));
 							}
 							if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("monstrous_world:swampmonster_only")))) {
-								if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-									_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 20, 0));
 								if (entity instanceof Player _player && !_player.level().isClientSide())
 									_player.displayClientMessage(Component.literal("This item is toxic to you..."), true);
-								if (entity instanceof Player _player_) {
-									if (!_player_.getOffhandItem().isEmpty() && _player_.getOffhandItem().getCount() > 0) {
-										_player_.drop(new ItemStack(_player_.getOffhandItem().getItem(), 1), true);
-										_player_.getOffhandItem().shrink(1);
-										_player_.getInventory().setChanged();
-									}
+								if (world instanceof ServerLevel _level) {
+									ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).copy()));
+									entityToSpawn.setPickUpDelay(10);
+									_level.addFreshEntity(entityToSpawn);
 								}
+								if (entity instanceof LivingEntity _entity) {
+									ItemStack _setstack259 = new ItemStack(Blocks.AIR).copy();
+									_setstack259.setCount(1);
+									_entity.setItemInHand(InteractionHand.OFF_HAND, _setstack259);
+									if (_entity instanceof Player _player)
+										_player.getInventory().setChanged();
+								}
+								if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+									_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 20, 0));
 							}
 						}
 						if (entity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterClass == 7) {
@@ -1250,6 +1261,9 @@ public class EmptyMysteriousContainerResetsInfectionProcedure {
 							}
 							if (entity instanceof LivingEntity _entity) {
 								_entity.getAttribute(Attributes.ATTACK_KNOCKBACK).removeModifier(ResourceLocation.parse("monstrous_world:werewolf_knockback"));
+							}
+							if (entity instanceof LivingEntity _entity) {
+								_entity.getAttribute(Attributes.SAFE_FALL_DISTANCE).removeModifier(ResourceLocation.parse("monstrous_world:werewolf_fall_damage"));
 							}
 							entity.getPersistentData().putBoolean("can_kill_maniac", false);
 							entity.getPersistentData().putBoolean("Monstrous World Werewolf", false);

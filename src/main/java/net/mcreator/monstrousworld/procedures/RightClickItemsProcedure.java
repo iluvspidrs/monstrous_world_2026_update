@@ -710,8 +710,8 @@ public class RightClickItemsProcedure {
 											}
 											if (entity instanceof LivingEntity _entity) {
 												AttributeModifier modifier = new AttributeModifier(ResourceLocation.parse("monstrous_world:werewolf_speed"), 0.02, AttributeModifier.Operation.ADD_VALUE);
-												if (!_entity.getAttribute(Attributes.ATTACK_SPEED).hasModifier(modifier.id())) {
-													_entity.getAttribute(Attributes.ATTACK_SPEED).addPermanentModifier(modifier);
+												if (!_entity.getAttribute(Attributes.MOVEMENT_SPEED).hasModifier(modifier.id())) {
+													_entity.getAttribute(Attributes.MOVEMENT_SPEED).addPermanentModifier(modifier);
 												}
 											}
 											if (entity instanceof LivingEntity _entity) {

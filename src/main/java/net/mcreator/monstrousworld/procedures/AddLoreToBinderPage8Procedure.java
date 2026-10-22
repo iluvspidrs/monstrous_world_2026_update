@@ -88,5 +88,94 @@ public class AddLoreToBinderPage8Procedure {
 				_player.containerMenu.broadcastChanges();
 			}
 		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof MonstrousWorldModMenus.MenuAccessor _menu30 ? _menu30.getSlots().get(0).getItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.TO_DIG_FASTER_SCROLL
+				.get()) {
+			if (entity instanceof Player _player) {
+				ItemStack _setstack = (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof MonstrousWorldModMenus.MenuAccessor _menu32 ? _menu32.getSlots().get(0).getItem() : ItemStack.EMPTY).copy();
+				_setstack.setCount(1);
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
+			if (entity instanceof Player _player && _player.containerMenu instanceof MonstrousWorldModMenus.MenuAccessor _menu) {
+				ItemStack _setstack34 = new ItemStack(MonstrousWorldModItems.TO_DIG_FASTER_SCROLL.get()).copy();
+				_setstack34.setCount(1);
+				_menu.getSlots().get(6).set(_setstack34);
+				_menu.getSlots().get(0).set(ItemStack.EMPTY);
+				_player.containerMenu.broadcastChanges();
+			}
+		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof MonstrousWorldModMenus.MenuAccessor _menu36 ? _menu36.getSlots().get(0).getItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.TO_KEEP_ARMOR
+				.get()) {
+			if (entity instanceof Player _player) {
+				ItemStack _setstack = (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof MonstrousWorldModMenus.MenuAccessor _menu38 ? _menu38.getSlots().get(0).getItem() : ItemStack.EMPTY).copy();
+				_setstack.setCount(1);
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
+			if (entity instanceof Player _player && _player.containerMenu instanceof MonstrousWorldModMenus.MenuAccessor _menu) {
+				ItemStack _setstack40 = new ItemStack(MonstrousWorldModItems.TO_KEEP_ARMOR.get()).copy();
+				_setstack40.setCount(1);
+				_menu.getSlots().get(7).set(_setstack40);
+				_menu.getSlots().get(0).set(ItemStack.EMPTY);
+				_player.containerMenu.broadcastChanges();
+			}
+		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof MonstrousWorldModMenus.MenuAccessor _menu42 ? _menu42.getSlots().get(0).getItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.FOR_GREATER_KNOCKBACK
+				.get()) {
+			if (entity instanceof Player _player) {
+				ItemStack _setstack = (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof MonstrousWorldModMenus.MenuAccessor _menu44 ? _menu44.getSlots().get(0).getItem() : ItemStack.EMPTY).copy();
+				_setstack.setCount(1);
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
+			if (entity instanceof Player _player && _player.containerMenu instanceof MonstrousWorldModMenus.MenuAccessor _menu) {
+				ItemStack _setstack46 = new ItemStack(MonstrousWorldModItems.FOR_GREATER_KNOCKBACK.get()).copy();
+				_setstack46.setCount(1);
+				_menu.getSlots().get(8).set(_setstack46);
+				_menu.getSlots().get(0).set(ItemStack.EMPTY);
+				_player.containerMenu.broadcastChanges();
+			}
+		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof MonstrousWorldModMenus.MenuAccessor _menu48 ? _menu48.getSlots().get(0).getItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.TO_STUN_PREY.get()) {
+			if (entity instanceof Player _player) {
+				ItemStack _setstack = (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof MonstrousWorldModMenus.MenuAccessor _menu50 ? _menu50.getSlots().get(0).getItem() : ItemStack.EMPTY).copy();
+				_setstack.setCount(1);
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
+			if (entity instanceof Player _player && _player.containerMenu instanceof MonstrousWorldModMenus.MenuAccessor _menu) {
+				ItemStack _setstack52 = new ItemStack(MonstrousWorldModItems.TO_STUN_PREY.get()).copy();
+				_setstack52.setCount(1);
+				_menu.getSlots().get(9).set(_setstack52);
+				_menu.getSlots().get(0).set(ItemStack.EMPTY);
+				_player.containerMenu.broadcastChanges();
+			}
+		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof MonstrousWorldModMenus.MenuAccessor _menu54 ? _menu54.getSlots().get(0).getItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.TO_REDUCE_FALL_DAMAGE
+				.get()) {
+			if (entity instanceof Player _player) {
+				ItemStack _setstack = (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof MonstrousWorldModMenus.MenuAccessor _menu56 ? _menu56.getSlots().get(0).getItem() : ItemStack.EMPTY).copy();
+				_setstack.setCount(1);
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
+			if (entity instanceof Player _player && _player.containerMenu instanceof MonstrousWorldModMenus.MenuAccessor _menu) {
+				ItemStack _setstack58 = new ItemStack(MonstrousWorldModItems.TO_REDUCE_FALL_DAMAGE.get()).copy();
+				_setstack58.setCount(1);
+				_menu.getSlots().get(10).set(_setstack58);
+				_menu.getSlots().get(0).set(ItemStack.EMPTY);
+				_player.containerMenu.broadcastChanges();
+			}
+		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof MonstrousWorldModMenus.MenuAccessor _menu60 ? _menu60.getSlots().get(0).getItem() : ItemStack.EMPTY).getItem() == MonstrousWorldModItems.FOR_HANDLING_ITEMS
+				.get()) {
+			if (entity instanceof Player _player) {
+				ItemStack _setstack = (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof MonstrousWorldModMenus.MenuAccessor _menu62 ? _menu62.getSlots().get(0).getItem() : ItemStack.EMPTY).copy();
+				_setstack.setCount(1);
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
+			if (entity instanceof Player _player && _player.containerMenu instanceof MonstrousWorldModMenus.MenuAccessor _menu) {
+				ItemStack _setstack64 = new ItemStack(MonstrousWorldModItems.FOR_HANDLING_ITEMS.get()).copy();
+				_setstack64.setCount(1);
+				_menu.getSlots().get(11).set(_setstack64);
+				_menu.getSlots().get(0).set(ItemStack.EMPTY);
+				_player.containerMenu.broadcastChanges();
+			}
+		}
 	}
 }

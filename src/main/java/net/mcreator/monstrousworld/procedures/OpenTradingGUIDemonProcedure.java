@@ -71,6 +71,9 @@ public class OpenTradingGUIDemonProcedure {
 									}
 									if (sourceentity instanceof Player _player && !_player.level().isClientSide())
 										_player.displayClientMessage(Component.literal("\"This book will tell you how to get more powerful.\""), false);
+								} else {
+									if (sourceentity instanceof Player _player && !_player.level().isClientSide())
+										_player.displayClientMessage(Component.literal("\"Follow the guide we gave you, and you'll know what to do.\""), false);
 								}
 							}
 							if (sourceentity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterClass == 12) {

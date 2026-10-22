@@ -92,6 +92,9 @@ public class OpenTradingGUIMadScientistProcedure {
 														}
 														if (sourceentity instanceof Player _player && !_player.level().isClientSide())
 															_player.displayClientMessage(Component.literal("\"Welcome. Take this guide to start some...unethical experimentation.\""), false);
+													} else {
+														if (sourceentity instanceof Player _player && !_player.level().isClientSide())
+															_player.displayClientMessage(Component.literal("\"Follow the guide I gave you, and you'll know what to do.\""), false);
 													}
 												} else {
 													if (sourceentity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterType == 1 || sourceentity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES).MonsterType == 2

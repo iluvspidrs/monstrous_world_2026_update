@@ -28,9 +28,6 @@ import net.minecraft.Util;
 
 import net.mcreator.monstrousworld.init.MonstrousWorldModItems;
 import net.mcreator.monstrousworld.client.model.Modelcorruptedhelmet;
-import net.mcreator.monstrousworld.client.model.ModelCorruptedEyeLeggings5;
-import net.mcreator.monstrousworld.client.model.ModelCorruptedEyeChestplate4;
-import net.mcreator.monstrousworld.client.model.ModelCorruptedEyeBoots2;
 
 import java.util.Map;
 import java.util.List;
@@ -77,63 +74,6 @@ public abstract class DarkenedItem extends ArmorItem {
 				return armorModel;
 			}
 		}, MonstrousWorldModItems.DARKENED_HELMET.get());
-		event.registerItem(new IClientItemExtensions() {
-			private HumanoidModel armorModel = null;
-
-			@Override
-			@OnlyIn(Dist.CLIENT)
-			public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
-				if (armorModel == null) {
-					ModelCorruptedEyeChestplate4 model = new ModelCorruptedEyeChestplate4(Minecraft.getInstance().getEntityModels().bakeLayer(ModelCorruptedEyeChestplate4.LAYER_LOCATION));
-					armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
-							Map.of("body", model.Body, "left_arm", model.LeftArm, "right_arm", model.RightArm, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
-				}
-				armorModel.crouching = living.isShiftKeyDown();
-				armorModel.riding = defaultModel.riding;
-				armorModel.young = living.isBaby();
-				return armorModel;
-			}
-		}, MonstrousWorldModItems.DARKENED_CHESTPLATE.get());
-		event.registerItem(new IClientItemExtensions() {
-			private HumanoidModel armorModel = null;
-
-			@Override
-			@OnlyIn(Dist.CLIENT)
-			public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
-				if (armorModel == null) {
-					ModelCorruptedEyeLeggings5 model = new ModelCorruptedEyeLeggings5(Minecraft.getInstance().getEntityModels().bakeLayer(ModelCorruptedEyeLeggings5.LAYER_LOCATION));
-					armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
-							Map.of("left_leg", model.LeftLeg, "right_leg", model.RightLeg, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_arm",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
-				}
-				armorModel.crouching = living.isShiftKeyDown();
-				armorModel.riding = defaultModel.riding;
-				armorModel.young = living.isBaby();
-				return armorModel;
-			}
-		}, MonstrousWorldModItems.DARKENED_LEGGINGS.get());
-		event.registerItem(new IClientItemExtensions() {
-			private HumanoidModel armorModel = null;
-
-			@Override
-			@OnlyIn(Dist.CLIENT)
-			public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
-				if (armorModel == null) {
-					ModelCorruptedEyeBoots2 model = new ModelCorruptedEyeBoots2(Minecraft.getInstance().getEntityModels().bakeLayer(ModelCorruptedEyeBoots2.LAYER_LOCATION));
-					armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
-							Map.of("left_leg", model.LeftLeg, "right_leg", model.RightLeg, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_arm",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
-				}
-				armorModel.crouching = living.isShiftKeyDown();
-				armorModel.riding = defaultModel.riding;
-				armorModel.young = living.isBaby();
-				return armorModel;
-			}
-		}, MonstrousWorldModItems.DARKENED_BOOTS.get());
 	}
 
 	public DarkenedItem(ArmorItem.Type type, Item.Properties properties) {
@@ -152,43 +92,10 @@ public abstract class DarkenedItem extends ArmorItem {
 			return armorTexture;
 		}
 	}
-
-	public static class Chestplate extends DarkenedItem {
-		public Chestplate() {
-			super(ArmorItem.Type.CHESTPLATE, new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(45)));
-		}
-
-		private final ResourceLocation armorTexture = ResourceLocation.parse("monstrous_world:textures/entities/corruptedchestplatetexturefixed.png");
-
-		@Override
-		public ResourceLocation getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, ArmorMaterial.Layer layer, boolean innerModel) {
-			return armorTexture;
-		}
-	}
-
-	public static class Leggings extends DarkenedItem {
-		public Leggings() {
-			super(ArmorItem.Type.LEGGINGS, new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(45)));
-		}
-
-		private final ResourceLocation armorTexture = ResourceLocation.parse("monstrous_world:textures/entities/corleggings.png");
-
-		@Override
-		public ResourceLocation getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, ArmorMaterial.Layer layer, boolean innerModel) {
-			return armorTexture;
-		}
-	}
-
-	public static class Boots extends DarkenedItem {
-		public Boots() {
-			super(ArmorItem.Type.BOOTS, new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(45)));
-		}
-
-		private final ResourceLocation armorTexture = ResourceLocation.parse("monstrous_world:textures/entities/corboots.png");
-
-		@Override
-		public ResourceLocation getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, ArmorMaterial.Layer layer, boolean innerModel) {
-			return armorTexture;
-		}
-	}
+	
+	@Override
+		public boolean isFoil(ItemStack stack) {
+    		return false;
+    		
+}
 }

@@ -15,6 +15,7 @@
     "renderStatusInHUD": true,
     "isCuredbyHoney": false,
     "modifiers": [],
+    "onStarted": "MysteriousDarknessEffectStartedapplied",
     "onActiveTick": "MysteriousDarknessOnEffectActiveTick"
   }
 }

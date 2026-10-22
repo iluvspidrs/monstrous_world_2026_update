@@ -211,6 +211,9 @@ public class OpenTradingGUIVampireProcedure {
 													}
 													if (sourceentity instanceof Player _player && !_player.level().isClientSide())
 														_player.displayClientMessage(Component.literal("\"Tap into your growing power with this guidebook.\""), false);
+												} else {
+													if (sourceentity instanceof Player _player && !_player.level().isClientSide())
+														_player.displayClientMessage(Component.literal("\"Follow the guide we gave you, and you'll know what to do.\""), false);
 												}
 											}
 										} else {

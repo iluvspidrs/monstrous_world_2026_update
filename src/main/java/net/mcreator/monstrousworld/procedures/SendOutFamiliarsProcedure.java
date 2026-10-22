@@ -61,7 +61,7 @@ public class SendOutFamiliarsProcedure {
 													if (!entityiterator.level().isClientSide())
 														entityiterator.discard();
 													if (sourceentity instanceof Player _player && !_player.level().isClientSide())
-														_player.displayClientMessage(Component.literal("Your familiar goes out to hunt and will return when you wake up..."), true);
+														_player.displayClientMessage(Component.literal("Your familiar goes out to hunt and will return after you sleep in a bed..."), true);
 													{
 														MonstrousWorldModVariables.PlayerVariables _vars = sourceentity.getData(MonstrousWorldModVariables.PLAYER_VARIABLES);
 														_vars.AssistantsAreOut = true;
